@@ -1,5 +1,6 @@
 .DS_Store
 .tmp.driveupload
+.tmp.drivedownload
 Logs/
 MachineSettings.txt
 PipelineCache.esopc
