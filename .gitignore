@@ -1,0 +1,8 @@
+.DS_Store
+.tmp.driveupload
+Logs/
+MachineSettings.txt
+PipelineCache.esopc
+ShaderCache.cooked
+Screenshots/
+Errors/
