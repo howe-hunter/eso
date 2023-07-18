@@ -6,31 +6,31 @@ SimpleDurabilitySettings =
         {
             ["$AccountWide"] = 
             {
-                ["threshold_charges"] = 10,
-                ["show_charges_always"] = false,
+                ["repair"] = false,
                 ["show_charges_percent"] = true,
-                ["show_highlight"] = true,
                 ["colour_charges"] = 
                 {
-                    ["r"] = 1,
-                    ["b"] = 0,
                     ["g"] = 0,
+                    ["r"] = 1,
                     ["a"] = 1,
+                    ["b"] = 0,
                 },
+                ["show_highlight"] = true,
+                ["show_durability"] = true,
+                ["show_charges_always"] = false,
                 ["show_always"] = false,
-                ["threshold"] = 20,
                 ["colour"] = 
                 {
-                    ["r"] = 1,
-                    ["b"] = 0,
                     ["g"] = 0,
+                    ["r"] = 1,
                     ["a"] = 1,
+                    ["b"] = 0,
                 },
-                ["show_durability"] = true,
+                ["show_charges_highlight"] = true,
                 ["version"] = 1,
                 ["repair_percent"] = 20,
-                ["show_charges_highlight"] = true,
-                ["repair"] = false,
+                ["threshold"] = 20,
+                ["threshold_charges"] = 10,
             },
         },
     },

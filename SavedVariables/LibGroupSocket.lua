@@ -2,23 +2,23 @@ LibGroupSocket_Data =
 {
     ["@Motiv_Impact"] = 
     {
-        ["autoDisableOnGroupLeft"] = true,
         ["handlers"] = 
         {
+            [1] = 
+            {
+                ["version"] = 1,
+                ["enabled"] = true,
+                ["percentOnly"] = true,
+            },
             [21] = 
             {
                 ["version"] = 1,
                 ["enabled"] = true,
             },
-            [1] = 
-            {
-                ["percentOnly"] = true,
-                ["enabled"] = true,
-                ["version"] = 1,
-            },
         },
-        ["enabled"] = false,
+        ["autoDisableOnGroupLeft"] = true,
         ["version"] = 1,
+        ["enabled"] = false,
         ["autoDisableOnSessionStart"] = true,
     },
 }

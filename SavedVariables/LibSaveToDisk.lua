@@ -6,6 +6,7 @@ LibSaveToDiskVars =
         {
             ["$AccountWide"] = 
             {
+                ["version"] = 1,
                 ["Settings"] = 
                 {
                     ["CritMin"] = 0,
@@ -13,7 +14,6 @@ LibSaveToDiskVars =
                     ["NoncritMin"] = 0,
                     ["NumNonsBeforeNote"] = 10,
                 },
-                ["version"] = 1,
             },
         },
     },

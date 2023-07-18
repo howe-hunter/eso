@@ -4,15 +4,9 @@ PersonalAssistant_SavedVariables =
     {
         ["@Motiv_Impact"] = 
         {
-            ["evil janet"] = 
+            ["katarrnn"] = 
             {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -20,97 +14,37 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-            },
-            ["Durro'tan"] = 
-            {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
                 ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
                 ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-            },
-            ["Lliliara"] = 
-            {
-                ["debug"] = false,
                 ["version"] = 1,
+                ["debug"] = false,
                 ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
+                    ["welcomeMessage"] = true,
                 },
             },
             ["$AccountWide"] = 
             {
+                ["version"] = 1,
                 ["Debug"] = 
                 {
                 },
                 ["savedVarsVersion"] = 20501,
-                ["version"] = 1,
             },
-            ["scelara"] = 
+            ["scthree"] = 
             {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -118,29 +52,59 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = false,
+                },
+            },
+            ["scelara"] = 
+            {
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
                 },
                 ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
             },
             ["rieyya"] = 
             {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -148,29 +112,29 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
+                    ["welcomeMessage"] = true,
                 },
             },
-            ["katarrnn"] = 
+            ["evil janet"] = 
             {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -178,89 +142,29 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
+                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-            },
-            ["rock-in-bush"] = 
-            {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-            },
-            ["scthree"] = 
-            {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = false,
-                    ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
                 },
             },
             ["morregann"] = 
             {
-                ["debug"] = false,
-                ["version"] = 1,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -268,18 +172,114 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
+                },
+            },
+            ["Lliliara"] = 
+            {
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
                 },
                 ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
+                },
+            },
+            ["Durro'tan"] = 
+            {
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
+                },
+            },
+            ["rock-in-bush"] = 
+            {
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
             },
         },

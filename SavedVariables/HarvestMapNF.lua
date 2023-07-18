@@ -2,13 +2,6 @@ HarvestNF_SavedVars =
 {
     [888] = 
     {
-        ["craglorn/belkarth_base"] = 
-        {
-            [5] = 
-            {
-                [1] = "2801.5,2555.6,297.4,1645127248,70210045,0.0,0.0,0",
-            },
-        },
         ["craglorn/craglorn_base"] = 
         {
             [1] = 
@@ -120,6 +113,13 @@ HarvestNF_SavedVars =
                 [3] = "2490.4,2212.7,317.6,1647292151,70305045,0.0,0.0,0",
             },
         },
+        ["craglorn/belkarth_base"] = 
+        {
+            [5] = 
+            {
+                [1] = "2801.5,2555.6,297.4,1645127248,70210045,0.0,0.0,0",
+            },
+        },
     },
     [809] = 
     {
@@ -133,6 +133,7 @@ HarvestNF_SavedVars =
             },
         },
     },
+    ["dataVersion"] = 17,
     [419] = 
     {
         ["coldharbor/depravedgrotto_base"] = 
@@ -143,7 +144,6 @@ HarvestNF_SavedVars =
             },
         },
     },
-    ["dataVersion"] = 17,
     [557] = 
     {
         ["coldharbor/villageofthelost_base"] = 

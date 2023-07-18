@@ -4,12 +4,12 @@ NAS_SavedVariables =
     {
         ["@Motiv_Impact"] = 
         {
-            ["evil janet"] = 
+            ["katarrnn"] = 
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
                 },
             },
@@ -17,26 +17,8 @@ NAS_SavedVariables =
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
-                    ["version"] = 1,
-                },
-            },
-            ["Lliliara"] = 
-            {
-                ["settings"] = 
-                {
                     ["criminalPressDuration"] = 750,
-                    ["delay"] = 250,
-                    ["version"] = 1,
-                },
-            },
-            ["rock-in-bush"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
-                    ["delay"] = 250,
                     ["version"] = 1,
                 },
             },
@@ -44,17 +26,8 @@ NAS_SavedVariables =
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
-                    ["version"] = 1,
-                },
-            },
-            ["katarrnn"] = 
-            {
-                ["settings"] = 
-                {
                     ["criminalPressDuration"] = 750,
-                    ["delay"] = 250,
                     ["version"] = 1,
                 },
             },
@@ -62,17 +35,17 @@ NAS_SavedVariables =
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
                 },
             },
-            ["scthree"] = 
+            ["evil janet"] = 
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
                 },
             },
@@ -80,8 +53,35 @@ NAS_SavedVariables =
             {
                 ["settings"] = 
                 {
-                    ["criminalPressDuration"] = 750,
                     ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                },
+            },
+            ["Lliliara"] = 
+            {
+                ["settings"] = 
+                {
+                    ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                },
+            },
+            ["scthree"] = 
+            {
+                ["settings"] = 
+                {
+                    ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                },
+            },
+            ["rock-in-bush"] = 
+            {
+                ["settings"] = 
+                {
+                    ["delay"] = 250,
+                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
                 },
             },

@@ -16,6 +16,38 @@ PersonalAssistantIntegration_SavedVariables =
                     },
                     ["FCOItemSaver"] = 
                     {
+                        ["Improvement"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["SellGuildStore"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Intricate"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Locked"] = 
+                        {
+                            ["preventAutoSell"] = false,
+                            ["preventMoving"] = false,
+                        },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
                         ["GearSets"] = 
                         {
                             ["itemMoveMode"] = 
@@ -26,38 +58,6 @@ PersonalAssistantIntegration_SavedVariables =
                                 [4] = 0,
                                 [5] = 0,
                             },
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Intricate"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Locked"] = 
-                        {
-                            ["preventAutoSell"] = false,
-                            ["preventMoving"] = false,
-                        },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Improvement"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["SellGuildStore"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
                         },
                     },
                 },

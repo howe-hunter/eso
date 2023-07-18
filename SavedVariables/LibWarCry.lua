@@ -6,9 +6,9 @@ LibWarCryVars =
         {
             ["$AccountWide"] = 
             {
-                ["debug"] = false,
-                ["groupCommands"] = true,
                 ["version"] = 1,
+                ["groupCommands"] = true,
+                ["debug"] = false,
             },
         },
     },

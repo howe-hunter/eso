@@ -19,6 +19,31 @@ GS07DataSavedVariables =
         },
         [122887] = 
         {
+            ["50:16:3:7:0"] = 
+            {
+                ["newestTime"] = 1689633098,
+                ["itemAdderText"] = "cp160 blue superior weapon set war maiden frost staff two-handed sharpened",
+                ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/gear_telvanni_staff_a.dds",
+                ["oldestTime"] = 1689633098,
+                ["itemDesc"] = "War Maiden's Ice Staff",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["price"] = 30000,
+                        ["itemLink"] = 23862,
+                        ["buyer"] = 33950,
+                        ["guild"] = 91,
+                        ["id"] = "2153889311",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 7579,
+                        ["timestamp"] = 1689633098,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [135180] = 
         {
@@ -51,56 +76,56 @@ GS07DataSavedVariables =
         {
             ["50:16:3:12:0"] = 
             {
-                ["itemDesc"] = "Rubedo Leather Guards of Health",
                 ["newestTime"] = 1689370342,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel legs impenetrable",
-                ["oldestTime"] = 1689370342,
-                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_medium_legs_d.dds",
+                ["itemDesc"] = "Rubedo Leather Guards of Health",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151714299",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46892,
+                        ["buyer"] = 33388,
+                        ["guild"] = 83,
+                        ["id"] = "2151714299",
                         ["price"] = 300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27935,
                         ["timestamp"] = 1689370342,
-                        ["buyer"] = 33388,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689370342,
+                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_medium_legs_d.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel legs impenetrable",
+                ["wasAltered"] = false,
             },
         },
         [71705] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 26: Daggerfall Covenant Axes",
                 ["newestTime"] = 1689384991,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689384991,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 26: Daggerfall Covenant Axes",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151850913",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 19560,
+                        ["buyer"] = 31503,
+                        ["guild"] = 83,
+                        ["id"] = "2151850913",
                         ["price"] = 6359,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33450,
                         ["timestamp"] = 1689384991,
-                        ["buyer"] = 31503,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689384991,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [122907] = 
@@ -110,28 +135,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:2:0"] = 
             {
-                ["itemDesc"] = "War Maiden's Ice Staff",
                 ["newestTime"] = 1688941239,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set war maiden frost staff two-handed charged",
-                ["oldestTime"] = 1688941239,
-                ["itemIcon"] = "/esoui/art/icons/gear_telvanni_staff_a.dds",
+                ["itemDesc"] = "War Maiden's Ice Staff",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148503423",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 24576,
+                        ["buyer"] = 31567,
+                        ["guild"] = 91,
+                        ["id"] = "2148503423",
                         ["price"] = 15000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 7579,
                         ["timestamp"] = 1688941239,
-                        ["buyer"] = 31567,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688941239,
+                ["itemIcon"] = "/esoui/art/icons/gear_telvanni_staff_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set war maiden frost staff two-handed charged",
+                ["wasAltered"] = false,
             },
         },
         [149533] = 
@@ -150,28 +175,28 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Design: Dres Cup, Mazte",
                 ["newestTime"] = 1689232109,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689232109,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning2.dds",
+                ["itemDesc"] = "Design: Dres Cup, Mazte",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150737101",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 15449,
+                        ["buyer"] = 33067,
+                        ["guild"] = 83,
+                        ["id"] = "2150737101",
                         ["price"] = 299,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19523,
                         ["timestamp"] = 1689232109,
-                        ["buyer"] = 33067,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689232109,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [45092] = 
@@ -187,28 +212,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 5: Breton Style",
                 ["newestTime"] = 1689058300,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable motif",
-                ["oldestTime"] = 1689058300,
-                ["itemIcon"] = "/esoui/art/icons/quest_book_001.dds",
+                ["itemDesc"] = "Crafting Motif 5: Breton Style",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149468171",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 422,
+                        ["buyer"] = 32212,
+                        ["guild"] = 83,
+                        ["id"] = "2149468171",
                         ["price"] = 10,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32515,
                         ["timestamp"] = 1689058300,
-                        ["buyer"] = 32212,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689058300,
+                ["itemIcon"] = "/esoui/art/icons/quest_book_001.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [98347] = 
@@ -233,28 +258,28 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Elsweyr Gate, Masterwork",
                 ["newestTime"] = 1689287311,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary furnishings structures",
-                ["oldestTime"] = 1689287311,
-                ["itemIcon"] = "/esoui/art/icons/housing_els_waf_wallscitymediumportcullisgate001.dds",
+                ["itemDesc"] = "Elsweyr Gate, Masterwork",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151116561",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 18622,
+                        ["buyer"] = 31101,
+                        ["guild"] = 91,
+                        ["id"] = "2151116561",
                         ["price"] = 62000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 15399,
                         ["timestamp"] = 1689287311,
-                        ["buyer"] = 31101,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689287311,
+                ["itemIcon"] = "/esoui/art/icons/housing_els_waf_wallscitymediumportcullisgate001.dds",
+                ["itemAdderText"] = "rr01 gold legendary furnishings structures",
+                ["wasAltered"] = false,
             },
         },
         [135220] = 
@@ -306,28 +331,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:6:0"] = 
             {
-                ["itemDesc"] = "Darloc Brae's Restoration Staff",
                 ["newestTime"] = 1689265490,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set vesture of darloc brae healing staff two-handed training",
-                ["oldestTime"] = 1689265490,
-                ["itemIcon"] = "/esoui/art/icons/gear_anequina_staff_a.dds",
+                ["itemDesc"] = "Darloc Brae's Restoration Staff",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150972645",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 12053,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150972645",
                         ["price"] = 1500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 7416,
                         ["timestamp"] = 1689265490,
-                        ["buyer"] = 33206,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689265490,
+                ["itemIcon"] = "/esoui/art/icons/gear_anequina_staff_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set vesture of darloc brae healing staff two-handed training",
+                ["wasAltered"] = false,
             },
         },
         [127058] = 
@@ -373,93 +398,93 @@ GS07DataSavedVariables =
         {
             ["41:0:2:5:0"] = 
             {
-                ["itemDesc"] = "Dwarven Mace of Frost",
                 ["newestTime"] = 1689205304,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr41 green fine weapon mace one-handed defending",
-                ["oldestTime"] = 1689205304,
-                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_1hhammer_d.dds",
+                ["itemDesc"] = "Dwarven Mace of Frost",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150492689",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46118,
+                        ["buyer"] = 13933,
+                        ["guild"] = 83,
+                        ["id"] = "2150492689",
                         ["price"] = 99,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31544,
                         ["timestamp"] = 1689205304,
-                        ["buyer"] = 13933,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689205304,
+                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_1hhammer_d.dds",
+                ["itemAdderText"] = "rr41 green fine weapon mace one-handed defending",
+                ["wasAltered"] = false,
             },
             ["50:16:3:5:0"] = 
             {
-                ["itemDesc"] = "Rubedite Mace of Frost",
                 ["newestTime"] = 1689048356,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon mace one-handed defending",
-                ["oldestTime"] = 1689048356,
-                ["itemIcon"] = "/esoui/art/icons/gear_primative_1hhammer_c.dds",
+                ["itemDesc"] = "Rubedite Mace of Frost",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149400231",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45968,
+                        ["buyer"] = 32460,
+                        ["guild"] = 91,
+                        ["id"] = "2149400231",
                         ["price"] = 135,
+                        ["wasKiosk"] = true,
                         ["seller"] = 8484,
                         ["timestamp"] = 1689048356,
-                        ["buyer"] = 32460,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689048356,
+                ["itemIcon"] = "/esoui/art/icons/gear_primative_1hhammer_c.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon mace one-handed defending",
+                ["wasAltered"] = false,
             },
         },
         [145512] = 
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Murkmire Treasure Map II",
                 ["newestTime"] = 1689437784,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
-                ["oldestTime"] = 1689231389,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Murkmire Treasure Map II",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152272009",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 7077,
+                        ["buyer"] = 33587,
+                        ["guild"] = 91,
+                        ["id"] = "2152272009",
                         ["price"] = 650,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31625,
                         ["timestamp"] = 1689437784,
-                        ["buyer"] = 33587,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150733895",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 7077,
+                        ["buyer"] = 32900,
+                        ["guild"] = 83,
+                        ["id"] = "2150733895",
                         ["price"] = 300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32029,
                         ["timestamp"] = 1689231389,
-                        ["buyer"] = 32900,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689231389,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
+                ["wasAltered"] = false,
             },
         },
         [86123] = 
@@ -478,40 +503,40 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 42: Hollowjack Shields",
                 ["newestTime"] = 1689482877,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689431665,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 42: Hollowjack Shields",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152671339",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1987,
+                        ["buyer"] = 33699,
+                        ["guild"] = 83,
+                        ["id"] = "2152671339",
                         ["price"] = 4700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33749,
                         ["timestamp"] = 1689482877,
-                        ["buyer"] = 33699,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152202001",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1987,
+                        ["buyer"] = 33663,
+                        ["guild"] = 83,
+                        ["id"] = "2152202001",
                         ["price"] = 6500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 13625,
                         ["timestamp"] = 1689431665,
-                        ["buyer"] = 33663,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689431665,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [98418] = 
@@ -548,28 +573,28 @@ GS07DataSavedVariables =
         {
             ["1:0:1:32:0"] = 
             {
-                ["itemDesc"] = "Pewter Ring",
                 ["newestTime"] = 1689551368,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal jewelry apparel ring protective",
-                ["oldestTime"] = 1689551368,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Pewter Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153272121",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1590,
+                        ["buyer"] = 33811,
+                        ["guild"] = 91,
+                        ["id"] = "2153272121",
                         ["price"] = 24999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31590,
                         ["timestamp"] = 1689551368,
-                        ["buyer"] = 33811,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689551368,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "rr01 white normal jewelry apparel ring protective",
+                ["wasAltered"] = false,
             },
         },
         [180358] = 
@@ -582,28 +607,28 @@ GS07DataSavedVariables =
         {
             ["1:0:1:29:0"] = 
             {
-                ["itemDesc"] = "Pewter Ring",
                 ["newestTime"] = 1689454465,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal jewelry apparel ring harmony",
-                ["oldestTime"] = 1689454465,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Pewter Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152430349",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 233,
+                        ["buyer"] = 27610,
+                        ["guild"] = 91,
+                        ["id"] = "2152430349",
                         ["price"] = 34999,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31590,
                         ["timestamp"] = 1689454465,
-                        ["buyer"] = 27610,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689454465,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "rr01 white normal jewelry apparel ring harmony",
+                ["wasAltered"] = false,
             },
         },
         [118921] = 
@@ -634,100 +659,100 @@ GS07DataSavedVariables =
         {
             ["1:0:1:29:0"] = 
             {
-                ["itemDesc"] = "Dibellium",
                 ["newestTime"] = 1689475349,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials jewelry trait harmony",
-                ["oldestTime"] = 1689023394,
-                ["itemIcon"] = "/esoui/art/icons/crafting_metals_tin.dds",
+                ["itemDesc"] = "Dibellium",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149165209",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 6178,
+                        ["guild"] = 83,
+                        ["id"] = "2149165209",
                         ["price"] = 2600,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32064,
                         ["timestamp"] = 1689023394,
-                        ["buyer"] = 6178,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150542287",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 32683,
+                        ["guild"] = 83,
+                        ["id"] = "2150542287",
                         ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31941,
                         ["timestamp"] = 1689209334,
-                        ["buyer"] = 32683,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150551061",
                         ["quant"] = 3,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 32656,
+                        ["guild"] = 83,
+                        ["id"] = "2150551061",
                         ["price"] = 6000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31941,
                         ["timestamp"] = 1689210412,
-                        ["buyer"] = 32656,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150993947",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 399,
+                        ["guild"] = 83,
+                        ["id"] = "2150993947",
                         ["price"] = 2700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32581,
                         ["timestamp"] = 1689268530,
-                        ["buyer"] = 399,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151035015",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 11314,
+                        ["guild"] = 83,
+                        ["id"] = "2151035015",
                         ["price"] = 3300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31508,
                         ["timestamp"] = 1689275300,
-                        ["buyer"] = 11314,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152339183",
                         ["quant"] = 3,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 32013,
+                        ["guild"] = 83,
+                        ["id"] = "2152339183",
                         ["price"] = 10000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 22235,
                         ["timestamp"] = 1689444532,
-                        ["buyer"] = 32013,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152609111",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1212,
+                        ["buyer"] = 1571,
+                        ["guild"] = 83,
+                        ["id"] = "2152609111",
                         ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31941,
                         ["timestamp"] = 1689475349,
-                        ["buyer"] = 1571,
                     },
                 },
                 ["totalCount"] = 7,
+                ["oldestTime"] = 1689023394,
+                ["itemIcon"] = "/esoui/art/icons/crafting_metals_tin.dds",
+                ["itemAdderText"] = "rr01 white normal materials jewelry trait harmony",
+                ["wasAltered"] = false,
             },
         },
         [135320] = 
@@ -746,28 +771,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:5:0"] = 
             {
-                ["itemDesc"] = "Deadlands Assassin's Bow",
                 ["newestTime"] = 1689127352,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set deadlands assassin bow two-handed defending",
-                ["oldestTime"] = 1689127352,
-                ["itemIcon"] = "/esoui/art/icons/gear_daedric_bow_c.dds",
+                ["itemDesc"] = "Deadlands Assassin's Bow",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150045173",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46139,
+                        ["buyer"] = 32719,
+                        ["guild"] = 91,
+                        ["id"] = "2150045173",
                         ["price"] = 2545,
+                        ["wasKiosk"] = true,
                         ["seller"] = 28327,
                         ["timestamp"] = 1689127352,
-                        ["buyer"] = 32719,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689127352,
+                ["itemIcon"] = "/esoui/art/icons/gear_daedric_bow_c.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set deadlands assassin bow two-handed defending",
+                ["wasAltered"] = false,
             },
         },
         [123040] = 
@@ -801,28 +826,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:45:0"] = 
             {
-                ["itemDesc"] = "Companion's Jack",
                 ["newestTime"] = 1689551639,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior medium apparel chest focused",
-                ["oldestTime"] = 1689551639,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_chest_medium.dds",
+                ["itemDesc"] = "Companion's Jack",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2153273767",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 14625,
+                        ["buyer"] = 31749,
+                        ["guild"] = 91,
+                        ["id"] = "2153273767",
                         ["price"] = 500,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33813,
                         ["timestamp"] = 1689551639,
-                        ["buyer"] = 31749,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689551639,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_chest_medium.dds",
+                ["itemAdderText"] = "rr01 blue superior medium apparel chest focused",
+                ["wasAltered"] = false,
             },
         },
         [151724] = 
@@ -836,6 +861,31 @@ GS07DataSavedVariables =
         },
         [82095] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689625555,
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["oldestTime"] = 1689625555,
+                ["itemDesc"] = "Crafting Motif 40: Order Hour Helmets",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["price"] = 46250,
+                        ["itemLink"] = 703,
+                        ["buyer"] = 4225,
+                        ["guild"] = 91,
+                        ["id"] = "2153826947",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 19138,
+                        ["timestamp"] = 1689625555,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [135345] = 
         {
@@ -889,53 +939,53 @@ GS07DataSavedVariables =
         {
             ["50:16:2:17:0"] = 
             {
-                ["itemDesc"] = "Rubedo Leather Guards of Health",
                 ["newestTime"] = 1689567357,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine medium apparel legs invigorating",
-                ["oldestTime"] = 1689567357,
-                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_medium_legs_d.dds",
+                ["itemDesc"] = "Rubedo Leather Guards of Health",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153409767",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 47208,
+                        ["buyer"] = 32881,
+                        ["guild"] = 83,
+                        ["id"] = "2153409767",
                         ["price"] = 159,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21819,
                         ["timestamp"] = 1689567357,
-                        ["buyer"] = 32881,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689567357,
+                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_medium_legs_d.dds",
+                ["itemAdderText"] = "cp160 green fine medium apparel legs invigorating",
+                ["wasAltered"] = false,
             },
             ["50:16:3:17:0"] = 
             {
-                ["itemDesc"] = "Rubedo Leather Guards of Magicka",
                 ["newestTime"] = 1689055753,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel legs invigorating",
-                ["oldestTime"] = 1689055753,
-                ["itemIcon"] = "/esoui/art/icons/gear_ancient_elf_medium_legs_a.dds",
+                ["itemDesc"] = "Rubedo Leather Guards of Magicka",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149451915",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45978,
+                        ["buyer"] = 32472,
+                        ["guild"] = 91,
+                        ["id"] = "2149451915",
                         ["price"] = 750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32303,
                         ["timestamp"] = 1689055753,
-                        ["buyer"] = 32472,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689055753,
+                ["itemIcon"] = "/esoui/art/icons/gear_ancient_elf_medium_legs_a.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel legs invigorating",
+                ["wasAltered"] = false,
             },
         },
         [100552] = 
@@ -1068,64 +1118,64 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 75: Sunspire Legs",
                 ["newestTime"] = 1689572599,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689064230,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 75: Sunspire Legs",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153454437",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 5998,
+                        ["buyer"] = 33761,
+                        ["guild"] = 83,
+                        ["id"] = "2153454437",
                         ["price"] = 7608,
+                        ["wasKiosk"] = true,
                         ["seller"] = 7781,
                         ["timestamp"] = 1689572599,
-                        ["buyer"] = 33761,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149496871",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 5998,
+                        ["buyer"] = 32491,
+                        ["guild"] = 91,
+                        ["id"] = "2149496871",
                         ["price"] = 7250,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32432,
                         ["timestamp"] = 1689064230,
-                        ["buyer"] = 32491,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151124079",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 5998,
+                        ["buyer"] = 16922,
+                        ["guild"] = 91,
+                        ["id"] = "2151124079",
                         ["price"] = 7250,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32432,
                         ["timestamp"] = 1689288407,
-                        ["buyer"] = 16922,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151826213",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 5998,
+                        ["buyer"] = 33477,
+                        ["guild"] = 91,
+                        ["id"] = "2151826213",
                         ["price"] = 7250,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32432,
                         ["timestamp"] = 1689382260,
-                        ["buyer"] = 33477,
                     },
                 },
                 ["totalCount"] = 4,
+                ["oldestTime"] = 1689064230,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [180509] = 
@@ -1165,28 +1215,28 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Alinor Windmill, Decorative",
                 ["newestTime"] = 1688962041,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary furnishings structures",
-                ["oldestTime"] = 1688962041,
-                ["itemIcon"] = "/esoui/art/icons/housing_sum_str_altwindmill001.dds",
+                ["itemDesc"] = "Alinor Windmill, Decorative",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148717211",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 4946,
+                        ["buyer"] = 31987,
+                        ["guild"] = 91,
+                        ["id"] = "2148717211",
                         ["price"] = 400000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31988,
                         ["timestamp"] = 1688962041,
-                        ["buyer"] = 31987,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688962041,
+                ["itemIcon"] = "/esoui/art/icons/housing_sum_str_altwindmill001.dds",
+                ["itemAdderText"] = "rr01 gold legendary furnishings structures",
+                ["wasAltered"] = false,
             },
         },
         [119096] = 
@@ -1211,28 +1261,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:7:0"] = 
             {
-                ["itemDesc"] = "Spriggan's Greatsword",
                 ["newestTime"] = 1689480414,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set spriggan's thorns sword two-handed sharpened",
-                ["oldestTime"] = 1689480414,
-                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_2hsword_d.dds",
+                ["itemDesc"] = "Spriggan's Greatsword",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152653329",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 47162,
+                        ["buyer"] = 33744,
+                        ["guild"] = 83,
+                        ["id"] = "2152653329",
                         ["price"] = 110000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31534,
                         ["timestamp"] = 1689480414,
-                        ["buyer"] = 33744,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689480414,
+                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_2hsword_d.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set spriggan's thorns sword two-handed sharpened",
+                ["wasAltered"] = false,
             },
         },
         [119108] = 
@@ -1251,28 +1301,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:46:0"] = 
             {
-                ["itemDesc"] = "Companion's Shield",
                 ["newestTime"] = 1689031070,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand shattering",
-                ["oldestTime"] = 1689031070,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemDesc"] = "Companion's Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149225957",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 14479,
+                        ["buyer"] = 32414,
+                        ["guild"] = 91,
+                        ["id"] = "2149225957",
                         ["price"] = 300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31977,
                         ["timestamp"] = 1689031070,
-                        ["buyer"] = 32414,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689031070,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand shattering",
+                ["wasAltered"] = false,
             },
         },
         [98643] = 
@@ -1288,40 +1338,40 @@ GS07DataSavedVariables =
         {
             ["50:16:4:23:0"] = 
             {
-                ["itemDesc"] = "Ring of the Powerful Assault",
                 ["newestTime"] = 1689044383,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set powerful assault ring robust",
-                ["oldestTime"] = 1688989167,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Ring of the Powerful Assault",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149364413",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 3155,
+                        ["buyer"] = 1022,
+                        ["guild"] = 83,
+                        ["id"] = "2149364413",
                         ["price"] = 11000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32067,
                         ["timestamp"] = 1689044383,
-                        ["buyer"] = 1022,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148872471",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 3155,
+                        ["buyer"] = 5298,
+                        ["guild"] = 83,
+                        ["id"] = "2148872471",
                         ["price"] = 12000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32067,
                         ["timestamp"] = 1688989167,
-                        ["buyer"] = 5298,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688989167,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set powerful assault ring robust",
+                ["wasAltered"] = false,
             },
         },
         [100704] = 
@@ -1335,30 +1385,92 @@ GS07DataSavedVariables =
         },
         [135526] = 
         {
-            ["50:16:3:22:0"] = 
+            ["47:0:2:22:0"] = 
             {
-                ["itemDesc"] = "Vanus's Ring",
-                ["newestTime"] = 1689388082,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set wisdom of vanus ring arcane",
-                ["oldestTime"] = 1689388082,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["newestTime"] = 1689663799,
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151880669",
                         ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 7342,
-                        ["price"] = 999,
-                        ["seller"] = 31508,
-                        ["timestamp"] = 1689388082,
-                        ["buyer"] = 31981,
+                        ["seller"] = 33558,
+                        ["buyer"] = 7300,
+                        ["guild"] = 144,
+                        ["id"] = "2154140161",
+                        ["timestamp"] = 1689663798,
+                        ["wasKiosk"] = false,
+                        ["price"] = 300,
+                        ["itemLink"] = 25660,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33558,
+                        ["buyer"] = 7300,
+                        ["guild"] = 144,
+                        ["id"] = "2154140171",
+                        ["timestamp"] = 1689663799,
+                        ["wasKiosk"] = false,
+                        ["price"] = 300,
+                        ["itemLink"] = 25660,
+                    },
+                },
+                ["totalCount"] = 2,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["oldestTime"] = 1689663798,
+                ["itemDesc"] = "Vanus's Ring",
+                ["itemAdderText"] = "rr47 green fine jewelry apparel set wisdom of vanus ring arcane",
+                ["wasAltered"] = true,
+            },
+            ["46:0:2:22:0"] = 
+            {
+                ["newestTime"] = 1689663802,
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33558,
+                        ["buyer"] = 7300,
+                        ["guild"] = 144,
+                        ["id"] = "2154140191",
+                        ["timestamp"] = 1689663802,
+                        ["wasKiosk"] = false,
+                        ["price"] = 350,
+                        ["itemLink"] = 47413,
                     },
                 },
                 ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["oldestTime"] = 1689663802,
+                ["itemDesc"] = "Vanus's Ring",
+                ["itemAdderText"] = "rr46 green fine jewelry apparel set wisdom of vanus ring arcane",
+                ["wasAltered"] = true,
+            },
+            ["50:16:3:22:0"] = 
+            {
+                ["newestTime"] = 1689388082,
+                ["itemDesc"] = "Vanus's Ring",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 7342,
+                        ["buyer"] = 31981,
+                        ["guild"] = 83,
+                        ["id"] = "2151880669",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31508,
+                        ["timestamp"] = 1689388082,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689388082,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set wisdom of vanus ring arcane",
+                ["wasAltered"] = false,
             },
         },
         [96615] = 
@@ -1368,40 +1480,40 @@ GS07DataSavedVariables =
         {
             ["1:0:1:11:0"] = 
             {
-                ["itemDesc"] = "Quartz",
                 ["newestTime"] = 1689299661,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials armor trait sturdy",
-                ["oldestTime"] = 1689250071,
-                ["itemIcon"] = "/esoui/art/icons/crafting_runecrafter_plug_component_002.dds",
+                ["itemDesc"] = "Quartz",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151228835",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 942,
+                        ["buyer"] = 33371,
+                        ["guild"] = 83,
+                        ["id"] = "2151228835",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32661,
                         ["timestamp"] = 1689299661,
-                        ["buyer"] = 33371,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150846979",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 942,
+                        ["buyer"] = 33183,
+                        ["guild"] = 83,
+                        ["id"] = "2150846979",
                         ["price"] = 509,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5298,
                         ["timestamp"] = 1689250071,
-                        ["buyer"] = 33183,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689250071,
+                ["itemIcon"] = "/esoui/art/icons/crafting_runecrafter_plug_component_002.dds",
+                ["itemAdderText"] = "rr01 white normal materials armor trait sturdy",
+                ["wasAltered"] = false,
             },
         },
         [100714] = 
@@ -1438,68 +1550,68 @@ GS07DataSavedVariables =
         {
             ["50:16:3:22:0"] = 
             {
-                ["itemDesc"] = "Necklace of Hist Sap",
                 ["newestTime"] = 1689284331,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set robes of the hist neck arcane",
-                ["oldestTime"] = 1689259448,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemDesc"] = "Necklace of Hist Sap",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151092947",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 7065,
+                        ["buyer"] = 33300,
+                        ["guild"] = 83,
+                        ["id"] = "2151092947",
                         ["price"] = 1500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33257,
                         ["timestamp"] = 1689284331,
-                        ["buyer"] = 33300,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150918057",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 7065,
+                        ["buyer"] = 33230,
+                        ["guild"] = 91,
+                        ["id"] = "2150918057",
                         ["price"] = 7500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21091,
                         ["timestamp"] = 1689259448,
-                        ["buyer"] = 33230,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689259448,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set robes of the hist neck arcane",
+                ["wasAltered"] = false,
             },
         },
         [98694] = 
         {
             ["50:16:4:4:0"] = 
             {
-                ["itemDesc"] = "Mace of Hist Sap",
                 ["newestTime"] = 1689472436,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed infused",
-                ["oldestTime"] = 1689472436,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemDesc"] = "Mace of Hist Sap",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152583211",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 46968,
+                        ["buyer"] = 33556,
+                        ["guild"] = 144,
+                        ["id"] = "2152583211",
                         ["price"] = 100000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33557,
                         ["timestamp"] = 1689472436,
-                        ["buyer"] = 33556,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689472436,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed infused",
+                ["wasAltered"] = false,
             },
         },
         [100744] = 
@@ -1509,28 +1621,28 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Plant, Spore Pod",
                 ["newestTime"] = 1688954063,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine furnishings conservatory",
-                ["oldestTime"] = 1688954063,
-                ["itemIcon"] = "/esoui/art/icons/housing_cft_veg_sporepod001.dds",
+                ["itemDesc"] = "Plant, Spore Pod",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148632193",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 11179,
+                        ["buyer"] = 31851,
+                        ["guild"] = 91,
+                        ["id"] = "2148632193",
                         ["price"] = 2740,
+                        ["wasKiosk"] = true,
                         ["seller"] = 1648,
                         ["timestamp"] = 1688954063,
-                        ["buyer"] = 31851,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688954063,
+                ["itemIcon"] = "/esoui/art/icons/housing_cft_veg_sporepod001.dds",
+                ["itemAdderText"] = "rr01 green fine furnishings conservatory",
+                ["wasAltered"] = false,
             },
         },
         [135564] = 
@@ -1576,40 +1688,52 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
+                ["newestTime"] = 1689625418,
                 ["itemDesc"] = "Seasoning",
-                ["newestTime"] = 1689273288,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689273276,
-                ["itemIcon"] = "/esoui/art/icons/quest_dust_004.dds",
                 ["sales"] = 
                 {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151021727",
-                        ["quant"] = 200,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2380,
-                        ["price"] = 1600,
-                        ["seller"] = 19254,
-                        ["timestamp"] = 1689273288,
-                        ["buyer"] = 33216,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151021595",
                         ["quant"] = 40,
-                        ["guild"] = 83,
                         ["itemLink"] = 2380,
+                        ["buyer"] = 33216,
+                        ["guild"] = 83,
+                        ["id"] = "2151021595",
                         ["price"] = 240,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31535,
                         ["timestamp"] = 1689273276,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 2380,
                         ["buyer"] = 33216,
+                        ["guild"] = 83,
+                        ["id"] = "2151021727",
+                        ["price"] = 1600,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 19254,
+                        ["timestamp"] = 1689273288,
+                    },
+                    [3] = 
+                    {
+                        ["price"] = 1200,
+                        ["itemLink"] = 2380,
+                        ["buyer"] = 3117,
+                        ["guild"] = 91,
+                        ["id"] = "2153825863",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13371,
+                        ["timestamp"] = 1689625418,
                     },
                 },
-                ["totalCount"] = 2,
+                ["totalCount"] = 3,
+                ["oldestTime"] = 1689273276,
+                ["itemIcon"] = "/esoui/art/icons/quest_dust_004.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
+                ["wasAltered"] = false,
             },
         },
         [141747] = 
@@ -1622,260 +1746,272 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
+                ["newestTime"] = 1689625156,
                 ["itemDesc"] = "Saltrice",
-                ["newestTime"] = 1689566904,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689249006,
-                ["itemIcon"] = "/esoui/art/icons/monster_plant_creature_seeds_001.dds",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837653",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837653",
                         ["price"] = 120,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31990,
                         ["timestamp"] = 1689249006,
-                        ["buyer"] = 32069,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837659",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837659",
                         ["price"] = 120,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31990,
                         ["timestamp"] = 1689249006,
-                        ["buyer"] = 32069,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837667",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837667",
                         ["price"] = 1400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31559,
                         ["timestamp"] = 1689249007,
-                        ["buyer"] = 32069,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837675",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837675",
                         ["price"] = 1600,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1689249008,
-                        ["buyer"] = 32069,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837681",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837681",
                         ["price"] = 2200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31581,
                         ["timestamp"] = 1689249008,
-                        ["buyer"] = 32069,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837689",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837689",
                         ["price"] = 2400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32493,
                         ["timestamp"] = 1689249009,
-                        ["buyer"] = 32069,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837701",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837701",
                         ["price"] = 2400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32493,
                         ["timestamp"] = 1689249010,
-                        ["buyer"] = 32069,
                     },
                     [8] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837719",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837719",
                         ["price"] = 2400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32493,
                         ["timestamp"] = 1689249011,
-                        ["buyer"] = 32069,
                     },
                     [9] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150837723",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2150837723",
                         ["price"] = 2400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27088,
                         ["timestamp"] = 1689249012,
-                        ["buyer"] = 32069,
                     },
                     [10] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039489",
                         ["quant"] = 60,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039489",
                         ["price"] = 780,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32440,
                         ["timestamp"] = 1689411308,
-                        ["buyer"] = 33561,
                     },
                     [11] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039501",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 465,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039501",
                         ["price"] = 2800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 10839,
                         ["timestamp"] = 1689411315,
-                        ["buyer"] = 33561,
                     },
                     [12] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153406315",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 465,
+                        ["buyer"] = 32188,
+                        ["guild"] = 83,
+                        ["id"] = "2153406315",
                         ["price"] = 700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33795,
                         ["timestamp"] = 1689566904,
-                        ["buyer"] = 32188,
+                    },
+                    [13] = 
+                    {
+                        ["price"] = 200,
+                        ["itemLink"] = 465,
+                        ["buyer"] = 3117,
+                        ["guild"] = 83,
+                        ["id"] = "2153823733",
+                        ["quant"] = 40,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31535,
+                        ["timestamp"] = 1689625156,
                     },
                 },
-                ["totalCount"] = 12,
+                ["totalCount"] = 13,
+                ["oldestTime"] = 1689249006,
+                ["itemIcon"] = "/esoui/art/icons/monster_plant_creature_seeds_001.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
+                ["wasAltered"] = false,
             },
         },
         [27064] = 
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Millet",
                 ["newestTime"] = 1689579934,
-                ["wasAltered"] = true,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689277506,
-                ["itemIcon"] = "/esoui/art/icons/crafting_components_bread_004.dds",
+                ["itemDesc"] = "Millet",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151048493",
                         ["quant"] = 40,
-                        ["guild"] = 83,
                         ["itemLink"] = 1349,
+                        ["buyer"] = 33218,
+                        ["guild"] = 83,
+                        ["id"] = "2151048493",
                         ["price"] = 200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31535,
                         ["timestamp"] = 1689277506,
-                        ["buyer"] = 33218,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039063",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1349,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039063",
                         ["price"] = 1200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 13371,
                         ["timestamp"] = 1689411253,
-                        ["buyer"] = 33561,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039075",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1349,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039075",
                         ["price"] = 1100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31559,
                         ["timestamp"] = 1689411254,
-                        ["buyer"] = 33561,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039167",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1349,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039167",
                         ["price"] = 1600,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1689411265,
-                        ["buyer"] = 33561,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153433117",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1349,
+                        ["buyer"] = 32683,
+                        ["guild"] = 91,
+                        ["id"] = "2153433117",
                         ["price"] = 1100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31581,
                         ["timestamp"] = 1689569825,
-                        ["buyer"] = 32683,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153499217",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 1349,
-                        ["price"] = 700,
                         ["buyer"] = 623,
+                        ["guild"] = 83,
+                        ["id"] = "2153499217",
+                        ["price"] = 700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33795,
                         ["timestamp"] = 1689579933,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153499225",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 1349,
-                        ["price"] = 700,
                         ["buyer"] = 623,
+                        ["guild"] = 83,
+                        ["id"] = "2153499225",
+                        ["price"] = 700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19743,
                         ["timestamp"] = 1689579934,
                     },
                 },
                 ["totalCount"] = 7,
+                ["oldestTime"] = 1689277506,
+                ["itemIcon"] = "/esoui/art/icons/crafting_components_bread_004.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
+                ["wasAltered"] = false,
             },
         },
         [176573] = 
@@ -1885,28 +2021,28 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Raw Ironweed",
                 ["newestTime"] = 1689386656,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials raw",
-                ["oldestTime"] = 1689386656,
-                ["itemIcon"] = "/esoui/art/icons/crafting_flower_ironweed.dds",
+                ["itemDesc"] = "Raw Ironweed",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151865079",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 15710,
+                        ["buyer"] = 12925,
+                        ["guild"] = 91,
+                        ["id"] = "2151865079",
                         ["price"] = 4032,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27063,
                         ["timestamp"] = 1689386656,
-                        ["buyer"] = 12925,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689386656,
+                ["itemIcon"] = "/esoui/art/icons/crafting_flower_ironweed.dds",
+                ["itemAdderText"] = "rr01 white normal materials raw",
+                ["wasAltered"] = false,
             },
         },
         [152003] = 
@@ -1952,28 +2088,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:47:0"] = 
             {
-                ["itemDesc"] = "Companion's Shield",
                 ["newestTime"] = 1688966514,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand aggressive",
-                ["oldestTime"] = 1688966514,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemDesc"] = "Companion's Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148749657",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 6081,
+                        ["buyer"] = 32044,
+                        ["guild"] = 83,
+                        ["id"] = "2148749657",
                         ["price"] = 200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32045,
                         ["timestamp"] = 1688966514,
-                        ["buyer"] = 32044,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688966514,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand aggressive",
+                ["wasAltered"] = false,
             },
         },
         [74212] = 
@@ -1989,28 +2125,28 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 47: Buoyant Armiger Shields",
                 ["newestTime"] = 1688954107,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1688954107,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 47: Buoyant Armiger Shields",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148632523",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1573,
+                        ["buyer"] = 31613,
+                        ["guild"] = 83,
+                        ["id"] = "2148632523",
                         ["price"] = 95000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 18445,
                         ["timestamp"] = 1688954107,
-                        ["buyer"] = 31613,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688954107,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [119281] = 
@@ -2041,28 +2177,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:8:0"] = 
             {
-                ["itemDesc"] = "Mace of Hist Sap",
                 ["newestTime"] = 1689407795,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed decisive",
-                ["oldestTime"] = 1689407795,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemDesc"] = "Mace of Hist Sap",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152025429",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 16887,
+                        ["buyer"] = 33247,
+                        ["guild"] = 91,
+                        ["id"] = "2152025429",
                         ["price"] = 102600,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11979,
                         ["timestamp"] = 1689407795,
-                        ["buyer"] = 33247,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689407795,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed decisive",
+                ["wasAltered"] = false,
             },
         },
         [176645] = 
@@ -2075,40 +2211,40 @@ GS07DataSavedVariables =
         {
             ["50:16:1:0:0"] = 
             {
-                ["itemDesc"] = "Rubedite Mace",
                 ["newestTime"] = 1689207057,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal weapon mace one-handed",
-                ["oldestTime"] = 1689207054,
-                ["itemIcon"] = "/esoui/art/icons/gear_redguard_1hhammer_d.dds",
+                ["itemDesc"] = "Rubedite Mace",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150515595",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46121,
+                        ["buyer"] = 32678,
+                        ["guild"] = 83,
+                        ["id"] = "2150515595",
                         ["price"] = 141,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32223,
                         ["timestamp"] = 1689207057,
-                        ["buyer"] = 32678,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150515571",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46121,
+                        ["buyer"] = 32678,
+                        ["guild"] = 83,
+                        ["id"] = "2150515571",
                         ["price"] = 141,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32223,
                         ["timestamp"] = 1689207054,
-                        ["buyer"] = 32678,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689207054,
+                ["itemIcon"] = "/esoui/art/icons/gear_redguard_1hhammer_d.dds",
+                ["itemAdderText"] = "cp160 white normal weapon mace one-handed",
+                ["wasAltered"] = false,
             },
         },
         [100876] = 
@@ -2142,100 +2278,100 @@ GS07DataSavedVariables =
         {
             ["50:14:1:0:0"] = 
             {
-                ["itemDesc"] = "Electrum Necklace",
                 ["newestTime"] = 1689553892,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp140 white normal jewelry apparel neck",
-                ["oldestTime"] = 1688980783,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemDesc"] = "Electrum Necklace",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148826145",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1141,
+                        ["buyer"] = 32216,
+                        ["guild"] = 83,
+                        ["id"] = "2148826145",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1688980783,
-                        ["buyer"] = 32216,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148826149",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 12710,
+                        ["buyer"] = 32216,
+                        ["guild"] = 83,
+                        ["id"] = "2148826149",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1688980784,
-                        ["buyer"] = 32216,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149361573",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4319,
+                        ["buyer"] = 32529,
+                        ["guild"] = 83,
+                        ["id"] = "2149361573",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1689044141,
-                        ["buyer"] = 32529,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150887717",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 12661,
+                        ["buyer"] = 54,
+                        ["guild"] = 83,
+                        ["id"] = "2150887717",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1689255611,
-                        ["buyer"] = 54,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150999189",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1141,
+                        ["buyer"] = 33243,
+                        ["guild"] = 91,
+                        ["id"] = "2150999189",
                         ["price"] = 150,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21091,
                         ["timestamp"] = 1689269305,
-                        ["buyer"] = 33243,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152294889",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 9242,
+                        ["buyer"] = 33591,
+                        ["guild"] = 91,
+                        ["id"] = "2152294889",
                         ["price"] = 150,
+                        ["wasKiosk"] = true,
                         ["seller"] = 30453,
                         ["timestamp"] = 1689440077,
-                        ["buyer"] = 33591,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153292603",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 25230,
+                        ["buyer"] = 33817,
+                        ["guild"] = 91,
+                        ["id"] = "2153292603",
                         ["price"] = 150,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21091,
                         ["timestamp"] = 1689553892,
-                        ["buyer"] = 33817,
                     },
                 },
                 ["totalCount"] = 7,
+                ["oldestTime"] = 1688980783,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp140 white normal jewelry apparel neck",
+                ["wasAltered"] = false,
             },
         },
         [180778] = 
@@ -2308,28 +2444,28 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Cotton",
                 ["newestTime"] = 1689275960,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials",
-                ["oldestTime"] = 1689275960,
-                ["itemIcon"] = "/esoui/art/icons/crafting_cloth_base_cotton_r2.dds",
+                ["itemDesc"] = "Cotton",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151038731",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 709,
+                        ["buyer"] = 33248,
+                        ["guild"] = 91,
+                        ["id"] = "2151038731",
                         ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31585,
                         ["timestamp"] = 1689275960,
-                        ["buyer"] = 33248,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689275960,
+                ["itemIcon"] = "/esoui/art/icons/crafting_cloth_base_cotton_r2.dds",
+                ["itemAdderText"] = "rr01 white normal materials",
+                ["wasAltered"] = false,
             },
         },
         [123481] = 
@@ -2342,140 +2478,140 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Garlic-and-Pepper Venison Steak",
                 ["newestTime"] = 1689486719,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689039342,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Garlic-and-Pepper Venison Steak",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149314131",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 134,
+                        ["buyer"] = 32510,
+                        ["guild"] = 83,
+                        ["id"] = "2149314131",
                         ["price"] = 20,
+                        ["wasKiosk"] = false,
                         ["seller"] = 13210,
                         ["timestamp"] = 1689039342,
-                        ["buyer"] = 32510,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150303443",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 134,
+                        ["buyer"] = 32638,
+                        ["guild"] = 83,
+                        ["id"] = "2150303443",
                         ["price"] = 23,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5298,
                         ["timestamp"] = 1689182713,
-                        ["buyer"] = 32638,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138575",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 134,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138575",
                         ["price"] = 29,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33572,
                         ["timestamp"] = 1689425835,
-                        ["buyer"] = 31576,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138827",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 134,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138827",
                         ["price"] = 37,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32445,
                         ["timestamp"] = 1689425849,
-                        ["buyer"] = 31576,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138909",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 134,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138909",
                         ["price"] = 50,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32416,
                         ["timestamp"] = 1689425855,
-                        ["buyer"] = 31576,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152701147",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 134,
+                        ["buyer"] = 33755,
+                        ["guild"] = 83,
+                        ["id"] = "2152701147",
                         ["price"] = 5,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31537,
                         ["timestamp"] = 1689486719,
-                        ["buyer"] = 33755,
                     },
                 },
                 ["totalCount"] = 6,
+                ["oldestTime"] = 1689039342,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [68191] = 
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Lilmoth Garlic Hagfish",
                 ["newestTime"] = 1689425858,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1688983547,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Lilmoth Garlic Hagfish",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148837035",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 135,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2148837035",
                         ["price"] = 127,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32274,
                         ["timestamp"] = 1688983547,
-                        ["buyer"] = 32069,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138789",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 135,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138789",
                         ["price"] = 30,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32445,
                         ["timestamp"] = 1689425847,
-                        ["buyer"] = 31576,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138925",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 135,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138925",
                         ["price"] = 75,
+                        ["wasKiosk"] = false,
                         ["seller"] = 8493,
                         ["timestamp"] = 1689425858,
-                        ["buyer"] = 31576,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688983547,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [96865] = 
@@ -2494,28 +2630,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Sticky Pork and Radish Noodles",
                 ["newestTime"] = 1689012167,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689012167,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Sticky Pork and Radish Noodles",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149073513",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 3719,
+                        ["buyer"] = 32326,
+                        ["guild"] = 83,
+                        ["id"] = "2149073513",
                         ["price"] = 95,
+                        ["wasKiosk"] = true,
                         ["seller"] = 10295,
                         ["timestamp"] = 1689012167,
-                        ["buyer"] = 32326,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689012167,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [119402] = 
@@ -2540,28 +2676,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:48:0"] = 
             {
-                ["itemDesc"] = "Companion's Shield",
                 ["newestTime"] = 1689179213,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand soothing",
-                ["oldestTime"] = 1689179213,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemDesc"] = "Companion's Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150272845",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 3522,
+                        ["buyer"] = 32631,
+                        ["guild"] = 83,
+                        ["id"] = "2150272845",
                         ["price"] = 200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32060,
                         ["timestamp"] = 1689179213,
-                        ["buyer"] = 32631,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689179213,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand soothing",
+                ["wasAltered"] = false,
             },
         },
         [43634] = 
@@ -2571,28 +2707,28 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Kragenmoor Zinger Mazte",
                 ["newestTime"] = 1689062095,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689062095,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Kragenmoor Zinger Mazte",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149488311",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 148,
+                        ["buyer"] = 33280,
+                        ["guild"] = 144,
+                        ["id"] = "2149488311",
                         ["price"] = 27,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33284,
                         ["timestamp"] = 1689062095,
-                        ["buyer"] = 33280,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689062095,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [43636] = 
@@ -2608,28 +2744,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Parmesan Eels in Watermelon",
                 ["newestTime"] = 1689573281,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689573281,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Parmesan Eels in Watermelon",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153458097",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 168,
+                        ["buyer"] = 32575,
+                        ["guild"] = 83,
+                        ["id"] = "2153458097",
                         ["price"] = 1313,
+                        ["wasKiosk"] = true,
                         ["seller"] = 20894,
                         ["timestamp"] = 1689573281,
-                        ["buyer"] = 32575,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689573281,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [180858] = 
@@ -2651,28 +2787,28 @@ GS07DataSavedVariables =
         {
             ["50:16:2:12:0"] = 
             {
-                ["itemDesc"] = "Gauntlets of the Storm Knight",
                 ["newestTime"] = 1689273088,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine heavy apparel set storm knight's plate hands impenetrable",
-                ["oldestTime"] = 1689273088,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_hands_d.dds",
+                ["itemDesc"] = "Gauntlets of the Storm Knight",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151020551",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46770,
+                        ["buyer"] = 33245,
+                        ["guild"] = 91,
+                        ["id"] = "2151020551",
                         ["price"] = 3500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31994,
                         ["timestamp"] = 1689273088,
-                        ["buyer"] = 33245,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689273088,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_hands_d.dds",
+                ["itemAdderText"] = "cp160 green fine heavy apparel set storm knight's plate hands impenetrable",
+                ["wasAltered"] = false,
             },
         },
         [180867] = 
@@ -2706,28 +2842,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Shadowfen Treasure Map VI",
                 ["newestTime"] = 1689231411,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
-                ["oldestTime"] = 1689231411,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Shadowfen Treasure Map VI",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150734247",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1118,
+                        ["buyer"] = 32900,
+                        ["guild"] = 83,
+                        ["id"] = "2150734247",
                         ["price"] = 500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32223,
                         ["timestamp"] = 1689231411,
-                        ["buyer"] = 32900,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689231411,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
+                ["wasAltered"] = false,
             },
         },
         [86682] = 
@@ -2761,56 +2897,56 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Betnikh Treasure Map I",
                 ["newestTime"] = 1689231397,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
-                ["oldestTime"] = 1689231397,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Betnikh Treasure Map I",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150733975",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 3554,
+                        ["buyer"] = 32900,
+                        ["guild"] = 83,
+                        ["id"] = "2150733975",
                         ["price"] = 400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 9300,
                         ["timestamp"] = 1689231397,
-                        ["buyer"] = 32900,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689231397,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
+                ["wasAltered"] = false,
             },
         },
         [90798] = 
         {
             ["50:16:4:22:0"] = 
             {
-                ["itemDesc"] = "Curse-Eating Ring",
                 ["newestTime"] = 1689562747,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set curse eater ring arcane",
-                ["oldestTime"] = 1689562747,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Curse-Eating Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153370953",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 16906,
+                        ["buyer"] = 28663,
+                        ["guild"] = 91,
+                        ["id"] = "2153370953",
                         ["price"] = 11000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31557,
                         ["timestamp"] = 1689562747,
-                        ["buyer"] = 28663,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689562747,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set curse eater ring arcane",
+                ["wasAltered"] = false,
             },
         },
         [182960] = 
@@ -2823,28 +2959,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Khenarthi's Roost Treasure Map IV",
                 ["newestTime"] = 1689271681,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
-                ["oldestTime"] = 1689271681,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Khenarthi's Roost Treasure Map IV",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151012899",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 7902,
+                        ["buyer"] = 28912,
+                        ["guild"] = 144,
+                        ["id"] = "2151012899",
                         ["price"] = 300,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33289,
                         ["timestamp"] = 1689271681,
-                        ["buyer"] = 28912,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689271681,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
+                ["wasAltered"] = false,
             },
         },
         [98995] = 
@@ -2857,40 +2993,40 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Runebox: Nordic Bather's Towel",
                 ["newestTime"] = 1689392792,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable container",
-                ["oldestTime"] = 1689009044,
-                ["itemIcon"] = "/esoui/art/icons/container_sealed_polymorph_001.dds",
+                ["itemDesc"] = "Runebox: Nordic Bather's Towel",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151920545",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1778,
+                        ["buyer"] = 32522,
+                        ["guild"] = 83,
+                        ["id"] = "2151920545",
                         ["price"] = 12000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 29780,
                         ["timestamp"] = 1689392792,
-                        ["buyer"] = 32522,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149046525",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1778,
+                        ["buyer"] = 32257,
+                        ["guild"] = 83,
+                        ["id"] = "2149046525",
                         ["price"] = 50000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27549,
                         ["timestamp"] = 1689009044,
-                        ["buyer"] = 32257,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689009044,
+                ["itemIcon"] = "/esoui/art/icons/container_sealed_polymorph_001.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable container",
+                ["wasAltered"] = false,
             },
         },
         [119480] = 
@@ -2912,28 +3048,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:15:0"] = 
             {
-                ["itemDesc"] = "Gauntlets of the Storm Knight",
                 ["newestTime"] = 1689402753,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior heavy apparel set storm knight's plate hands training",
-                ["oldestTime"] = 1689402753,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_hands_d.dds",
+                ["itemDesc"] = "Gauntlets of the Storm Knight",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151998081",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 29961,
+                        ["buyer"] = 32037,
+                        ["guild"] = 83,
+                        ["id"] = "2151998081",
                         ["price"] = 200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32223,
                         ["timestamp"] = 1689402753,
-                        ["buyer"] = 32037,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689402753,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_hands_d.dds",
+                ["itemAdderText"] = "cp160 blue superior heavy apparel set storm knight's plate hands training",
+                ["wasAltered"] = false,
             },
         },
         [182980] = 
@@ -2958,28 +3094,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:18:0"] = 
             {
-                ["itemDesc"] = "Curse-Eating Gloves",
                 ["newestTime"] = 1689216063,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic light apparel set curse eater hands divines",
-                ["oldestTime"] = 1689216063,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_light_hands_a.dds",
+                ["itemDesc"] = "Curse-Eating Gloves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150615457",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46126,
+                        ["buyer"] = 32584,
+                        ["guild"] = 83,
+                        ["id"] = "2150615457",
                         ["price"] = 7800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31509,
                         ["timestamp"] = 1689216063,
-                        ["buyer"] = 32584,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689216063,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_light_hands_a.dds",
+                ["itemAdderText"] = "cp160 purple epic light apparel set curse eater hands divines",
+                ["wasAltered"] = false,
             },
         },
         [156375] = 
@@ -2989,189 +3125,213 @@ GS07DataSavedVariables =
         {
             ["50:16:2:13:0"] = 
             {
-                ["itemDesc"] = "Knight Slayer Shoes",
                 ["newestTime"] = 1689137467,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine light apparel set knight slayer feet reinforced",
-                ["oldestTime"] = 1689137467,
-                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_feet_a.dds",
+                ["itemDesc"] = "Knight Slayer Shoes",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150144077",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46065,
+                        ["buyer"] = 32602,
+                        ["guild"] = 83,
+                        ["id"] = "2150144077",
                         ["price"] = 900,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31545,
                         ["timestamp"] = 1689137467,
-                        ["buyer"] = 32602,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689137467,
+                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_feet_a.dds",
+                ["itemAdderText"] = "cp160 green fine light apparel set knight slayer feet reinforced",
+                ["wasAltered"] = false,
             },
         },
         [56028] = 
         {
+            ["50:15:1:26:0"] = 
+            {
+                ["newestTime"] = 1689173930,
+                ["itemDesc"] = "Rubedite Sword",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46072,
+                        ["buyer"] = 32225,
+                        ["guild"] = 83,
+                        ["id"] = "2150215129",
+                        ["price"] = 99999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32618,
+                        ["timestamp"] = 1689173930,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689173930,
+                ["itemIcon"] = "/esoui/art/icons/gear_orc_1hsword_d.dds",
+                ["itemAdderText"] = "cp150 white normal weapon sword one-handed nirnhoned",
+                ["wasAltered"] = false,
+            },
             ["1:0:1:26:0"] = 
             {
-                ["itemDesc"] = "Iron Sword",
                 ["newestTime"] = 1689389027,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal weapon sword one-handed nirnhoned",
-                ["oldestTime"] = 1688959737,
-                ["itemIcon"] = "/esoui/art/icons/gear_imperial_1hsword_a.dds",
+                ["itemDesc"] = "Iron Sword",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151888539",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 3431,
+                        ["buyer"] = 13579,
+                        ["guild"] = 91,
+                        ["id"] = "2151888539",
                         ["price"] = 80750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1689389027,
-                        ["buyer"] = 13579,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148687491",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 3431,
+                        ["buyer"] = 31979,
+                        ["guild"] = 91,
+                        ["id"] = "2148687491",
                         ["price"] = 80750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1688959737,
-                        ["buyer"] = 31979,
                     },
                 },
                 ["totalCount"] = 2,
-            },
-            ["50:15:1:26:0"] = 
-            {
-                ["itemDesc"] = "Rubedite Sword",
-                ["newestTime"] = 1689173930,
+                ["oldestTime"] = 1688959737,
+                ["itemIcon"] = "/esoui/art/icons/gear_imperial_1hsword_a.dds",
+                ["itemAdderText"] = "rr01 white normal weapon sword one-handed nirnhoned",
                 ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal weapon sword one-handed nirnhoned",
-                ["oldestTime"] = 1689173930,
-                ["itemIcon"] = "/esoui/art/icons/gear_orc_1hsword_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150215129",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46072,
-                        ["price"] = 99999,
-                        ["seller"] = 32618,
-                        ["timestamp"] = 1689173930,
-                        ["buyer"] = 32225,
-                    },
-                },
-                ["totalCount"] = 1,
             },
         },
         [10973] = 
         {
             ["50:16:2:15:0"] = 
             {
-                ["itemDesc"] = "Gjakil's Shoulder Cops",
                 ["newestTime"] = 1689391034,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine medium apparel set witchman armor shoulders training",
-                ["oldestTime"] = 1689391034,
-                ["itemIcon"] = "/esoui/art/icons/gear_orc_medium_shoulders_d.dds",
+                ["itemDesc"] = "Gjakil's Shoulder Cops",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151905313",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46932,
+                        ["buyer"] = 33519,
+                        ["guild"] = 83,
+                        ["id"] = "2151905313",
                         ["price"] = 250,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32051,
                         ["timestamp"] = 1689391034,
-                        ["buyer"] = 33519,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689391034,
+                ["itemIcon"] = "/esoui/art/icons/gear_orc_medium_shoulders_d.dds",
+                ["itemAdderText"] = "cp160 green fine medium apparel set witchman armor shoulders training",
+                ["wasAltered"] = false,
             },
         },
         [56030] = 
         {
             ["1:0:1:26:0"] = 
             {
+                ["newestTime"] = 1689658426,
                 ["itemDesc"] = "Iron Maul",
-                ["newestTime"] = 1688959734,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal weapon mace two-handed nirnhoned",
-                ["oldestTime"] = 1688959734,
-                ["itemIcon"] = "/esoui/art/icons/gear_imperial_2hhammer_a.dds",
                 ["sales"] = 
                 {
+                    [2] = 
+                    {
+                        ["price"] = 70647,
+                        ["itemLink"] = 2547,
+                        ["buyer"] = 33928,
+                        ["guild"] = 83,
+                        ["id"] = "2154104787",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 7781,
+                        ["timestamp"] = 1689658426,
+                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148687439",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 12583,
+                        ["buyer"] = 31979,
+                        ["guild"] = 91,
+                        ["id"] = "2148687439",
                         ["price"] = 80750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1688959734,
-                        ["buyer"] = 31979,
                     },
                 },
-                ["totalCount"] = 1,
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1688959734,
+                ["itemIcon"] = "/esoui/art/icons/gear_imperial_2hhammer_a.dds",
+                ["itemAdderText"] = "rr01 white normal weapon mace two-handed nirnhoned",
+                ["wasAltered"] = false,
             },
         },
         [56033] = 
         {
             ["1:0:1:26:0"] = 
             {
+                ["newestTime"] = 1689639431,
                 ["itemDesc"] = "Maple Bow",
-                ["newestTime"] = 1689188976,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal weapon bow two-handed nirnhoned",
-                ["oldestTime"] = 1689120390,
-                ["itemIcon"] = "/esoui/art/icons/gear_imperial_bow_a.dds",
                 ["sales"] = 
                 {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150360537",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 12341,
-                        ["price"] = 81000,
-                        ["seller"] = 30641,
-                        ["timestamp"] = 1689188976,
-                        ["buyer"] = 32785,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149947231",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 13215,
+                        ["buyer"] = 32136,
+                        ["guild"] = 91,
+                        ["id"] = "2149947231",
                         ["price"] = 80750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1689120390,
-                        ["buyer"] = 32136,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 12341,
+                        ["buyer"] = 32785,
+                        ["guild"] = 91,
+                        ["id"] = "2150360537",
+                        ["price"] = 81000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 30641,
+                        ["timestamp"] = 1689188976,
+                    },
+                    [3] = 
+                    {
+                        ["price"] = 80750,
+                        ["itemLink"] = 13215,
+                        ["buyer"] = 33959,
+                        ["guild"] = 91,
+                        ["id"] = "2153952189",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 3121,
+                        ["timestamp"] = 1689639431,
                     },
                 },
-                ["totalCount"] = 2,
+                ["totalCount"] = 3,
+                ["oldestTime"] = 1689120390,
+                ["itemIcon"] = "/esoui/art/icons/gear_imperial_bow_a.dds",
+                ["itemAdderText"] = "rr01 white normal weapon bow two-handed nirnhoned",
+                ["wasAltered"] = false,
             },
         },
         [43748] = 
@@ -3187,28 +3347,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:49:0"] = 
             {
-                ["itemDesc"] = "Companion's Jack",
                 ["newestTime"] = 1689251790,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior medium apparel chest augmented",
-                ["oldestTime"] = 1689251790,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_chest_medium.dds",
+                ["itemDesc"] = "Companion's Jack",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150858055",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 14407,
+                        ["buyer"] = 33182,
+                        ["guild"] = 83,
+                        ["id"] = "2150858055",
                         ["price"] = 500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31516,
                         ["timestamp"] = 1689251790,
-                        ["buyer"] = 33182,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689251790,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_chest_medium.dds",
+                ["itemAdderText"] = "rr01 blue superior medium apparel chest augmented",
+                ["wasAltered"] = false,
             },
         },
         [123630] = 
@@ -3218,132 +3378,132 @@ GS07DataSavedVariables =
         {
             ["50:16:1:0:0"] = 
             {
-                ["itemDesc"] = "Itade",
                 ["newestTime"] = 1689378737,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal materials potency runestone",
-                ["oldestTime"] = 1688964374,
-                ["itemIcon"] = "/esoui/art/icons/crafting_components_runestones_056.dds",
+                ["itemDesc"] = "Itade",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148737001",
                         ["quant"] = 7,
-                        ["guild"] = 83,
                         ["itemLink"] = 4667,
+                        ["buyer"] = 32039,
+                        ["guild"] = 83,
+                        ["id"] = "2148737001",
                         ["price"] = 63,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31835,
                         ["timestamp"] = 1688964374,
-                        ["buyer"] = 32039,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149158163",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4667,
+                        ["buyer"] = 32376,
+                        ["guild"] = 83,
+                        ["id"] = "2149158163",
                         ["price"] = 9,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31835,
                         ["timestamp"] = 1689022239,
-                        ["buyer"] = 32376,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150362535",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4667,
+                        ["buyer"] = 32651,
+                        ["guild"] = 83,
+                        ["id"] = "2150362535",
                         ["price"] = 9,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31835,
                         ["timestamp"] = 1689189319,
-                        ["buyer"] = 32651,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151792675",
                         ["quant"] = 10,
-                        ["guild"] = 91,
                         ["itemLink"] = 4667,
+                        ["buyer"] = 32611,
+                        ["guild"] = 91,
+                        ["id"] = "2151792675",
                         ["price"] = 370,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31990,
                         ["timestamp"] = 1689378736,
-                        ["buyer"] = 32611,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151792687",
                         ["quant"] = 10,
-                        ["guild"] = 91,
                         ["itemLink"] = 4667,
+                        ["buyer"] = 32611,
+                        ["guild"] = 91,
+                        ["id"] = "2151792687",
                         ["price"] = 370,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31990,
                         ["timestamp"] = 1689378737,
-                        ["buyer"] = 32611,
                     },
                 },
                 ["totalCount"] = 5,
+                ["oldestTime"] = 1688964374,
+                ["itemIcon"] = "/esoui/art/icons/crafting_components_runestones_056.dds",
+                ["itemAdderText"] = "cp160 white normal materials potency runestone",
+                ["wasAltered"] = false,
             },
         },
         [160504] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 84: Blackreach Vanguard Shields",
                 ["newestTime"] = 1688907384,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1688907384,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 84: Blackreach Vanguard Shields",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148148677",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 11900,
+                        ["buyer"] = 33267,
+                        ["guild"] = 144,
+                        ["id"] = "2148148677",
                         ["price"] = 3500,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33268,
                         ["timestamp"] = 1688907384,
-                        ["buyer"] = 33267,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688907384,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [125689] = 
         {
             ["50:16:3:21:0"] = 
             {
-                ["itemDesc"] = "Impregnable Armor Ring",
                 ["newestTime"] = 1688966177,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring healthy",
-                ["oldestTime"] = 1688966177,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Impregnable Armor Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148747879",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 11432,
+                        ["buyer"] = 8815,
+                        ["guild"] = 83,
+                        ["id"] = "2148747879",
                         ["price"] = 1100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31927,
                         ["timestamp"] = 1688966177,
-                        ["buyer"] = 8815,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688966177,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring healthy",
+                ["wasAltered"] = false,
             },
         },
         [123642] = 
@@ -3353,68 +3513,68 @@ GS07DataSavedVariables =
         {
             ["50:16:3:23:0"] = 
             {
-                ["itemDesc"] = "Impregnable Armor Ring",
                 ["newestTime"] = 1689279433,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring robust",
-                ["oldestTime"] = 1689279433,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Impregnable Armor Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151062463",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 42026,
+                        ["buyer"] = 25218,
+                        ["guild"] = 91,
+                        ["id"] = "2151062463",
                         ["price"] = 1300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33250,
                         ["timestamp"] = 1689279433,
-                        ["buyer"] = 25218,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689279433,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring robust",
+                ["wasAltered"] = false,
             },
         },
         [125693] = 
         {
             ["50:16:3:22:0"] = 
             {
-                ["itemDesc"] = "Impregnable Armor Ring",
                 ["newestTime"] = 1689464993,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring arcane",
-                ["oldestTime"] = 1689051377,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Impregnable Armor Ring",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152512139",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 5169,
+                        ["buyer"] = 1022,
+                        ["guild"] = 83,
+                        ["id"] = "2152512139",
                         ["price"] = 1444,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32035,
                         ["timestamp"] = 1689464993,
-                        ["buyer"] = 1022,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149424513",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 5169,
+                        ["buyer"] = 28663,
+                        ["guild"] = 83,
+                        ["id"] = "2149424513",
                         ["price"] = 1100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31927,
                         ["timestamp"] = 1689051377,
-                        ["buyer"] = 28663,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689051377,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set impregnable armor ring arcane",
+                ["wasAltered"] = false,
             },
         },
         [115454] = 
@@ -3430,40 +3590,40 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Okoma",
                 ["newestTime"] = 1689008027,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials essence runestone",
-                ["oldestTime"] = 1688962554,
-                ["itemIcon"] = "/esoui/art/icons/crafting_components_runestones_019.dds",
+                ["itemDesc"] = "Okoma",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149037157",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 4105,
+                        ["buyer"] = 32256,
+                        ["guild"] = 83,
+                        ["id"] = "2149037157",
                         ["price"] = 4599,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32042,
                         ["timestamp"] = 1689008027,
-                        ["buyer"] = 32256,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148722233",
                         ["quant"] = 10,
-                        ["guild"] = 91,
                         ["itemLink"] = 4105,
+                        ["buyer"] = 31989,
+                        ["guild"] = 91,
+                        ["id"] = "2148722233",
                         ["price"] = 200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31990,
                         ["timestamp"] = 1688962554,
-                        ["buyer"] = 31989,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688962554,
+                ["itemIcon"] = "/esoui/art/icons/crafting_components_runestones_019.dds",
+                ["itemAdderText"] = "rr01 white normal materials essence runestone",
+                ["wasAltered"] = false,
             },
         },
         [176911] = 
@@ -3479,28 +3639,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:16:0"] = 
             {
-                ["itemDesc"] = "Impregnable Armor Gloves",
                 ["newestTime"] = 1689479908,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set impregnable armor hands infused",
-                ["oldestTime"] = 1689479908,
-                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_hands_a.dds",
+                ["itemDesc"] = "Impregnable Armor Gloves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152648891",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 47046,
+                        ["buyer"] = 31625,
+                        ["guild"] = 91,
+                        ["id"] = "2152648891",
                         ["price"] = 700,
+                        ["wasKiosk"] = false,
                         ["seller"] = 5518,
                         ["timestamp"] = 1689479908,
-                        ["buyer"] = 31625,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689479908,
+                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_hands_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set impregnable armor hands infused",
+                ["wasAltered"] = false,
             },
         },
         [123672] = 
@@ -3534,28 +3694,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:12:0"] = 
             {
-                ["itemDesc"] = "Hat of Necropotence",
                 ["newestTime"] = 1688874500,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic light apparel set necropotence head impenetrable",
-                ["oldestTime"] = 1688874500,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_light_head_d.dds",
+                ["itemDesc"] = "Hat of Necropotence",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2147910277",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 46778,
+                        ["buyer"] = 28912,
+                        ["guild"] = 144,
+                        ["id"] = "2147910277",
                         ["price"] = 6400,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31776,
                         ["timestamp"] = 1688874500,
-                        ["buyer"] = 28912,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688874500,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_light_head_d.dds",
+                ["itemAdderText"] = "cp160 purple epic light apparel set necropotence head impenetrable",
+                ["wasAltered"] = false,
             },
         },
         [160575] = 
@@ -3643,80 +3803,80 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Pumpkin Puree",
                 ["newestTime"] = 1689473530,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1688985366,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Pumpkin Puree",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148846743",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 9271,
+                        ["buyer"] = 31498,
+                        ["guild"] = 83,
+                        ["id"] = "2148846743",
                         ["price"] = 35,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1688985366,
-                        ["buyer"] = 31498,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152138849",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 9271,
+                        ["buyer"] = 31576,
+                        ["guild"] = 91,
+                        ["id"] = "2152138849",
                         ["price"] = 39,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33572,
                         ["timestamp"] = 1689425851,
-                        ["buyer"] = 31576,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152592219",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 9271,
+                        ["buyer"] = 32212,
+                        ["guild"] = 83,
+                        ["id"] = "2152592219",
                         ["price"] = 164,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27935,
                         ["timestamp"] = 1689473530,
-                        ["buyer"] = 32212,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688985366,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [142196] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 68: Honor Guard Maces",
                 ["newestTime"] = 1689296296,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689296296,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 68: Honor Guard Maces",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151192883",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 24525,
+                        ["buyer"] = 33360,
+                        ["guild"] = 83,
+                        ["id"] = "2151192883",
                         ["price"] = 21999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31853,
                         ["timestamp"] = 1689296296,
-                        ["buyer"] = 33360,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689296296,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [142198] = 
@@ -3738,28 +3898,28 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Potato Rice Blintzes",
                 ["newestTime"] = 1689061958,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689061958,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Potato Rice Blintzes",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149487965",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 28730,
+                        ["buyer"] = 33280,
+                        ["guild"] = 144,
+                        ["id"] = "2149487965",
                         ["price"] = 100,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33283,
                         ["timestamp"] = 1689061958,
-                        ["buyer"] = 33280,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689061958,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [144257] = 
@@ -3790,439 +3950,439 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689562216,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689287879,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153365043",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 288,
+                        ["buyer"] = 33785,
+                        ["guild"] = 83,
+                        ["id"] = "2153365043",
                         ["price"] = 23000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11555,
                         ["timestamp"] = 1689562216,
-                        ["buyer"] = 33785,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119675",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 10508,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119675",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287879,
-                        ["buyer"] = 729,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689287879,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [177041] = 
         {
             ["1:0:3:50:0"] = 
             {
-                ["itemDesc"] = "Companion's Shield",
                 ["newestTime"] = 1688966540,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand bolstered",
-                ["oldestTime"] = 1688966540,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemDesc"] = "Companion's Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148749731",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 7818,
+                        ["buyer"] = 32044,
+                        ["guild"] = 83,
+                        ["id"] = "2148749731",
                         ["price"] = 1000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32046,
                         ["timestamp"] = 1688966540,
-                        ["buyer"] = 32044,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688966540,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand bolstered",
+                ["wasAltered"] = false,
             },
         },
         [119698] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689287871,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688994525,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119631",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1756,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119631",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287871,
-                        ["buyer"] = 729,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148913071",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 287,
+                        ["buyer"] = 7179,
+                        ["guild"] = 91,
+                        ["id"] = "2148913071",
                         ["price"] = 40000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1688994525,
-                        ["buyer"] = 7179,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688994525,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689134642,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689134642,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150124965",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 328,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2150124965",
                         ["price"] = 15900,
+                        ["wasKiosk"] = false,
                         ["seller"] = 21687,
                         ["timestamp"] = 1689134642,
-                        ["buyer"] = 6462,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689134642,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [119699] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689212305,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688994165,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148909895",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1757,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2148909895",
                         ["price"] = 25000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 11991,
                         ["timestamp"] = 1688994165,
-                        ["buyer"] = 31581,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148913091",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 6688,
+                        ["buyer"] = 7179,
+                        ["guild"] = 91,
+                        ["id"] = "2148913091",
                         ["price"] = 40000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1688994527,
-                        ["buyer"] = 7179,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150570821",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1757,
+                        ["buyer"] = 32239,
+                        ["guild"] = 91,
+                        ["id"] = "2150570821",
                         ["price"] = 30000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11991,
                         ["timestamp"] = 1689212305,
-                        ["buyer"] = 32239,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688994165,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689562222,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689037216,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149290645",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 632,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2149290645",
                         ["price"] = 4790,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32335,
                         ["timestamp"] = 1689037216,
-                        ["buyer"] = 31581,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119621",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 632,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119621",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287867,
-                        ["buyer"] = 729,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153365087",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 632,
+                        ["buyer"] = 33785,
+                        ["guild"] = 83,
+                        ["id"] = "2153365087",
                         ["price"] = 15000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11555,
                         ["timestamp"] = 1689562222,
-                        ["buyer"] = 33785,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1689037216,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [119700] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689212302,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688997059,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150570769",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 763,
+                        ["buyer"] = 32239,
+                        ["guild"] = 91,
+                        ["id"] = "2150570769",
                         ["price"] = 27999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31586,
                         ["timestamp"] = 1689212302,
-                        ["buyer"] = 32239,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148935227",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 763,
+                        ["buyer"] = 32239,
+                        ["guild"] = 83,
+                        ["id"] = "2148935227",
                         ["price"] = 22000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5964,
                         ["timestamp"] = 1688997059,
-                        ["buyer"] = 32239,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688997059,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [119701] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689054409,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688994166,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149443507",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1758,
+                        ["buyer"] = 10604,
+                        ["guild"] = 83,
+                        ["id"] = "2149443507",
                         ["price"] = 25000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32531,
                         ["timestamp"] = 1689054409,
-                        ["buyer"] = 10604,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148909909",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1758,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2148909909",
                         ["price"] = 25000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 11991,
                         ["timestamp"] = 1688994166,
-                        ["buyer"] = 31581,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688994166,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689562229,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689054417,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149443563",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 323,
+                        ["buyer"] = 10604,
+                        ["guild"] = 83,
+                        ["id"] = "2149443563",
                         ["price"] = 19000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32531,
                         ["timestamp"] = 1689054417,
-                        ["buyer"] = 10604,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150233471",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 323,
+                        ["buyer"] = 32624,
+                        ["guild"] = 83,
+                        ["id"] = "2150233471",
                         ["price"] = 25500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32061,
                         ["timestamp"] = 1689175759,
-                        ["buyer"] = 32624,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150233479",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 323,
+                        ["buyer"] = 32624,
+                        ["guild"] = 83,
+                        ["id"] = "2150233479",
                         ["price"] = 32360,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31533,
                         ["timestamp"] = 1689175760,
-                        ["buyer"] = 32624,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150124979",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 323,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2150124979",
                         ["price"] = 20000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 11991,
                         ["timestamp"] = 1689134644,
-                        ["buyer"] = 6462,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153365103",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 323,
+                        ["buyer"] = 33785,
+                        ["guild"] = 83,
+                        ["id"] = "2153365103",
                         ["price"] = 25000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32691,
                         ["timestamp"] = 1689562229,
-                        ["buyer"] = 33785,
                     },
                 },
                 ["totalCount"] = 5,
+                ["oldestTime"] = 1689054417,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [119702] = 
         {
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689582084,
-                ["wasAltered"] = true,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689287872,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119635",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 324,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119635",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287872,
-                        ["buyer"] = 729,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153429221",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 324,
+                        ["buyer"] = 32458,
+                        ["guild"] = 91,
+                        ["id"] = "2153429221",
                         ["price"] = 13800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32758,
                         ["timestamp"] = 1689569427,
-                        ["buyer"] = 32458,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153509181",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 324,
-                        ["price"] = 13800,
                         ["buyer"] = 20173,
+                        ["guild"] = 91,
+                        ["id"] = "2153509181",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32758,
                         ["timestamp"] = 1689582084,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1689287872,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [58263] = 
@@ -4232,130 +4392,130 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689456943,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689456943,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152448925",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 760,
+                        ["buyer"] = 33701,
+                        ["guild"] = 83,
+                        ["id"] = "2152448925",
                         ["price"] = 25000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32691,
                         ["timestamp"] = 1689456943,
-                        ["buyer"] = 33701,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689456943,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689287861,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689196501,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119597",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 331,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119597",
                         ["price"] = 16686,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31559,
                         ["timestamp"] = 1689287861,
-                        ["buyer"] = 729,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150417123",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 331,
+                        ["buyer"] = 18627,
+                        ["guild"] = 83,
+                        ["id"] = "2150417123",
                         ["price"] = 8000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32655,
                         ["timestamp"] = 1689196501,
-                        ["buyer"] = 18627,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689196501,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [119705] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689175759,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688994528,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150233459",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 2487,
+                        ["buyer"] = 32624,
+                        ["guild"] = 83,
+                        ["id"] = "2150233459",
                         ["price"] = 36000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32061,
                         ["timestamp"] = 1689175759,
-                        ["buyer"] = 32624,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148913105",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 6524,
+                        ["buyer"] = 7179,
+                        ["guild"] = 91,
+                        ["id"] = "2148913105",
                         ["price"] = 40000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1688994528,
-                        ["buyer"] = 7179,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1688994528,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689037232,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689037232,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149290765",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 322,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2149290765",
                         ["price"] = 12014,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31838,
                         ["timestamp"] = 1689037232,
-                        ["buyer"] = 31581,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689037232,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [160668] = 
@@ -4389,28 +4549,28 @@ GS07DataSavedVariables =
         {
             ["1:0:4:50:0"] = 
             {
-                ["itemDesc"] = "Companion's Shield",
                 ["newestTime"] = 1689059952,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic apparel weapon shield off hand bolstered",
-                ["oldestTime"] = 1689059952,
-                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemDesc"] = "Companion's Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149477463",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1028,
+                        ["buyer"] = 31700,
+                        ["guild"] = 83,
+                        ["id"] = "2149477463",
                         ["price"] = 150000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32556,
                         ["timestamp"] = 1689059952,
-                        ["buyer"] = 31700,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689059952,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["itemAdderText"] = "rr01 purple epic apparel weapon shield off hand bolstered",
+                ["wasAltered"] = false,
             },
         },
         [117687] = 
@@ -4435,64 +4595,64 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Isinmate Infusion",
                 ["newestTime"] = 1689433434,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689062097,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Isinmate Infusion",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152218777",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 771,
+                        ["buyer"] = 33666,
+                        ["guild"] = 83,
+                        ["id"] = "2152218777",
                         ["price"] = 35,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1689433434,
-                        ["buyer"] = 33666,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149488327",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 771,
+                        ["buyer"] = 33280,
+                        ["guild"] = 144,
+                        ["id"] = "2149488327",
                         ["price"] = 27,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33284,
                         ["timestamp"] = 1689062097,
-                        ["buyer"] = 33280,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152218685",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 771,
+                        ["buyer"] = 33666,
+                        ["guild"] = 83,
+                        ["id"] = "2152218685",
                         ["price"] = 27,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31835,
                         ["timestamp"] = 1689433425,
-                        ["buyer"] = 33666,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152218715",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 771,
+                        ["buyer"] = 33666,
+                        ["guild"] = 83,
+                        ["id"] = "2152218715",
                         ["price"] = 35,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31529,
                         ["timestamp"] = 1689433428,
-                        ["buyer"] = 33666,
                     },
                 },
                 ["totalCount"] = 4,
+                ["oldestTime"] = 1689062097,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [123850] = 
@@ -4505,40 +4665,40 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Recipe: Black Coffee",
                 ["newestTime"] = 1689251777,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689251773,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemDesc"] = "Recipe: Black Coffee",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150857943",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4229,
+                        ["buyer"] = 33186,
+                        ["guild"] = 83,
+                        ["id"] = "2150857943",
                         ["price"] = 110,
+                        ["wasKiosk"] = true,
                         ["seller"] = 23461,
                         ["timestamp"] = 1689251777,
-                        ["buyer"] = 33186,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150857927",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4229,
+                        ["buyer"] = 33186,
+                        ["guild"] = 83,
+                        ["id"] = "2150857927",
                         ["price"] = 108,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32133,
                         ["timestamp"] = 1689251773,
-                        ["buyer"] = 33186,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689251773,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [142291] = 
@@ -4566,64 +4726,64 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Jasmine",
                 ["newestTime"] = 1689495077,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689273307,
-                ["itemIcon"] = "/esoui/art/icons/crafting_smith_potion_vendor_003.dds",
+                ["itemDesc"] = "Jasmine",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152751211",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 3019,
+                        ["buyer"] = 33650,
+                        ["guild"] = 91,
+                        ["id"] = "2152751211",
                         ["price"] = 1160,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32440,
                         ["timestamp"] = 1689495077,
-                        ["buyer"] = 33650,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151021797",
                         ["quant"] = 53,
-                        ["guild"] = 83,
                         ["itemLink"] = 3019,
+                        ["buyer"] = 33216,
+                        ["guild"] = 83,
+                        ["id"] = "2151021797",
                         ["price"] = 503,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31525,
                         ["timestamp"] = 1689273307,
-                        ["buyer"] = 33216,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039109",
                         ["quant"] = 30,
-                        ["guild"] = 91,
                         ["itemLink"] = 3019,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039109",
                         ["price"] = 210,
+                        ["wasKiosk"] = true,
                         ["seller"] = 15397,
                         ["timestamp"] = 1689411258,
-                        ["buyer"] = 33561,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152039121",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 3019,
+                        ["buyer"] = 33561,
+                        ["guild"] = 91,
+                        ["id"] = "2152039121",
                         ["price"] = 1600,
+                        ["wasKiosk"] = true,
                         ["seller"] = 13371,
                         ["timestamp"] = 1689411259,
-                        ["buyer"] = 33561,
                     },
                 },
                 ["totalCount"] = 4,
+                ["oldestTime"] = 1689273307,
+                ["itemIcon"] = "/esoui/art/icons/crafting_smith_potion_vendor_003.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
+                ["wasAltered"] = false,
             },
         },
         [166892] = 
@@ -4657,77 +4817,77 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689325915,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689287874,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151409343",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 286,
+                        ["buyer"] = 1571,
+                        ["guild"] = 83,
+                        ["id"] = "2151409343",
                         ["price"] = 10420,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33401,
                         ["timestamp"] = 1689325915,
-                        ["buyer"] = 1571,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119643",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 2132,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119643",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287874,
-                        ["buyer"] = 729,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689287874,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689228582,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689037237,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150717189",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 321,
+                        ["buyer"] = 16111,
+                        ["guild"] = 91,
+                        ["id"] = "2150717189",
                         ["price"] = 13052,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32445,
                         ["timestamp"] = 1689228582,
-                        ["buyer"] = 16111,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149290825",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 321,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2149290825",
                         ["price"] = 17263,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32335,
                         ["timestamp"] = 1689037237,
-                        ["buyer"] = 31581,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689037237,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [177163] = 
@@ -4737,117 +4897,117 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689456944,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1688997058,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148935221",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 2131,
+                        ["buyer"] = 32239,
+                        ["guild"] = 83,
+                        ["id"] = "2148935221",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32020,
                         ["timestamp"] = 1688997058,
-                        ["buyer"] = 32239,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150570725",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 3611,
+                        ["buyer"] = 32239,
+                        ["guild"] = 91,
+                        ["id"] = "2150570725",
                         ["price"] = 27999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31586,
                         ["timestamp"] = 1689212300,
-                        ["buyer"] = 32239,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152448931",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 2131,
+                        ["buyer"] = 33701,
+                        ["guild"] = 83,
+                        ["id"] = "2152448931",
                         ["price"] = 32000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 20894,
                         ["timestamp"] = 1689456944,
-                        ["buyer"] = 33701,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688997058,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689582084,
-                ["wasAltered"] = true,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689054416,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149443555",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 320,
-                        ["price"] = 18000,
-                        ["seller"] = 32531,
-                        ["timestamp"] = 1689054416,
-                        ["buyer"] = 10604,
-                    },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153509183",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 320,
-                        ["price"] = 22345,
                         ["buyer"] = 20173,
+                        ["guild"] = 91,
+                        ["id"] = "2153509183",
+                        ["price"] = 22345,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32758,
                         ["timestamp"] = 1689582084,
                     },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 320,
+                        ["buyer"] = 10604,
+                        ["guild"] = 83,
+                        ["id"] = "2149443555",
+                        ["price"] = 18000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32531,
+                        ["timestamp"] = 1689054416,
+                    },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689054416,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
         [166926] = 
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Diagram: Solitude Frying Pan, Wood Handle",
                 ["newestTime"] = 1689443648,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689443648,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_blacksmithing2.dds",
+                ["itemDesc"] = "Diagram: Solitude Frying Pan, Wood Handle",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152330467",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 20947,
+                        ["buyer"] = 1109,
+                        ["guild"] = 91,
+                        ["id"] = "2152330467",
                         ["price"] = 1298,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31939,
                         ["timestamp"] = 1689443648,
-                        ["buyer"] = 1109,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689443648,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_blacksmithing2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [70676] = 
@@ -4869,28 +5029,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:18:0"] = 
             {
-                ["itemDesc"] = "Jack of the Hawk's Eye",
                 ["newestTime"] = 1689199555,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic medium apparel set hawk's eye chest divines",
-                ["oldestTime"] = 1689199555,
-                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_chest_a.dds",
+                ["itemDesc"] = "Jack of the Hawk's Eye",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150440087",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46184,
+                        ["buyer"] = 32796,
+                        ["guild"] = 91,
+                        ["id"] = "2150440087",
                         ["price"] = 12000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31599,
                         ["timestamp"] = 1689199555,
-                        ["buyer"] = 32796,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689199555,
+                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_chest_a.dds",
+                ["itemAdderText"] = "cp160 purple epic medium apparel set hawk's eye chest divines",
+                ["wasAltered"] = false,
             },
         },
         [121886] = 
@@ -4924,104 +5084,104 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Style Page: Sancre Tor Sentry Shield",
                 ["newestTime"] = 1689056452,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1688960259,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemDesc"] = "Style Page: Sancre Tor Sentry Shield",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148693959",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45458,
+                        ["buyer"] = 13207,
+                        ["guild"] = 91,
+                        ["id"] = "2148693959",
                         ["price"] = 65000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 12685,
                         ["timestamp"] = 1688960259,
-                        ["buyer"] = 13207,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149095375",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45458,
+                        ["buyer"] = 26141,
+                        ["guild"] = 91,
+                        ["id"] = "2149095375",
                         ["price"] = 49999,
+                        ["wasKiosk"] = false,
                         ["seller"] = 19431,
                         ["timestamp"] = 1689014729,
-                        ["buyer"] = 26141,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149456437",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45458,
+                        ["buyer"] = 7331,
+                        ["guild"] = 91,
+                        ["id"] = "2149456437",
                         ["price"] = 70000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 14797,
                         ["timestamp"] = 1689056452,
-                        ["buyer"] = 7331,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688960259,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
             },
         },
         [46139] = 
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Sanded Birch",
                 ["newestTime"] = 1689458776,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials",
-                ["oldestTime"] = 1689300621,
-                ["itemIcon"] = "/esoui/art/icons/crafting_wood_sanded_birch.dds",
+                ["itemDesc"] = "Sanded Birch",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151238199",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1052,
+                        ["buyer"] = 33341,
+                        ["guild"] = 91,
+                        ["id"] = "2151238199",
                         ["price"] = 6000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 10839,
                         ["timestamp"] = 1689300621,
-                        ["buyer"] = 33341,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152461353",
                         ["quant"] = 100,
-                        ["guild"] = 91,
                         ["itemLink"] = 1052,
+                        ["buyer"] = 33605,
+                        ["guild"] = 91,
+                        ["id"] = "2152461353",
                         ["price"] = 3000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5020,
                         ["timestamp"] = 1689458773,
-                        ["buyer"] = 33605,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152461371",
                         ["quant"] = 100,
-                        ["guild"] = 91,
                         ["itemLink"] = 1052,
+                        ["buyer"] = 33605,
+                        ["guild"] = 91,
+                        ["id"] = "2152461371",
                         ["price"] = 3000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5020,
                         ["timestamp"] = 1689458776,
-                        ["buyer"] = 33605,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1689300621,
+                ["itemIcon"] = "/esoui/art/icons/crafting_wood_sanded_birch.dds",
+                ["itemAdderText"] = "rr01 white normal materials",
+                ["wasAltered"] = false,
             },
         },
         [115775] = 
@@ -5032,55 +5192,55 @@ GS07DataSavedVariables =
         },
         [189507] = 
         {
-            ["50:16:3:22:0"] = 
-            {
-                ["itemDesc"] = "Languor of Peryite Amulet",
-                ["newestTime"] = 1689044393,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set languor of peryite neck arcane",
-                ["oldestTime"] = 1689044393,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149364539",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46005,
-                        ["price"] = 1100,
-                        ["seller"] = 31927,
-                        ["timestamp"] = 1689044393,
-                        ["buyer"] = 1022,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
             ["50:16:5:22:0"] = 
             {
-                ["itemDesc"] = "Languor of Peryite Amulet",
                 ["newestTime"] = 1689139860,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set languor of peryite neck arcane",
-                ["oldestTime"] = 1689139860,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemDesc"] = "Languor of Peryite Amulet",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150159217",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46148,
+                        ["buyer"] = 32738,
+                        ["guild"] = 91,
+                        ["id"] = "2150159217",
                         ["price"] = 35000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32705,
                         ["timestamp"] = 1689139860,
-                        ["buyer"] = 32738,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689139860,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set languor of peryite neck arcane",
+                ["wasAltered"] = false,
+            },
+            ["50:16:3:22:0"] = 
+            {
+                ["newestTime"] = 1689044393,
+                ["itemDesc"] = "Languor of Peryite Amulet",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46005,
+                        ["buyer"] = 1022,
+                        ["guild"] = 83,
+                        ["id"] = "2149364539",
+                        ["price"] = 1100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31927,
+                        ["timestamp"] = 1689044393,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689044393,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set languor of peryite neck arcane",
+                ["wasAltered"] = false,
             },
         },
         [177221] = 
@@ -5090,28 +5250,28 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Pattern: Argonian Lamppost",
                 ["newestTime"] = 1689466413,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689466413,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_3.dds",
+                ["itemDesc"] = "Pattern: Argonian Lamppost",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152526781",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 15504,
+                        ["buyer"] = 33612,
+                        ["guild"] = 91,
+                        ["id"] = "2152526781",
                         ["price"] = 1000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32002,
                         ["timestamp"] = 1689466413,
-                        ["buyer"] = 33612,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689466413,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [95306] = 
@@ -5157,28 +5317,28 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Design: Argonian Post, Frilled",
                 ["newestTime"] = 1689551075,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable recipe",
-                ["oldestTime"] = 1689551075,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning4.dds",
+                ["itemDesc"] = "Design: Argonian Post, Frilled",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2153269183",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 26460,
+                        ["buyer"] = 26141,
+                        ["guild"] = 91,
+                        ["id"] = "2153269183",
                         ["price"] = 29999,
+                        ["wasKiosk"] = false,
                         ["seller"] = 19431,
                         ["timestamp"] = 1689551075,
-                        ["buyer"] = 26141,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689551075,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning4.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [126063] = 
@@ -5197,28 +5357,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:14:0"] = 
             {
-                ["itemDesc"] = "Languor of Peryite Robe",
                 ["newestTime"] = 1689195535,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set languor of peryite chest well-fitted",
-                ["oldestTime"] = 1689195535,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_light_robe_a.dds",
+                ["itemDesc"] = "Languor of Peryite Robe",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150410771",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46181,
+                        ["buyer"] = 28154,
+                        ["guild"] = 91,
+                        ["id"] = "2150410771",
                         ["price"] = 650,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32000,
                         ["timestamp"] = 1689195535,
-                        ["buyer"] = 28154,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689195535,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_light_robe_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set languor of peryite chest well-fitted",
+                ["wasAltered"] = false,
             },
         },
         [81026] = 
@@ -5285,28 +5445,28 @@ GS07DataSavedVariables =
         {
             ["50:16:2:14:0"] = 
             {
-                ["itemDesc"] = "Vivec's Sash of Duality",
                 ["newestTime"] = 1689043754,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine light apparel set vivec's duality waist well-fitted",
-                ["oldestTime"] = 1689043754,
-                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_light_waist_a.dds",
+                ["itemDesc"] = "Vivec's Sash of Duality",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149358561",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46000,
+                        ["buyer"] = 27315,
+                        ["guild"] = 83,
+                        ["id"] = "2149358561",
                         ["price"] = 995,
+                        ["wasKiosk"] = true,
                         ["seller"] = 23461,
                         ["timestamp"] = 1689043754,
-                        ["buyer"] = 27315,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689043754,
+                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_light_waist_a.dds",
+                ["itemAdderText"] = "cp160 green fine light apparel set vivec's duality waist well-fitted",
+                ["wasAltered"] = false,
             },
         },
         [115891] = 
@@ -5370,28 +5530,28 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 67: Welkynar Staves",
                 ["newestTime"] = 1689489807,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689489807,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 67: Welkynar Staves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152722451",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 5432,
+                        ["buyer"] = 33761,
+                        ["guild"] = 83,
+                        ["id"] = "2152722451",
                         ["price"] = 11000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 14661,
                         ["timestamp"] = 1689489807,
-                        ["buyer"] = 33761,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689489807,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [79075] = 
@@ -5410,28 +5570,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:21:0"] = 
             {
-                ["itemDesc"] = "Ring of Eternal Vigor",
                 ["newestTime"] = 1688950767,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set eternal vigor ring healthy",
-                ["oldestTime"] = 1688950767,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Ring of Eternal Vigor",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148597793",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 4381,
+                        ["buyer"] = 31622,
+                        ["guild"] = 83,
+                        ["id"] = "2148597793",
                         ["price"] = 2220,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31508,
                         ["timestamp"] = 1688950767,
-                        ["buyer"] = 31622,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688950767,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set eternal vigor ring healthy",
+                ["wasAltered"] = false,
             },
         },
         [15599] = 
@@ -5456,28 +5616,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:4:0"] = 
             {
-                ["itemDesc"] = "Restoration Staff of Nocturnal's Ploy",
                 ["newestTime"] = 1689446463,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set nocturnal's ploy healing staff two-handed infused",
-                ["oldestTime"] = 1689446463,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
+                ["itemDesc"] = "Restoration Staff of Nocturnal's Ploy",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152356953",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 47109,
+                        ["buyer"] = 18346,
+                        ["guild"] = 83,
+                        ["id"] = "2152356953",
                         ["price"] = 1200,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32393,
                         ["timestamp"] = 1689446463,
-                        ["buyer"] = 18346,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689446463,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set nocturnal's ploy healing staff two-handed infused",
+                ["wasAltered"] = false,
             },
         },
         [95485] = 
@@ -5535,28 +5695,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:16:0"] = 
             {
-                ["itemDesc"] = "Camonna Tong Bracers",
                 ["newestTime"] = 1689300056,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel set camonna tong hands infused",
-                ["oldestTime"] = 1689300056,
-                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemDesc"] = "Camonna Tong Bracers",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151233575",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46848,
+                        ["buyer"] = 32494,
+                        ["guild"] = 83,
+                        ["id"] = "2151233575",
                         ["price"] = 90,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32223,
                         ["timestamp"] = 1689300056,
-                        ["buyer"] = 32494,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689300056,
+                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel set camonna tong hands infused",
+                ["wasAltered"] = false,
             },
         },
         [116019] = 
@@ -5566,141 +5726,141 @@ GS07DataSavedVariables =
         {
             ["50:16:3:22:0"] = 
             {
-                ["itemDesc"] = "Snake in the Stars Ring",
                 ["newestTime"] = 1689582541,
-                ["wasAltered"] = true,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set snake in the stars ring arcane",
-                ["oldestTime"] = 1688979351,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Snake in the Stars Ring",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153511483",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45745,
-                        ["price"] = 2000,
                         ["buyer"] = 28778,
+                        ["guild"] = 83,
+                        ["id"] = "2153511483",
+                        ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 28339,
                         ["timestamp"] = 1689582541,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148820053",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45745,
+                        ["buyer"] = 31723,
+                        ["guild"] = 83,
+                        ["id"] = "2148820053",
                         ["price"] = 2200,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31927,
                         ["timestamp"] = 1688979351,
-                        ["buyer"] = 31723,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148938047",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45658,
+                        ["buyer"] = 32297,
+                        ["guild"] = 91,
+                        ["id"] = "2148938047",
                         ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31984,
                         ["timestamp"] = 1688997187,
-                        ["buyer"] = 32297,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151304161",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45658,
+                        ["buyer"] = 33348,
+                        ["guild"] = 91,
+                        ["id"] = "2151304161",
                         ["price"] = 1050,
+                        ["wasKiosk"] = true,
                         ["seller"] = 15397,
                         ["timestamp"] = 1689308053,
-                        ["buyer"] = 33348,
                     },
                 },
                 ["totalCount"] = 4,
+                ["oldestTime"] = 1688979351,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set snake in the stars ring arcane",
+                ["wasAltered"] = false,
             },
             ["50:16:4:22:0"] = 
             {
-                ["itemDesc"] = "Snake in the Stars Ring",
                 ["newestTime"] = 1689218983,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set snake in the stars ring arcane",
-                ["oldestTime"] = 1689218983,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Snake in the Stars Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150646981",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46252,
+                        ["buyer"] = 27037,
+                        ["guild"] = 91,
+                        ["id"] = "2150646981",
                         ["price"] = 11999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 14940,
                         ["timestamp"] = 1689218983,
-                        ["buyer"] = 27037,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689218983,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set snake in the stars ring arcane",
+                ["wasAltered"] = false,
             },
         },
         [116027] = 
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Blueprint: Dark Elf Streetpost, Banner",
                 ["newestTime"] = 1689371108,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689371095,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemDesc"] = "Blueprint: Dark Elf Streetpost, Banner",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151720681",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 2038,
+                        ["buyer"] = 33463,
+                        ["guild"] = 91,
+                        ["id"] = "2151720681",
                         ["price"] = 87,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33296,
                         ["timestamp"] = 1689371095,
-                        ["buyer"] = 33463,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151720757",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 2038,
+                        ["buyer"] = 33463,
+                        ["guild"] = 91,
+                        ["id"] = "2151720757",
                         ["price"] = 99,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32292,
                         ["timestamp"] = 1689371102,
-                        ["buyer"] = 33463,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151720801",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 2038,
+                        ["buyer"] = 33463,
+                        ["guild"] = 91,
+                        ["id"] = "2151720801",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32445,
                         ["timestamp"] = 1689371108,
-                        ["buyer"] = 33463,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1689371095,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [142652] = 
@@ -5725,28 +5885,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:18:0"] = 
             {
-                ["itemDesc"] = "Camonna Tong Bracers",
                 ["newestTime"] = 1689043758,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel set camonna tong hands divines",
-                ["oldestTime"] = 1689043758,
-                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemDesc"] = "Camonna Tong Bracers",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149358585",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46001,
+                        ["buyer"] = 27315,
+                        ["guild"] = 83,
+                        ["id"] = "2149358585",
                         ["price"] = 995,
+                        ["wasKiosk"] = true,
                         ["seller"] = 23461,
                         ["timestamp"] = 1689043758,
-                        ["buyer"] = 27315,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689043758,
+                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel set camonna tong hands divines",
+                ["wasAltered"] = false,
             },
         },
         [118093] = 
@@ -5819,40 +5979,40 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Pattern: Khajiit Bedding, Padded",
                 ["newestTime"] = 1689428806,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689319525,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_2.dds",
+                ["itemDesc"] = "Pattern: Khajiit Bedding, Padded",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152172419",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 13795,
+                        ["buyer"] = 33656,
+                        ["guild"] = 83,
+                        ["id"] = "2152172419",
                         ["price"] = 85,
+                        ["wasKiosk"] = true,
                         ["seller"] = 25058,
                         ["timestamp"] = 1689428806,
-                        ["buyer"] = 33656,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151385869",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 13795,
+                        ["buyer"] = 33408,
+                        ["guild"] = 91,
+                        ["id"] = "2151385869",
                         ["price"] = 410,
+                        ["wasKiosk"] = true,
                         ["seller"] = 6924,
                         ["timestamp"] = 1689319525,
-                        ["buyer"] = 33408,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689319525,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [116099] = 
@@ -5887,116 +6047,116 @@ GS07DataSavedVariables =
         },
         [189844] = 
         {
+            ["50:16:5:21:0"] = 
+            {
+                ["newestTime"] = 1689119848,
+                ["itemDesc"] = "Mara's Balm Ring",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46134,
+                        ["buyer"] = 9081,
+                        ["guild"] = 91,
+                        ["id"] = "2149941091",
+                        ["price"] = 550000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32705,
+                        ["timestamp"] = 1689119848,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689119848,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set mara's balm ring healthy",
+                ["wasAltered"] = false,
+            },
+            ["50:16:4:21:0"] = 
+            {
+                ["newestTime"] = 1689119869,
+                ["itemDesc"] = "Mara's Balm Ring",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45266,
+                        ["buyer"] = 9081,
+                        ["guild"] = 91,
+                        ["id"] = "2149941277",
+                        ["price"] = 14985,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31939,
+                        ["timestamp"] = 1689119869,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689119869,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set mara's balm ring healthy",
+                ["wasAltered"] = false,
+            },
             ["50:16:3:21:0"] = 
             {
-                ["itemDesc"] = "Mara's Balm Ring",
                 ["newestTime"] = 1689309067,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set mara's balm ring healthy",
-                ["oldestTime"] = 1688979352,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Mara's Balm Ring",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151315467",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45747,
+                        ["buyer"] = 31824,
+                        ["guild"] = 83,
+                        ["id"] = "2151315467",
                         ["price"] = 2000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32197,
                         ["timestamp"] = 1689309067,
-                        ["buyer"] = 31824,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148820057",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45746,
+                        ["buyer"] = 31723,
+                        ["guild"] = 83,
+                        ["id"] = "2148820057",
                         ["price"] = 2200,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31927,
                         ["timestamp"] = 1688979352,
-                        ["buyer"] = 31723,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148820067",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45747,
+                        ["buyer"] = 31723,
+                        ["guild"] = 83,
+                        ["id"] = "2148820067",
                         ["price"] = 2300,
+                        ["wasKiosk"] = false,
                         ["seller"] = 31537,
                         ["timestamp"] = 1688979354,
-                        ["buyer"] = 31723,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149396175",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45432,
+                        ["buyer"] = 27037,
+                        ["guild"] = 91,
+                        ["id"] = "2149396175",
                         ["price"] = 1350,
+                        ["wasKiosk"] = true,
                         ["seller"] = 15402,
                         ["timestamp"] = 1689047932,
-                        ["buyer"] = 27037,
                     },
                 },
                 ["totalCount"] = 4,
-            },
-            ["50:16:4:21:0"] = 
-            {
-                ["itemDesc"] = "Mara's Balm Ring",
-                ["newestTime"] = 1689119869,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set mara's balm ring healthy",
-                ["oldestTime"] = 1689119869,
+                ["oldestTime"] = 1688979352,
                 ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149941277",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45266,
-                        ["price"] = 14985,
-                        ["seller"] = 31939,
-                        ["timestamp"] = 1689119869,
-                        ["buyer"] = 9081,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:16:5:21:0"] = 
-            {
-                ["itemDesc"] = "Mara's Balm Ring",
-                ["newestTime"] = 1689119848,
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set mara's balm ring healthy",
                 ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set mara's balm ring healthy",
-                ["oldestTime"] = 1689119848,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149941091",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46134,
-                        ["price"] = 550000,
-                        ["seller"] = 32705,
-                        ["timestamp"] = 1689119848,
-                        ["buyer"] = 9081,
-                    },
-                },
-                ["totalCount"] = 1,
             },
         },
         [171415] = 
@@ -6033,31 +6193,62 @@ GS07DataSavedVariables =
         {
             ["50:16:2:11:0"] = 
             {
-                ["itemDesc"] = "Camonna Tong Bracers",
                 ["newestTime"] = 1689053144,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine medium apparel set camonna tong hands sturdy",
-                ["oldestTime"] = 1689053144,
-                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemDesc"] = "Camonna Tong Bracers",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149435321",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45975,
+                        ["buyer"] = 1648,
+                        ["guild"] = 91,
+                        ["id"] = "2149435321",
                         ["price"] = 1000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 15385,
                         ["timestamp"] = 1689053144,
-                        ["buyer"] = 1648,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689053144,
+                ["itemIcon"] = "/esoui/art/icons/gear_deadkeepervestments_medium_hands_a.dds",
+                ["itemAdderText"] = "cp160 green fine medium apparel set camonna tong hands sturdy",
+                ["wasAltered"] = false,
             },
         },
         [116137] = 
+        {
+        },
+        [167314] = 
+        {
+            ["1:0:3:0:0"] = 
+            {
+                ["newestTime"] = 1689634321,
+                ["itemAdderText"] = "rr01 blue superior furnishings structures",
+                ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/housing_skr_waf_solwallmediumcurve002.dds",
+                ["oldestTime"] = 1689634321,
+                ["itemDesc"] = "Solitude Wall, Curved Stone",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["price"] = 100000,
+                        ["itemLink"] = 47381,
+                        ["buyer"] = 33951,
+                        ["guild"] = 91,
+                        ["id"] = "2153897827",
+                        ["quant"] = 5,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32002,
+                        ["timestamp"] = 1689634321,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
+        },
+        [88062] = 
         {
         },
         [155058] = 
@@ -6067,28 +6258,28 @@ GS07DataSavedVariables =
         {
             ["1:0:1:30:0"] = 
             {
-                ["itemDesc"] = "Pewter Ring",
                 ["newestTime"] = 1689432116,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal jewelry apparel ring triune",
-                ["oldestTime"] = 1689432116,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Pewter Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152206021",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1621,
+                        ["buyer"] = 2880,
+                        ["guild"] = 91,
+                        ["id"] = "2152206021",
                         ["price"] = 45000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 12018,
                         ["timestamp"] = 1689432116,
-                        ["buyer"] = 2880,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689432116,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "rr01 white normal jewelry apparel ring triune",
+                ["wasAltered"] = false,
             },
         },
         [167348] = 
@@ -6097,35 +6288,35 @@ GS07DataSavedVariables =
         [99765] = 
         {
         },
-        [120830] = 
+        [92156] = 
         {
         },
         [116151] = 
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Blueprint: Nord Nightstand, Rough",
                 ["newestTime"] = 1689428819,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689428819,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemDesc"] = "Blueprint: Nord Nightstand, Rough",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152172549",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 11331,
+                        ["buyer"] = 33656,
+                        ["guild"] = 83,
+                        ["id"] = "2152172549",
                         ["price"] = 100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31751,
                         ["timestamp"] = 1689428819,
-                        ["buyer"] = 33656,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689428819,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [126392] = 
@@ -6141,32 +6332,57 @@ GS07DataSavedVariables =
         {
             ["50:16:4:7:0"] = 
             {
-                ["itemDesc"] = "Mace of Hist Sap",
                 ["newestTime"] = 1689472437,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed sharpened",
-                ["oldestTime"] = 1689472437,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemDesc"] = "Mace of Hist Sap",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152583223",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 46969,
+                        ["buyer"] = 33556,
+                        ["guild"] = 144,
+                        ["id"] = "2152583223",
                         ["price"] = 200000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33557,
                         ["timestamp"] = 1689472437,
-                        ["buyer"] = 33556,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689472437,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_1hhammer_d.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set robes of the hist mace one-handed sharpened",
+                ["wasAltered"] = false,
             },
         },
-        [90108] = 
+        [189641] = 
         {
+            ["50:16:3:8:0"] = 
+            {
+                ["newestTime"] = 1689632480,
+                ["itemAdderText"] = "cp160 blue superior weapon set languor of peryite bow two-handed decisive",
+                ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_bow_a.dds",
+                ["oldestTime"] = 1689632480,
+                ["itemDesc"] = "Languor of Peryite Bow",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["price"] = 1500,
+                        ["itemLink"] = 47379,
+                        ["buyer"] = 33949,
+                        ["guild"] = 91,
+                        ["id"] = "2153884703",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 24161,
+                        ["timestamp"] = 1689632480,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [89533] = 
         {
@@ -6175,115 +6391,90 @@ GS07DataSavedVariables =
         {
             ["50:16:3:8:0"] = 
             {
-                ["itemDesc"] = "Battle Axe of Mother's Embrace",
                 ["newestTime"] = 1689472455,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set night mother's embrace axe two-handed decisive",
-                ["oldestTime"] = 1689472455,
-                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_2haxe_a.dds",
+                ["itemDesc"] = "Battle Axe of Mother's Embrace",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152583357",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 46985,
+                        ["buyer"] = 33556,
+                        ["guild"] = 144,
+                        ["id"] = "2152583357",
                         ["price"] = 5000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33269,
                         ["timestamp"] = 1689472455,
-                        ["buyer"] = 33556,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689472455,
+                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_2haxe_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set night mother's embrace axe two-handed decisive",
+                ["wasAltered"] = false,
             },
         },
         [156818] = 
         {
         },
-        [156324] = 
+        [145399] = 
         {
-            ["50:16:5:13:0"] = 
-            {
-                ["itemDesc"] = "New Moon Acolyte's Shield",
-                ["newestTime"] = 1689325796,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary apparel weapon set new moon acolyte shield off hand reinforced",
-                ["oldestTime"] = 1689325796,
-                ["itemIcon"] = "/esoui/art/icons/gear_apostle_shield_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151408835",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46874,
-                        ["price"] = 125000,
-                        ["seller"] = 1684,
-                        ["timestamp"] = 1689325796,
-                        ["buyer"] = 33364,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [75069] = 
+        [139390] = 
         {
-            ["50:16:4:4:0"] = 
+            ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Dagger of Mother's Embrace",
-                ["newestTime"] = 1689288043,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set night mother's embrace dagger one-handed infused",
-                ["oldestTime"] = 1689288043,
-                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_dagger_a.dds",
+                ["newestTime"] = 1689297683,
+                ["itemDesc"] = "Alinor Cabinet, Noble",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151121361",
                         ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 25132,
-                        ["price"] = 1999,
-                        ["seller"] = 19523,
-                        ["timestamp"] = 1689288043,
-                        ["buyer"] = 33316,
+                        ["itemLink"] = 46813,
+                        ["buyer"] = 32859,
+                        ["guild"] = 91,
+                        ["id"] = "2151206987",
+                        ["price"] = 67000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 4219,
+                        ["timestamp"] = 1689297683,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689297683,
+                ["itemIcon"] = "/esoui/art/icons/housing_sum_fur_wallshelf002.dds",
+                ["itemAdderText"] = "rr01 purple epic furnishings hearth",
+                ["wasAltered"] = false,
             },
         },
         [30146] = 
         {
             ["50:15:1:9:1114373"] = 
             {
-                ["itemDesc"] = "Essence of Weapon Crit",
                 ["newestTime"] = 1689371278,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal consumable potion",
-                ["oldestTime"] = 1689371278,
-                ["itemIcon"] = "/esoui/art/icons/consumable_potion_012_type_005.dds",
+                ["itemDesc"] = "Essence of Weapon Crit",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151721605",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 4592,
+                        ["buyer"] = 33435,
+                        ["guild"] = 83,
+                        ["id"] = "2151721605",
                         ["price"] = 25000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5964,
                         ["timestamp"] = 1689371278,
-                        ["buyer"] = 33435,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689371278,
+                ["itemIcon"] = "/esoui/art/icons/consumable_potion_012_type_005.dds",
+                ["itemAdderText"] = "cp150 white normal consumable potion",
+                ["wasAltered"] = false,
             },
         },
         [116163] = 
@@ -6293,238 +6484,347 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Blue Entoloma",
                 ["newestTime"] = 1689582346,
-                ["wasAltered"] = true,
-                ["itemAdderText"] = "rr01 green fine materials reagent",
-                ["oldestTime"] = 1689016959,
-                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_blue_entoloma_cap_r1.dds",
+                ["itemDesc"] = "Blue Entoloma",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149111189",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
+                        ["buyer"] = 1005,
+                        ["guild"] = 83,
+                        ["id"] = "2149111189",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689016959,
-                        ["buyer"] = 1005,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149111203",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
+                        ["buyer"] = 1005,
+                        ["guild"] = 83,
+                        ["id"] = "2149111203",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689016960,
-                        ["buyer"] = 1005,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152018021",
                         ["quant"] = 2,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
+                        ["buyer"] = 31498,
+                        ["guild"] = 83,
+                        ["id"] = "2152018021",
                         ["price"] = 322,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32014,
                         ["timestamp"] = 1689406147,
-                        ["buyer"] = 31498,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152018023",
                         ["quant"] = 4,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
+                        ["buyer"] = 31498,
+                        ["guild"] = 83,
+                        ["id"] = "2152018023",
                         ["price"] = 660,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32064,
                         ["timestamp"] = 1689406149,
-                        ["buyer"] = 31498,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152402177",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
+                        ["buyer"] = 1462,
+                        ["guild"] = 83,
+                        ["id"] = "2152402177",
                         ["price"] = 97,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31532,
                         ["timestamp"] = 1689451070,
-                        ["buyer"] = 1462,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153510261",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
-                        ["price"] = 45000,
                         ["buyer"] = 33845,
+                        ["guild"] = 83,
+                        ["id"] = "2153510261",
+                        ["price"] = 45000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33323,
                         ["timestamp"] = 1689582343,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153510273",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 610,
-                        ["price"] = 45000,
                         ["buyer"] = 33845,
+                        ["guild"] = 83,
+                        ["id"] = "2153510273",
+                        ["price"] = 45000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33323,
                         ["timestamp"] = 1689582346,
                     },
                 },
                 ["totalCount"] = 7,
+                ["oldestTime"] = 1689016959,
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_blue_entoloma_cap_r1.dds",
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["wasAltered"] = false,
             },
         },
         [167365] = 
         {
         },
-        [176119] = 
+        [93575] = 
         {
-        },
-        [160753] = 
-        {
-            ["50:16:2:17:0"] = 
+            ["19:0:2:18:0"] = 
             {
-                ["itemDesc"] = "Epaulets of Winter's Respite",
-                ["newestTime"] = 1689130035,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine light apparel set winter's respite shoulders invigorating",
-                ["oldestTime"] = 1689130035,
-                ["itemIcon"] = "/esoui/art/icons/gear_blackreachexlgt_shoulders.dds",
+                ["newestTime"] = 1689391045,
+                ["itemDesc"] = "Boots of Kyne's Kiss",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150086125",
                         ["quant"] = 1,
+                        ["itemLink"] = 46936,
+                        ["buyer"] = 33519,
                         ["guild"] = 83,
-                        ["itemLink"] = 46052,
-                        ["price"] = 300,
-                        ["seller"] = 31529,
-                        ["timestamp"] = 1689130035,
-                        ["buyer"] = 14433,
+                        ["id"] = "2151905375",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31530,
+                        ["timestamp"] = 1689391045,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689391045,
+                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_feet_a.dds",
+                ["itemAdderText"] = "rr19 green fine medium apparel set kyne's kiss feet divines",
+                ["wasAltered"] = false,
+            },
+        },
+        [135367] = 
+        {
+            ["50:16:4:1:0"] = 
+            {
+                ["newestTime"] = 1689140567,
+                ["itemDesc"] = "Gryphon's Mace",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46067,
+                        ["buyer"] = 32609,
+                        ["guild"] = 83,
+                        ["id"] = "2150163773",
+                        ["price"] = 12000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32025,
+                        ["timestamp"] = 1689140567,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689140567,
+                ["itemIcon"] = "/esoui/art/icons/gear_ancient_elf_1hhammer_b.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set gryphon's ferocity mace one-handed powered",
+                ["wasAltered"] = false,
             },
         },
         [193993] = 
         {
             ["50:16:3:11:0"] = 
             {
-                ["itemDesc"] = "Snake in the Stars Gloves",
                 ["newestTime"] = 1689479919,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set snake in the stars hands sturdy",
-                ["oldestTime"] = 1689479919,
-                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_light_hands_a.dds",
+                ["itemDesc"] = "Snake in the Stars Gloves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152648953",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 47047,
+                        ["buyer"] = 31625,
+                        ["guild"] = 91,
+                        ["id"] = "2152648953",
                         ["price"] = 780,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33313,
                         ["timestamp"] = 1689479919,
-                        ["buyer"] = 31625,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689479919,
+                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_light_hands_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set snake in the stars hands sturdy",
+                ["wasAltered"] = false,
             },
         },
         [30153] = 
         {
             ["1:0:2:0:0"] = 
             {
+                ["newestTime"] = 1689642572,
                 ["itemDesc"] = "Namira's Rot",
-                ["newestTime"] = 1689437910,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine materials reagent",
-                ["oldestTime"] = 1689016934,
-                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_namiras_rot_r1.dds",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149111085",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 1346,
+                        ["buyer"] = 1005,
+                        ["guild"] = 83,
+                        ["id"] = "2149111085",
                         ["price"] = 33000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689016934,
-                        ["buyer"] = 1005,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149111087",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 1346,
+                        ["buyer"] = 1005,
+                        ["guild"] = 83,
+                        ["id"] = "2149111087",
                         ["price"] = 33000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689016935,
-                        ["buyer"] = 1005,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150258579",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 1346,
+                        ["buyer"] = 30299,
+                        ["guild"] = 91,
+                        ["id"] = "2150258579",
                         ["price"] = 70000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31579,
                         ["timestamp"] = 1689177753,
-                        ["buyer"] = 30299,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152273103",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 1346,
+                        ["buyer"] = 5964,
+                        ["guild"] = 83,
+                        ["id"] = "2152273103",
                         ["price"] = 32999,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32042,
                         ["timestamp"] = 1689437907,
-                        ["buyer"] = 5964,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152273117",
                         ["quant"] = 4,
-                        ["guild"] = 83,
                         ["itemLink"] = 1346,
+                        ["buyer"] = 5964,
+                        ["guild"] = 83,
+                        ["id"] = "2152273117",
                         ["price"] = 1140,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32064,
                         ["timestamp"] = 1689437910,
-                        ["buyer"] = 5964,
+                    },
+                    [6] = 
+                    {
+                        ["price"] = 4900,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 32697,
+                        ["guild"] = 83,
+                        ["id"] = "2153904565",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 4363,
+                        ["timestamp"] = 1689635025,
+                    },
+                    [7] = 
+                    {
+                        ["price"] = 4900,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 32697,
+                        ["guild"] = 83,
+                        ["id"] = "2153904571",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 4363,
+                        ["timestamp"] = 1689635026,
+                    },
+                    [8] = 
+                    {
+                        ["price"] = 4651,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922565",
+                        ["quant"] = 17,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13485,
+                        ["timestamp"] = 1689637151,
+                    },
+                    [9] = 
+                    {
+                        ["price"] = 15000,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 33963,
+                        ["guild"] = 91,
+                        ["id"] = "2153981741",
+                        ["quant"] = 50,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32384,
+                        ["timestamp"] = 1689642570,
+                    },
+                    [10] = 
+                    {
+                        ["price"] = 3300,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 33963,
+                        ["guild"] = 91,
+                        ["id"] = "2153981751",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 2828,
+                        ["timestamp"] = 1689642571,
+                    },
+                    [11] = 
+                    {
+                        ["price"] = 3300,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 33963,
+                        ["guild"] = 91,
+                        ["id"] = "2153981761",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 2828,
+                        ["timestamp"] = 1689642572,
+                    },
+                    [12] = 
+                    {
+                        ["price"] = 1050,
+                        ["itemLink"] = 1346,
+                        ["buyer"] = 33963,
+                        ["guild"] = 91,
+                        ["id"] = "2153981769",
+                        ["quant"] = 3,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 9124,
+                        ["timestamp"] = 1689642572,
                     },
                 },
-                ["totalCount"] = 5,
+                ["totalCount"] = 12,
+                ["oldestTime"] = 1689016934,
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_namiras_rot_r1.dds",
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["wasAltered"] = false,
             },
         },
         [99786] = 
@@ -6537,88 +6837,112 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
+                ["newestTime"] = 1689637149,
                 ["itemDesc"] = "Imp Stool",
-                ["newestTime"] = 1689569008,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine materials reagent",
-                ["oldestTime"] = 1689010987,
-                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_imp_stool_r2.dds",
                 ["sales"] = 
                 {
+                    [8] = 
+                    {
+                        ["price"] = 4745,
+                        ["itemLink"] = 2679,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922543",
+                        ["quant"] = 25,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13485,
+                        ["timestamp"] = 1689637149,
+                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149063575",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 32259,
+                        ["guild"] = 83,
+                        ["id"] = "2149063575",
                         ["price"] = 22000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689010987,
-                        ["buyer"] = 32259,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149111153",
                         ["quant"] = 200,
-                        ["guild"] = 83,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 1005,
+                        ["guild"] = 83,
+                        ["id"] = "2149111153",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19249,
                         ["timestamp"] = 1689016954,
-                        ["buyer"] = 1005,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151817423",
                         ["quant"] = 3,
-                        ["guild"] = 91,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 2828,
+                        ["guild"] = 91,
+                        ["id"] = "2151817423",
                         ["price"] = 750,
+                        ["wasKiosk"] = false,
                         ["seller"] = 9124,
                         ["timestamp"] = 1689381339,
-                        ["buyer"] = 2828,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151817429",
                         ["quant"] = 3,
-                        ["guild"] = 91,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 2828,
+                        ["guild"] = 91,
+                        ["id"] = "2151817429",
                         ["price"] = 750,
+                        ["wasKiosk"] = false,
                         ["seller"] = 9124,
                         ["timestamp"] = 1689381339,
-                        ["buyer"] = 2828,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152612453",
                         ["quant"] = 10,
-                        ["guild"] = 83,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 33690,
+                        ["guild"] = 83,
+                        ["id"] = "2152612453",
                         ["price"] = 2900,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32014,
                         ["timestamp"] = 1689475802,
-                        ["buyer"] = 33690,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153425233",
                         ["quant"] = 6,
-                        ["guild"] = 83,
                         ["itemLink"] = 2679,
+                        ["buyer"] = 31498,
+                        ["guild"] = 83,
+                        ["id"] = "2153425233",
                         ["price"] = 1420,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32064,
                         ["timestamp"] = 1689569008,
-                        ["buyer"] = 31498,
+                    },
+                    [7] = 
+                    {
+                        ["price"] = 799,
+                        ["itemLink"] = 2679,
+                        ["buyer"] = 32697,
+                        ["guild"] = 83,
+                        ["id"] = "2153904551",
+                        ["quant"] = 3,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689635021,
                     },
                 },
-                ["totalCount"] = 6,
+                ["totalCount"] = 8,
+                ["oldestTime"] = 1689010987,
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_imp_stool_r2.dds",
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["wasAltered"] = false,
             },
         },
         [95693] = 
@@ -6631,74 +6955,74 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "High Isle Herb Rack, Ladder",
                 ["newestTime"] = 1689575074,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior furnishings hearth",
-                ["oldestTime"] = 1689296630,
-                ["itemIcon"] = "/esoui/art/icons/housing_sys_inc_herbsladder001.dds",
+                ["itemDesc"] = "High Isle Herb Rack, Ladder",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153473319",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46812,
+                        ["buyer"] = 6172,
+                        ["guild"] = 91,
+                        ["id"] = "2153473319",
                         ["price"] = 35000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1689575074,
-                        ["buyer"] = 6172,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151195333",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46812,
+                        ["buyer"] = 33333,
+                        ["guild"] = 91,
+                        ["id"] = "2151195333",
                         ["price"] = 35000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1689296630,
-                        ["buyer"] = 33333,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689296630,
+                ["itemIcon"] = "/esoui/art/icons/housing_sys_inc_herbsladder001.dds",
+                ["itemAdderText"] = "rr01 blue superior furnishings hearth",
+                ["wasAltered"] = false,
             },
         },
         [182548] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 113: Steadfast Society Shields",
                 ["newestTime"] = 1689040494,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689040494,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 113: Steadfast Society Shields",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149328567",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45991,
+                        ["buyer"] = 15939,
+                        ["guild"] = 83,
+                        ["id"] = "2149328567",
                         ["price"] = 10000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32518,
                         ["timestamp"] = 1689040494,
-                        ["buyer"] = 15939,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689040494,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [116177] = 
         {
         },
-        [142610] = 
+        [122865] = 
         {
         },
         [126419] = 
@@ -6714,40 +7038,40 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Style Page: Gloamsedge Boots",
                 ["newestTime"] = 1689489516,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1689035826,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemDesc"] = "Style Page: Gloamsedge Boots",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152720273",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45263,
+                        ["buyer"] = 33761,
+                        ["guild"] = 83,
+                        ["id"] = "2152720273",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31936,
                         ["timestamp"] = 1689489516,
-                        ["buyer"] = 33761,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149273449",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45263,
+                        ["buyer"] = 32505,
+                        ["guild"] = 83,
+                        ["id"] = "2149273449",
                         ["price"] = 35000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32015,
                         ["timestamp"] = 1689035826,
-                        ["buyer"] = 32505,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689035826,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
             },
         },
         [116183] = 
@@ -6757,60 +7081,60 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Telvanni Desk, Organic",
                 ["newestTime"] = 1688940770,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic furnishings library",
-                ["oldestTime"] = 1688940770,
-                ["itemIcon"] = "/esoui/art/icons/housing_vrd_fur_teldeskorganic001.dds",
+                ["itemDesc"] = "Telvanni Desk, Organic",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148496315",
                         ["quant"] = 2,
-                        ["guild"] = 91,
                         ["itemLink"] = 45074,
+                        ["buyer"] = 4145,
+                        ["guild"] = 91,
+                        ["id"] = "2148496315",
                         ["price"] = 116000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31563,
                         ["timestamp"] = 1688940770,
-                        ["buyer"] = 4145,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688940770,
+                ["itemIcon"] = "/esoui/art/icons/housing_vrd_fur_teldeskorganic001.dds",
+                ["itemAdderText"] = "rr01 purple epic furnishings library",
+                ["wasAltered"] = false,
             },
         },
-        [69617] = 
+        [93600] = 
         {
-        },
-        [92302] = 
-        {
-            ["50:16:3:18:0"] = 
+            ["19:0:2:14:0"] = 
             {
-                ["itemDesc"] = "Bracers of the Twin Sisters",
-                ["newestTime"] = 1689208946,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel set twin sisters hands divines",
-                ["oldestTime"] = 1689208946,
-                ["itemIcon"] = "/esoui/art/icons/gear_altmer_medium_hands_d.dds",
+                ["newestTime"] = 1689391043,
+                ["itemDesc"] = "Belt of Kyne's Kiss",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150538323",
                         ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 5849,
-                        ["price"] = 1550,
-                        ["seller"] = 31858,
-                        ["timestamp"] = 1689208946,
-                        ["buyer"] = 32813,
+                        ["itemLink"] = 46935,
+                        ["buyer"] = 33519,
+                        ["guild"] = 83,
+                        ["id"] = "2151905361",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31530,
+                        ["timestamp"] = 1689391043,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689391043,
+                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_waist_a.dds",
+                ["itemAdderText"] = "rr19 green fine medium apparel set kyne's kiss waist well-fitted",
+                ["wasAltered"] = false,
             },
+        },
+        [126958] = 
+        {
         },
         [114948] = 
         {
@@ -6818,8 +7142,33 @@ GS07DataSavedVariables =
         [93660] = 
         {
         },
-        [45038] = 
+        [92302] = 
         {
+            ["50:16:3:18:0"] = 
+            {
+                ["newestTime"] = 1689208946,
+                ["itemDesc"] = "Bracers of the Twin Sisters",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 5849,
+                        ["buyer"] = 32813,
+                        ["guild"] = 91,
+                        ["id"] = "2150538323",
+                        ["price"] = 1550,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31858,
+                        ["timestamp"] = 1689208946,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689208946,
+                ["itemIcon"] = "/esoui/art/icons/gear_altmer_medium_hands_d.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel set twin sisters hands divines",
+                ["wasAltered"] = false,
+            },
         },
         [183473] = 
         {
@@ -6831,28 +7180,28 @@ GS07DataSavedVariables =
         {
             ["50:16:4:17:0"] = 
             {
-                ["itemDesc"] = "Gourmand's Gloves",
                 ["newestTime"] = 1688969258,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic light apparel set back-alley gourmand hands invigorating",
-                ["oldestTime"] = 1688969258,
-                ["itemIcon"] = "/esoui/art/icons/gear_firesongcircle_light_hands_a.dds",
+                ["itemDesc"] = "Gourmand's Gloves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148767431",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45541,
+                        ["buyer"] = 32058,
+                        ["guild"] = 83,
+                        ["id"] = "2148767431",
                         ["price"] = 3000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32062,
                         ["timestamp"] = 1688969258,
-                        ["buyer"] = 32058,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688969258,
+                ["itemIcon"] = "/esoui/art/icons/gear_firesongcircle_light_hands_a.dds",
+                ["itemAdderText"] = "cp160 purple epic light apparel set back-alley gourmand hands invigorating",
+                ["wasAltered"] = false,
             },
         },
         [73185] = 
@@ -6865,28 +7214,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:8:0"] = 
             {
-                ["itemDesc"] = "Bow of Soulshine",
                 ["newestTime"] = 1689047602,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set soulshine bow two-handed decisive",
-                ["oldestTime"] = 1689047602,
-                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_bow_d.dds",
+                ["itemDesc"] = "Bow of Soulshine",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149394193",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45966,
+                        ["buyer"] = 32457,
+                        ["guild"] = 91,
+                        ["id"] = "2149394193",
                         ["price"] = 899,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31594,
                         ["timestamp"] = 1689047602,
-                        ["buyer"] = 32457,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689047602,
+                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_bow_d.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set soulshine bow two-handed decisive",
+                ["wasAltered"] = false,
             },
         },
         [75240] = 
@@ -6903,106 +7252,106 @@ GS07DataSavedVariables =
         },
         [194024] = 
         {
-            ["50:16:4:23:0"] = 
-            {
-                ["itemDesc"] = "Shell Splitter Amulet",
-                ["newestTime"] = 1689314493,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set shell splitter neck robust",
-                ["oldestTime"] = 1689314493,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151348361",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 44923,
-                        ["price"] = 8400,
-                        ["seller"] = 15397,
-                        ["timestamp"] = 1689314493,
-                        ["buyer"] = 6462,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
             ["50:16:3:23:0"] = 
             {
-                ["itemDesc"] = "Shell Splitter Amulet",
                 ["newestTime"] = 1689440549,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set shell splitter neck robust",
-                ["oldestTime"] = 1688948647,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemDesc"] = "Shell Splitter Amulet",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148581017",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45066,
+                        ["buyer"] = 31459,
+                        ["guild"] = 83,
+                        ["id"] = "2148581017",
                         ["price"] = 1999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31540,
                         ["timestamp"] = 1688948647,
-                        ["buyer"] = 31459,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148820109",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45066,
+                        ["buyer"] = 31723,
+                        ["guild"] = 83,
+                        ["id"] = "2148820109",
                         ["price"] = 2800,
+                        ["wasKiosk"] = false,
                         ["seller"] = 8151,
                         ["timestamp"] = 1688979365,
-                        ["buyer"] = 31723,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151357011",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46569,
+                        ["buyer"] = 33404,
+                        ["guild"] = 83,
+                        ["id"] = "2151357011",
                         ["price"] = 2500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32393,
                         ["timestamp"] = 1689315724,
-                        ["buyer"] = 33404,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151357029",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45066,
+                        ["buyer"] = 33404,
+                        ["guild"] = 83,
+                        ["id"] = "2151357029",
                         ["price"] = 2800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 8151,
                         ["timestamp"] = 1689315728,
-                        ["buyer"] = 33404,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152301101",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45066,
+                        ["buyer"] = 33678,
+                        ["guild"] = 83,
+                        ["id"] = "2152301101",
                         ["price"] = 2300,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32068,
                         ["timestamp"] = 1689440549,
-                        ["buyer"] = 33678,
                     },
                 },
                 ["totalCount"] = 5,
+                ["oldestTime"] = 1688948647,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set shell splitter neck robust",
+                ["wasAltered"] = false,
+            },
+            ["50:16:4:23:0"] = 
+            {
+                ["newestTime"] = 1689314493,
+                ["itemDesc"] = "Shell Splitter Amulet",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 44923,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2151348361",
+                        ["price"] = 8400,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 15397,
+                        ["timestamp"] = 1689314493,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689314493,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set shell splitter neck robust",
+                ["wasAltered"] = false,
             },
         },
-        [123253] = 
+        [123600] = 
         {
         },
         [132586] = 
@@ -7017,7 +7366,7 @@ GS07DataSavedVariables =
         [116205] = 
         {
         },
-        [176357] = 
+        [96662] = 
         {
         },
         [167407] = 
@@ -7027,28 +7376,28 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Pattern: Nord Tapestry, Ship",
                 ["newestTime"] = 1688973974,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable recipe",
-                ["oldestTime"] = 1688973974,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_4.dds",
+                ["itemDesc"] = "Pattern: Nord Tapestry, Ship",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148792897",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 44785,
+                        ["buyer"] = 32132,
+                        ["guild"] = 83,
+                        ["id"] = "2148792897",
                         ["price"] = 2500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32133,
                         ["timestamp"] = 1688973974,
-                        ["buyer"] = 32132,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688973974,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_4.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable recipe",
+                ["wasAltered"] = false,
             },
         },
         [97777] = 
@@ -7058,64 +7407,64 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Style Page: Gloamsedge Belt",
                 ["newestTime"] = 1689397838,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1689004185,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemDesc"] = "Style Page: Gloamsedge Belt",
                 ["sales"] = 
                 {
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151963559",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45262,
+                        ["buyer"] = 17482,
+                        ["guild"] = 83,
+                        ["id"] = "2151963559",
                         ["price"] = 20000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32253,
                         ["timestamp"] = 1689397838,
-                        ["buyer"] = 17482,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149001649",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45262,
+                        ["buyer"] = 8484,
+                        ["guild"] = 91,
+                        ["id"] = "2149001649",
                         ["price"] = 21999,
+                        ["wasKiosk"] = false,
                         ["seller"] = 19431,
                         ["timestamp"] = 1689004185,
-                        ["buyer"] = 8484,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149233879",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45262,
+                        ["buyer"] = 32420,
+                        ["guild"] = 83,
+                        ["id"] = "2149233879",
                         ["price"] = 19000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32015,
                         ["timestamp"] = 1689031730,
-                        ["buyer"] = 32420,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151963527",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45262,
+                        ["buyer"] = 17482,
+                        ["guild"] = 83,
+                        ["id"] = "2151963527",
                         ["price"] = 19000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32015,
                         ["timestamp"] = 1689397834,
-                        ["buyer"] = 17482,
                     },
                 },
                 ["totalCount"] = 4,
+                ["oldestTime"] = 1689004185,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
             },
         },
         [175586] = 
@@ -7124,7 +7473,7 @@ GS07DataSavedVariables =
         [116212] = 
         {
         },
-        [135447] = 
+        [95614] = 
         {
         },
         [95734] = 
@@ -7133,914 +7482,671 @@ GS07DataSavedVariables =
         [126455] = 
         {
         },
-        [119242] = 
-        {
-            ["1:0:3:0:0"] = 
-            {
-                ["itemDesc"] = "Blueprint: Redguard Bookcase, Arched",
-                ["newestTime"] = 1689319677,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689319677,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_3.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151386705",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 42610,
-                        ["price"] = 4500,
-                        ["seller"] = 21423,
-                        ["timestamp"] = 1689319677,
-                        ["buyer"] = 22980,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [144722] = 
+        [176551] = 
         {
         },
-        [100534] = 
-        {
-        },
-        [135137] = 
+        [194529] = 
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Pewter Dust",
-                ["newestTime"] = 1689574519,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials raw",
-                ["oldestTime"] = 1688944721,
-                ["itemIcon"] = "/esoui/art/icons/crafting_pewter_dust.dds",
+                ["newestTime"] = 1689628340,
+                ["itemDesc"] = "Funerary Wrappings",
                 ["sales"] = 
                 {
                     [1] = 
                     {
+                        ["quant"] = 4,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 32030,
+                        ["guild"] = 83,
+                        ["id"] = "2149294287",
+                        ["price"] = 4000,
                         ["wasKiosk"] = true,
-                        ["id"] = "2148538957",
-                        ["quant"] = 20,
-                        ["guild"] = 91,
-                        ["itemLink"] = 967,
-                        ["price"] = 7000,
-                        ["seller"] = 19431,
-                        ["timestamp"] = 1688944721,
-                        ["buyer"] = 11481,
+                        ["seller"] = 32041,
+                        ["timestamp"] = 1689037522,
                     },
                     [2] = 
                     {
+                        ["quant"] = 3,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 390,
+                        ["guild"] = 83,
+                        ["id"] = "2149412521",
+                        ["price"] = 28000,
                         ["wasKiosk"] = true,
-                        ["id"] = "2148538959",
-                        ["quant"] = 85,
-                        ["guild"] = 91,
-                        ["itemLink"] = 967,
-                        ["price"] = 45000,
-                        ["seller"] = 31576,
-                        ["timestamp"] = 1688944722,
-                        ["buyer"] = 11481,
+                        ["seller"] = 32046,
+                        ["timestamp"] = 1689049929,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609615",
-                        ["quant"] = 1,
+                        ["price"] = 8000,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 87,
                         ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951934,
-                        ["buyer"] = 11481,
+                        ["id"] = "2153847255",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33801,
+                        ["timestamp"] = 1689628339,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609623",
-                        ["quant"] = 1,
+                        ["price"] = 8000,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 87,
                         ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951935,
-                        ["buyer"] = 11481,
+                        ["id"] = "2153847259",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33801,
+                        ["timestamp"] = 1689628339,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609627",
-                        ["quant"] = 1,
+                        ["price"] = 8000,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 87,
                         ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951936,
-                        ["buyer"] = 11481,
+                        ["id"] = "2153847263",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33801,
+                        ["timestamp"] = 1689628340,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609631",
-                        ["quant"] = 1,
+                        ["price"] = 93500,
+                        ["itemLink"] = 45115,
+                        ["buyer"] = 87,
                         ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951936,
-                        ["buyer"] = 11481,
-                    },
-                    [7] = 
-                    {
+                        ["id"] = "2153847265",
+                        ["quant"] = 11,
                         ["wasKiosk"] = true,
-                        ["id"] = "2148609637",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951935,
-                        ["buyer"] = 11481,
-                    },
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609639",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951936,
-                        ["buyer"] = 11481,
-                    },
-                    [9] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609645",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951937,
-                        ["buyer"] = 11481,
-                    },
-                    [10] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609653",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951938,
-                        ["buyer"] = 11481,
-                    },
-                    [11] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609657",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951938,
-                        ["buyer"] = 11481,
-                    },
-                    [12] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609659",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951938,
-                        ["buyer"] = 11481,
-                    },
-                    [13] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609663",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951939,
-                        ["buyer"] = 11481,
-                    },
-                    [14] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609667",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 310,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1688951941,
-                        ["buyer"] = 11481,
-                    },
-                    [15] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148675339",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1688958502,
-                        ["buyer"] = 32013,
-                    },
-                    [16] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150516435",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689207107,
-                        ["buyer"] = 32679,
-                    },
-                    [17] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151117989",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689287595,
-                        ["buyer"] = 887,
-                    },
-                    [18] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151118009",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689287596,
-                        ["buyer"] = 887,
-                    },
-                    [19] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151118023",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689287597,
-                        ["buyer"] = 887,
-                    },
-                    [20] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151118031",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689287598,
-                        ["buyer"] = 887,
-                    },
-                    [21] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151118037",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689287600,
-                        ["buyer"] = 887,
-                    },
-                    [22] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151759187",
-                        ["quant"] = 5,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 2050,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689375207,
-                        ["buyer"] = 8985,
-                    },
-                    [23] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151864915",
-                        ["quant"] = 20,
-                        ["guild"] = 91,
-                        ["itemLink"] = 967,
-                        ["price"] = 7424,
-                        ["seller"] = 27063,
-                        ["timestamp"] = 1689386646,
-                        ["buyer"] = 12925,
-                    },
-                    [24] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152014109",
-                        ["quant"] = 3,
-                        ["guild"] = 91,
-                        ["itemLink"] = 967,
-                        ["price"] = 1645,
-                        ["seller"] = 33252,
-                        ["timestamp"] = 1689405225,
-                        ["buyer"] = 33505,
-                    },
-                    [25] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152617461",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689476374,
-                        ["buyer"] = 31679,
-                    },
-                    [26] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152617487",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689476377,
-                        ["buyer"] = 31679,
-                    },
-                    [27] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152617501",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 967,
-                        ["price"] = 4100,
-                        ["seller"] = 32014,
-                        ["timestamp"] = 1689476378,
-                        ["buyer"] = 31679,
-                    },
-                    [28] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153469561",
-                        ["quant"] = 47,
-                        ["guild"] = 91,
-                        ["itemLink"] = 967,
-                        ["price"] = 14570,
-                        ["seller"] = 33815,
-                        ["timestamp"] = 1689574519,
-                        ["buyer"] = 33465,
+                        ["seller"] = 32515,
+                        ["timestamp"] = 1689628340,
                     },
                 },
-                ["totalCount"] = 28,
+                ["totalCount"] = 6,
+                ["oldestTime"] = 1689037522,
+                ["itemIcon"] = "/esoui/art/icons/style_icon_funerary_wrappings.dds",
+                ["itemAdderText"] = "rr01 white normal materials style",
+                ["wasAltered"] = false,
             },
+        },
+        [95461] = 
+        {
+        },
+        [45023] = 
+        {
         },
         [72859] = 
         {
         },
-        [90079] = 
+        [144722] = 
         {
-            ["50:16:2:11:0"] = 
-            {
-                ["itemDesc"] = "Shield of Imperial Wrath",
-                ["newestTime"] = 1688975648,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine apparel weapon set wrath of the imperium shield off hand sturdy",
-                ["oldestTime"] = 1688975648,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_shield_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148802717",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45786,
-                        ["price"] = 1400,
-                        ["seller"] = 24161,
-                        ["timestamp"] = 1688975648,
-                        ["buyer"] = 215,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [167422] = 
         {
             ["50:16:3:18:0"] = 
             {
-                ["itemDesc"] = "Voidwalker's Grips",
                 ["newestTime"] = 1688947173,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set voidcaller hands divines",
-                ["oldestTime"] = 1688947173,
-                ["itemIcon"] = "/esoui/art/icons/gear_nighthollowreg_lgt_hands_a.dds",
+                ["itemDesc"] = "Voidwalker's Grips",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148566231",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 16570,
+                        ["buyer"] = 31524,
+                        ["guild"] = 83,
+                        ["id"] = "2148566231",
                         ["price"] = 888,
+                        ["wasKiosk"] = false,
                         ["seller"] = 4089,
                         ["timestamp"] = 1688947173,
-                        ["buyer"] = 31524,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688947173,
+                ["itemIcon"] = "/esoui/art/icons/gear_nighthollowreg_lgt_hands_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set voidcaller hands divines",
+                ["wasAltered"] = false,
             },
         },
         [95743] = 
         {
         },
-        [94264] = 
+        [102364] = 
         {
         },
         [90147] = 
         {
         },
-        [26588] = 
+        [167319] = 
         {
-            ["50:16:4:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Stamina",
-                ["newestTime"] = 1689373578,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic miscellaneous armor glyph",
-                ["oldestTime"] = 1689195770,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150412093",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1686,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689195770,
-                        ["buyer"] = 32790,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150412103",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1686,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689195773,
-                        ["buyer"] = 32790,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150975257",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1586,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689265746,
-                        ["buyer"] = 33206,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150975265",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1586,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689265746,
-                        ["buyer"] = 33206,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151741301",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1568,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689373573,
-                        ["buyer"] = 33465,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151741409",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 585,
-                        ["price"] = 1568,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689373578,
-                        ["buyer"] = 33465,
-                    },
-                },
-                ["totalCount"] = 6,
-            },
-            ["50:16:1:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Stamina",
-                ["newestTime"] = 1689467605,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal miscellaneous armor glyph",
-                ["oldestTime"] = 1689033287,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149247531",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1375,
-                        ["price"] = 139,
-                        ["seller"] = 31539,
-                        ["timestamp"] = 1689033287,
-                        ["buyer"] = 32497,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149247535",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1376,
-                        ["price"] = 139,
-                        ["seller"] = 31539,
-                        ["timestamp"] = 1689033287,
-                        ["buyer"] = 32497,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149247537",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1376,
-                        ["price"] = 139,
-                        ["seller"] = 31539,
-                        ["timestamp"] = 1689033288,
-                        ["buyer"] = 32497,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149247543",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2861,
-                        ["price"] = 139,
-                        ["seller"] = 31539,
-                        ["timestamp"] = 1689033288,
-                        ["buyer"] = 32497,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150328523",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1375,
-                        ["price"] = 100,
-                        ["seller"] = 15385,
-                        ["timestamp"] = 1689185383,
-                        ["buyer"] = 32008,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150764025",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1377,
-                        ["price"] = 145,
-                        ["seller"] = 25058,
-                        ["timestamp"] = 1689237086,
-                        ["buyer"] = 32037,
-                    },
-                    [7] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151911267",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1375,
-                        ["price"] = 327,
-                        ["seller"] = 28327,
-                        ["timestamp"] = 1689391671,
-                        ["buyer"] = 33488,
-                    },
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151911275",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1381,
-                        ["price"] = 327,
-                        ["seller"] = 28327,
-                        ["timestamp"] = 1689391674,
-                        ["buyer"] = 33488,
-                    },
-                    [9] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151911317",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1378,
-                        ["price"] = 340,
-                        ["seller"] = 6924,
-                        ["timestamp"] = 1689391680,
-                        ["buyer"] = 33488,
-                    },
-                    [10] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151825731",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2861,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689382197,
-                        ["buyer"] = 32439,
-                    },
-                    [11] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152539171",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3229,
-                        ["price"] = 250,
-                        ["seller"] = 27554,
-                        ["timestamp"] = 1689467605,
-                        ["buyer"] = 33614,
-                    },
-                    [12] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152475271",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2861,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689460549,
-                        ["buyer"] = 32439,
-                    },
-                    [13] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152475275",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1376,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689460550,
-                        ["buyer"] = 32439,
-                    },
-                },
-                ["totalCount"] = 13,
-            },
-            ["41:0:1:0:0"] = 
-            {
-                ["itemDesc"] = "Strong Glyph of Stamina",
-                ["newestTime"] = 1689033285,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr41 white normal miscellaneous armor glyph",
-                ["oldestTime"] = 1689033285,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149247511",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45715,
-                        ["price"] = 108,
-                        ["seller"] = 32133,
-                        ["timestamp"] = 1689033285,
-                        ["buyer"] = 32497,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:16:5:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Stamina",
-                ["newestTime"] = 1689473404,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary miscellaneous armor glyph",
-                ["oldestTime"] = 1688943423,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152590883",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 289,
-                        ["price"] = 13600,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689473404,
-                        ["buyer"] = 33732,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148525793",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 289,
-                        ["price"] = 13400,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1688943423,
-                        ["buyer"] = 31494,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148743275",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 289,
-                        ["price"] = 15000,
-                        ["seller"] = 16089,
-                        ["timestamp"] = 1688965294,
-                        ["buyer"] = 31993,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148743291",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 289,
-                        ["price"] = 15000,
-                        ["seller"] = 16089,
-                        ["timestamp"] = 1688965298,
-                        ["buyer"] = 31993,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148743777",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 289,
-                        ["price"] = 40000,
-                        ["seller"] = 32003,
-                        ["timestamp"] = 1688965372,
-                        ["buyer"] = 31993,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150303073",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 289,
-                        ["price"] = 13400,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689182667,
-                        ["buyer"] = 32637,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150303095",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 289,
-                        ["price"] = 13400,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689182669,
-                        ["buyer"] = 32637,
-                    },
-                    [7] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152590869",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 289,
-                        ["price"] = 13600,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689473402,
-                        ["buyer"] = 33732,
-                    },
-                },
-                ["totalCount"] = 8,
-            },
-            ["50:15:1:0:0"] = 
-            {
-                ["itemDesc"] = "Superb Glyph of Stamina",
-                ["newestTime"] = 1689028676,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal miscellaneous armor glyph",
-                ["oldestTime"] = 1689028676,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149206235",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 27979,
-                        ["price"] = 999,
-                        ["seller"] = 31653,
-                        ["timestamp"] = 1689028676,
-                        ["buyer"] = 32406,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:15:2:0:0"] = 
-            {
-                ["itemDesc"] = "Superb Glyph of Stamina",
-                ["newestTime"] = 1689443359,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 green fine miscellaneous armor glyph",
-                ["oldestTime"] = 1689443359,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152326871",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3081,
-                        ["price"] = 1288,
-                        ["seller"] = 31653,
-                        ["timestamp"] = 1689443359,
-                        ["buyer"] = 33594,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [95683] = 
+        [150406] = 
         {
         },
         [119229] = 
         {
         },
-        [98407] = 
+        [144020] = 
         {
         },
-        [27114] = 
+        [26582] = 
         {
+            ["50:16:4:0:0"] = 
+            {
+                ["newestTime"] = 1689631828,
+                ["itemDesc"] = "Truly Superb Glyph of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 31558,
+                        ["guild"] = 91,
+                        ["id"] = "2148492299",
+                        ["price"] = 1486,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1688940322,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 32790,
+                        ["guild"] = 91,
+                        ["id"] = "2150412055",
+                        ["price"] = 1486,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689195766,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 32790,
+                        ["guild"] = 91,
+                        ["id"] = "2150412073",
+                        ["price"] = 1486,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689195767,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150975275",
+                        ["price"] = 1486,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689265747,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150975289",
+                        ["price"] = 1486,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689265748,
+                    },
+                    [6] = 
+                    {
+                        ["price"] = 1468,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 33947,
+                        ["guild"] = 91,
+                        ["id"] = "2153880185",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689631827,
+                    },
+                    [7] = 
+                    {
+                        ["price"] = 1468,
+                        ["itemLink"] = 462,
+                        ["buyer"] = 33947,
+                        ["guild"] = 91,
+                        ["id"] = "2153880195",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689631828,
+                    },
+                },
+                ["totalCount"] = 7,
+                ["oldestTime"] = 1688940322,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
+                ["itemAdderText"] = "cp160 purple epic miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:16:1:0:0"] = 
+            {
+                ["newestTime"] = 1689475732,
+                ["itemDesc"] = "Truly Superb Glyph of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 893,
+                        ["buyer"] = 32008,
+                        ["guild"] = 91,
+                        ["id"] = "2150328559",
+                        ["price"] = 225,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21091,
+                        ["timestamp"] = 1689185387,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3080,
+                        ["buyer"] = 33488,
+                        ["guild"] = 91,
+                        ["id"] = "2151911301",
+                        ["price"] = 335,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 28327,
+                        ["timestamp"] = 1689391679,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 14770,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2151825753",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689382198,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 893,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2151825771",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689382199,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 16274,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2151825781",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689382200,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 4960,
+                        ["buyer"] = 33738,
+                        ["guild"] = 83,
+                        ["id"] = "2152612033",
+                        ["price"] = 309,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 5298,
+                        ["timestamp"] = 1689475732,
+                    },
+                },
+                ["totalCount"] = 6,
+                ["oldestTime"] = 1689185387,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
+                ["itemAdderText"] = "cp160 white normal miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["45:0:2:0:0"] = 
+            {
+                ["newestTime"] = 1689305671,
+                ["itemDesc"] = "Strong Glyph of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46853,
+                        ["buyer"] = 33388,
+                        ["guild"] = 83,
+                        ["id"] = "2151283505",
+                        ["price"] = 2050,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16464,
+                        ["timestamp"] = 1689305670,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46853,
+                        ["buyer"] = 33388,
+                        ["guild"] = 83,
+                        ["id"] = "2151283507",
+                        ["price"] = 2050,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16464,
+                        ["timestamp"] = 1689305671,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46853,
+                        ["buyer"] = 33388,
+                        ["guild"] = 83,
+                        ["id"] = "2151283509",
+                        ["price"] = 2050,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16464,
+                        ["timestamp"] = 1689305671,
+                    },
+                },
+                ["totalCount"] = 3,
+                ["oldestTime"] = 1689305670,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
+                ["itemAdderText"] = "rr45 green fine miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:16:5:0:0"] = 
+            {
+                ["newestTime"] = 1689630070,
+                ["itemDesc"] = "Truly Superb Glyph of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 31844,
+                        ["guild"] = 91,
+                        ["id"] = "2148624651",
+                        ["price"] = 12000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 27942,
+                        ["timestamp"] = 1688953388,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 31882,
+                        ["guild"] = 91,
+                        ["id"] = "2148634877",
+                        ["price"] = 15000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1688954326,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 31882,
+                        ["guild"] = 91,
+                        ["id"] = "2148634887",
+                        ["price"] = 15000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1688954327,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32232,
+                        ["guild"] = 83,
+                        ["id"] = "2148890519",
+                        ["price"] = 13700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1688991743,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32378,
+                        ["guild"] = 83,
+                        ["id"] = "2149162751",
+                        ["price"] = 13700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689022983,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32627,
+                        ["guild"] = 83,
+                        ["id"] = "2150256951",
+                        ["price"] = 13700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689177578,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32627,
+                        ["guild"] = 83,
+                        ["id"] = "2150256955",
+                        ["price"] = 13700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689177579,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32790,
+                        ["guild"] = 91,
+                        ["id"] = "2150415307",
+                        ["price"] = 10000,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31584,
+                        ["timestamp"] = 1689196247,
+                    },
+                    [9] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 33174,
+                        ["guild"] = 83,
+                        ["id"] = "2150800097",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689242635,
+                    },
+                    [10] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 33174,
+                        ["guild"] = 83,
+                        ["id"] = "2150800167",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689242659,
+                    },
+                    [11] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32044,
+                        ["guild"] = 91,
+                        ["id"] = "2151112765",
+                        ["price"] = 14999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33292,
+                        ["timestamp"] = 1689286767,
+                    },
+                    [12] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32044,
+                        ["guild"] = 91,
+                        ["id"] = "2151112769",
+                        ["price"] = 16499,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32296,
+                        ["timestamp"] = 1689286769,
+                    },
+                    [13] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32044,
+                        ["guild"] = 91,
+                        ["id"] = "2151112777",
+                        ["price"] = 16499,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32296,
+                        ["timestamp"] = 1689286770,
+                    },
+                    [14] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 32044,
+                        ["guild"] = 91,
+                        ["id"] = "2151112781",
+                        ["price"] = 16499,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32296,
+                        ["timestamp"] = 1689286771,
+                    },
+                    [15] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 33297,
+                        ["guild"] = 83,
+                        ["id"] = "2151097721",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689285000,
+                    },
+                    [16] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 33297,
+                        ["guild"] = 83,
+                        ["id"] = "2151097725",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689285001,
+                    },
+                    [17] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 33586,
+                        ["guild"] = 91,
+                        ["id"] = "2152270501",
+                        ["price"] = 40000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32003,
+                        ["timestamp"] = 1689437648,
+                    },
+                    [18] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 1220,
+                        ["guild"] = 83,
+                        ["id"] = "2152363179",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689447101,
+                    },
+                    [19] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 1220,
+                        ["guild"] = 83,
+                        ["id"] = "2152363225",
+                        ["price"] = 13800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689447105,
+                    },
+                    [20] = 
+                    {
+                        ["price"] = 13800,
+                        ["itemLink"] = 334,
+                        ["buyer"] = 28845,
+                        ["guild"] = 83,
+                        ["id"] = "2153865393",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689630070,
+                    },
+                },
+                ["totalCount"] = 20,
+                ["oldestTime"] = 1688953388,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
+                ["itemAdderText"] = "cp160 gold legendary miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:15:1:0:0"] = 
+            {
+                ["newestTime"] = 1689028675,
+                ["itemDesc"] = "Superb Glyph of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45947,
+                        ["buyer"] = 32406,
+                        ["guild"] = 91,
+                        ["id"] = "2149206227",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31653,
+                        ["timestamp"] = 1689028675,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689028675,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
+                ["itemAdderText"] = "cp150 white normal miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
         },
-        [116816] = 
+        [114791] = 
         {
         },
         [7688] = 
@@ -8049,28 +8155,53 @@ GS07DataSavedVariables =
         [95753] = 
         {
         },
-        [98262] = 
+        [27114] = 
         {
         },
-        [123663] = 
+        [159713] = 
         {
         },
         [73228] = 
         {
         },
+        [194514] = 
+        {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689040512,
+                ["itemDesc"] = "Crafting Motif 122: Dead Keeper Axes",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45244,
+                        ["buyer"] = 15939,
+                        ["guild"] = 83,
+                        ["id"] = "2149328775",
+                        ["price"] = 50000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31523,
+                        ["timestamp"] = 1689040512,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689040512,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
+            },
+        },
+        [139217] = 
+        {
+        },
         [139583] = 
         {
         },
-        [98458] = 
+        [72903] = 
         {
         },
-        [171986] = 
-        {
-        },
-        [100305] = 
-        {
-        },
-        [119271] = 
+        [95464] = 
         {
         },
         [126482] = 
@@ -8088,13 +8219,13 @@ GS07DataSavedVariables =
         [126486] = 
         {
         },
-        [123370] = 
+        [139398] = 
         {
         },
-        [34979] = 
+        [180918] = 
         {
         },
-        [99869] = 
+        [15770] = 
         {
         },
         [73242] = 
@@ -8104,28 +8235,28 @@ GS07DataSavedVariables =
         {
             ["50:16:3:3:0"] = 
             {
-                ["itemDesc"] = "Shell Splitter Lightning Staff",
                 ["newestTime"] = 1689146173,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set shell splitter lightning staff two-handed precise",
-                ["oldestTime"] = 1689146173,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
+                ["itemDesc"] = "Shell Splitter Lightning Staff",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150197999",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46069,
+                        ["buyer"] = 19867,
+                        ["guild"] = 83,
+                        ["id"] = "2150197999",
                         ["price"] = 1500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19743,
                         ["timestamp"] = 1689146173,
-                        ["buyer"] = 19867,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689146173,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set shell splitter lightning staff two-handed precise",
+                ["wasAltered"] = false,
             },
         },
         [99868] = 
@@ -8137,38 +8268,13 @@ GS07DataSavedVariables =
         [95774] = 
         {
         },
-        [95763] = 
+        [102344] = 
         {
         },
-        [123588] = 
+        [144742] = 
         {
-            ["50:16:3:14:0"] = 
-            {
-                ["itemDesc"] = "Knight Slayer Shoes",
-                ["newestTime"] = 1689143673,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set knight slayer feet well-fitted",
-                ["oldestTime"] = 1689143673,
-                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_feet_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150184863",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46151,
-                        ["price"] = 1200,
-                        ["seller"] = 31944,
-                        ["timestamp"] = 1689143673,
-                        ["buyer"] = 32743,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [122824] = 
+        [119470] = 
         {
         },
         [178513] = 
@@ -8180,158 +8286,108 @@ GS07DataSavedVariables =
         [100306] = 
         {
         },
-        [182502] = 
+        [165826] = 
         {
-            ["1:0:5:0:0"] = 
-            {
-                ["itemDesc"] = "Style Page: Black Drake Clanwrap Jerkin",
-                ["newestTime"] = 1688953701,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1688953701,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148628725",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 35213,
-                        ["price"] = 1399999,
-                        ["seller"] = 9991,
-                        ["timestamp"] = 1688953701,
-                        ["buyer"] = 31847,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [142311] = 
+        [178508] = 
         {
         },
         [155175] = 
         {
         },
-        [88002] = 
+        [90286] = 
         {
-            ["42:0:2:16:0"] = 
-            {
-                ["itemDesc"] = "Alessian Gauntlets",
-                ["newestTime"] = 1688966589,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr42 green fine heavy apparel set alessian order hands infused",
-                ["oldestTime"] = 1688966589,
-                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_heavy_hands_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148749953",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45536,
-                        ["price"] = 60,
-                        ["seller"] = 31544,
-                        ["timestamp"] = 1688966589,
-                        ["buyer"] = 9910,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [171561] = 
         {
         },
-        [166933] = 
+        [116078] = 
         {
-        },
-        [171563] = 
-        {
-        },
-        [115894] = 
-        {
-            ["1:0:4:0:0"] = 
+            ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Design: Wood Elf Cask, Painted",
-                ["newestTime"] = 1689550849,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable recipe",
-                ["oldestTime"] = 1689550849,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning4.dds",
+                ["newestTime"] = 1689319670,
+                ["itemDesc"] = "Diagram: Dark Elf Lantern, Ashen",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2153267003",
                         ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 39495,
-                        ["price"] = 24995,
-                        ["seller"] = 8484,
-                        ["timestamp"] = 1689550849,
-                        ["buyer"] = 26141,
+                        ["itemLink"] = 38588,
+                        ["buyer"] = 22980,
+                        ["guild"] = 83,
+                        ["id"] = "2151386603",
+                        ["price"] = 3000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21633,
+                        ["timestamp"] = 1689319670,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689319670,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_blacksmithing3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
-        [88965] = 
+        [171563] = 
+        {
+        },
+        [166441] = 
+        {
+        },
+        [171965] = 
         {
         },
         [153625] = 
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Corrupting Bloody Mara",
                 ["newestTime"] = 1689414239,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable drink",
-                ["oldestTime"] = 1689177218,
-                ["itemIcon"] = "/esoui/art/icons/event_halloween_2016_blood_mason_jar.dds",
+                ["itemDesc"] = "Corrupting Bloody Mara",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150252873",
                         ["quant"] = 4,
-                        ["guild"] = 83,
                         ["itemLink"] = 700,
+                        ["buyer"] = 32625,
+                        ["guild"] = 83,
+                        ["id"] = "2150252873",
                         ["price"] = 6800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31533,
                         ["timestamp"] = 1689177218,
-                        ["buyer"] = 32625,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151204425",
                         ["quant"] = 4,
-                        ["guild"] = 83,
                         ["itemLink"] = 700,
+                        ["buyer"] = 8368,
+                        ["guild"] = 83,
+                        ["id"] = "2151204425",
                         ["price"] = 6800,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31533,
                         ["timestamp"] = 1689297422,
-                        ["buyer"] = 8368,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152049765",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 700,
+                        ["buyer"] = 32165,
+                        ["guild"] = 91,
+                        ["id"] = "2152049765",
                         ["price"] = 36000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 215,
                         ["timestamp"] = 1689414239,
-                        ["buyer"] = 32165,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1689177218,
+                ["itemIcon"] = "/esoui/art/icons/event_halloween_2016_blood_mason_jar.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable drink",
+                ["wasAltered"] = false,
             },
         },
         [7727] = 
@@ -8340,16 +8396,16 @@ GS07DataSavedVariables =
         [167472] = 
         {
         },
-        [118717] = 
+        [88965] = 
         {
         },
-        [88935] = 
+        [177199] = 
         {
         },
-        [98367] = 
+        [126447] = 
         {
         },
-        [172348] = 
+        [81123] = 
         {
         },
         [183861] = 
@@ -8361,41 +8417,41 @@ GS07DataSavedVariables =
         [145471] = 
         {
         },
-        [92342] = 
+        [135205] = 
         {
         },
-        [88102] = 
+        [135305] = 
         {
         },
         [132666] = 
         {
             ["50:16:3:21:0"] = 
             {
-                ["itemDesc"] = "Livewire Ring",
                 ["newestTime"] = 1689464310,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set livewire ring healthy",
-                ["oldestTime"] = 1689464310,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Livewire Ring",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152505491",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 7640,
+                        ["buyer"] = 33300,
+                        ["guild"] = 91,
+                        ["id"] = "2152505491",
                         ["price"] = 1200,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31944,
                         ["timestamp"] = 1689464310,
-                        ["buyer"] = 33300,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689464310,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set livewire ring healthy",
+                ["wasAltered"] = false,
             },
         },
-        [84524] = 
+        [90119] = 
         {
         },
         [126524] = 
@@ -8403,159 +8459,171 @@ GS07DataSavedVariables =
         },
         [176839] = 
         {
+            ["1:0:2:49:0"] = 
+            {
+                ["newestTime"] = 1689650108,
+                ["itemAdderText"] = "rr01 green fine medium apparel chest augmented",
+                ["totalCount"] = 1,
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_chest_medium.dds",
+                ["oldestTime"] = 1689650108,
+                ["itemDesc"] = "Companion's Jack",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["price"] = 900,
+                        ["itemLink"] = 36805,
+                        ["buyer"] = 24629,
+                        ["guild"] = 91,
+                        ["id"] = "2154045417",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 8794,
+                        ["timestamp"] = 1689650108,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [56036] = 
         {
             ["1:0:1:26:0"] = 
             {
+                ["newestTime"] = 1689639467,
                 ["itemDesc"] = "Maple Lightning Staff",
-                ["newestTime"] = 1689572306,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal weapon lightning staff two-handed nirnhoned",
-                ["oldestTime"] = 1689045435,
-                ["itemIcon"] = "/esoui/art/icons/gear_imperial_staff_a.dds",
                 ["sales"] = 
                 {
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153452575",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 6892,
-                        ["price"] = 80750,
-                        ["seller"] = 3121,
-                        ["timestamp"] = 1689572306,
-                        ["buyer"] = 33832,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149375863",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 6892,
+                        ["buyer"] = 32449,
+                        ["guild"] = 91,
+                        ["id"] = "2149375863",
                         ["price"] = 80750,
+                        ["wasKiosk"] = true,
                         ["seller"] = 3121,
                         ["timestamp"] = 1689045435,
-                        ["buyer"] = 32449,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150281631",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 13747,
+                        ["buyer"] = 32763,
+                        ["guild"] = 91,
+                        ["id"] = "2150281631",
                         ["price"] = 81000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 30641,
                         ["timestamp"] = 1689180021,
-                        ["buyer"] = 32763,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150934403",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 13747,
+                        ["buyer"] = 33233,
+                        ["guild"] = 91,
+                        ["id"] = "2150934403",
                         ["price"] = 81000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 30641,
                         ["timestamp"] = 1689261226,
-                        ["buyer"] = 33233,
                     },
-                },
-                ["totalCount"] = 4,
-            },
-        },
-        [172028] = 
-        {
-        },
-        [90197] = 
-        {
-        },
-        [114608] = 
-        {
-            ["50:16:3:11:0"] = 
-            {
-                ["itemDesc"] = "Sash of Bahraha's Curse",
-                ["newestTime"] = 1689327672,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel set bahraha's curse waist sturdy",
-                ["oldestTime"] = 1689327672,
-                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_light_waist_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
+                    [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151414257",
                         ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46883,
-                        ["price"] = 999,
-                        ["seller"] = 33373,
-                        ["timestamp"] = 1689327672,
-                        ["buyer"] = 33421,
+                        ["itemLink"] = 6892,
+                        ["buyer"] = 33832,
+                        ["guild"] = 91,
+                        ["id"] = "2153452575",
+                        ["price"] = 80750,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 3121,
+                        ["timestamp"] = 1689572306,
+                    },
+                    [5] = 
+                    {
+                        ["price"] = 81000,
+                        ["itemLink"] = 13747,
+                        ["buyer"] = 33959,
+                        ["guild"] = 91,
+                        ["id"] = "2153952379",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 30641,
+                        ["timestamp"] = 1689639467,
                     },
                 },
-                ["totalCount"] = 1,
+                ["totalCount"] = 5,
+                ["oldestTime"] = 1689045435,
+                ["itemIcon"] = "/esoui/art/icons/gear_imperial_staff_a.dds",
+                ["itemAdderText"] = "rr01 white normal weapon lightning staff two-handed nirnhoned",
+                ["wasAltered"] = false,
             },
         },
-        [167492] = 
+        [165808] = 
+        {
+        },
+        [88142] = 
+        {
+        },
+        [86023] = 
+        {
+        },
+        [143957] = 
         {
         },
         [149059] = 
         {
-            ["50:16:2:21:0"] = 
-            {
-                ["itemDesc"] = "Undertaker's Amulet",
-                ["newestTime"] = 1689263757,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine jewelry apparel set call of the undertaker neck healthy",
-                ["oldestTime"] = 1689263757,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150958635",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 4662,
-                        ["price"] = 600,
-                        ["seller"] = 21091,
-                        ["timestamp"] = 1689263757,
-                        ["buyer"] = 33237,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
             ["50:16:3:21:0"] = 
             {
-                ["oldestTime"] = 1689582541,
                 ["newestTime"] = 1689582541,
                 ["itemDesc"] = "Undertaker's Amulet",
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set call of the undertaker neck healthy",
-                ["wasAltered"] = true,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["totalCount"] = 1,
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153511493",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 13668,
-                        ["price"] = 2275,
                         ["buyer"] = 28778,
+                        ["guild"] = 83,
+                        ["id"] = "2153511493",
+                        ["price"] = 2275,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31541,
                         ["timestamp"] = 1689582541,
                     },
                 },
+                ["oldestTime"] = 1689582541,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set call of the undertaker neck healthy",
+                ["wasAltered"] = false,
+            },
+            ["50:16:2:21:0"] = 
+            {
+                ["newestTime"] = 1689263757,
+                ["itemDesc"] = "Undertaker's Amulet",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 4662,
+                        ["buyer"] = 33237,
+                        ["guild"] = 91,
+                        ["id"] = "2150958635",
+                        ["price"] = 600,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21091,
+                        ["timestamp"] = 1689263757,
+                    },
+                },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689263757,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 green fine jewelry apparel set call of the undertaker neck healthy",
+                ["wasAltered"] = false,
             },
         },
         [126532] = 
@@ -8571,211 +8639,259 @@ GS07DataSavedVariables =
         {
             ["1:0:1:0:0"] = 
             {
+                ["newestTime"] = 1689652014,
                 ["itemDesc"] = "Rubedo Hide Scraps",
-                ["newestTime"] = 1689427827,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials raw",
-                ["oldestTime"] = 1688951926,
-                ["itemIcon"] = "/esoui/art/icons/crafting_leather_ambergris.dds",
                 ["sales"] = 
                 {
-                    [16] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152161881",
-                        ["quant"] = 8,
-                        ["guild"] = 83,
-                        ["itemLink"] = 8,
-                        ["price"] = 2400,
-                        ["seller"] = 31508,
-                        ["timestamp"] = 1689427827,
-                        ["buyer"] = 6645,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148609547",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609547",
                         ["price"] = 30000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5964,
                         ["timestamp"] = 1688951926,
-                        ["buyer"] = 11481,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508883",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508883",
                         ["price"] = 62000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11991,
                         ["timestamp"] = 1689067521,
-                        ["buyer"] = 8708,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508885",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508885",
                         ["price"] = 62000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11991,
                         ["timestamp"] = 1689067522,
-                        ["buyer"] = 8708,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508889",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508889",
                         ["price"] = 62000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 11991,
                         ["timestamp"] = 1689067523,
-                        ["buyer"] = 8708,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508891",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508891",
                         ["price"] = 62000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31578,
                         ["timestamp"] = 1689067523,
-                        ["buyer"] = 8708,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508893",
                         ["quant"] = 17,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508893",
                         ["price"] = 5440,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31431,
                         ["timestamp"] = 1689067524,
-                        ["buyer"] = 8708,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149508895",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 8708,
+                        ["guild"] = 91,
+                        ["id"] = "2149508895",
                         ["price"] = 64999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 15384,
                         ["timestamp"] = 1689067524,
-                        ["buyer"] = 8708,
                     },
                     [8] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149475413",
                         ["quant"] = 14,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 32555,
+                        ["guild"] = 83,
+                        ["id"] = "2149475413",
                         ["price"] = 3500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32046,
                         ["timestamp"] = 1689059487,
-                        ["buyer"] = 32555,
                     },
                     [9] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150516323",
                         ["quant"] = 66,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 32679,
+                        ["guild"] = 83,
+                        ["id"] = "2150516323",
                         ["price"] = 18000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32046,
                         ["timestamp"] = 1689207099,
-                        ["buyer"] = 32679,
                     },
                     [10] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150516333",
                         ["quant"] = 50,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 32679,
+                        ["guild"] = 83,
+                        ["id"] = "2150516333",
                         ["price"] = 14000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32046,
                         ["timestamp"] = 1689207100,
-                        ["buyer"] = 32679,
                     },
                     [11] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150654319",
                         ["quant"] = 200,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 32463,
+                        ["guild"] = 91,
+                        ["id"] = "2150654319",
                         ["price"] = 60000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 21091,
                         ["timestamp"] = 1689219732,
-                        ["buyer"] = 32463,
                     },
                     [12] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150654423",
                         ["quant"] = 20,
-                        ["guild"] = 91,
                         ["itemLink"] = 8,
+                        ["buyer"] = 32463,
+                        ["guild"] = 91,
+                        ["id"] = "2150654423",
                         ["price"] = 5874,
+                        ["wasKiosk"] = false,
                         ["seller"] = 27063,
                         ["timestamp"] = 1689219744,
-                        ["buyer"] = 32463,
                     },
                     [13] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150684887",
                         ["quant"] = 100,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 22009,
+                        ["guild"] = 83,
+                        ["id"] = "2150684887",
                         ["price"] = 31000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 5964,
                         ["timestamp"] = 1689223497,
-                        ["buyer"] = 22009,
                     },
                     [14] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150684889",
                         ["quant"] = 7,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 22009,
+                        ["guild"] = 83,
+                        ["id"] = "2150684889",
                         ["price"] = 2100,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31508,
                         ["timestamp"] = 1689223498,
-                        ["buyer"] = 22009,
                     },
                     [15] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151131441",
                         ["quant"] = 38,
-                        ["guild"] = 83,
                         ["itemLink"] = 8,
+                        ["buyer"] = 3826,
+                        ["guild"] = 83,
+                        ["id"] = "2151131441",
                         ["price"] = 9500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32046,
                         ["timestamp"] = 1689289571,
-                        ["buyer"] = 3826,
+                    },
+                    [16] = 
+                    {
+                        ["quant"] = 8,
+                        ["itemLink"] = 8,
+                        ["buyer"] = 6645,
+                        ["guild"] = 83,
+                        ["id"] = "2152161881",
+                        ["price"] = 2400,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31508,
+                        ["timestamp"] = 1689427827,
+                    },
+                    [17] = 
+                    {
+                        ["price"] = 7700,
+                        ["itemLink"] = 8,
+                        ["buyer"] = 22009,
+                        ["guild"] = 83,
+                        ["id"] = "2153993535",
+                        ["quant"] = 28,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32046,
+                        ["timestamp"] = 1689643827,
+                    },
+                    [18] = 
+                    {
+                        ["price"] = 66000,
+                        ["itemLink"] = 8,
+                        ["buyer"] = 435,
+                        ["guild"] = 83,
+                        ["id"] = "2154018309",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33795,
+                        ["timestamp"] = 1689646644,
+                    },
+                    [19] = 
+                    {
+                        ["price"] = 7000,
+                        ["itemLink"] = 8,
+                        ["buyer"] = 33916,
+                        ["guild"] = 83,
+                        ["id"] = "2154063061",
+                        ["quant"] = 27,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32046,
+                        ["timestamp"] = 1689652014,
+                    },
+                    [20] = 
+                    {
+                        ["price"] = 60000,
+                        ["itemLink"] = 8,
+                        ["buyer"] = 33967,
+                        ["guild"] = 91,
+                        ["id"] = "2154023259",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21091,
+                        ["timestamp"] = 1689647406,
                     },
                 },
-                ["totalCount"] = 16,
+                ["totalCount"] = 20,
+                ["oldestTime"] = 1688951926,
+                ["itemIcon"] = "/esoui/art/icons/crafting_leather_ambergris.dds",
+                ["itemAdderText"] = "rr01 white normal materials raw",
+                ["wasAltered"] = false,
             },
         },
-        [86023] = 
+        [48280] = 
         {
         },
         [142715] = 
@@ -8790,10 +8906,10 @@ GS07DataSavedVariables =
         [74281] = 
         {
         },
-        [172049] = 
+        [156696] = 
         {
         },
-        [142244] = 
+        [88544] = 
         {
         },
         [167503] = 
@@ -8802,62 +8918,25 @@ GS07DataSavedVariables =
         [122448] = 
         {
         },
-        [74754] = 
+        [139894] = 
         {
         },
-        [45895] = 
+        [97860] = 
         {
-            ["1:0:2:0:0"] = 
-            {
-                ["itemDesc"] = "Recipe: Pumpkin Cheesecake",
-                ["newestTime"] = 1689473569,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1688966218,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
-                ["sales"] = 
-                {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152592817",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 15136,
-                        ["price"] = 275,
-                        ["seller"] = 13207,
-                        ["timestamp"] = 1689473569,
-                        ["buyer"] = 32212,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148748017",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 15136,
-                        ["price"] = 36,
-                        ["seller"] = 31538,
-                        ["timestamp"] = 1688966218,
-                        ["buyer"] = 8815,
-                    },
-                },
-                ["totalCount"] = 2,
-            },
         },
         [73978] = 
         {
         },
-        [142674] = 
+        [56367] = 
         {
         },
-        [86043] = 
+        [117771] = 
         {
         },
         [118358] = 
         {
         },
-        [120850] = 
+        [176177] = 
         {
         },
         [99928] = 
@@ -8866,80 +8945,130 @@ GS07DataSavedVariables =
         [99929] = 
         {
         },
-        [174841] = 
+        [190367] = 
+        {
+            ["50:16:3:22:0"] = 
+            {
+                ["newestTime"] = 1689304927,
+                ["itemDesc"] = "Gourmand's Ring",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45495,
+                        ["buyer"] = 22373,
+                        ["guild"] = 91,
+                        ["id"] = "2151250871",
+                        ["price"] = 1999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 15384,
+                        ["timestamp"] = 1689302019,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45495,
+                        ["buyer"] = 27037,
+                        ["guild"] = 91,
+                        ["id"] = "2151275869",
+                        ["price"] = 1999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 15384,
+                        ["timestamp"] = 1689304927,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45495,
+                        ["buyer"] = 27037,
+                        ["guild"] = 91,
+                        ["id"] = "2151275873",
+                        ["price"] = 1999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 15384,
+                        ["timestamp"] = 1689304927,
+                    },
+                },
+                ["totalCount"] = 3,
+                ["oldestTime"] = 1689302019,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set back-alley gourmand ring arcane",
+                ["wasAltered"] = false,
+            },
+            ["50:16:4:22:0"] = 
+            {
+                ["newestTime"] = 1689199205,
+                ["itemDesc"] = "Gourmand's Ring",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46183,
+                        ["buyer"] = 32795,
+                        ["guild"] = 91,
+                        ["id"] = "2150437219",
+                        ["price"] = 14999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 15384,
+                        ["timestamp"] = 1689199205,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689199205,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set back-alley gourmand ring arcane",
+                ["wasAltered"] = false,
+            },
+        },
+        [90171] = 
         {
         },
-        [29990] = 
-        {
-        },
-        [116639] = 
+        [139459] = 
         {
         },
         [75357] = 
         {
         },
-        [100411] = 
+        [126945] = 
         {
         },
-        [115747] = 
+        [135240] = 
         {
         },
-        [115218] = 
+        [126874] = 
         {
-        },
-        [33758] = 
-        {
-            ["1:0:1:0:0"] = 
+            ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Potato",
-                ["newestTime"] = 1689466770,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689064855,
-                ["itemIcon"] = "/esoui/art/icons/crafting_components_veg_001.dds",
+                ["newestTime"] = 1689435855,
+                ["itemDesc"] = "Design: Dwarven Candles, Plate",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149499469",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 713,
-                        ["price"] = 724,
-                        ["seller"] = 16464,
-                        ["timestamp"] = 1689064855,
-                        ["buyer"] = 31498,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152475041",
-                        ["quant"] = 40,
-                        ["guild"] = 83,
-                        ["itemLink"] = 713,
-                        ["price"] = 600,
-                        ["seller"] = 31535,
-                        ["timestamp"] = 1689460511,
-                        ["buyer"] = 32809,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152530725",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 713,
-                        ["price"] = 750,
-                        ["seller"] = 31853,
-                        ["timestamp"] = 1689466770,
-                        ["buyer"] = 33720,
+                        ["quant"] = 1,
+                        ["itemLink"] = 47006,
+                        ["buyer"] = 5020,
+                        ["guild"] = 91,
+                        ["id"] = "2152249017",
+                        ["price"] = 150000,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31574,
+                        ["timestamp"] = 1689435855,
                     },
                 },
-                ["totalCount"] = 3,
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689435855,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
-        [171930] = 
+        [99358] = 
+        {
+        },
+        [153782] = 
         {
         },
         [167523] = 
@@ -8948,7 +9077,7 @@ GS07DataSavedVariables =
         [175716] = 
         {
         },
-        [176983] = 
+        [142361] = 
         {
         },
         [175718] = 
@@ -8957,8 +9086,45 @@ GS07DataSavedVariables =
         [149524] = 
         {
         },
-        [147602] = 
+        [188309] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689374627,
+                ["itemDesc"] = "Crafting Motif 117: Firesong Belts",
+                ["sales"] = 
+                {
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46303,
+                        ["buyer"] = 33442,
+                        ["guild"] = 83,
+                        ["id"] = "2151752727",
+                        ["price"] = 25000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 4601,
+                        ["timestamp"] = 1689374627,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46303,
+                        ["buyer"] = 32801,
+                        ["guild"] = 91,
+                        ["id"] = "2151307359",
+                        ["price"] = 55000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31592,
+                        ["timestamp"] = 1689308301,
+                    },
+                },
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1689308301,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
+            },
         },
         [95346] = 
         {
@@ -8972,22 +9138,47 @@ GS07DataSavedVariables =
         [167532] = 
         {
         },
-        [71573] = 
+        [49050] = 
         {
         },
-        [180338] = 
+        [45219] = 
         {
         },
-        [118950] = 
+        [123080] = 
         {
+            ["50:16:2:12:0"] = 
+            {
+                ["newestTime"] = 1689370159,
+                ["itemDesc"] = "Defiler's Bracers",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 24469,
+                        ["buyer"] = 33388,
+                        ["guild"] = 83,
+                        ["id"] = "2151712237",
+                        ["price"] = 5000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 27549,
+                        ["timestamp"] = 1689370159,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689370159,
+                ["itemIcon"] = "/esoui/art/icons/gear_hlaalu_medium_hands_a.dds",
+                ["itemAdderText"] = "cp160 green fine medium apparel set defiler hands impenetrable",
+                ["wasAltered"] = false,
+            },
         },
-        [96925] = 
+        [151692] = 
         {
         },
         [56945] = 
         {
         },
-        [126991] = 
+        [177127] = 
         {
         },
         [149107] = 
@@ -9005,48 +9196,73 @@ GS07DataSavedVariables =
         [87013] = 
         {
         },
-        [177127] = 
+        [100245] = 
         {
         },
         [86782] = 
         {
             ["50:16:2:18:0"] = 
             {
-                ["itemDesc"] = "Hat of Necropotence",
                 ["newestTime"] = 1689400191,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine light apparel set necropotence head divines",
-                ["oldestTime"] = 1689400191,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_light_head_d.dds",
+                ["itemDesc"] = "Hat of Necropotence",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151980397",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46952,
+                        ["buyer"] = 33540,
+                        ["guild"] = 83,
+                        ["id"] = "2151980397",
                         ["price"] = 10000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33541,
                         ["timestamp"] = 1689400191,
-                        ["buyer"] = 33540,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689400191,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_light_head_d.dds",
+                ["itemAdderText"] = "cp160 green fine light apparel set necropotence head divines",
+                ["wasAltered"] = false,
             },
         },
-        [142533] = 
+        [45142] = 
         {
         },
-        [151701] = 
+        [90210] = 
         {
         },
         [91772] = 
         {
         },
-        [45711] = 
+        [45188] = 
         {
+            ["50:16:3:15:0"] = 
+            {
+                ["newestTime"] = 1689030240,
+                ["itemDesc"] = "Ruby Ash Shield of Magicka",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45952,
+                        ["buyer"] = 32410,
+                        ["guild"] = 91,
+                        ["id"] = "2149219841",
+                        ["price"] = 800,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32286,
+                        ["timestamp"] = 1689030240,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689030240,
+                ["itemIcon"] = "/esoui/art/icons/gear_altmer_shield_d.dds",
+                ["itemAdderText"] = "cp160 blue superior apparel weapon shield off hand training",
+                ["wasAltered"] = false,
+            },
         },
         [149118] = 
         {
@@ -9057,48 +9273,23 @@ GS07DataSavedVariables =
         [167552] = 
         {
         },
-        [114751] = 
+        [71723] = 
         {
         },
-        [101612] = 
+        [123546] = 
         {
         },
         [87683] = 
         {
         },
-        [167990] = 
+        [122757] = 
         {
         },
-        [115906] = 
+        [135363] = 
         {
         },
-        [192389] = 
+        [96355] = 
         {
-            ["1:0:5:0:0"] = 
-            {
-                ["itemDesc"] = "Style Page: Pelin's Paragon Arm Cops",
-                ["newestTime"] = 1689397700,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1689397700,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151962597",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46309,
-                        ["price"] = 4900,
-                        ["seller"] = 31504,
-                        ["timestamp"] = 1689397700,
-                        ["buyer"] = 17482,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [100432] = 
         {
@@ -9106,7 +9297,7 @@ GS07DataSavedVariables =
         [56968] = 
         {
         },
-        [182963] = 
+        [102273] = 
         {
         },
         [99978] = 
@@ -9118,75 +9309,87 @@ GS07DataSavedVariables =
         [135280] = 
         {
         },
-        [100225] = 
+        [92851] = 
         {
         },
-        [45328] = 
+        [45150] = 
         {
-            ["50:15:1:19:0"] = 
+            ["50:16:3:14:0"] = 
             {
-                ["itemDesc"] = "Ruby Ash Shield",
-                ["newestTime"] = 1689127374,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal apparel weapon shield off hand ornate",
-                ["oldestTime"] = 1689127374,
-                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_shield_d.dds",
+                ["newestTime"] = 1689442037,
+                ["itemDesc"] = "Rubedo Leather Guards of Magicka",
                 ["sales"] = 
                 {
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 47083,
+                        ["buyer"] = 32634,
+                        ["guild"] = 83,
+                        ["id"] = "2152316295",
+                        ["price"] = 900,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31501,
+                        ["timestamp"] = 1689442037,
+                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150045475",
                         ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46049,
-                        ["price"] = 199,
-                        ["seller"] = 5298,
-                        ["timestamp"] = 1689127374,
-                        ["buyer"] = 7781,
+                        ["itemLink"] = 6340,
+                        ["buyer"] = 32743,
+                        ["guild"] = 91,
+                        ["id"] = "2150185089",
+                        ["price"] = 1000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32402,
+                        ["timestamp"] = 1689143708,
                     },
                 },
-                ["totalCount"] = 1,
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1689143708,
+                ["itemIcon"] = "/esoui/art/icons/gear_orc_medium_legs_d.dds",
+                ["itemAdderText"] = "cp160 blue superior medium apparel legs well-fitted",
+                ["wasAltered"] = false,
             },
         },
-        [102293] = 
+        [86153] = 
         {
         },
-        [99004] = 
+        [100594] = 
         {
         },
         [116372] = 
         {
         },
-        [86993] = 
+        [171898] = 
         {
         },
         [87699] = 
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Purifying Bloody Mara",
                 ["newestTime"] = 1689177219,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable drink",
-                ["oldestTime"] = 1689177219,
-                ["itemIcon"] = "/esoui/art/icons/disastrously_bloody_mara.dds",
+                ["itemDesc"] = "Purifying Bloody Mara",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150252893",
                         ["quant"] = 10,
-                        ["guild"] = 83,
                         ["itemLink"] = 6435,
+                        ["buyer"] = 32625,
+                        ["guild"] = 83,
+                        ["id"] = "2150252893",
                         ["price"] = 2450,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31516,
                         ["timestamp"] = 1689177219,
-                        ["buyer"] = 32625,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689177219,
+                ["itemIcon"] = "/esoui/art/icons/disastrously_bloody_mara.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable drink",
+                ["wasAltered"] = false,
             },
         },
         [99988] = 
@@ -9198,46 +9401,408 @@ GS07DataSavedVariables =
         [56982] = 
         {
         },
-        [126842] = 
+        [140438] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689471455,
+                ["itemDesc"] = "Crafting Motif 64: Pyandonean Maces",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 21353,
+                        ["buyer"] = 33619,
+                        ["guild"] = 83,
+                        ["id"] = "2152573987",
+                        ["price"] = 25000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32531,
+                        ["timestamp"] = 1689471455,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689471455,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
+            },
         },
-        [57585] = 
+        [155885] = 
         {
         },
         [114329] = 
         {
         },
-        [167583] = 
+        [114889] = 
         {
+            ["1:0:1:0:0"] = 
+            {
+                ["newestTime"] = 1689633586,
+                ["itemDesc"] = "Regulus",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 32447,
+                        ["guild"] = 91,
+                        ["id"] = "2149368063",
+                        ["price"] = 30000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32384,
+                        ["timestamp"] = 1689044767,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 13,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 32572,
+                        ["guild"] = 83,
+                        ["id"] = "2149526805",
+                        ["price"] = 1950,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32549,
+                        ["timestamp"] = 1689071272,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 100,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 32650,
+                        ["guild"] = 83,
+                        ["id"] = "2150356583",
+                        ["price"] = 36000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32204,
+                        ["timestamp"] = 1689188354,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 32650,
+                        ["guild"] = 83,
+                        ["id"] = "2150356601",
+                        ["price"] = 79000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 17284,
+                        ["timestamp"] = 1689188356,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 7,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 19138,
+                        ["guild"] = 91,
+                        ["id"] = "2149959091",
+                        ["price"] = 875,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 19431,
+                        ["timestamp"] = 1689121454,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 19138,
+                        ["guild"] = 91,
+                        ["id"] = "2149959123",
+                        ["price"] = 30000,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 32384,
+                        ["timestamp"] = 1689121456,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 22,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 30113,
+                        ["guild"] = 83,
+                        ["id"] = "2151080251",
+                        ["price"] = 2917,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31525,
+                        ["timestamp"] = 1689282274,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 5,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 30113,
+                        ["guild"] = 83,
+                        ["id"] = "2151080261",
+                        ["price"] = 300,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32581,
+                        ["timestamp"] = 1689282281,
+                    },
+                    [9] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743465",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373715,
+                    },
+                    [10] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743471",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373716,
+                    },
+                    [11] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743479",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373716,
+                    },
+                    [12] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743485",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373717,
+                    },
+                    [13] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743493",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373718,
+                    },
+                    [14] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743495",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373719,
+                    },
+                    [15] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743511",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373719,
+                    },
+                    [16] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743513",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373720,
+                    },
+                    [17] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743515",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373721,
+                    },
+                    [18] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743525",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373722,
+                    },
+                    [19] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743537",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373722,
+                    },
+                    [20] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743541",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373723,
+                    },
+                    [21] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743561",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373724,
+                    },
+                    [22] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33439,
+                        ["guild"] = 83,
+                        ["id"] = "2151743581",
+                        ["price"] = 90,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1689373725,
+                    },
+                    [23] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33786,
+                        ["guild"] = 83,
+                        ["id"] = "2153366439",
+                        ["price"] = 22000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1288,
+                        ["timestamp"] = 1689562373,
+                    },
+                    [24] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33786,
+                        ["guild"] = 83,
+                        ["id"] = "2153366487",
+                        ["price"] = 22000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1288,
+                        ["timestamp"] = 1689562375,
+                    },
+                    [25] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 5384,
+                        ["guild"] = 91,
+                        ["id"] = "2153408685",
+                        ["price"] = 29000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31581,
+                        ["timestamp"] = 1689567198,
+                    },
+                    [26] = 
+                    {
+                        ["price"] = 29999,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33295,
+                        ["guild"] = 91,
+                        ["id"] = "2153893383",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31577,
+                        ["timestamp"] = 1689633584,
+                    },
+                    [27] = 
+                    {
+                        ["price"] = 29999,
+                        ["itemLink"] = 390,
+                        ["buyer"] = 33295,
+                        ["guild"] = 91,
+                        ["id"] = "2153893391",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31577,
+                        ["timestamp"] = 1689633586,
+                    },
+                },
+                ["totalCount"] = 27,
+                ["oldestTime"] = 1689044767,
+                ["itemIcon"] = "/esoui/art/icons/crafting_furniture_base_regulus.dds",
+                ["itemAdderText"] = "rr01 white normal materials furnishing",
+                ["wasAltered"] = false,
+            },
         },
-        [60103] = 
-        {
-        },
-        [139401] = 
-        {
-        },
-        [1693] = 
+        [73968] = 
         {
         },
         [149150] = 
         {
         },
+        [1693] = 
+        {
+        },
+        [99998] = 
+        {
+        },
         [175775] = 
         {
         },
-        [10883] = 
+        [56956] = 
         {
         },
-        [43648] = 
+        [165900] = 
         {
         },
-        [149158] = 
+        [56997] = 
         {
         },
         [69283] = 
         {
         },
-        [115923] = 
+        [149158] = 
         {
         },
         [69285] = 
@@ -9246,57 +9811,93 @@ GS07DataSavedVariables =
         [91814] = 
         {
         },
-        [57000] = 
+        [194415] = 
         {
+            ["1:0:5:0:0"] = 
+            {
+                ["newestTime"] = 1689433718,
+                ["itemDesc"] = "Style Page: Broom",
+                ["sales"] = 
+                {
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45489,
+                        ["buyer"] = 33663,
+                        ["guild"] = 83,
+                        ["id"] = "2152201823",
+                        ["price"] = 34999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 19523,
+                        ["timestamp"] = 1689431651,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45489,
+                        ["buyer"] = 22015,
+                        ["guild"] = 83,
+                        ["id"] = "2150592675",
+                        ["price"] = 34000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32142,
+                        ["timestamp"] = 1689214159,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45489,
+                        ["buyer"] = 22015,
+                        ["guild"] = 83,
+                        ["id"] = "2150592681",
+                        ["price"] = 34000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32142,
+                        ["timestamp"] = 1689214159,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45489,
+                        ["buyer"] = 33582,
+                        ["guild"] = 91,
+                        ["id"] = "2152221615",
+                        ["price"] = 35000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 12685,
+                        ["timestamp"] = 1689433718,
+                    },
+                },
+                ["totalCount"] = 4,
+                ["oldestTime"] = 1689214159,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
+            },
         },
         [175784] = 
         {
         },
-        [125568] = 
+        [141915] = 
         {
         },
-        [42863] = 
+        [57000] = 
         {
         },
-        [134774] = 
+        [175763] = 
         {
         },
         [182575] = 
         {
         },
-        [95488] = 
+        [43646] = 
         {
         },
-        [139571] = 
+        [45719] = 
         {
         },
-        [43670] = 
+        [172210] = 
         {
-            ["1:0:3:0:0"] = 
-            {
-                ["itemDesc"] = "Shadowfen Treasure Map IV",
-                ["newestTime"] = 1689231409,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
-                ["oldestTime"] = 1689231409,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150734195",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 9668,
-                        ["price"] = 500,
-                        ["seller"] = 32223,
-                        ["timestamp"] = 1689231409,
-                        ["buyer"] = 32900,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [69296] = 
         {
@@ -9313,72 +9914,47 @@ GS07DataSavedVariables =
         [134836] = 
         {
         },
-        [137854] = 
+        [100694] = 
         {
         },
-        [154983] = 
+        [147300] = 
         {
         },
         [119703] = 
         {
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689287875,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689287875,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151119653",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 327,
+                        ["buyer"] = 729,
+                        ["guild"] = 91,
+                        ["id"] = "2151119653",
                         ["price"] = 19999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33292,
                         ["timestamp"] = 1689287875,
-                        ["buyer"] = 729,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689287875,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
-        [89956] = 
+        [149078] = 
         {
-            ["50:16:4:6:0"] = 
-            {
-                ["itemDesc"] = "Ice Staff of Elf Bane",
-                ["newestTime"] = 1689030627,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set elf bane frost staff two-handed training",
-                ["oldestTime"] = 1689030627,
-                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149222493",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 42801,
-                        ["price"] = 30000,
-                        ["seller"] = 18368,
-                        ["timestamp"] = 1689030627,
-                        ["buyer"] = 25286,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [122553] = 
         {
         },
-        [134461] = 
+        [176407] = 
         {
         },
         [91835] = 
@@ -9390,8 +9966,45 @@ GS07DataSavedVariables =
         [69309] = 
         {
         },
-        [114975] = 
+        [68212] = 
         {
+            ["1:0:2:0:0"] = 
+            {
+                ["newestTime"] = 1689039389,
+                ["itemDesc"] = "Recipe: Colovian Ginger Beer",
+                ["sales"] = 
+                {
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 154,
+                        ["buyer"] = 32510,
+                        ["guild"] = 83,
+                        ["id"] = "2149314831",
+                        ["price"] = 25,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 32029,
+                        ["timestamp"] = 1689039389,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 154,
+                        ["buyer"] = 32510,
+                        ["guild"] = 83,
+                        ["id"] = "2149314705",
+                        ["price"] = 20,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 13210,
+                        ["timestamp"] = 1689039379,
+                    },
+                },
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1689039379,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
+            },
         },
         [69311] = 
         {
@@ -9399,8 +10012,443 @@ GS07DataSavedVariables =
         [102080] = 
         {
         },
-        [123461] = 
+        [45363] = 
         {
+            ["50:15:1:20:0"] = 
+            {
+                ["newestTime"] = 1689469745,
+                ["itemDesc"] = "Ruby Ash Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 6842,
+                        ["buyer"] = 32258,
+                        ["guild"] = 91,
+                        ["id"] = "2150362663",
+                        ["price"] = 150,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 30453,
+                        ["timestamp"] = 1689189357,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2211,
+                        ["buyer"] = 32652,
+                        ["guild"] = 83,
+                        ["id"] = "2151128225",
+                        ["price"] = 201,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32018,
+                        ["timestamp"] = 1689289034,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2211,
+                        ["buyer"] = 32652,
+                        ["guild"] = 83,
+                        ["id"] = "2151128265",
+                        ["price"] = 329,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 5298,
+                        ["timestamp"] = 1689289042,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 9280,
+                        ["buyer"] = 9341,
+                        ["guild"] = 83,
+                        ["id"] = "2152344557",
+                        ["price"] = 220,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32661,
+                        ["timestamp"] = 1689445129,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 9280,
+                        ["buyer"] = 33723,
+                        ["guild"] = 83,
+                        ["id"] = "2152558911",
+                        ["price"] = 700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 28389,
+                        ["timestamp"] = 1689469745,
+                    },
+                },
+                ["totalCount"] = 5,
+                ["oldestTime"] = 1689189357,
+                ["itemIcon"] = "/esoui/art/icons/gear_argonian_shield_d.dds",
+                ["itemAdderText"] = "cp150 white normal apparel weapon shield off hand intricate",
+                ["wasAltered"] = false,
+            },
+            ["42:0:1:20:0"] = 
+            {
+                ["newestTime"] = 1689061164,
+                ["itemDesc"] = "Hickory Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45983,
+                        ["buyer"] = 32483,
+                        ["guild"] = 91,
+                        ["id"] = "2149484183",
+                        ["price"] = 100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 30453,
+                        ["timestamp"] = 1689061164,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689061164,
+                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_shield_d.dds",
+                ["itemAdderText"] = "rr42 white normal apparel weapon shield off hand intricate",
+                ["wasAltered"] = false,
+            },
+            ["50:16:1:20:0"] = 
+            {
+                ["newestTime"] = 1689570531,
+                ["itemDesc"] = "Ruby Ash Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 5348,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2148774699",
+                        ["price"] = 399,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31577,
+                        ["timestamp"] = 1688970463,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 6086,
+                        ["buyer"] = 32069,
+                        ["guild"] = 91,
+                        ["id"] = "2148774789",
+                        ["price"] = 600,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32071,
+                        ["timestamp"] = 1688970472,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2234,
+                        ["buyer"] = 32258,
+                        ["guild"] = 83,
+                        ["id"] = "2149060339",
+                        ["price"] = 190,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32198,
+                        ["timestamp"] = 1689010610,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 32258,
+                        ["guild"] = 83,
+                        ["id"] = "2149060351",
+                        ["price"] = 190,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32198,
+                        ["timestamp"] = 1689010611,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 24257,
+                        ["buyer"] = 32258,
+                        ["guild"] = 83,
+                        ["id"] = "2149060407",
+                        ["price"] = 199,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32023,
+                        ["timestamp"] = 1689010617,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2233,
+                        ["buyer"] = 32258,
+                        ["guild"] = 83,
+                        ["id"] = "2149060437",
+                        ["price"] = 199,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32023,
+                        ["timestamp"] = 1689010619,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 5348,
+                        ["buyer"] = 32381,
+                        ["guild"] = 91,
+                        ["id"] = "2149171719",
+                        ["price"] = 300,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31431,
+                        ["timestamp"] = 1689024139,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2137,
+                        ["buyer"] = 32381,
+                        ["guild"] = 91,
+                        ["id"] = "2149171725",
+                        ["price"] = 300,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31431,
+                        ["timestamp"] = 1689024140,
+                    },
+                    [9] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3530,
+                        ["buyer"] = 32483,
+                        ["guild"] = 91,
+                        ["id"] = "2149484237",
+                        ["price"] = 195,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21090,
+                        ["timestamp"] = 1689061174,
+                    },
+                    [10] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 32616,
+                        ["guild"] = 83,
+                        ["id"] = "2150195157",
+                        ["price"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32222,
+                        ["timestamp"] = 1689145396,
+                    },
+                    [11] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3530,
+                        ["buyer"] = 32616,
+                        ["guild"] = 83,
+                        ["id"] = "2150195169",
+                        ["price"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32222,
+                        ["timestamp"] = 1689145398,
+                    },
+                    [12] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3530,
+                        ["buyer"] = 32611,
+                        ["guild"] = 83,
+                        ["id"] = "2150564205",
+                        ["price"] = 225,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32222,
+                        ["timestamp"] = 1689211776,
+                    },
+                    [13] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3754,
+                        ["buyer"] = 32611,
+                        ["guild"] = 83,
+                        ["id"] = "2150564219",
+                        ["price"] = 225,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32222,
+                        ["timestamp"] = 1689211777,
+                    },
+                    [14] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 13571,
+                        ["guild"] = 91,
+                        ["id"] = "2150417529",
+                        ["price"] = 425,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 21091,
+                        ["timestamp"] = 1689196552,
+                    },
+                    [15] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 32814,
+                        ["guild"] = 91,
+                        ["id"] = "2150543457",
+                        ["price"] = 499,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13571,
+                        ["timestamp"] = 1689209479,
+                    },
+                    [16] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 32258,
+                        ["guild"] = 83,
+                        ["id"] = "2150964547",
+                        ["price"] = 170,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32255,
+                        ["timestamp"] = 1689264485,
+                    },
+                    [17] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 32652,
+                        ["guild"] = 83,
+                        ["id"] = "2151128231",
+                        ["price"] = 219,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32018,
+                        ["timestamp"] = 1689289035,
+                    },
+                    [18] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 33476,
+                        ["guild"] = 144,
+                        ["id"] = "2151902397",
+                        ["price"] = 141,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 9593,
+                        ["timestamp"] = 1689390722,
+                    },
+                    [19] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1924,
+                        ["buyer"] = 8671,
+                        ["guild"] = 83,
+                        ["id"] = "2151970315",
+                        ["price"] = 141,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 19743,
+                        ["timestamp"] = 1689398675,
+                    },
+                    [20] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3530,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2152666077",
+                        ["price"] = 195,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 21090,
+                        ["timestamp"] = 1689482026,
+                    },
+                    [21] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 485,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2152666085",
+                        ["price"] = 195,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 21090,
+                        ["timestamp"] = 1689482026,
+                    },
+                    [22] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2234,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2152666089",
+                        ["price"] = 195,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 21090,
+                        ["timestamp"] = 1689482027,
+                    },
+                    [23] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 6086,
+                        ["buyer"] = 6462,
+                        ["guild"] = 91,
+                        ["id"] = "2152666101",
+                        ["price"] = 200,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 30453,
+                        ["timestamp"] = 1689482029,
+                    },
+                    [24] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 5348,
+                        ["buyer"] = 9341,
+                        ["guild"] = 83,
+                        ["id"] = "2152344537",
+                        ["price"] = 220,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32661,
+                        ["timestamp"] = 1689445126,
+                    },
+                    [25] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2750,
+                        ["buyer"] = 9341,
+                        ["guild"] = 83,
+                        ["id"] = "2152344547",
+                        ["price"] = 220,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32661,
+                        ["timestamp"] = 1689445128,
+                    },
+                    [26] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 5348,
+                        ["buyer"] = 33719,
+                        ["guild"] = 83,
+                        ["id"] = "2152525551",
+                        ["price"] = 229,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689466323,
+                    },
+                    [27] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3753,
+                        ["buyer"] = 33104,
+                        ["guild"] = 83,
+                        ["id"] = "2153438511",
+                        ["price"] = 220,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32661,
+                        ["timestamp"] = 1689570531,
+                    },
+                },
+                ["totalCount"] = 27,
+                ["oldestTime"] = 1688970463,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_shield_d.dds",
+                ["itemAdderText"] = "cp160 white normal apparel weapon shield off hand intricate",
+                ["wasAltered"] = false,
+            },
         },
         [52930] = 
         {
@@ -9408,23 +10456,134 @@ GS07DataSavedVariables =
         [149187] = 
         {
         },
-        [141908] = 
+        [157533] = 
         {
+            ["1:0:1:0:0"] = 
+            {
+                ["newestTime"] = 1689252081,
+                ["itemDesc"] = "Fryse Willow",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 5,
+                        ["itemLink"] = 26694,
+                        ["buyer"] = 7956,
+                        ["guild"] = 91,
+                        ["id"] = "2150860141",
+                        ["price"] = 2500,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32944,
+                        ["timestamp"] = 1689252081,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689252081,
+                ["itemIcon"] = "/esoui/art/icons/crafting_style_item_icereach_coven.dds",
+                ["itemAdderText"] = "rr01 white normal materials style",
+                ["wasAltered"] = false,
+            },
         },
-        [69322] = 
+        [142673] = 
         {
         },
         [175814] = 
         {
         },
-        [122717] = 
+        [34330] = 
         {
+            ["1:0:1:0:0"] = 
+            {
+                ["newestTime"] = 1689429100,
+                ["itemDesc"] = "Lotus",
+                ["sales"] = 
+                {
+                    [4] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 3807,
+                        ["buyer"] = 33657,
+                        ["guild"] = 83,
+                        ["id"] = "2152175855",
+                        ["price"] = 323,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16464,
+                        ["timestamp"] = 1689429100,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 3807,
+                        ["buyer"] = 32727,
+                        ["guild"] = 91,
+                        ["id"] = "2151266857",
+                        ["price"] = 2350,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31581,
+                        ["timestamp"] = 1689303944,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 3807,
+                        ["buyer"] = 32727,
+                        ["guild"] = 91,
+                        ["id"] = "2151266865",
+                        ["price"] = 3000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21091,
+                        ["timestamp"] = 1689303945,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 100,
+                        ["itemLink"] = 3807,
+                        ["buyer"] = 33657,
+                        ["guild"] = 83,
+                        ["id"] = "2152175845",
+                        ["price"] = 1155,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 5298,
+                        ["timestamp"] = 1689429099,
+                    },
+                },
+                ["totalCount"] = 4,
+                ["oldestTime"] = 1689303944,
+                ["itemIcon"] = "/esoui/art/icons/quest_flower_001.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
+                ["wasAltered"] = false,
+            },
         },
         [114382] = 
         {
         },
-        [57040] = 
+        [91856] = 
         {
+            ["50:16:4:12:0"] = 
+            {
+                ["newestTime"] = 1689454043,
+                ["itemDesc"] = "Breeches of Cyrodiil's Light",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 47129,
+                        ["buyer"] = 33695,
+                        ["guild"] = 83,
+                        ["id"] = "2152426713",
+                        ["price"] = 3000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21177,
+                        ["timestamp"] = 1689454043,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689454043,
+                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_light_legs_a.dds",
+                ["itemAdderText"] = "cp160 purple epic light apparel set of cyrodiil legs impenetrable",
+                ["wasAltered"] = false,
+            },
         },
         [100042] = 
         {
@@ -9435,7 +10594,7 @@ GS07DataSavedVariables =
         [69324] = 
         {
         },
-        [87765] = 
+        [57045] = 
         {
         },
         [57038] = 
@@ -9445,61 +10604,86 @@ GS07DataSavedVariables =
         {
             ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Style Page: Regal Regalia Sash",
                 ["newestTime"] = 1689494206,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1688996923,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemDesc"] = "Style Page: Regal Regalia Sash",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148934281",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 23467,
+                        ["buyer"] = 22147,
+                        ["guild"] = 83,
+                        ["id"] = "2148934281",
                         ["price"] = 3700,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32018,
                         ["timestamp"] = 1688996923,
-                        ["buyer"] = 22147,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149043589",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 23467,
+                        ["buyer"] = 31579,
+                        ["guild"] = 91,
+                        ["id"] = "2149043589",
                         ["price"] = 4000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 20116,
                         ["timestamp"] = 1689008775,
-                        ["buyer"] = 31579,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152747539",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 23467,
+                        ["buyer"] = 33764,
+                        ["guild"] = 83,
+                        ["id"] = "2152747539",
                         ["price"] = 4335,
+                        ["wasKiosk"] = true,
                         ["seller"] = 7801,
                         ["timestamp"] = 1689494206,
-                        ["buyer"] = 33764,
                     },
                 },
                 ["totalCount"] = 3,
+                ["oldestTime"] = 1688996923,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
             },
         },
         [165584] = 
         {
         },
-        [142673] = 
+        [149207] = 
         {
+            ["50:16:3:6:0"] = 
+            {
+                ["newestTime"] = 1689265485,
+                ["itemDesc"] = "Undertaker's Bow",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46762,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150972613",
+                        ["price"] = 2500,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32402,
+                        ["timestamp"] = 1689265485,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689265485,
+                ["itemIcon"] = "/esoui/art/icons/gear_anequina_bow_a.dds",
+                ["itemAdderText"] = "cp160 blue superior weapon set call of the undertaker bow two-handed training",
+                ["wasAltered"] = false,
+            },
         },
-        [102103] = 
+        [87133] = 
         {
         },
         [126675] = 
@@ -9508,10 +10692,10 @@ GS07DataSavedVariables =
         [102100] = 
         {
         },
-        [57045] = 
+        [87765] = 
         {
         },
-        [159450] = 
+        [102103] = 
         {
         },
         [89815] = 
@@ -9520,7 +10704,7 @@ GS07DataSavedVariables =
         [89816] = 
         {
         },
-        [87133] = 
+        [87768] = 
         {
         },
         [165594] = 
@@ -9532,92 +10716,90 @@ GS07DataSavedVariables =
         [57052] = 
         {
         },
-        [152092] = 
+        [75073] = 
         {
-            ["1:0:4:0:0"] = 
+        },
+        [87781] = 
+        {
+        },
+        [89936] = 
+        {
+        },
+        [44879] = 
+        {
+            ["50:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Pattern: Elsweyr Carpet, Botanical Grand",
-                ["newestTime"] = 1689453164,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable recipe",
-                ["oldestTime"] = 1689453164,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_4.dds",
+                ["newestTime"] = 1689460864,
+                ["itemDesc"] = "Grand Repair Kit",
                 ["sales"] = 
                 {
                     [1] = 
                     {
+                        ["quant"] = 200,
+                        ["itemLink"] = 1736,
+                        ["buyer"] = 32429,
+                        ["guild"] = 91,
+                        ["id"] = "2149267175",
+                        ["price"] = 19800,
                         ["wasKiosk"] = true,
-                        ["id"] = "2152420089",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 9345,
-                        ["price"] = 65000,
-                        ["seller"] = 23689,
-                        ["timestamp"] = 1689453164,
-                        ["buyer"] = 33693,
+                        ["seller"] = 13371,
+                        ["timestamp"] = 1689035211,
                     },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [123722] = 
-        {
-            ["50:16:3:22:0"] = 
-            {
-                ["itemDesc"] = "Wizard's Riposte Necklace",
-                ["newestTime"] = 1689464946,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set wizard's riposte neck arcane",
-                ["oldestTime"] = 1689464946,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
+                    [2] = 
                     {
+                        ["quant"] = 200,
+                        ["itemLink"] = 1736,
+                        ["buyer"] = 32429,
+                        ["guild"] = 91,
+                        ["id"] = "2149267667",
+                        ["price"] = 26400,
                         ["wasKiosk"] = true,
-                        ["id"] = "2152511879",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 19722,
-                        ["price"] = 1200,
-                        ["seller"] = 32035,
-                        ["timestamp"] = 1689464946,
-                        ["buyer"] = 33714,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689035256,
                     },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:16:4:22:0"] = 
-            {
-                ["itemDesc"] = "Wizard's Riposte Necklace",
-                ["newestTime"] = 1689398808,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set wizard's riposte neck arcane",
-                ["oldestTime"] = 1689398808,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
+                    [3] = 
                     {
+                        ["quant"] = 9,
+                        ["itemLink"] = 1736,
+                        ["buyer"] = 5553,
+                        ["guild"] = 91,
+                        ["id"] = "2149954231",
+                        ["price"] = 1700,
                         ["wasKiosk"] = true,
-                        ["id"] = "2151971169",
-                        ["quant"] = 1,
+                        ["seller"] = 32286,
+                        ["timestamp"] = 1689121065,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 104,
+                        ["itemLink"] = 1736,
+                        ["buyer"] = 32225,
+                        ["guild"] = 91,
+                        ["id"] = "2150363013",
+                        ["price"] = 10000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32000,
+                        ["timestamp"] = 1689189397,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 200,
+                        ["itemLink"] = 1736,
+                        ["buyer"] = 32809,
                         ["guild"] = 83,
-                        ["itemLink"] = 2056,
-                        ["price"] = 8993,
-                        ["seller"] = 33198,
-                        ["timestamp"] = 1689398808,
-                        ["buyer"] = 31981,
+                        ["id"] = "2152478881",
+                        ["price"] = 48900,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31504,
+                        ["timestamp"] = 1689460864,
                     },
                 },
-                ["totalCount"] = 1,
+                ["totalCount"] = 5,
+                ["oldestTime"] = 1689035211,
+                ["itemIcon"] = "/esoui/art/icons/quest_crate_001.dds",
+                ["itemAdderText"] = "rr50 green fine consumable tool",
+                ["wasAltered"] = false,
             },
-        },
-        [123693] = 
-        {
-        },
-        [180787] = 
-        {
         },
         [89825] = 
         {
@@ -9625,50 +10807,25 @@ GS07DataSavedVariables =
         [87778] = 
         {
         },
-        [157520] = 
+        [102120] = 
         {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 82: Icereach Coven Boots",
-                ["newestTime"] = 1689142267,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689142267,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150174921",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1980,
-                        ["price"] = 19995,
-                        ["seller"] = 8484,
-                        ["timestamp"] = 1689142267,
-                        ["buyer"] = 32741,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [69348] = 
         {
         },
-        [87781] = 
+        [91877] = 
         {
         },
         [69350] = 
         {
         },
+        [165607] = 
+        {
+        },
+        [165608] = 
+        {
+        },
         [179943] = 
-        {
-        },
-        [102120] = 
-        {
-        },
-        [89935] = 
         {
         },
         [57066] = 
@@ -9680,7 +10837,7 @@ GS07DataSavedVariables =
         [89836] = 
         {
         },
-        [165619] = 
+        [102220] = 
         {
         },
         [95982] = 
@@ -9689,13 +10846,13 @@ GS07DataSavedVariables =
         [87791] = 
         {
         },
-        [100084] = 
+        [172359] = 
         {
         },
         [69361] = 
         {
         },
-        [184140] = 
+        [100084] = 
         {
         },
         [69363] = 
@@ -9707,13 +10864,13 @@ GS07DataSavedVariables =
         [89845] = 
         {
         },
-        [95506] = 
+        [176731] = 
         {
         },
         [175850] = 
         {
         },
-        [142695] = 
+        [114503] = 
         {
         },
         [100089] = 
@@ -9728,7 +10885,7 @@ GS07DataSavedVariables =
         [179964] = 
         {
         },
-        [98119] = 
+        [142695] = 
         {
         },
         [69374] = 
@@ -9746,35 +10903,10 @@ GS07DataSavedVariables =
         [92726] = 
         {
         },
-        [134745] = 
+        [95590] = 
         {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 60: Worm Cult Daggers",
-                ["newestTime"] = 1689298047,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689298047,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151211341",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 13308,
-                        ["price"] = 50000,
-                        ["seller"] = 32432,
-                        ["timestamp"] = 1689298047,
-                        ["buyer"] = 33337,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [135185] = 
+        [147329] = 
         {
         },
         [165637] = 
@@ -9787,43 +10919,68 @@ GS07DataSavedVariables =
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Blueprint: Redguard Bed, Full",
                 ["newestTime"] = 1688993990,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1688993990,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemDesc"] = "Blueprint: Redguard Bed, Full",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148907731",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 9822,
+                        ["buyer"] = 32291,
+                        ["guild"] = 91,
+                        ["id"] = "2148907731",
                         ["price"] = 452,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32292,
                         ["timestamp"] = 1688993990,
-                        ["buyer"] = 32291,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688993990,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_2.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
             },
         },
-        [122844] = 
+        [119180] = 
         {
+            ["1:0:3:0:0"] = 
+            {
+                ["newestTime"] = 1688958682,
+                ["itemDesc"] = "Pattern: Redguard Sofa, Desert Flame",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 9373,
+                        ["buyer"] = 32017,
+                        ["guild"] = 83,
+                        ["id"] = "2148676371",
+                        ["price"] = 2700,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32018,
+                        ["timestamp"] = 1688958682,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1688958682,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
+            },
         },
         [89865] = 
         {
         },
-        [144782] = 
+        [175634] = 
         {
         },
         [177019] = 
         {
         },
-        [86866] = 
+        [45543] = 
         {
         },
         [122637] = 
@@ -9854,124 +11011,49 @@ GS07DataSavedVariables =
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 48: Ashlander Swords",
                 ["newestTime"] = 1689404260,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689404260,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 48: Ashlander Swords",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152007945",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 17824,
+                        ["buyer"] = 33503,
+                        ["guild"] = 91,
+                        ["id"] = "2152007945",
                         ["price"] = 9999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31553,
                         ["timestamp"] = 1689404260,
-                        ["buyer"] = 33503,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689404260,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [114454] = 
         {
         },
-        [45543] = 
+        [121337] = 
         {
         },
-        [139714] = 
+        [123361] = 
         {
         },
         [99858] = 
         {
         },
-        [43547] = 
+        [184091] = 
         {
-            ["50:16:2:0:0"] = 
-            {
-                ["itemDesc"] = "Ancestor Silk Epaulets of Health",
-                ["newestTime"] = 1689225360,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine light apparel shoulders",
-                ["oldestTime"] = 1689225360,
-                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_light_shoulders_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150698553",
-                        ["quant"] = 1,
-                        ["guild"] = 144,
-                        ["itemLink"] = 18969,
-                        ["price"] = 100,
-                        ["seller"] = 31776,
-                        ["timestamp"] = 1689225360,
-                        ["buyer"] = 31762,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:16:3:0:0"] = 
-            {
-                ["itemDesc"] = "Ancestor Silk Epaulets of Stamina",
-                ["newestTime"] = 1688948387,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior light apparel shoulders",
-                ["oldestTime"] = 1688948387,
-                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_light_shoulders_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148579021",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45060,
-                        ["price"] = 150,
-                        ["seller"] = 21819,
-                        ["timestamp"] = 1688948387,
-                        ["buyer"] = 13933,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:16:1:0:0"] = 
-            {
-                ["itemDesc"] = "Ancestor Silk Epaulets",
-                ["newestTime"] = 1689222130,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal light apparel shoulders",
-                ["oldestTime"] = 1689222130,
-                ["itemIcon"] = "/esoui/art/icons/gear_altmer_light_shoulders_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150674483",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 40248,
-                        ["price"] = 141,
-                        ["seller"] = 21819,
-                        ["timestamp"] = 1689222130,
-                        ["buyer"] = 32881,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [114459] = 
         {
         },
-        [135690] = 
+        [180090] = 
         {
         },
         [89885] = 
@@ -9980,50 +11062,75 @@ GS07DataSavedVariables =
         [96393] = 
         {
         },
-        [176623] = 
+        [180048] = 
         {
         },
-        [69530] = 
+        [74561] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689029292,
+                ["itemDesc"] = "Crafting Motif 33: Thieves Guild Daggers",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2345,
+                        ["buyer"] = 32394,
+                        ["guild"] = 83,
+                        ["id"] = "2149210939",
+                        ["price"] = 6000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 20664,
+                        ["timestamp"] = 1689029292,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689029292,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
+            },
         },
         [160602] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 89: Ancestral High Elf Legs",
                 ["newestTime"] = 1689484004,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689132851,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 89: Ancestral High Elf Legs",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152680435",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1965,
+                        ["buyer"] = 31614,
+                        ["guild"] = 83,
+                        ["id"] = "2152680435",
                         ["price"] = 10000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21177,
                         ["timestamp"] = 1689484004,
-                        ["buyer"] = 31614,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150112533",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1965,
+                        ["buyer"] = 32728,
+                        ["guild"] = 91,
+                        ["id"] = "2150112533",
                         ["price"] = 6500,
+                        ["wasKiosk"] = true,
                         ["seller"] = 27088,
                         ["timestamp"] = 1689132851,
-                        ["buyer"] = 32728,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689132851,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
         [48930] = 
@@ -10039,111 +11146,111 @@ GS07DataSavedVariables =
         {
             ["50:16:3:15:0"] = 
             {
-                ["itemDesc"] = "Shield of Akatosh's Law",
                 ["newestTime"] = 1689446519,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior apparel weapon set judgment of akatosh shield off hand training",
-                ["oldestTime"] = 1689446519,
-                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_shield_a.dds",
+                ["itemDesc"] = "Shield of Akatosh's Law",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152358303",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 47115,
+                        ["buyer"] = 18346,
+                        ["guild"] = 83,
+                        ["id"] = "2152358303",
                         ["price"] = 1300,
+                        ["wasKiosk"] = false,
                         ["seller"] = 8151,
                         ["timestamp"] = 1689446519,
-                        ["buyer"] = 18346,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689446519,
+                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_shield_a.dds",
+                ["itemAdderText"] = "cp160 blue superior apparel weapon set judgment of akatosh shield off hand training",
+                ["wasAltered"] = false,
             },
         },
         [180006] = 
-        {
-        },
-        [135627] = 
-        {
-        },
-        [75210] = 
-        {
-        },
-        [112425] = 
-        {
-            ["1:0:3:0:0"] = 
-            {
-                ["itemDesc"] = "Lava Foot Soup-and-Saltrice",
-                ["newestTime"] = 1689563571,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable food",
-                ["oldestTime"] = 1689563571,
-                ["itemIcon"] = "/esoui/art/icons/event_newlifefestival_2016_dancersfestival_soup.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2153380297",
-                        ["quant"] = 100,
-                        ["guild"] = 91,
-                        ["itemLink"] = 2307,
-                        ["price"] = 42500,
-                        ["seller"] = 15043,
-                        ["timestamp"] = 1689563571,
-                        ["buyer"] = 31607,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [149473] = 
-        {
-        },
-        [45089] = 
-        {
-        },
-        [96722] = 
-        {
-        },
-        [120621] = 
-        {
-        },
-        [75110] = 
         {
         },
         [175965] = 
         {
             ["1:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Blueprint: Leyawiin Streetlight, Carved Waves",
                 ["newestTime"] = 1689198903,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689198903,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_3.dds",
+                ["itemDesc"] = "Blueprint: Leyawiin Streetlight, Carved Waves",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150434449",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 14821,
+                        ["buyer"] = 8504,
+                        ["guild"] = 83,
+                        ["id"] = "2150434449",
                         ["price"] = 12000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21423,
                         ["timestamp"] = 1689198903,
-                        ["buyer"] = 8504,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689198903,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
             },
         },
+        [75110] = 
+        {
+        },
+        [112425] = 
+        {
+            ["1:0:3:0:0"] = 
+            {
+                ["newestTime"] = 1689563571,
+                ["itemDesc"] = "Lava Foot Soup-and-Saltrice",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 100,
+                        ["itemLink"] = 2307,
+                        ["buyer"] = 31607,
+                        ["guild"] = 91,
+                        ["id"] = "2153380297",
+                        ["price"] = 42500,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 15043,
+                        ["timestamp"] = 1689563571,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689563571,
+                ["itemIcon"] = "/esoui/art/icons/event_newlifefestival_2016_dancersfestival_soup.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable food",
+                ["wasAltered"] = false,
+            },
+        },
+        [149473] = 
+        {
+        },
+        [96722] = 
+        {
+        },
+        [45089] = 
+        {
+        },
+        [120621] = 
+        {
+        },
         [87846] = 
+        {
+        },
+        [75210] = 
+        {
+        },
+        [135627] = 
         {
         },
         [89905] = 
@@ -10152,134 +11259,196 @@ GS07DataSavedVariables =
         [114482] = 
         {
         },
-        [74561] = 
+        [69530] = 
         {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 33: Thieves Guild Daggers",
-                ["newestTime"] = 1689029292,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689029292,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149210939",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2345,
-                        ["price"] = 6000,
-                        ["seller"] = 20664,
-                        ["timestamp"] = 1689029292,
-                        ["buyer"] = 32394,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [180048] = 
+        [176623] = 
         {
         },
         [122677] = 
         {
         },
-        [180090] = 
+        [135690] = 
         {
         },
-        [184091] = 
+        [43547] = 
         {
+            ["50:16:1:0:0"] = 
+            {
+                ["newestTime"] = 1689222130,
+                ["itemDesc"] = "Ancestor Silk Epaulets",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 40248,
+                        ["buyer"] = 32881,
+                        ["guild"] = 83,
+                        ["id"] = "2150674483",
+                        ["price"] = 141,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21819,
+                        ["timestamp"] = 1689222130,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689222130,
+                ["itemIcon"] = "/esoui/art/icons/gear_altmer_light_shoulders_d.dds",
+                ["itemAdderText"] = "cp160 white normal light apparel shoulders",
+                ["wasAltered"] = false,
+            },
+            ["50:16:2:0:0"] = 
+            {
+                ["newestTime"] = 1689656137,
+                ["itemDesc"] = "Ancestor Silk Epaulets of Health",
+                ["sales"] = 
+                {
+                    [2] = 
+                    {
+                        ["price"] = 144,
+                        ["itemLink"] = 34470,
+                        ["buyer"] = 33924,
+                        ["guild"] = 83,
+                        ["id"] = "2154087877",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33771,
+                        ["timestamp"] = 1689656137,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 18969,
+                        ["buyer"] = 31762,
+                        ["guild"] = 144,
+                        ["id"] = "2150698553",
+                        ["price"] = 100,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31776,
+                        ["timestamp"] = 1689225360,
+                    },
+                },
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1689225360,
+                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_light_shoulders_d.dds",
+                ["itemAdderText"] = "cp160 green fine light apparel shoulders",
+                ["wasAltered"] = false,
+            },
+            ["50:16:3:0:0"] = 
+            {
+                ["newestTime"] = 1688948387,
+                ["itemDesc"] = "Ancestor Silk Epaulets of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45060,
+                        ["buyer"] = 13933,
+                        ["guild"] = 83,
+                        ["id"] = "2148579021",
+                        ["price"] = 150,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21819,
+                        ["timestamp"] = 1688948387,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1688948387,
+                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_light_shoulders_d.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel shoulders",
+                ["wasAltered"] = false,
+            },
         },
         [102200] = 
         {
         },
-        [123361] = 
-        {
-        },
-        [121337] = 
-        {
-        },
-        [180027] = 
+        [139714] = 
         {
         },
         [89875] = 
         {
         },
+        [180027] = 
+        {
+        },
         [179985] = 
+        {
+        },
+        [86866] = 
         {
         },
         [139070] = 
         {
         },
-        [175634] = 
+        [144782] = 
         {
         },
-        [119180] = 
+        [122844] = 
         {
-            ["1:0:3:0:0"] = 
-            {
-                ["itemDesc"] = "Pattern: Redguard Sofa, Desert Flame",
-                ["newestTime"] = 1688958682,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1688958682,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_3.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148676371",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 9373,
-                        ["price"] = 2700,
-                        ["seller"] = 32018,
-                        ["timestamp"] = 1688958682,
-                        ["buyer"] = 32017,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [139073] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Painting of Summerset Coast, Refined",
                 ["newestTime"] = 1688962874,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic furnishings gallery",
-                ["oldestTime"] = 1688962874,
-                ["itemIcon"] = "/esoui/art/icons/housing_sum_inc_paintingwood005.dds",
+                ["itemDesc"] = "Painting of Summerset Coast, Refined",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148727091",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 14024,
+                        ["buyer"] = 32032,
+                        ["guild"] = 83,
+                        ["id"] = "2148727091",
                         ["price"] = 10000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31538,
                         ["timestamp"] = 1688962874,
-                        ["buyer"] = 32032,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688962874,
+                ["itemIcon"] = "/esoui/art/icons/housing_sum_inc_paintingwood005.dds",
+                ["itemAdderText"] = "rr01 purple epic furnishings gallery",
+                ["wasAltered"] = false,
             },
         },
         [139074] = 
         {
         },
-        [147329] = 
+        [135185] = 
         {
         },
-        [95590] = 
+        [134745] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689298047,
+                ["itemDesc"] = "Crafting Motif 60: Worm Cult Daggers",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 13308,
+                        ["buyer"] = 33337,
+                        ["guild"] = 91,
+                        ["id"] = "2151211341",
+                        ["price"] = 50000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32432,
+                        ["timestamp"] = 1689298047,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689298047,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
+            },
         },
         [89925] = 
         {
@@ -10287,7 +11456,7 @@ GS07DataSavedVariables =
         [139078] = 
         {
         },
-        [114503] = 
+        [98119] = 
         {
         },
         [134984] = 
@@ -10299,188 +11468,215 @@ GS07DataSavedVariables =
         [184138] = 
         {
         },
-        [176731] = 
+        [165619] = 
         {
         },
-        [102220] = 
-        {
-        },
-        [172359] = 
+        [184140] = 
         {
         },
         [119819] = 
         {
             ["1:0:4:0:5"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689054410,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689010661,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149443513",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 759,
+                        ["buyer"] = 10604,
+                        ["guild"] = 83,
+                        ["id"] = "2149443513",
                         ["price"] = 25000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32531,
                         ["timestamp"] = 1689054410,
-                        ["buyer"] = 10604,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149060837",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 759,
+                        ["buyer"] = 29769,
+                        ["guild"] = 83,
+                        ["id"] = "2149060837",
                         ["price"] = 15680,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31525,
                         ["timestamp"] = 1689010661,
-                        ["buyer"] = 29769,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689010661,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
             ["1:0:4:0:2"] = 
             {
-                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["newestTime"] = 1689196503,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable master writ",
-                ["oldestTime"] = 1689037222,
-                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemDesc"] = "Sealed Alchemy Writ",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150417133",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 318,
+                        ["buyer"] = 18627,
+                        ["guild"] = 83,
+                        ["id"] = "2150417133",
                         ["price"] = 8000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32655,
                         ["timestamp"] = 1689196503,
-                        ["buyer"] = 18627,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149290685",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 318,
+                        ["buyer"] = 31581,
+                        ["guild"] = 91,
+                        ["id"] = "2149290685",
                         ["price"] = 5650,
+                        ["wasKiosk"] = false,
                         ["seller"] = 32335,
                         ["timestamp"] = 1689037222,
-                        ["buyer"] = 31581,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689037222,
+                ["itemIcon"] = "/esoui/art/icons/master_writ_alchemy.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable master writ",
+                ["wasAltered"] = false,
             },
         },
-        [44879] = 
+        [95506] = 
         {
-            ["50:0:2:0:0"] = 
+        },
+        [89935] = 
+        {
+        },
+        [157520] = 
+        {
+            ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Grand Repair Kit",
-                ["newestTime"] = 1689460864,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr50 green fine consumable tool",
-                ["oldestTime"] = 1689035211,
-                ["itemIcon"] = "/esoui/art/icons/quest_crate_001.dds",
+                ["newestTime"] = 1689142267,
+                ["itemDesc"] = "Crafting Motif 82: Icereach Coven Boots",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149267175",
-                        ["quant"] = 200,
+                        ["quant"] = 1,
+                        ["itemLink"] = 1980,
+                        ["buyer"] = 32741,
                         ["guild"] = 91,
-                        ["itemLink"] = 1736,
-                        ["price"] = 19800,
-                        ["seller"] = 13371,
-                        ["timestamp"] = 1689035211,
-                        ["buyer"] = 32429,
-                    },
-                    [2] = 
-                    {
+                        ["id"] = "2150174921",
+                        ["price"] = 19995,
                         ["wasKiosk"] = true,
-                        ["id"] = "2149267667",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1736,
-                        ["price"] = 26400,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689035256,
-                        ["buyer"] = 32429,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149954231",
-                        ["quant"] = 9,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1736,
-                        ["price"] = 1700,
-                        ["seller"] = 32286,
-                        ["timestamp"] = 1689121065,
-                        ["buyer"] = 5553,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150363013",
-                        ["quant"] = 104,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1736,
-                        ["price"] = 10000,
-                        ["seller"] = 32000,
-                        ["timestamp"] = 1689189397,
-                        ["buyer"] = 32225,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152478881",
-                        ["quant"] = 200,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1736,
-                        ["price"] = 48900,
-                        ["seller"] = 31504,
-                        ["timestamp"] = 1689460864,
-                        ["buyer"] = 32809,
+                        ["seller"] = 8484,
+                        ["timestamp"] = 1689142267,
                     },
                 },
-                ["totalCount"] = 5,
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689142267,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
-        [89936] = 
+        [180787] = 
         {
         },
-        [165608] = 
-        {
-        },
-        [165607] = 
-        {
-        },
-        [91877] = 
-        {
-        },
-        [75073] = 
+        [123693] = 
         {
         },
         [175836] = 
         {
         },
-        [87768] = 
+        [123722] = 
         {
+            ["50:16:3:22:0"] = 
+            {
+                ["newestTime"] = 1689464946,
+                ["itemDesc"] = "Wizard's Riposte Necklace",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 19722,
+                        ["buyer"] = 33714,
+                        ["guild"] = 83,
+                        ["id"] = "2152511879",
+                        ["price"] = 1200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32035,
+                        ["timestamp"] = 1689464946,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689464946,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 blue superior jewelry apparel set wizard's riposte neck arcane",
+                ["wasAltered"] = false,
+            },
+            ["50:16:4:22:0"] = 
+            {
+                ["newestTime"] = 1689398808,
+                ["itemDesc"] = "Wizard's Riposte Necklace",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2056,
+                        ["buyer"] = 31981,
+                        ["guild"] = 83,
+                        ["id"] = "2151971169",
+                        ["price"] = 8993,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33198,
+                        ["timestamp"] = 1689398808,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689398808,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_neck_a.dds",
+                ["itemAdderText"] = "cp160 purple epic jewelry apparel set wizard's riposte neck arcane",
+                ["wasAltered"] = false,
+            },
+        },
+        [159450] = 
+        {
+        },
+        [152092] = 
+        {
+            ["1:0:4:0:0"] = 
+            {
+                ["newestTime"] = 1689453164,
+                ["itemDesc"] = "Pattern: Elsweyr Carpet, Botanical Grand",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 9345,
+                        ["buyer"] = 33693,
+                        ["guild"] = 83,
+                        ["id"] = "2152420089",
+                        ["price"] = 65000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 23689,
+                        ["timestamp"] = 1689453164,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689453164,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_clothier_4.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable recipe",
+                ["wasAltered"] = false,
+            },
         },
         [175959] = 
         {
@@ -10491,654 +11687,71 @@ GS07DataSavedVariables =
         [89945] = 
         {
         },
-        [149207] = 
+        [69322] = 
         {
-            ["50:16:3:6:0"] = 
-            {
-                ["itemDesc"] = "Undertaker's Bow",
-                ["newestTime"] = 1689265485,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior weapon set call of the undertaker bow two-handed training",
-                ["oldestTime"] = 1689265485,
-                ["itemIcon"] = "/esoui/art/icons/gear_anequina_bow_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150972613",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46762,
-                        ["price"] = 2500,
-                        ["seller"] = 32402,
-                        ["timestamp"] = 1689265485,
-                        ["buyer"] = 33206,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [91856] = 
+        [57040] = 
         {
-            ["50:16:4:12:0"] = 
-            {
-                ["itemDesc"] = "Breeches of Cyrodiil's Light",
-                ["newestTime"] = 1689454043,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic light apparel set of cyrodiil legs impenetrable",
-                ["oldestTime"] = 1689454043,
-                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_light_legs_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152426713",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 47129,
-                        ["price"] = 3000,
-                        ["seller"] = 21177,
-                        ["timestamp"] = 1689454043,
-                        ["buyer"] = 33695,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [114524] = 
         {
         },
-        [157533] = 
+        [122717] = 
         {
-            ["1:0:1:0:0"] = 
-            {
-                ["itemDesc"] = "Fryse Willow",
-                ["newestTime"] = 1689252081,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials style",
-                ["oldestTime"] = 1689252081,
-                ["itemIcon"] = "/esoui/art/icons/crafting_style_item_icereach_coven.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150860141",
-                        ["quant"] = 5,
-                        ["guild"] = 91,
-                        ["itemLink"] = 26694,
-                        ["price"] = 2500,
-                        ["seller"] = 32944,
-                        ["timestamp"] = 1689252081,
-                        ["buyer"] = 7956,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [54864] = 
         {
         },
-        [34330] = 
+        [141908] = 
         {
-            ["1:0:1:0:0"] = 
-            {
-                ["itemDesc"] = "Lotus",
-                ["newestTime"] = 1689429100,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials ingredient",
-                ["oldestTime"] = 1689303944,
-                ["itemIcon"] = "/esoui/art/icons/quest_flower_001.dds",
-                ["sales"] = 
-                {
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152175855",
-                        ["quant"] = 10,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3807,
-                        ["price"] = 323,
-                        ["seller"] = 16464,
-                        ["timestamp"] = 1689429100,
-                        ["buyer"] = 33657,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151266857",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3807,
-                        ["price"] = 2350,
-                        ["seller"] = 31581,
-                        ["timestamp"] = 1689303944,
-                        ["buyer"] = 32727,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151266865",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3807,
-                        ["price"] = 3000,
-                        ["seller"] = 21091,
-                        ["timestamp"] = 1689303945,
-                        ["buyer"] = 32727,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152175845",
-                        ["quant"] = 100,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3807,
-                        ["price"] = 1155,
-                        ["seller"] = 5298,
-                        ["timestamp"] = 1689429099,
-                        ["buyer"] = 33657,
-                    },
-                },
-                ["totalCount"] = 4,
-            },
         },
-        [45363] = 
+        [123461] = 
         {
-            ["50:16:1:20:0"] = 
-            {
-                ["itemDesc"] = "Ruby Ash Shield",
-                ["newestTime"] = 1689570531,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal apparel weapon shield off hand intricate",
-                ["oldestTime"] = 1688970463,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_shield_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148774699",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 5348,
-                        ["price"] = 399,
-                        ["seller"] = 31577,
-                        ["timestamp"] = 1688970463,
-                        ["buyer"] = 32069,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148774789",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 6086,
-                        ["price"] = 600,
-                        ["seller"] = 32071,
-                        ["timestamp"] = 1688970472,
-                        ["buyer"] = 32069,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149060339",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2234,
-                        ["price"] = 190,
-                        ["seller"] = 32198,
-                        ["timestamp"] = 1689010610,
-                        ["buyer"] = 32258,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149060351",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1924,
-                        ["price"] = 190,
-                        ["seller"] = 32198,
-                        ["timestamp"] = 1689010611,
-                        ["buyer"] = 32258,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149060407",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 24257,
-                        ["price"] = 199,
-                        ["seller"] = 32023,
-                        ["timestamp"] = 1689010617,
-                        ["buyer"] = 32258,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149060437",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2233,
-                        ["price"] = 199,
-                        ["seller"] = 32023,
-                        ["timestamp"] = 1689010619,
-                        ["buyer"] = 32258,
-                    },
-                    [7] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149171719",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 5348,
-                        ["price"] = 300,
-                        ["seller"] = 31431,
-                        ["timestamp"] = 1689024139,
-                        ["buyer"] = 32381,
-                    },
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149171725",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 2137,
-                        ["price"] = 300,
-                        ["seller"] = 31431,
-                        ["timestamp"] = 1689024140,
-                        ["buyer"] = 32381,
-                    },
-                    [9] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149484237",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3530,
-                        ["price"] = 195,
-                        ["seller"] = 21090,
-                        ["timestamp"] = 1689061174,
-                        ["buyer"] = 32483,
-                    },
-                    [10] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150195157",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1924,
-                        ["price"] = 200,
-                        ["seller"] = 32222,
-                        ["timestamp"] = 1689145396,
-                        ["buyer"] = 32616,
-                    },
-                    [11] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150195169",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3530,
-                        ["price"] = 200,
-                        ["seller"] = 32222,
-                        ["timestamp"] = 1689145398,
-                        ["buyer"] = 32616,
-                    },
-                    [12] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150564205",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3530,
-                        ["price"] = 225,
-                        ["seller"] = 32222,
-                        ["timestamp"] = 1689211776,
-                        ["buyer"] = 32611,
-                    },
-                    [13] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150564219",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3754,
-                        ["price"] = 225,
-                        ["seller"] = 32222,
-                        ["timestamp"] = 1689211777,
-                        ["buyer"] = 32611,
-                    },
-                    [14] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150417529",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1924,
-                        ["price"] = 425,
-                        ["seller"] = 21091,
-                        ["timestamp"] = 1689196552,
-                        ["buyer"] = 13571,
-                    },
-                    [15] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150543457",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 1924,
-                        ["price"] = 499,
-                        ["seller"] = 13571,
-                        ["timestamp"] = 1689209479,
-                        ["buyer"] = 32814,
-                    },
-                    [16] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150964547",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1924,
-                        ["price"] = 170,
-                        ["seller"] = 32255,
-                        ["timestamp"] = 1689264485,
-                        ["buyer"] = 32258,
-                    },
-                    [17] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151128231",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1924,
-                        ["price"] = 219,
-                        ["seller"] = 32018,
-                        ["timestamp"] = 1689289035,
-                        ["buyer"] = 32652,
-                    },
-                    [18] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2151902397",
-                        ["quant"] = 1,
-                        ["guild"] = 144,
-                        ["itemLink"] = 1924,
-                        ["price"] = 141,
-                        ["seller"] = 9593,
-                        ["timestamp"] = 1689390722,
-                        ["buyer"] = 33476,
-                    },
-                    [19] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151970315",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1924,
-                        ["price"] = 141,
-                        ["seller"] = 19743,
-                        ["timestamp"] = 1689398675,
-                        ["buyer"] = 8671,
-                    },
-                    [20] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152666077",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3530,
-                        ["price"] = 195,
-                        ["seller"] = 21090,
-                        ["timestamp"] = 1689482026,
-                        ["buyer"] = 6462,
-                    },
-                    [21] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152666085",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 485,
-                        ["price"] = 195,
-                        ["seller"] = 21090,
-                        ["timestamp"] = 1689482026,
-                        ["buyer"] = 6462,
-                    },
-                    [22] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152666089",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 2234,
-                        ["price"] = 195,
-                        ["seller"] = 21090,
-                        ["timestamp"] = 1689482027,
-                        ["buyer"] = 6462,
-                    },
-                    [23] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152666101",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 6086,
-                        ["price"] = 200,
-                        ["seller"] = 30453,
-                        ["timestamp"] = 1689482029,
-                        ["buyer"] = 6462,
-                    },
-                    [24] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152344537",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 5348,
-                        ["price"] = 220,
-                        ["seller"] = 32661,
-                        ["timestamp"] = 1689445126,
-                        ["buyer"] = 9341,
-                    },
-                    [25] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152344547",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2750,
-                        ["price"] = 220,
-                        ["seller"] = 32661,
-                        ["timestamp"] = 1689445128,
-                        ["buyer"] = 9341,
-                    },
-                    [26] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152525551",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 5348,
-                        ["price"] = 229,
-                        ["seller"] = 31539,
-                        ["timestamp"] = 1689466323,
-                        ["buyer"] = 33719,
-                    },
-                    [27] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153438511",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 3753,
-                        ["price"] = 220,
-                        ["seller"] = 32661,
-                        ["timestamp"] = 1689570531,
-                        ["buyer"] = 33104,
-                    },
-                },
-                ["totalCount"] = 27,
-            },
-            ["42:0:1:20:0"] = 
-            {
-                ["itemDesc"] = "Hickory Shield",
-                ["newestTime"] = 1689061164,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr42 white normal apparel weapon shield off hand intricate",
-                ["oldestTime"] = 1689061164,
-                ["itemIcon"] = "/esoui/art/icons/gear_khajiit_shield_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149484183",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45983,
-                        ["price"] = 100,
-                        ["seller"] = 30453,
-                        ["timestamp"] = 1689061164,
-                        ["buyer"] = 32483,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-            ["50:15:1:20:0"] = 
-            {
-                ["itemDesc"] = "Ruby Ash Shield",
-                ["newestTime"] = 1689469745,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal apparel weapon shield off hand intricate",
-                ["oldestTime"] = 1689189357,
-                ["itemIcon"] = "/esoui/art/icons/gear_argonian_shield_d.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150362663",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 6842,
-                        ["price"] = 150,
-                        ["seller"] = 30453,
-                        ["timestamp"] = 1689189357,
-                        ["buyer"] = 32258,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151128225",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2211,
-                        ["price"] = 201,
-                        ["seller"] = 32018,
-                        ["timestamp"] = 1689289034,
-                        ["buyer"] = 32652,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151128265",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 2211,
-                        ["price"] = 329,
-                        ["seller"] = 5298,
-                        ["timestamp"] = 1689289042,
-                        ["buyer"] = 32652,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152344557",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 9280,
-                        ["price"] = 220,
-                        ["seller"] = 32661,
-                        ["timestamp"] = 1689445129,
-                        ["buyer"] = 9341,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152558911",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 9280,
-                        ["price"] = 700,
-                        ["seller"] = 28389,
-                        ["timestamp"] = 1689469745,
-                        ["buyer"] = 33723,
-                    },
-                },
-                ["totalCount"] = 5,
-            },
         },
-        [68212] = 
+        [114975] = 
         {
-            ["1:0:2:0:0"] = 
-            {
-                ["itemDesc"] = "Recipe: Colovian Ginger Beer",
-                ["newestTime"] = 1689039389,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine consumable recipe",
-                ["oldestTime"] = 1689039379,
-                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
-                ["sales"] = 
-                {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149314831",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 154,
-                        ["price"] = 25,
-                        ["seller"] = 32029,
-                        ["timestamp"] = 1689039389,
-                        ["buyer"] = 32510,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149314705",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 154,
-                        ["price"] = 20,
-                        ["seller"] = 13210,
-                        ["timestamp"] = 1689039379,
-                        ["buyer"] = 32510,
-                    },
-                },
-                ["totalCount"] = 2,
-            },
         },
         [139106] = 
         {
         },
-        [176407] = 
+        [134461] = 
         {
         },
-        [147300] = 
+        [89956] = 
         {
+            ["50:16:4:6:0"] = 
+            {
+                ["newestTime"] = 1689030627,
+                ["itemDesc"] = "Ice Staff of Elf Bane",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 42801,
+                        ["buyer"] = 25286,
+                        ["guild"] = 83,
+                        ["id"] = "2149222493",
+                        ["price"] = 30000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 18368,
+                        ["timestamp"] = 1689030627,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689030627,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_staff_a.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set elf bane frost staff two-handed training",
+                ["wasAltered"] = false,
+            },
         },
         [180069] = 
         {
         },
-        [149078] = 
+        [154983] = 
         {
         },
-        [100694] = 
+        [137854] = 
         {
         },
         [120680] = 
@@ -11147,893 +11760,432 @@ GS07DataSavedVariables =
         [139113] = 
         {
         },
-        [172210] = 
+        [43670] = 
+        {
+            ["1:0:3:0:0"] = 
+            {
+                ["newestTime"] = 1689231409,
+                ["itemDesc"] = "Shadowfen Treasure Map IV",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 9668,
+                        ["buyer"] = 32900,
+                        ["guild"] = 83,
+                        ["id"] = "2150734195",
+                        ["price"] = 500,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32223,
+                        ["timestamp"] = 1689231409,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689231409,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 blue superior miscellaneous trophy",
+                ["wasAltered"] = false,
+            },
+        },
+        [139571] = 
         {
         },
-        [45719] = 
-        {
-        },
-        [43646] = 
+        [95488] = 
         {
         },
         [139117] = 
         {
         },
-        [175763] = 
+        [134774] = 
         {
         },
-        [194415] = 
-        {
-            ["1:0:5:0:0"] = 
-            {
-                ["itemDesc"] = "Style Page: Broom",
-                ["newestTime"] = 1689433718,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
-                ["oldestTime"] = 1689214159,
-                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
-                ["sales"] = 
-                {
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152201823",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45489,
-                        ["price"] = 34999,
-                        ["seller"] = 19523,
-                        ["timestamp"] = 1689431651,
-                        ["buyer"] = 33663,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150592675",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45489,
-                        ["price"] = 34000,
-                        ["seller"] = 32142,
-                        ["timestamp"] = 1689214159,
-                        ["buyer"] = 22015,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150592681",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45489,
-                        ["price"] = 34000,
-                        ["seller"] = 32142,
-                        ["timestamp"] = 1689214159,
-                        ["buyer"] = 22015,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152221615",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45489,
-                        ["price"] = 35000,
-                        ["seller"] = 12685,
-                        ["timestamp"] = 1689433718,
-                        ["buyer"] = 33582,
-                    },
-                },
-                ["totalCount"] = 4,
-            },
-        },
-        [141915] = 
-        {
-        },
-        [122737] = 
+        [42863] = 
         {
         },
         [186022] = 
         {
             ["50:16:4:2:0"] = 
             {
-                ["itemDesc"] = "Inferno Staff of High Isle",
                 ["newestTime"] = 1689131699,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set blessing of high isle flame staff two-handed charged",
-                ["oldestTime"] = 1689131699,
-                ["itemIcon"] = "/esoui/art/icons/gear_bretonv2_staff_a.dds",
+                ["itemDesc"] = "Inferno Staff of High Isle",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150101649",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 46058,
+                        ["buyer"] = 20309,
+                        ["guild"] = 83,
+                        ["id"] = "2150101649",
                         ["price"] = 8000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32041,
                         ["timestamp"] = 1689131699,
-                        ["buyer"] = 20309,
                     },
                 },
                 ["totalCount"] = 1,
-            },
-        },
-        [56997] = 
-        {
-        },
-        [165900] = 
-        {
-        },
-        [56956] = 
-        {
-        },
-        [99998] = 
-        {
-        },
-        [73968] = 
-        {
-        },
-        [114889] = 
-        {
-            ["1:0:1:0:0"] = 
-            {
-                ["itemDesc"] = "Regulus",
-                ["newestTime"] = 1689567198,
+                ["oldestTime"] = 1689131699,
+                ["itemIcon"] = "/esoui/art/icons/gear_bretonv2_staff_a.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set blessing of high isle flame staff two-handed charged",
                 ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials furnishing",
-                ["oldestTime"] = 1689044767,
-                ["itemIcon"] = "/esoui/art/icons/crafting_furniture_base_regulus.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149368063",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 390,
-                        ["price"] = 30000,
-                        ["seller"] = 32384,
-                        ["timestamp"] = 1689044767,
-                        ["buyer"] = 32447,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149526805",
-                        ["quant"] = 13,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 1950,
-                        ["seller"] = 32549,
-                        ["timestamp"] = 1689071272,
-                        ["buyer"] = 32572,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150356583",
-                        ["quant"] = 100,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 36000,
-                        ["seller"] = 32204,
-                        ["timestamp"] = 1689188354,
-                        ["buyer"] = 32650,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150356601",
-                        ["quant"] = 200,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 79000,
-                        ["seller"] = 17284,
-                        ["timestamp"] = 1689188356,
-                        ["buyer"] = 32650,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149959091",
-                        ["quant"] = 7,
-                        ["guild"] = 91,
-                        ["itemLink"] = 390,
-                        ["price"] = 875,
-                        ["seller"] = 19431,
-                        ["timestamp"] = 1689121454,
-                        ["buyer"] = 19138,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2149959123",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 390,
-                        ["price"] = 30000,
-                        ["seller"] = 32384,
-                        ["timestamp"] = 1689121456,
-                        ["buyer"] = 19138,
-                    },
-                    [7] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151080251",
-                        ["quant"] = 22,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 2917,
-                        ["seller"] = 31525,
-                        ["timestamp"] = 1689282274,
-                        ["buyer"] = 30113,
-                    },
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151080261",
-                        ["quant"] = 5,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 300,
-                        ["seller"] = 32581,
-                        ["timestamp"] = 1689282281,
-                        ["buyer"] = 30113,
-                    },
-                    [9] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743465",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373715,
-                        ["buyer"] = 33439,
-                    },
-                    [10] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743471",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373716,
-                        ["buyer"] = 33439,
-                    },
-                    [11] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743479",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373716,
-                        ["buyer"] = 33439,
-                    },
-                    [12] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743485",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373717,
-                        ["buyer"] = 33439,
-                    },
-                    [13] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743493",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373718,
-                        ["buyer"] = 33439,
-                    },
-                    [14] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743495",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373719,
-                        ["buyer"] = 33439,
-                    },
-                    [15] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743511",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373719,
-                        ["buyer"] = 33439,
-                    },
-                    [16] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743513",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373720,
-                        ["buyer"] = 33439,
-                    },
-                    [17] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743515",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373721,
-                        ["buyer"] = 33439,
-                    },
-                    [18] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743525",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373722,
-                        ["buyer"] = 33439,
-                    },
-                    [19] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743537",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373722,
-                        ["buyer"] = 33439,
-                    },
-                    [20] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743541",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373723,
-                        ["buyer"] = 33439,
-                    },
-                    [21] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743561",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373724,
-                        ["buyer"] = 33439,
-                    },
-                    [22] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151743581",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 90,
-                        ["seller"] = 31824,
-                        ["timestamp"] = 1689373725,
-                        ["buyer"] = 33439,
-                    },
-                    [23] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153366439",
-                        ["quant"] = 200,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 22000,
-                        ["seller"] = 1288,
-                        ["timestamp"] = 1689562373,
-                        ["buyer"] = 33786,
-                    },
-                    [24] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153366487",
-                        ["quant"] = 200,
-                        ["guild"] = 83,
-                        ["itemLink"] = 390,
-                        ["price"] = 22000,
-                        ["seller"] = 1288,
-                        ["timestamp"] = 1689562375,
-                        ["buyer"] = 33786,
-                    },
-                    [25] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2153408685",
-                        ["quant"] = 200,
-                        ["guild"] = 91,
-                        ["itemLink"] = 390,
-                        ["price"] = 29000,
-                        ["seller"] = 31581,
-                        ["timestamp"] = 1689567198,
-                        ["buyer"] = 5384,
-                    },
-                },
-                ["totalCount"] = 25,
             },
         },
-        [155885] = 
+        [122737] = 
         {
         },
-        [171898] = 
+        [125568] = 
+        {
+        },
+        [115923] = 
+        {
+        },
+        [167583] = 
+        {
+        },
+        [43648] = 
+        {
+        },
+        [10883] = 
+        {
+        },
+        [139401] = 
+        {
+        },
+        [60103] = 
+        {
+        },
+        [57585] = 
+        {
+        },
+        [126842] = 
         {
         },
         [175995] = 
         {
         },
-        [140438] = 
-        {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 64: Pyandonean Maces",
-                ["newestTime"] = 1689471455,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689471455,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152573987",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 21353,
-                        ["price"] = 25000,
-                        ["seller"] = 32531,
-                        ["timestamp"] = 1689471455,
-                        ["buyer"] = 33619,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
         [176155] = 
         {
         },
-        [100594] = 
+        [86993] = 
         {
         },
-        [86153] = 
+        [99004] = 
         {
         },
-        [45150] = 
+        [102293] = 
         {
-            ["50:16:3:14:0"] = 
+        },
+        [45328] = 
+        {
+            ["50:15:1:19:0"] = 
             {
-                ["itemDesc"] = "Rubedo Leather Guards of Magicka",
-                ["newestTime"] = 1689442037,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior medium apparel legs well-fitted",
-                ["oldestTime"] = 1689143708,
-                ["itemIcon"] = "/esoui/art/icons/gear_orc_medium_legs_d.dds",
+                ["newestTime"] = 1689127374,
+                ["itemDesc"] = "Ruby Ash Shield",
                 ["sales"] = 
                 {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152316295",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 47083,
-                        ["price"] = 900,
-                        ["seller"] = 31501,
-                        ["timestamp"] = 1689442037,
-                        ["buyer"] = 32634,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150185089",
                         ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 6340,
-                        ["price"] = 1000,
-                        ["seller"] = 32402,
-                        ["timestamp"] = 1689143708,
-                        ["buyer"] = 32743,
+                        ["itemLink"] = 46049,
+                        ["buyer"] = 7781,
+                        ["guild"] = 83,
+                        ["id"] = "2150045475",
+                        ["price"] = 199,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 5298,
+                        ["timestamp"] = 1689127374,
                     },
                 },
-                ["totalCount"] = 2,
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689127374,
+                ["itemIcon"] = "/esoui/art/icons/gear_dunmer_shield_d.dds",
+                ["itemAdderText"] = "cp150 white normal apparel weapon shield off hand ornate",
+                ["wasAltered"] = false,
             },
         },
-        [102273] = 
+        [100225] = 
         {
         },
         [100226] = 
         {
         },
-        [92851] = 
+        [182963] = 
         {
         },
         [176004] = 
         {
         },
-        [122757] = 
+        [192389] = 
         {
-        },
-        [135363] = 
-        {
-        },
-        [96355] = 
-        {
-        },
-        [123546] = 
-        {
-        },
-        [71723] = 
-        {
-        },
-        [45188] = 
-        {
-            ["50:16:3:15:0"] = 
+            ["1:0:5:0:0"] = 
             {
-                ["itemDesc"] = "Ruby Ash Shield of Magicka",
-                ["newestTime"] = 1689030240,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior apparel weapon shield off hand training",
-                ["oldestTime"] = 1689030240,
-                ["itemIcon"] = "/esoui/art/icons/gear_altmer_shield_d.dds",
+                ["newestTime"] = 1689397700,
+                ["itemDesc"] = "Style Page: Pelin's Paragon Arm Cops",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149219841",
                         ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45952,
-                        ["price"] = 800,
-                        ["seller"] = 32286,
-                        ["timestamp"] = 1689030240,
-                        ["buyer"] = 32410,
+                        ["itemLink"] = 46309,
+                        ["buyer"] = 17482,
+                        ["guild"] = 83,
+                        ["id"] = "2151962597",
+                        ["price"] = 4900,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31504,
+                        ["timestamp"] = 1689397700,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689397700,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
             },
         },
-        [90210] = 
+        [115906] = 
         {
         },
-        [45142] = 
+        [167990] = 
+        {
+        },
+        [101612] = 
+        {
+        },
+        [114751] = 
+        {
+        },
+        [45711] = 
+        {
+        },
+        [151701] = 
+        {
+        },
+        [142533] = 
         {
         },
         [176013] = 
         {
         },
-        [100245] = 
+        [149110] = 
         {
         },
         [192399] = 
         {
             ["1:0:2:0:0"] = 
             {
-                ["itemDesc"] = "Flowers, Galen Sea Daffodil",
                 ["newestTime"] = 1688963226,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 green fine furnishings conservatory",
-                ["oldestTime"] = 1688963226,
-                ["itemIcon"] = "/esoui/art/icons/housing_veg_sys_seadaffodil011.dds",
+                ["itemDesc"] = "Flowers, Galen Sea Daffodil",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148729675",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45519,
+                        ["buyer"] = 32033,
+                        ["guild"] = 83,
+                        ["id"] = "2148729675",
                         ["price"] = 1000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31543,
                         ["timestamp"] = 1688963226,
-                        ["buyer"] = 32033,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688963226,
+                ["itemIcon"] = "/esoui/art/icons/housing_veg_sys_seadaffodil011.dds",
+                ["itemAdderText"] = "rr01 green fine furnishings conservatory",
+                ["wasAltered"] = false,
             },
         },
         [98192] = 
         {
         },
-        [151692] = 
+        [126991] = 
         {
         },
-        [123080] = 
-        {
-            ["50:16:2:12:0"] = 
-            {
-                ["itemDesc"] = "Defiler's Bracers",
-                ["newestTime"] = 1689370159,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 green fine medium apparel set defiler hands impenetrable",
-                ["oldestTime"] = 1689370159,
-                ["itemIcon"] = "/esoui/art/icons/gear_hlaalu_medium_hands_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151712237",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 24469,
-                        ["price"] = 5000,
-                        ["seller"] = 27549,
-                        ["timestamp"] = 1689370159,
-                        ["buyer"] = 33388,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [149110] = 
+        [96925] = 
         {
         },
-        [45219] = 
+        [118950] = 
         {
         },
-        [188309] = 
+        [180338] = 
         {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 117: Firesong Belts",
-                ["newestTime"] = 1689374627,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689308301,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151752727",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46303,
-                        ["price"] = 25000,
-                        ["seller"] = 4601,
-                        ["timestamp"] = 1689374627,
-                        ["buyer"] = 33442,
-                    },
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151307359",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46303,
-                        ["price"] = 55000,
-                        ["seller"] = 31592,
-                        ["timestamp"] = 1689308301,
-                        ["buyer"] = 32801,
-                    },
-                },
-                ["totalCount"] = 2,
-            },
+        },
+        [71573] = 
+        {
         },
         [100246] = 
         {
         },
-        [49050] = 
+        [147602] = 
         {
         },
         [188312] = 
         {
             ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Crafting Motif 117: Firesong Chests",
                 ["newestTime"] = 1689017479,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689017479,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemDesc"] = "Crafting Motif 117: Firesong Chests",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149115083",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 45839,
+                        ["buyer"] = 32341,
+                        ["guild"] = 91,
+                        ["id"] = "2149115083",
                         ["price"] = 134999,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31592,
                         ["timestamp"] = 1689017479,
-                        ["buyer"] = 32341,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689017479,
+                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable motif",
+                ["wasAltered"] = false,
             },
         },
-        [142361] = 
+        [176983] = 
         {
         },
-        [126874] = 
+        [171930] = 
         {
-            ["1:0:3:0:0"] = 
+        },
+        [33758] = 
+        {
+            ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Design: Dwarven Candles, Plate",
-                ["newestTime"] = 1689435855,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689435855,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning3.dds",
+                ["newestTime"] = 1689466770,
+                ["itemDesc"] = "Potato",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2152249017",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 47006,
-                        ["price"] = 150000,
-                        ["seller"] = 31574,
-                        ["timestamp"] = 1689435855,
-                        ["buyer"] = 5020,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [99358] = 
-        {
-        },
-        [153782] = 
-        {
-        },
-        [135240] = 
-        {
-        },
-        [126945] = 
-        {
-        },
-        [190367] = 
-        {
-            ["50:16:3:22:0"] = 
-            {
-                ["itemDesc"] = "Gourmand's Ring",
-                ["newestTime"] = 1689304927,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 blue superior jewelry apparel set back-alley gourmand ring arcane",
-                ["oldestTime"] = 1689302019,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 713,
+                        ["buyer"] = 31498,
+                        ["guild"] = 83,
+                        ["id"] = "2149499469",
+                        ["price"] = 724,
                         ["wasKiosk"] = true,
-                        ["id"] = "2151250871",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45495,
-                        ["price"] = 1999,
-                        ["seller"] = 15384,
-                        ["timestamp"] = 1689302019,
-                        ["buyer"] = 22373,
+                        ["seller"] = 16464,
+                        ["timestamp"] = 1689064855,
                     },
                     [2] = 
                     {
+                        ["quant"] = 40,
+                        ["itemLink"] = 713,
+                        ["buyer"] = 32809,
+                        ["guild"] = 83,
+                        ["id"] = "2152475041",
+                        ["price"] = 600,
                         ["wasKiosk"] = true,
-                        ["id"] = "2151275869",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45495,
-                        ["price"] = 1999,
-                        ["seller"] = 15384,
-                        ["timestamp"] = 1689304927,
-                        ["buyer"] = 27037,
+                        ["seller"] = 31535,
+                        ["timestamp"] = 1689460511,
                     },
                     [3] = 
                     {
+                        ["quant"] = 10,
+                        ["itemLink"] = 713,
+                        ["buyer"] = 33720,
+                        ["guild"] = 83,
+                        ["id"] = "2152530725",
+                        ["price"] = 750,
                         ["wasKiosk"] = true,
-                        ["id"] = "2151275873",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45495,
-                        ["price"] = 1999,
-                        ["seller"] = 15384,
-                        ["timestamp"] = 1689304927,
-                        ["buyer"] = 27037,
+                        ["seller"] = 31853,
+                        ["timestamp"] = 1689466770,
                     },
                 },
                 ["totalCount"] = 3,
-            },
-            ["50:16:4:22:0"] = 
-            {
-                ["itemDesc"] = "Gourmand's Ring",
-                ["newestTime"] = 1689199205,
+                ["oldestTime"] = 1689064855,
+                ["itemIcon"] = "/esoui/art/icons/crafting_components_veg_001.dds",
+                ["itemAdderText"] = "rr01 white normal materials ingredient",
                 ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic jewelry apparel set back-alley gourmand ring arcane",
-                ["oldestTime"] = 1689199205,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150437219",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 46183,
-                        ["price"] = 14999,
-                        ["seller"] = 15384,
-                        ["timestamp"] = 1689199205,
-                        ["buyer"] = 32795,
-                    },
-                },
-                ["totalCount"] = 1,
             },
         },
-        [90171] = 
+        [115218] = 
         {
         },
-        [139459] = 
+        [115747] = 
         {
         },
-        [176177] = 
+        [100411] = 
         {
         },
-        [117771] = 
+        [116639] = 
         {
         },
-        [56367] = 
+        [29990] = 
+        {
+        },
+        [174841] = 
+        {
+        },
+        [120850] = 
+        {
+        },
+        [86043] = 
+        {
+        },
+        [142674] = 
         {
         },
         [126885] = 
         {
         },
-        [97860] = 
+        [45895] = 
+        {
+            ["1:0:2:0:0"] = 
+            {
+                ["newestTime"] = 1689473569,
+                ["itemDesc"] = "Recipe: Pumpkin Cheesecake",
+                ["sales"] = 
+                {
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 15136,
+                        ["buyer"] = 32212,
+                        ["guild"] = 83,
+                        ["id"] = "2152592817",
+                        ["price"] = 275,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13207,
+                        ["timestamp"] = 1689473569,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 15136,
+                        ["buyer"] = 8815,
+                        ["guild"] = 83,
+                        ["id"] = "2148748017",
+                        ["price"] = 36,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31538,
+                        ["timestamp"] = 1688966218,
+                    },
+                },
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1688966218,
+                ["itemIcon"] = "/esoui/art/icons/quest_scroll_001.dds",
+                ["itemAdderText"] = "rr01 green fine consumable recipe",
+                ["wasAltered"] = false,
+            },
+        },
+        [74754] = 
         {
         },
-        [139894] = 
+        [142244] = 
         {
         },
-        [88544] = 
-        {
-        },
-        [156696] = 
+        [172049] = 
         {
         },
         [100266] = 
@@ -12046,55 +12198,80 @@ GS07DataSavedVariables =
         {
             ["50:16:5:22:0"] = 
             {
-                ["itemDesc"] = "Ring of Frostbite",
                 ["newestTime"] = 1689215821,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set frostbite ring arcane",
-                ["oldestTime"] = 1689215820,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemDesc"] = "Ring of Frostbite",
                 ["sales"] = 
                 {
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150613061",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46198,
+                        ["buyer"] = 32820,
+                        ["guild"] = 91,
+                        ["id"] = "2150613061",
                         ["price"] = 300000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21853,
                         ["timestamp"] = 1689215821,
-                        ["buyer"] = 32820,
                     },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150613055",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46198,
+                        ["buyer"] = 32820,
+                        ["guild"] = 91,
+                        ["id"] = "2150613055",
                         ["price"] = 300000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 21853,
                         ["timestamp"] = 1689215820,
-                        ["buyer"] = 32820,
                     },
                 },
                 ["totalCount"] = 2,
+                ["oldestTime"] = 1689215820,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_ring_a.dds",
+                ["itemAdderText"] = "cp160 gold legendary jewelry apparel set frostbite ring arcane",
+                ["wasAltered"] = false,
             },
         },
-        [48280] = 
+        [167492] = 
         {
         },
         [98222] = 
         {
         },
-        [143957] = 
+        [172028] = 
         {
         },
-        [165808] = 
+        [114608] = 
         {
+            ["50:16:3:11:0"] = 
+            {
+                ["newestTime"] = 1689327672,
+                ["itemDesc"] = "Sash of Bahraha's Curse",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46883,
+                        ["buyer"] = 33421,
+                        ["guild"] = 83,
+                        ["id"] = "2151414257",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33373,
+                        ["timestamp"] = 1689327672,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689327672,
+                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_light_waist_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set bahraha's curse waist sturdy",
+                ["wasAltered"] = false,
+            },
         },
-        [88142] = 
+        [90197] = 
         {
         },
         [122802] = 
@@ -12106,13 +12283,13 @@ GS07DataSavedVariables =
         [126900] = 
         {
         },
-        [90119] = 
+        [84524] = 
         {
         },
-        [135305] = 
+        [88102] = 
         {
         },
-        [135205] = 
+        [92342] = 
         {
         },
         [90040] = 
@@ -12121,16 +12298,16 @@ GS07DataSavedVariables =
         [149433] = 
         {
         },
-        [81123] = 
+        [172348] = 
         {
         },
-        [126447] = 
+        [98367] = 
         {
         },
-        [177199] = 
+        [88935] = 
         {
         },
-        [171965] = 
+        [118717] = 
         {
         },
         [100286] = 
@@ -12139,45 +12316,95 @@ GS07DataSavedVariables =
         [153535] = 
         {
         },
-        [166441] = 
+        [115894] = 
         {
-        },
-        [116078] = 
-        {
-            ["1:0:3:0:0"] = 
+            ["1:0:4:0:0"] = 
             {
-                ["itemDesc"] = "Diagram: Dark Elf Lantern, Ashen",
-                ["newestTime"] = 1689319670,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior consumable recipe",
-                ["oldestTime"] = 1689319670,
-                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_blacksmithing3.dds",
+                ["newestTime"] = 1689550849,
+                ["itemDesc"] = "Design: Wood Elf Cask, Painted",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151386603",
                         ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 38588,
-                        ["price"] = 3000,
-                        ["seller"] = 21633,
-                        ["timestamp"] = 1689319670,
-                        ["buyer"] = 22980,
+                        ["itemLink"] = 39495,
+                        ["buyer"] = 26141,
+                        ["guild"] = 91,
+                        ["id"] = "2153267003",
+                        ["price"] = 24995,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 8484,
+                        ["timestamp"] = 1689550849,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689550849,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_provisioning4.dds",
+                ["itemAdderText"] = "rr01 purple epic consumable recipe",
+                ["wasAltered"] = false,
             },
         },
-        [165826] = 
+        [166933] = 
         {
         },
-        [178508] = 
+        [88002] = 
+        {
+            ["42:0:2:16:0"] = 
+            {
+                ["newestTime"] = 1688966589,
+                ["itemDesc"] = "Alessian Gauntlets",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45536,
+                        ["buyer"] = 9910,
+                        ["guild"] = 83,
+                        ["id"] = "2148749953",
+                        ["price"] = 60,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31544,
+                        ["timestamp"] = 1688966589,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1688966589,
+                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_heavy_hands_a.dds",
+                ["itemAdderText"] = "rr42 green fine heavy apparel set alessian order hands infused",
+                ["wasAltered"] = false,
+            },
+        },
+        [142311] = 
         {
         },
-        [90286] = 
+        [182502] = 
         {
+            ["1:0:5:0:0"] = 
+            {
+                ["newestTime"] = 1688953701,
+                ["itemDesc"] = "Style Page: Black Drake Clanwrap Jerkin",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 35213,
+                        ["buyer"] = 31847,
+                        ["guild"] = 83,
+                        ["id"] = "2148628725",
+                        ["price"] = 1399999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 9991,
+                        ["timestamp"] = 1688953701,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1688953701,
+                ["itemIcon"] = "/esoui/art/icons/quest_summerset_completed_report.dds",
+                ["itemAdderText"] = "rr01 gold legendary consumable collectible",
+                ["wasAltered"] = false,
+            },
         },
         [126917] = 
         {
@@ -12188,654 +12415,1221 @@ GS07DataSavedVariables =
         [122823] = 
         {
         },
-        [102344] = 
+        [122824] = 
         {
         },
-        [144742] = 
+        [99869] = 
         {
         },
-        [119470] = 
+        [123588] = 
+        {
+            ["50:16:3:14:0"] = 
+            {
+                ["newestTime"] = 1689143673,
+                ["itemDesc"] = "Knight Slayer Shoes",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46151,
+                        ["buyer"] = 32743,
+                        ["guild"] = 91,
+                        ["id"] = "2150184863",
+                        ["price"] = 1200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31944,
+                        ["timestamp"] = 1689143673,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689143673,
+                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_light_feet_a.dds",
+                ["itemAdderText"] = "cp160 blue superior light apparel set knight slayer feet well-fitted",
+                ["wasAltered"] = false,
+            },
+        },
+        [95763] = 
         {
         },
-        [15770] = 
+        [34979] = 
         {
         },
-        [180918] = 
-        {
-        },
-        [139398] = 
+        [123370] = 
         {
         },
         [69582] = 
         {
             ["30:0:3:0:0"] = 
             {
-                ["itemDesc"] = "Greaves of Julianos",
                 ["newestTime"] = 1689400371,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr30 blue superior heavy apparel set law of julianos legs",
-                ["oldestTime"] = 1689400371,
-                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_legs_c.dds",
+                ["itemDesc"] = "Greaves of Julianos",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151981317",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 46916,
+                        ["buyer"] = 33496,
+                        ["guild"] = 91,
+                        ["id"] = "2151981317",
                         ["price"] = 6000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 33497,
                         ["timestamp"] = 1689400371,
-                        ["buyer"] = 33496,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689400371,
+                ["itemIcon"] = "/esoui/art/icons/gear_breton_heavy_legs_c.dds",
+                ["itemAdderText"] = "rr30 blue superior heavy apparel set law of julianos legs",
+                ["wasAltered"] = false,
             },
         },
         [182223] = 
         {
         },
-        [95464] = 
+        [119271] = 
         {
         },
-        [139217] = 
+        [100305] = 
         {
         },
-        [194514] = 
+        [171986] = 
         {
-            ["1:0:4:0:0"] = 
-            {
-                ["itemDesc"] = "Crafting Motif 122: Dead Keeper Axes",
-                ["newestTime"] = 1689040512,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic consumable motif",
-                ["oldestTime"] = 1689040512,
-                ["itemIcon"] = "/esoui/art/icons/quest_letter_002.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149328775",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45244,
-                        ["price"] = 50000,
-                        ["seller"] = 31523,
-                        ["timestamp"] = 1689040512,
-                        ["buyer"] = 15939,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [72903] = 
+        [98458] = 
         {
         },
         [165844] = 
         {
         },
-        [159713] = 
+        [123663] = 
         {
         },
-        [26582] = 
+        [98262] = 
         {
-            ["50:16:4:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Magicka",
-                ["newestTime"] = 1689265748,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic miscellaneous armor glyph",
-                ["oldestTime"] = 1688940322,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148492299",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 462,
-                        ["price"] = 1486,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1688940322,
-                        ["buyer"] = 31558,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150412055",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 462,
-                        ["price"] = 1486,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689195766,
-                        ["buyer"] = 32790,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150412073",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 462,
-                        ["price"] = 1486,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689195767,
-                        ["buyer"] = 32790,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150975275",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 462,
-                        ["price"] = 1486,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689265747,
-                        ["buyer"] = 33206,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150975289",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 462,
-                        ["price"] = 1486,
-                        ["seller"] = 31559,
-                        ["timestamp"] = 1689265748,
-                        ["buyer"] = 33206,
-                    },
-                },
-                ["totalCount"] = 5,
-            },
-            ["50:16:1:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Magicka",
-                ["newestTime"] = 1689475732,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 white normal miscellaneous armor glyph",
-                ["oldestTime"] = 1689185387,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150328559",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 893,
-                        ["price"] = 225,
-                        ["seller"] = 21091,
-                        ["timestamp"] = 1689185387,
-                        ["buyer"] = 32008,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151911301",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 3080,
-                        ["price"] = 335,
-                        ["seller"] = 28327,
-                        ["timestamp"] = 1689391679,
-                        ["buyer"] = 33488,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151825753",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 14770,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689382198,
-                        ["buyer"] = 32439,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151825771",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 893,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689382199,
-                        ["buyer"] = 32439,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151825781",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 16274,
-                        ["price"] = 110,
-                        ["seller"] = 31537,
-                        ["timestamp"] = 1689382200,
-                        ["buyer"] = 32439,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152612033",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 4960,
-                        ["price"] = 309,
-                        ["seller"] = 5298,
-                        ["timestamp"] = 1689475732,
-                        ["buyer"] = 33738,
-                    },
-                },
-                ["totalCount"] = 6,
-            },
-            ["45:0:2:0:0"] = 
-            {
-                ["itemDesc"] = "Strong Glyph of Magicka",
-                ["newestTime"] = 1689305671,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr45 green fine miscellaneous armor glyph",
-                ["oldestTime"] = 1689305670,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151283505",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46853,
-                        ["price"] = 2050,
-                        ["seller"] = 16464,
-                        ["timestamp"] = 1689305670,
-                        ["buyer"] = 33388,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151283507",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46853,
-                        ["price"] = 2050,
-                        ["seller"] = 16464,
-                        ["timestamp"] = 1689305671,
-                        ["buyer"] = 33388,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151283509",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46853,
-                        ["price"] = 2050,
-                        ["seller"] = 16464,
-                        ["timestamp"] = 1689305671,
-                        ["buyer"] = 33388,
-                    },
-                },
-                ["totalCount"] = 3,
-            },
-            ["50:16:5:0:0"] = 
-            {
-                ["itemDesc"] = "Truly Superb Glyph of Magicka",
-                ["newestTime"] = 1689447105,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 gold legendary miscellaneous armor glyph",
-                ["oldestTime"] = 1688953388,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148624651",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 12000,
-                        ["seller"] = 27942,
-                        ["timestamp"] = 1688953388,
-                        ["buyer"] = 31844,
-                    },
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148634877",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 15000,
-                        ["seller"] = 16089,
-                        ["timestamp"] = 1688954326,
-                        ["buyer"] = 31882,
-                    },
-                    [3] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148634887",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 15000,
-                        ["seller"] = 16089,
-                        ["timestamp"] = 1688954327,
-                        ["buyer"] = 31882,
-                    },
-                    [4] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148890519",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13700,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1688991743,
-                        ["buyer"] = 32232,
-                    },
-                    [5] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149162751",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13700,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689022983,
-                        ["buyer"] = 32378,
-                    },
-                    [6] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150256951",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13700,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689177578,
-                        ["buyer"] = 32627,
-                    },
-                    [7] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150256955",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13700,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689177579,
-                        ["buyer"] = 32627,
-                    },
-                    [8] = 
-                    {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2150415307",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 10000,
-                        ["seller"] = 31584,
-                        ["timestamp"] = 1689196247,
-                        ["buyer"] = 32790,
-                    },
-                    [9] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150800097",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689242635,
-                        ["buyer"] = 33174,
-                    },
-                    [10] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150800167",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689242659,
-                        ["buyer"] = 33174,
-                    },
-                    [11] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151112765",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 14999,
-                        ["seller"] = 33292,
-                        ["timestamp"] = 1689286767,
-                        ["buyer"] = 32044,
-                    },
-                    [12] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151112769",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 16499,
-                        ["seller"] = 32296,
-                        ["timestamp"] = 1689286769,
-                        ["buyer"] = 32044,
-                    },
-                    [13] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151112777",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 16499,
-                        ["seller"] = 32296,
-                        ["timestamp"] = 1689286770,
-                        ["buyer"] = 32044,
-                    },
-                    [14] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151112781",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 16499,
-                        ["seller"] = 32296,
-                        ["timestamp"] = 1689286771,
-                        ["buyer"] = 32044,
-                    },
-                    [15] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151097721",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689285000,
-                        ["buyer"] = 33297,
-                    },
-                    [16] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151097725",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689285001,
-                        ["buyer"] = 33297,
-                    },
-                    [17] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152270501",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 334,
-                        ["price"] = 40000,
-                        ["seller"] = 32003,
-                        ["timestamp"] = 1689437648,
-                        ["buyer"] = 33586,
-                    },
-                    [18] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152363179",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689447101,
-                        ["buyer"] = 1220,
-                    },
-                    [19] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2152363225",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 334,
-                        ["price"] = 13800,
-                        ["seller"] = 1418,
-                        ["timestamp"] = 1689447105,
-                        ["buyer"] = 1220,
-                    },
-                },
-                ["totalCount"] = 19,
-            },
-            ["50:15:1:0:0"] = 
-            {
-                ["itemDesc"] = "Superb Glyph of Magicka",
-                ["newestTime"] = 1689028675,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp150 white normal miscellaneous armor glyph",
-                ["oldestTime"] = 1689028675,
-                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_magickaboost.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149206227",
-                        ["quant"] = 1,
-                        ["guild"] = 91,
-                        ["itemLink"] = 45947,
-                        ["price"] = 999,
-                        ["seller"] = 31653,
-                        ["timestamp"] = 1689028675,
-                        ["buyer"] = 32406,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
-        [114791] = 
+        [116816] = 
         {
         },
         [149464] = 
         {
         },
-        [144020] = 
+        [98407] = 
         {
         },
         [159706] = 
         {
         },
-        [150406] = 
+        [95683] = 
         {
         },
-        [102364] = 
+        [26588] = 
         {
+            ["50:15:2:0:0"] = 
+            {
+                ["newestTime"] = 1689443359,
+                ["itemDesc"] = "Superb Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3081,
+                        ["buyer"] = 33594,
+                        ["guild"] = 91,
+                        ["id"] = "2152326871",
+                        ["price"] = 1288,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31653,
+                        ["timestamp"] = 1689443359,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689443359,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "cp150 green fine miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:16:4:0:0"] = 
+            {
+                ["newestTime"] = 1689631833,
+                ["itemDesc"] = "Truly Superb Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 32790,
+                        ["guild"] = 91,
+                        ["id"] = "2150412093",
+                        ["price"] = 1686,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689195770,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 32790,
+                        ["guild"] = 91,
+                        ["id"] = "2150412103",
+                        ["price"] = 1686,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689195773,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150975257",
+                        ["price"] = 1586,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689265746,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33206,
+                        ["guild"] = 91,
+                        ["id"] = "2150975265",
+                        ["price"] = 1586,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689265746,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33465,
+                        ["guild"] = 91,
+                        ["id"] = "2151741301",
+                        ["price"] = 1568,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689373573,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33465,
+                        ["guild"] = 91,
+                        ["id"] = "2151741409",
+                        ["price"] = 1568,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31559,
+                        ["timestamp"] = 1689373578,
+                    },
+                    [7] = 
+                    {
+                        ["price"] = 1500,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33947,
+                        ["guild"] = 91,
+                        ["id"] = "2153880239",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 6462,
+                        ["timestamp"] = 1689631830,
+                    },
+                    [8] = 
+                    {
+                        ["price"] = 1500,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33947,
+                        ["guild"] = 91,
+                        ["id"] = "2153880259",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 6462,
+                        ["timestamp"] = 1689631831,
+                    },
+                    [9] = 
+                    {
+                        ["price"] = 1500,
+                        ["itemLink"] = 585,
+                        ["buyer"] = 33947,
+                        ["guild"] = 91,
+                        ["id"] = "2153880273",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 6462,
+                        ["timestamp"] = 1689631833,
+                    },
+                },
+                ["totalCount"] = 9,
+                ["oldestTime"] = 1689195770,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "cp160 purple epic miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:16:1:0:0"] = 
+            {
+                ["newestTime"] = 1689467605,
+                ["itemDesc"] = "Truly Superb Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1375,
+                        ["buyer"] = 32497,
+                        ["guild"] = 83,
+                        ["id"] = "2149247531",
+                        ["price"] = 139,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689033287,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1376,
+                        ["buyer"] = 32497,
+                        ["guild"] = 83,
+                        ["id"] = "2149247535",
+                        ["price"] = 139,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689033287,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1376,
+                        ["buyer"] = 32497,
+                        ["guild"] = 83,
+                        ["id"] = "2149247537",
+                        ["price"] = 139,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689033288,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2861,
+                        ["buyer"] = 32497,
+                        ["guild"] = 83,
+                        ["id"] = "2149247543",
+                        ["price"] = 139,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31539,
+                        ["timestamp"] = 1689033288,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1375,
+                        ["buyer"] = 32008,
+                        ["guild"] = 91,
+                        ["id"] = "2150328523",
+                        ["price"] = 100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 15385,
+                        ["timestamp"] = 1689185383,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1377,
+                        ["buyer"] = 32037,
+                        ["guild"] = 83,
+                        ["id"] = "2150764025",
+                        ["price"] = 145,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 25058,
+                        ["timestamp"] = 1689237086,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1375,
+                        ["buyer"] = 33488,
+                        ["guild"] = 91,
+                        ["id"] = "2151911267",
+                        ["price"] = 327,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 28327,
+                        ["timestamp"] = 1689391671,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1381,
+                        ["buyer"] = 33488,
+                        ["guild"] = 91,
+                        ["id"] = "2151911275",
+                        ["price"] = 327,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 28327,
+                        ["timestamp"] = 1689391674,
+                    },
+                    [9] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1378,
+                        ["buyer"] = 33488,
+                        ["guild"] = 91,
+                        ["id"] = "2151911317",
+                        ["price"] = 340,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 6924,
+                        ["timestamp"] = 1689391680,
+                    },
+                    [10] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2861,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2151825731",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689382197,
+                    },
+                    [11] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 3229,
+                        ["buyer"] = 33614,
+                        ["guild"] = 91,
+                        ["id"] = "2152539171",
+                        ["price"] = 250,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 27554,
+                        ["timestamp"] = 1689467605,
+                    },
+                    [12] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 2861,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2152475271",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689460549,
+                    },
+                    [13] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 1376,
+                        ["buyer"] = 32439,
+                        ["guild"] = 83,
+                        ["id"] = "2152475275",
+                        ["price"] = 110,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31537,
+                        ["timestamp"] = 1689460550,
+                    },
+                },
+                ["totalCount"] = 13,
+                ["oldestTime"] = 1689033287,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "cp160 white normal miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:16:5:0:0"] = 
+            {
+                ["newestTime"] = 1689648540,
+                ["itemDesc"] = "Truly Superb Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 31494,
+                        ["guild"] = 83,
+                        ["id"] = "2148525793",
+                        ["price"] = 13400,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1688943423,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 31993,
+                        ["guild"] = 91,
+                        ["id"] = "2148743275",
+                        ["price"] = 15000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1688965294,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 31993,
+                        ["guild"] = 91,
+                        ["id"] = "2148743291",
+                        ["price"] = 15000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1688965298,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 31993,
+                        ["guild"] = 91,
+                        ["id"] = "2148743777",
+                        ["price"] = 40000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32003,
+                        ["timestamp"] = 1688965372,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 32637,
+                        ["guild"] = 83,
+                        ["id"] = "2150303073",
+                        ["price"] = 13400,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689182667,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 32637,
+                        ["guild"] = 83,
+                        ["id"] = "2150303095",
+                        ["price"] = 13400,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689182669,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 33732,
+                        ["guild"] = 83,
+                        ["id"] = "2152590869",
+                        ["price"] = 13600,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689473402,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 33732,
+                        ["guild"] = 83,
+                        ["id"] = "2152590883",
+                        ["price"] = 13600,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 1418,
+                        ["timestamp"] = 1689473404,
+                    },
+                    [9] = 
+                    {
+                        ["price"] = 15000,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 33968,
+                        ["guild"] = 91,
+                        ["id"] = "2154032851",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1689648537,
+                    },
+                    [10] = 
+                    {
+                        ["price"] = 15000,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 33968,
+                        ["guild"] = 91,
+                        ["id"] = "2154032869",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 16089,
+                        ["timestamp"] = 1689648538,
+                    },
+                    [11] = 
+                    {
+                        ["price"] = 16499,
+                        ["itemLink"] = 289,
+                        ["buyer"] = 33968,
+                        ["guild"] = 91,
+                        ["id"] = "2154032889",
+                        ["quant"] = 1,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32296,
+                        ["timestamp"] = 1689648540,
+                    },
+                },
+                ["totalCount"] = 11,
+                ["oldestTime"] = 1688943423,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "cp160 gold legendary miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["41:0:1:0:0"] = 
+            {
+                ["newestTime"] = 1689033285,
+                ["itemDesc"] = "Strong Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45715,
+                        ["buyer"] = 32497,
+                        ["guild"] = 83,
+                        ["id"] = "2149247511",
+                        ["price"] = 108,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32133,
+                        ["timestamp"] = 1689033285,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689033285,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "rr41 white normal miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
+            ["50:15:1:0:0"] = 
+            {
+                ["newestTime"] = 1689028676,
+                ["itemDesc"] = "Superb Glyph of Stamina",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 27979,
+                        ["buyer"] = 32406,
+                        ["guild"] = 91,
+                        ["id"] = "2149206235",
+                        ["price"] = 999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31653,
+                        ["timestamp"] = 1689028676,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689028676,
+                ["itemIcon"] = "/esoui/art/icons/enchantment_armor_staminaboost.dds",
+                ["itemAdderText"] = "cp150 white normal miscellaneous armor glyph",
+                ["wasAltered"] = false,
+            },
         },
         [122845] = 
         {
         },
-        [167319] = 
+        [94264] = 
         {
         },
-        [45023] = 
+        [90079] = 
         {
+            ["50:16:2:11:0"] = 
+            {
+                ["newestTime"] = 1688975648,
+                ["itemDesc"] = "Shield of Imperial Wrath",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 45786,
+                        ["buyer"] = 215,
+                        ["guild"] = 91,
+                        ["id"] = "2148802717",
+                        ["price"] = 1400,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 24161,
+                        ["timestamp"] = 1688975648,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1688975648,
+                ["itemIcon"] = "/esoui/art/icons/gear_ebonheart_shield_a.dds",
+                ["itemAdderText"] = "cp160 green fine apparel weapon set wrath of the imperium shield off hand sturdy",
+                ["wasAltered"] = false,
+            },
         },
         [159712] = 
         {
         },
-        [194529] = 
+        [135137] = 
         {
             ["1:0:1:0:0"] = 
             {
-                ["itemDesc"] = "Funerary Wrappings",
-                ["newestTime"] = 1689049929,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 white normal materials style",
-                ["oldestTime"] = 1689037522,
-                ["itemIcon"] = "/esoui/art/icons/style_icon_funerary_wrappings.dds",
+                ["newestTime"] = 1689663414,
+                ["itemDesc"] = "Pewter Dust",
                 ["sales"] = 
                 {
-                    [2] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149412521",
-                        ["quant"] = 3,
-                        ["guild"] = 83,
-                        ["itemLink"] = 45115,
-                        ["price"] = 28000,
-                        ["seller"] = 32046,
-                        ["timestamp"] = 1689049929,
-                        ["buyer"] = 390,
-                    },
                     [1] = 
                     {
+                        ["quant"] = 20,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 91,
+                        ["id"] = "2148538957",
+                        ["price"] = 7000,
                         ["wasKiosk"] = true,
-                        ["id"] = "2149294287",
-                        ["quant"] = 4,
+                        ["seller"] = 19431,
+                        ["timestamp"] = 1688944721,
+                    },
+                    [2] = 
+                    {
+                        ["quant"] = 85,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 91,
+                        ["id"] = "2148538959",
+                        ["price"] = 45000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31576,
+                        ["timestamp"] = 1688944722,
+                    },
+                    [3] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
                         ["guild"] = 83,
-                        ["itemLink"] = 45115,
+                        ["id"] = "2148609615",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951934,
+                    },
+                    [4] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609623",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951935,
+                    },
+                    [5] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609627",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951936,
+                    },
+                    [6] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609631",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951936,
+                    },
+                    [7] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609637",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951935,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609639",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951936,
+                    },
+                    [9] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609645",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951937,
+                    },
+                    [10] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609653",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951938,
+                    },
+                    [11] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609657",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951938,
+                    },
+                    [12] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609659",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951938,
+                    },
+                    [13] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609663",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951939,
+                    },
+                    [14] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 11481,
+                        ["guild"] = 83,
+                        ["id"] = "2148609667",
+                        ["price"] = 310,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31824,
+                        ["timestamp"] = 1688951941,
+                    },
+                    [15] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 32013,
+                        ["guild"] = 83,
+                        ["id"] = "2148675339",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1688958502,
+                    },
+                    [16] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 32679,
+                        ["guild"] = 83,
+                        ["id"] = "2150516435",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689207107,
+                    },
+                    [17] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 887,
+                        ["guild"] = 83,
+                        ["id"] = "2151117989",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689287595,
+                    },
+                    [18] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 887,
+                        ["guild"] = 83,
+                        ["id"] = "2151118009",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689287596,
+                    },
+                    [19] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 887,
+                        ["guild"] = 83,
+                        ["id"] = "2151118023",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689287597,
+                    },
+                    [20] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 887,
+                        ["guild"] = 83,
+                        ["id"] = "2151118031",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689287598,
+                    },
+                    [21] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 887,
+                        ["guild"] = 83,
+                        ["id"] = "2151118037",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689287600,
+                    },
+                    [22] = 
+                    {
+                        ["quant"] = 5,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 8985,
+                        ["guild"] = 83,
+                        ["id"] = "2151759187",
+                        ["price"] = 2050,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689375207,
+                    },
+                    [23] = 
+                    {
+                        ["quant"] = 20,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 12925,
+                        ["guild"] = 91,
+                        ["id"] = "2151864915",
+                        ["price"] = 7424,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 27063,
+                        ["timestamp"] = 1689386646,
+                    },
+                    [24] = 
+                    {
+                        ["quant"] = 3,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 33505,
+                        ["guild"] = 91,
+                        ["id"] = "2152014109",
+                        ["price"] = 1645,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33252,
+                        ["timestamp"] = 1689405225,
+                    },
+                    [25] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 31679,
+                        ["guild"] = 83,
+                        ["id"] = "2152617461",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689476374,
+                    },
+                    [26] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 31679,
+                        ["guild"] = 83,
+                        ["id"] = "2152617487",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689476377,
+                    },
+                    [27] = 
+                    {
+                        ["quant"] = 10,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 31679,
+                        ["guild"] = 83,
+                        ["id"] = "2152617501",
+                        ["price"] = 4100,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689476378,
+                    },
+                    [28] = 
+                    {
+                        ["quant"] = 47,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 33465,
+                        ["guild"] = 91,
+                        ["id"] = "2153469561",
+                        ["price"] = 14570,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33815,
+                        ["timestamp"] = 1689574519,
+                    },
+                    [29] = 
+                    {
+                        ["price"] = 62009,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922253",
+                        ["quant"] = 186,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 13485,
+                        ["timestamp"] = 1689637123,
+                    },
+                    [30] = 
+                    {
                         ["price"] = 4000,
-                        ["seller"] = 32041,
-                        ["timestamp"] = 1689037522,
-                        ["buyer"] = 32030,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922337",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31543,
+                        ["timestamp"] = 1689637129,
+                    },
+                    [31] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922349",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637130,
+                    },
+                    [32] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922357",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637131,
+                    },
+                    [33] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922361",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637131,
+                    },
+                    [34] = 
+                    {
+                        ["price"] = 1230,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922367",
+                        ["quant"] = 3,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637132,
+                    },
+                    [35] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922375",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637133,
+                    },
+                    [36] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922379",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637134,
+                    },
+                    [37] = 
+                    {
+                        ["price"] = 51520,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922389",
+                        ["quant"] = 112,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32064,
+                        ["timestamp"] = 1689637134,
+                    },
+                    [38] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922393",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637136,
+                    },
+                    [39] = 
+                    {
+                        ["price"] = 4100,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 83,
+                        ["id"] = "2153922397",
+                        ["quant"] = 10,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 32014,
+                        ["timestamp"] = 1689637137,
+                    },
+                    [40] = 
+                    {
+                        ["price"] = 110999,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 19368,
+                        ["guild"] = 83,
+                        ["id"] = "2153937647",
+                        ["quant"] = 200,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31542,
+                        ["timestamp"] = 1689638206,
+                    },
+                    [41] = 
+                    {
+                        ["price"] = 6820,
+                        ["itemLink"] = 967,
+                        ["buyer"] = 104,
+                        ["guild"] = 91,
+                        ["id"] = "2153939849",
+                        ["quant"] = 22,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33815,
+                        ["timestamp"] = 1689638458,
+                    },
+                    [42] = 
+                    {
+                        ["quant"] = 101,
+                        ["seller"] = 33815,
+                        ["buyer"] = 31977,
+                        ["guild"] = 91,
+                        ["id"] = "2154137815",
+                        ["timestamp"] = 1689663414,
+                        ["wasKiosk"] = false,
+                        ["price"] = 32623,
+                        ["itemLink"] = 967,
                     },
                 },
-                ["totalCount"] = 2,
+                ["totalCount"] = 42,
+                ["oldestTime"] = 1688944721,
+                ["itemIcon"] = "/esoui/art/icons/crafting_pewter_dust.dds",
+                ["itemAdderText"] = "rr01 white normal materials raw",
+                ["wasAltered"] = true,
             },
         },
-        [95461] = 
+        [100534] = 
         {
         },
         [182243] = 
         {
         },
-        [176551] = 
+        [119242] = 
         {
+            ["1:0:3:0:0"] = 
+            {
+                ["newestTime"] = 1689319677,
+                ["itemDesc"] = "Blueprint: Redguard Bookcase, Arched",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 42610,
+                        ["buyer"] = 22980,
+                        ["guild"] = 83,
+                        ["id"] = "2151386705",
+                        ["price"] = 4500,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 21423,
+                        ["timestamp"] = 1689319677,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689319677,
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_woodworking_3.dds",
+                ["itemAdderText"] = "rr01 blue superior consumable recipe",
+                ["wasAltered"] = false,
+            },
         },
-        [95614] = 
+        [135447] = 
         {
         },
         [100326] = 
@@ -12844,10 +13638,10 @@ GS07DataSavedVariables =
         [172007] = 
         {
         },
-        [96662] = 
+        [176357] = 
         {
         },
-        [123600] = 
+        [123253] = 
         {
         },
         [98282] = 
@@ -12862,7 +13656,7 @@ GS07DataSavedVariables =
         [45037] = 
         {
         },
-        [126958] = 
+        [45038] = 
         {
         },
         [145391] = 
@@ -12872,172 +13666,159 @@ GS07DataSavedVariables =
         {
             ["1:0:3:0:0"] = 
             {
+                ["newestTime"] = 1689640415,
                 ["itemDesc"] = "Iridium Grains",
-                ["newestTime"] = 1689371555,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 blue superior materials raw plating",
-                ["oldestTime"] = 1688925117,
-                ["itemIcon"] = "/esoui/art/icons/jewelrycrafting_booster_raw_iridium.dds",
                 ["sales"] = 
                 {
-                    [8] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151723421",
-                        ["quant"] = 4,
-                        ["guild"] = 83,
-                        ["itemLink"] = 1846,
-                        ["price"] = 8000,
-                        ["seller"] = 33436,
-                        ["timestamp"] = 1689371555,
-                        ["buyer"] = 32756,
-                    },
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148657971",
                         ["quant"] = 2,
-                        ["guild"] = 91,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 31945,
+                        ["guild"] = 91,
+                        ["id"] = "2148657971",
                         ["price"] = 4968,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31977,
                         ["timestamp"] = 1688957100,
-                        ["buyer"] = 31945,
                     },
                     [2] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2149501287",
                         ["quant"] = 7,
-                        ["guild"] = 83,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 32546,
+                        ["guild"] = 83,
+                        ["id"] = "2149501287",
                         ["price"] = 15400,
+                        ["wasKiosk"] = true,
                         ["seller"] = 31513,
                         ["timestamp"] = 1689065467,
-                        ["buyer"] = 32546,
                     },
                     [3] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150307543",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 31893,
+                        ["guild"] = 83,
+                        ["id"] = "2150307543",
                         ["price"] = 2000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 32639,
                         ["timestamp"] = 1689183202,
-                        ["buyer"] = 31893,
                     },
                     [4] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150292255",
                         ["quant"] = 1,
-                        ["guild"] = 91,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 32320,
+                        ["guild"] = 91,
+                        ["id"] = "2150292255",
                         ["price"] = 2222,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19431,
                         ["timestamp"] = 1689181537,
-                        ["buyer"] = 32320,
                     },
                     [5] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148330603",
                         ["quant"] = 1,
-                        ["guild"] = 144,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 8834,
+                        ["guild"] = 144,
+                        ["id"] = "2148330603",
                         ["price"] = 2000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33273,
                         ["timestamp"] = 1688925117,
-                        ["buyer"] = 8834,
                     },
                     [6] = 
                     {
-                        ["wasKiosk"] = false,
-                        ["id"] = "2148330907",
                         ["quant"] = 5,
-                        ["guild"] = 144,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 8834,
+                        ["guild"] = 144,
+                        ["id"] = "2148330907",
                         ["price"] = 10000,
+                        ["wasKiosk"] = false,
                         ["seller"] = 33273,
                         ["timestamp"] = 1688925172,
-                        ["buyer"] = 8834,
                     },
                     [7] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151259529",
                         ["quant"] = 5,
-                        ["guild"] = 83,
                         ["itemLink"] = 1846,
+                        ["buyer"] = 32841,
+                        ["guild"] = 83,
+                        ["id"] = "2151259529",
                         ["price"] = 12015,
+                        ["wasKiosk"] = true,
                         ["seller"] = 19731,
                         ["timestamp"] = 1689302981,
-                        ["buyer"] = 32841,
+                    },
+                    [8] = 
+                    {
+                        ["quant"] = 4,
+                        ["itemLink"] = 1846,
+                        ["buyer"] = 32756,
+                        ["guild"] = 83,
+                        ["id"] = "2151723421",
+                        ["price"] = 8000,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 33436,
+                        ["timestamp"] = 1689371555,
+                    },
+                    [9] = 
+                    {
+                        ["price"] = 47518,
+                        ["itemLink"] = 1846,
+                        ["buyer"] = 4363,
+                        ["guild"] = 83,
+                        ["id"] = "2153961889",
+                        ["quant"] = 23,
+                        ["wasKiosk"] = false,
+                        ["seller"] = 19731,
+                        ["timestamp"] = 1689640415,
                     },
                 },
-                ["totalCount"] = 8,
+                ["totalCount"] = 9,
+                ["oldestTime"] = 1688925117,
+                ["itemIcon"] = "/esoui/art/icons/jewelrycrafting_booster_raw_iridium.dds",
+                ["itemAdderText"] = "rr01 blue superior materials raw plating",
+                ["wasAltered"] = false,
             },
         },
-        [122865] = 
+        [69617] = 
         {
         },
         [122866] = 
         {
             ["50:16:4:5:0"] = 
             {
-                ["itemDesc"] = "War Maiden's Ice Staff",
                 ["newestTime"] = 1688978293,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set war maiden frost staff two-handed defending",
-                ["oldestTime"] = 1688978293,
-                ["itemIcon"] = "/esoui/art/icons/gear_telvanni_staff_a.dds",
+                ["itemDesc"] = "War Maiden's Ice Staff",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2148814791",
                         ["quant"] = 1,
-                        ["guild"] = 83,
                         ["itemLink"] = 45742,
+                        ["buyer"] = 32211,
+                        ["guild"] = 83,
+                        ["id"] = "2148814791",
                         ["price"] = 30000,
+                        ["wasKiosk"] = true,
                         ["seller"] = 18368,
                         ["timestamp"] = 1688978293,
-                        ["buyer"] = 32211,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1688978293,
+                ["itemIcon"] = "/esoui/art/icons/gear_telvanni_staff_a.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set war maiden frost staff two-handed defending",
+                ["wasAltered"] = false,
             },
         },
-        [93600] = 
+        [142610] = 
         {
-            ["19:0:2:14:0"] = 
-            {
-                ["itemDesc"] = "Belt of Kyne's Kiss",
-                ["newestTime"] = 1689391043,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr19 green fine medium apparel set kyne's kiss waist well-fitted",
-                ["oldestTime"] = 1689391043,
-                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_waist_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151905361",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46935,
-                        ["price"] = 999,
-                        ["seller"] = 31530,
-                        ["timestamp"] = 1689391043,
-                        ["buyer"] = 33519,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
         },
         [45044] = 
         {
@@ -13045,91 +13826,91 @@ GS07DataSavedVariables =
         [120821] = 
         {
         },
-        [135367] = 
+        [160753] = 
         {
-            ["50:16:4:1:0"] = 
+            ["50:16:2:17:0"] = 
             {
-                ["itemDesc"] = "Gryphon's Mace",
-                ["newestTime"] = 1689140567,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "cp160 purple epic weapon set gryphon's ferocity mace one-handed powered",
-                ["oldestTime"] = 1689140567,
-                ["itemIcon"] = "/esoui/art/icons/gear_ancient_elf_1hhammer_b.dds",
+                ["newestTime"] = 1689130035,
+                ["itemDesc"] = "Epaulets of Winter's Respite",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2150163773",
                         ["quant"] = 1,
+                        ["itemLink"] = 46052,
+                        ["buyer"] = 14433,
                         ["guild"] = 83,
-                        ["itemLink"] = 46067,
-                        ["price"] = 12000,
-                        ["seller"] = 32025,
-                        ["timestamp"] = 1689140567,
-                        ["buyer"] = 32609,
+                        ["id"] = "2150086125",
+                        ["price"] = 300,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 31529,
+                        ["timestamp"] = 1689130035,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689130035,
+                ["itemIcon"] = "/esoui/art/icons/gear_blackreachexlgt_shoulders.dds",
+                ["itemAdderText"] = "cp160 green fine light apparel set winter's respite shoulders invigorating",
+                ["wasAltered"] = false,
             },
         },
-        [145399] = 
+        [176119] = 
         {
         },
-        [139390] = 
+        [75069] = 
         {
-            ["1:0:4:0:0"] = 
+            ["50:16:4:4:0"] = 
             {
-                ["itemDesc"] = "Alinor Cabinet, Noble",
-                ["newestTime"] = 1689297683,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr01 purple epic furnishings hearth",
-                ["oldestTime"] = 1689297683,
-                ["itemIcon"] = "/esoui/art/icons/housing_sum_fur_wallshelf002.dds",
+                ["newestTime"] = 1689288043,
+                ["itemDesc"] = "Dagger of Mother's Embrace",
                 ["sales"] = 
                 {
                     [1] = 
                     {
-                        ["wasKiosk"] = true,
-                        ["id"] = "2151206987",
                         ["quant"] = 1,
+                        ["itemLink"] = 25132,
+                        ["buyer"] = 33316,
+                        ["guild"] = 83,
+                        ["id"] = "2151121361",
+                        ["price"] = 1999,
+                        ["wasKiosk"] = true,
+                        ["seller"] = 19523,
+                        ["timestamp"] = 1689288043,
+                    },
+                },
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689288043,
+                ["itemIcon"] = "/esoui/art/icons/gear_thievesguildv2_dagger_a.dds",
+                ["itemAdderText"] = "cp160 purple epic weapon set night mother's embrace dagger one-handed infused",
+                ["wasAltered"] = false,
+            },
+        },
+        [156324] = 
+        {
+            ["50:16:5:13:0"] = 
+            {
+                ["newestTime"] = 1689325796,
+                ["itemDesc"] = "New Moon Acolyte's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["itemLink"] = 46874,
+                        ["buyer"] = 33364,
                         ["guild"] = 91,
-                        ["itemLink"] = 46813,
-                        ["price"] = 67000,
-                        ["seller"] = 4219,
-                        ["timestamp"] = 1689297683,
-                        ["buyer"] = 32859,
-                    },
-                },
-                ["totalCount"] = 1,
-            },
-        },
-        [93575] = 
-        {
-            ["19:0:2:18:0"] = 
-            {
-                ["itemDesc"] = "Boots of Kyne's Kiss",
-                ["newestTime"] = 1689391045,
-                ["wasAltered"] = false,
-                ["itemAdderText"] = "rr19 green fine medium apparel set kyne's kiss feet divines",
-                ["oldestTime"] = 1689391045,
-                ["itemIcon"] = "/esoui/art/icons/gear_daggerfall_medium_feet_a.dds",
-                ["sales"] = 
-                {
-                    [1] = 
-                    {
+                        ["id"] = "2151408835",
+                        ["price"] = 125000,
                         ["wasKiosk"] = true,
-                        ["id"] = "2151905375",
-                        ["quant"] = 1,
-                        ["guild"] = 83,
-                        ["itemLink"] = 46936,
-                        ["price"] = 999,
-                        ["seller"] = 31530,
-                        ["timestamp"] = 1689391045,
-                        ["buyer"] = 33519,
+                        ["seller"] = 1684,
+                        ["timestamp"] = 1689325796,
                     },
                 },
                 ["totalCount"] = 1,
+                ["oldestTime"] = 1689325796,
+                ["itemIcon"] = "/esoui/art/icons/gear_apostle_shield_a.dds",
+                ["itemAdderText"] = "cp160 gold legendary apparel weapon set new moon acolyte shield off hand reinforced",
+                ["wasAltered"] = false,
             },
         },
         [69626] = 
@@ -13138,21 +13919,18 @@ GS07DataSavedVariables =
         [135163] = 
         {
         },
-        [92156] = 
+        [90108] = 
         {
         },
         [135165] = 
         {
         },
-        [88062] = 
+        [120830] = 
         {
         },
         [10239] = 
         {
         },
-    },
-    ["dataeu"] = 
-    {
     },
     ["listingsna"] = 
     {
@@ -13230,6 +14008,33 @@ GS07DataSavedVariables =
         },
         [71723] = 
         {
+        },
+        [166956] = 
+        {
+            ["1:0:4:0:0"] = 
+            {
+                ["itemAdderText"] = "rr01 purple epic consumable recipe",
+                ["itemIcon"] = "/esoui/art/icons/crafting_planfurniture_enchanting4.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Praxis: Solitude Streetlight, Single",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 4032,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689658487,
+                        ["id"] = "4638242028852645177",
+                        ["itemLink"] = 36604,
+                        ["price"] = 1400000,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [127021] = 
         {
@@ -13428,6 +14233,30 @@ GS07DataSavedVariables =
         },
         [176285] = 
         {
+            ["1:0:2:45:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine apparel weapon shield off hand focused",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 9954,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1687733190,
+                        ["id"] = "4906735329471472414",
+                        ["itemLink"] = 37861,
+                        ["price"] = 55,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [123040] = 
         {
@@ -13488,6 +14317,30 @@ GS07DataSavedVariables =
         },
         [176321] = 
         {
+            ["1:0:3:45:0"] = 
+            {
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand focused",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33862,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689447773,
+                        ["id"] = "4922896612801804624",
+                        ["itemLink"] = 1708,
+                        ["price"] = 1000,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [115906] = 
         {
@@ -13515,6 +14368,30 @@ GS07DataSavedVariables =
         },
         [126157] = 
         {
+            ["1:0:4:0:0"] = 
+            {
+                ["itemAdderText"] = "rr01 purple epic furnishings library",
+                ["itemIcon"] = "/esoui/art/icons/housing_red_inc_varbook001.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "The Song of Pelinal, Volume 1",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 9510,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689660881,
+                        ["id"] = "4856450865983273944",
+                        ["itemLink"] = 8479,
+                        ["price"] = 7999,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [176335] = 
         {
@@ -13692,6 +14569,30 @@ GS07DataSavedVariables =
         },
         [45363] = 
         {
+            ["50:16:1:20:0"] = 
+            {
+                ["itemAdderText"] = "cp160 white normal apparel weapon shield off hand intricate",
+                ["itemIcon"] = "/esoui/art/icons/gear_altmer_shield_d.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Ruby Ash Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33144,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689658634,
+                        ["id"] = "4911460231584206118",
+                        ["itemLink"] = 2750,
+                        ["price"] = 450,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [95545] = 
         {
@@ -13863,6 +14764,30 @@ GS07DataSavedVariables =
         },
         [176573] = 
         {
+            ["1:0:2:47:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine apparel weapon shield off hand aggressive",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 5405,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1687746384,
+                        ["id"] = "4707164812159823535",
+                        ["itemLink"] = 14364,
+                        ["price"] = 888,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [33218] = 
         {
@@ -13872,6 +14797,30 @@ GS07DataSavedVariables =
         },
         [30148] = 
         {
+            ["1:0:2:0:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_blue_entoloma_cap_r1.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Blue Entoloma",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 100,
+                        ["seller"] = 4214,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689659968,
+                        ["id"] = "4709560931468191238",
+                        ["itemLink"] = 610,
+                        ["price"] = 17500,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [152005] = 
         {
@@ -13881,6 +14830,30 @@ GS07DataSavedVariables =
         },
         [30153] = 
         {
+            ["1:0:2:0:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_namiras_rot_r1.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Namira's Rot",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 100,
+                        ["seller"] = 4214,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689660271,
+                        ["id"] = "4709560931468191263",
+                        ["itemLink"] = 1346,
+                        ["price"] = 32500,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [74186] = 
         {
@@ -13890,6 +14863,30 @@ GS07DataSavedVariables =
         },
         [30156] = 
         {
+            ["1:0:2:0:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine materials reagent",
+                ["itemIcon"] = "/esoui/art/icons/crafting_mushroom_imp_stool_r2.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Imp Stool",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 100,
+                        ["seller"] = 4214,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689660138,
+                        ["id"] = "4709560931468191252",
+                        ["itemLink"] = 2679,
+                        ["price"] = 24500,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [167374] = 
         {
@@ -14076,6 +15073,42 @@ GS07DataSavedVariables =
         },
         [176717] = 
         {
+            ["1:0:2:48:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine apparel weapon shield off hand soothing",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 2,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [2] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33865,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689094045,
+                        ["id"] = "4781088741286726372",
+                        ["itemLink"] = 7463,
+                        ["price"] = 1000,
+                        ["guild"] = 80,
+                    },
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 5405,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1687915383,
+                        ["id"] = "4707164812159825054",
+                        ["itemLink"] = 7463,
+                        ["price"] = 1111,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [98895] = 
         {
@@ -14128,6 +15161,33 @@ GS07DataSavedVariables =
         [167532] = 
         {
         },
+        [123501] = 
+        {
+            ["50:16:4:6:0"] = 
+            {
+                ["itemAdderText"] = "cp160 purple epic weapon set coward's gear healing staff two-handed training",
+                ["itemIcon"] = "/esoui/art/icons/gear_ordinator_staff_a.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Coward's Gear Restoration Staff",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33883,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1688808981,
+                        ["id"] = "4933867677262425853",
+                        ["itemLink"] = 47306,
+                        ["price"] = 5246,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
+        },
         [45678] = 
         {
         },
@@ -14167,31 +15227,61 @@ GS07DataSavedVariables =
         [98955] = 
         {
         },
+        [97739] = 
+        {
+            ["50:16:3:6:0"] = 
+            {
+                ["itemAdderText"] = "cp160 blue superior weapon set green pact bow two-handed training",
+                ["itemIcon"] = "/esoui/art/icons/gear_bosmer_bow_d.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Bow of the Green Pact",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 10519,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689099791,
+                        ["id"] = "4879483126323931449",
+                        ["itemLink"] = 47304,
+                        ["price"] = 6240,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
+        },
+        [88062] = 
+        {
+        },
         [180878] = 
         {
         },
-        [15766] = 
+        [86013] = 
         {
         },
-        [120830] = 
+        [172328] = 
         {
         },
-        [135165] = 
+        [193739] = 
         {
         },
-        [101612] = 
+        [98398] = 
         {
         },
         [87699] = 
         {
         },
-        [1166] = 
+        [101612] = 
         {
         },
         [99989] = 
         {
         },
-        [135483] = 
+        [1166] = 
         {
         },
         [180887] = 
@@ -14215,16 +15305,16 @@ GS07DataSavedVariables =
         [28317] = 
         {
         },
-        [145963] = 
+        [95793] = 
         {
         },
         [175775] = 
         {
         },
-        [119271] = 
+        [145963] = 
         {
         },
-        [45543] = 
+        [195741] = 
         {
         },
         [180898] = 
@@ -14233,31 +15323,31 @@ GS07DataSavedVariables =
         [69283] = 
         {
         },
-        [115736] = 
+        [45543] = 
         {
         },
         [69285] = 
         {
         },
-        [126397] = 
+        [116811] = 
         {
         },
-        [115747] = 
+        [126397] = 
         {
         },
         [175784] = 
         {
         },
-        [92235] = 
+        [115747] = 
+        {
+        },
+        [135152] = 
         {
         },
         [176479] = 
         {
         },
         [43530] = 
-        {
-        },
-        [102384] = 
         {
         },
         [43693] = 
@@ -14272,16 +15362,16 @@ GS07DataSavedVariables =
         [182960] = 
         {
         },
-        [149098] = 
+        [130198] = 
         {
         },
         [69298] = 
         {
         },
-        [189539] = 
+        [184904] = 
         {
         },
-        [192602] = 
+        [159723] = 
         {
         },
         [84661] = 
@@ -14296,22 +15386,22 @@ GS07DataSavedVariables =
         [119480] = 
         {
         },
-        [85117] = 
+        [187765] = 
         {
         },
-        [33771] = 
+        [84566] = 
         {
         },
         [91835] = 
         {
         },
-        [194172] = 
+        [171330] = 
         {
         },
         [69309] = 
         {
         },
-        [126482] = 
+        [177127] = 
         {
         },
         [69311] = 
@@ -14320,19 +15410,19 @@ GS07DataSavedVariables =
         [102080] = 
         {
         },
-        [81138] = 
+        [167407] = 
         {
         },
-        [46055] = 
+        [128360] = 
         {
         },
-        [145550] = 
+        [123130] = 
         {
         },
         [182980] = 
         {
         },
-        [92871] = 
+        [145550] = 
         {
         },
         [137926] = 
@@ -14341,8 +15431,32 @@ GS07DataSavedVariables =
         [182983] = 
         {
         },
-        [189557] = 
+        [87752] = 
         {
+            ["50:16:4:4:0"] = 
+            {
+                ["itemAdderText"] = "cp160 purple epic weapon set blessing of the potentates axe two-handed infused",
+                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_2haxe_a.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Battle Axe of the Potentates",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33855,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689658950,
+                        ["id"] = "4926701240861650423",
+                        ["itemLink"] = 47257,
+                        ["price"] = 26999,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [97993] = 
         {
@@ -14350,10 +15464,10 @@ GS07DataSavedVariables =
         [100042] = 
         {
         },
-        [114945] = 
+        [92871] = 
         {
         },
-        [149553] = 
+        [126945] = 
         {
         },
         [43725] = 
@@ -14362,19 +15476,19 @@ GS07DataSavedVariables =
         [114382] = 
         {
         },
-        [194529] = 
+        [68189] = 
         {
         },
         [57040] = 
         {
         },
-        [76969] = 
+        [115734] = 
         {
         },
-        [116019] = 
+        [156638] = 
         {
         },
-        [33758] = 
+        [122845] = 
         {
         },
         [102100] = 
@@ -14383,22 +15497,22 @@ GS07DataSavedVariables =
         [57045] = 
         {
         },
-        [49117] = 
+        [26588] = 
         {
         },
         [156375] = 
         {
         },
-        [122844] = 
+        [181491] = 
         {
         },
         [69337] = 
         {
         },
-        [140440] = 
+        [76969] = 
         {
         },
-        [189507] = 
+        [114948] = 
         {
         },
         [56028] = 
@@ -14406,6 +15520,30 @@ GS07DataSavedVariables =
         },
         [176861] = 
         {
+            ["1:0:2:49:0"] = 
+            {
+                ["itemAdderText"] = "rr01 green fine apparel weapon shield off hand augmented",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33852,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689567906,
+                        ["id"] = "4915847480547067761",
+                        ["itemLink"] = 14528,
+                        ["price"] = 24,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
         [56030] = 
         {
@@ -14413,16 +15551,16 @@ GS07DataSavedVariables =
         [100063] = 
         {
         },
-        [139716] = 
+        [142553] = 
+        {
+        },
+        [89825] = 
         {
         },
         [56033] = 
         {
         },
-        [116381] = 
-        {
-        },
-        [123421] = 
+        [74031] = 
         {
         },
         [43748] = 
@@ -14434,13 +15572,13 @@ GS07DataSavedVariables =
         [69350] = 
         {
         },
-        [193739] = 
+        [139547] = 
         {
         },
         [102120] = 
         {
         },
-        [135205] = 
+        [119820] = 
         {
         },
         [57066] = 
@@ -14452,22 +15590,22 @@ GS07DataSavedVariables =
         [126700] = 
         {
         },
-        [56045] = 
-        {
-        },
-        [123630] = 
-        {
-        },
-        [56047] = 
-        {
-        },
         [88813] = 
         {
         },
         [95982] = 
         {
         },
-        [194514] = 
+        [56047] = 
+        {
+        },
+        [100306] = 
+        {
+        },
+        [46033] = 
+        {
+        },
+        [43646] = 
         {
         },
         [69363] = 
@@ -14476,16 +15614,16 @@ GS07DataSavedVariables =
         [68340] = 
         {
         },
-        [102353] = 
+        [142473] = 
         {
         },
-        [178513] = 
+        [135463] = 
         {
         },
-        [119191] = 
+        [176177] = 
         {
         },
-        [152108] = 
+        [43685] = 
         {
         },
         [122617] = 
@@ -14506,7 +15644,7 @@ GS07DataSavedVariables =
         [90878] = 
         {
         },
-        [135627] = 
+        [71705] = 
         {
         },
         [175872] = 
@@ -14514,17 +15652,41 @@ GS07DataSavedVariables =
         },
         [176897] = 
         {
+            ["1:0:3:49:0"] = 
+            {
+                ["itemAdderText"] = "rr01 blue superior apparel weapon shield off hand augmented",
+                ["itemIcon"] = "/esoui/art/icons/companions_u30_equipment_shield.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Companion's Shield",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 33867,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1688579566,
+                        ["id"] = "4937119216613689165",
+                        ["itemLink"] = 13441,
+                        ["price"] = 999,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
         },
-        [95527] = 
+        [135137] = 
         {
         },
-        [75073] = 
+        [75110] = 
         {
         },
-        [57597] = 
+        [130277] = 
         {
         },
-        [11004] = 
+        [122823] = 
         {
         },
         [134918] = 
@@ -14533,7 +15695,7 @@ GS07DataSavedVariables =
         [69296] = 
         {
         },
-        [160711] = 
+        [11004] = 
         {
         },
         [100105] = 
@@ -14551,7 +15713,7 @@ GS07DataSavedVariables =
         [176155] = 
         {
         },
-        [57000] = 
+        [156683] = 
         {
         },
         [124687] = 
@@ -14563,10 +15725,10 @@ GS07DataSavedVariables =
         [179985] = 
         {
         },
-        [171561] = 
+        [102163] = 
         {
         },
-        [102163] = 
+        [184083] = 
         {
         },
         [171284] = 
@@ -14575,16 +15737,16 @@ GS07DataSavedVariables =
         [124693] = 
         {
         },
-        [77083] = 
+        [99858] = 
         {
         },
         [188183] = 
         {
         },
-        [46139] = 
+        [44812] = 
         {
         },
-        [119478] = 
+        [118717] = 
         {
         },
         [177149] = 
@@ -14593,28 +15755,28 @@ GS07DataSavedVariables =
         [184091] = 
         {
         },
-        [102333] = 
+        [119478] = 
         {
         },
         [89885] = 
         {
         },
-        [63942] = 
+        [55552] = 
         {
         },
         [171807] = 
         {
         },
-        [95614] = 
+        [100305] = 
         {
         },
         [100129] = 
         {
         },
-        [182325] = 
+        [149118] = 
         {
         },
-        [178452] = 
+        [180787] = 
         {
         },
         [175908] = 
@@ -14635,16 +15797,16 @@ GS07DataSavedVariables =
         [112425] = 
         {
         },
-        [132666] = 
+        [93210] = 
         {
         },
-        [142311] = 
-        {
-        },
-        [120621] = 
+        [125689] = 
         {
         },
         [123693] = 
+        {
+        },
+        [120621] = 
         {
         },
         [115300] = 
@@ -14653,7 +15815,7 @@ GS07DataSavedVariables =
         [171965] = 
         {
         },
-        [180318] = 
+        [132586] = 
         {
         },
         [33587] = 
@@ -14671,7 +15833,7 @@ GS07DataSavedVariables =
         [122677] = 
         {
         },
-        [132586] = 
+        [116027] = 
         {
         },
         [142631] = 
@@ -14680,7 +15842,7 @@ GS07DataSavedVariables =
         [102200] = 
         {
         },
-        [172319] = 
+        [96171] = 
         {
         },
         [179002] = 
@@ -14689,13 +15851,13 @@ GS07DataSavedVariables =
         [102203] = 
         {
         },
-        [160572] = 
+        [115516] = 
         {
         },
         [135367] = 
         {
         },
-        [90027] = 
+        [160572] = 
         {
         },
         [160575] = 
@@ -14710,13 +15872,13 @@ GS07DataSavedVariables =
         [176609] = 
         {
         },
-        [181504] = 
+        [92292] = 
         {
         },
         [45894] = 
         {
         },
-        [100168] = 
+        [88905] = 
         {
         },
         [139078] = 
@@ -14728,13 +15890,13 @@ GS07DataSavedVariables =
         [134984] = 
         {
         },
-        [88905] = 
+        [122697] = 
         {
         },
         [123722] = 
         {
         },
-        [122697] = 
+        [132555] = 
         {
         },
         [119819] = 
@@ -14743,31 +15905,31 @@ GS07DataSavedVariables =
         [166733] = 
         {
         },
-        [102223] = 
+        [176263] = 
         {
         },
         [44879] = 
         {
         },
-        [89936] = 
-        {
-        },
         [180048] = 
         {
         },
-        [157520] = 
+        [180358] = 
         {
         },
-        [176465] = 
+        [56036] = 
         {
         },
-        [176983] = 
+        [190367] = 
+        {
+        },
+        [69376] = 
         {
         },
         [160597] = 
         {
         },
-        [177055] = 
+        [176983] = 
         {
         },
         [144215] = 
@@ -14776,43 +15938,43 @@ GS07DataSavedVariables =
         [171864] = 
         {
         },
-        [87683] = 
-        {
-        },
-        [68442] = 
-        {
-        },
-        [125787] = 
+        [160668] = 
         {
         },
         [160602] = 
         {
         },
+        [125787] = 
+        {
+        },
         [157533] = 
         {
         },
-        [68508] = 
+        [175965] = 
         {
         },
-        [180378] = 
+        [91856] = 
+        {
+        },
+        [197529] = 
         {
         },
         [130322] = 
         {
         },
-        [119705] = 
-        {
-        },
-        [147300] = 
-        {
-        },
-        [89955] = 
+        [151692] = 
         {
         },
         [45924] = 
         {
         },
-        [45914] = 
+        [89955] = 
+        {
+        },
+        [147300] = 
+        {
+        },
+        [100245] = 
         {
         },
         [45926] = 
@@ -14824,7 +15986,7 @@ GS07DataSavedVariables =
         [92342] = 
         {
         },
-        [188309] = 
+        [45914] = 
         {
         },
         [139401] = 
@@ -14833,10 +15995,10 @@ GS07DataSavedVariables =
         [175814] = 
         {
         },
-        [139117] = 
+        [177005] = 
         {
         },
-        [177005] = 
+        [139117] = 
         {
         },
         [42863] = 
@@ -14851,7 +16013,7 @@ GS07DataSavedVariables =
         [123110] = 
         {
         },
-        [155058] = 
+        [152003] = 
         {
         },
         [45939] = 
@@ -14860,22 +16022,22 @@ GS07DataSavedVariables =
         [142196] = 
         {
         },
-        [123120] = 
-        {
-        },
         [142198] = 
         {
         },
         [114550] = 
         {
         },
+        [175850] = 
+        {
+        },
         [71573] = 
         {
         },
-        [140438] = 
+        [175836] = 
         {
         },
-        [180090] = 
+        [171898] = 
         {
         },
         [177019] = 
@@ -14887,13 +16049,13 @@ GS07DataSavedVariables =
         [45949] = 
         {
         },
-        [171898] = 
+        [121771] = 
         {
         },
-        [126842] = 
+        [86782] = 
         {
         },
-        [172230] = 
+        [149198] = 
         {
         },
         [147329] = 
@@ -14902,7 +16064,7 @@ GS07DataSavedVariables =
         [100226] = 
         {
         },
-        [116151] = 
+        [165584] = 
         {
         },
         [176004] = 
@@ -14914,31 +16076,31 @@ GS07DataSavedVariables =
         [68486] = 
         {
         },
-        [165584] = 
+        [116151] = 
         {
         },
-        [149198] = 
+        [172230] = 
         {
         },
-        [86782] = 
+        [180090] = 
         {
         },
-        [121771] = 
+        [126842] = 
         {
         },
-        [175836] = 
+        [140438] = 
         {
         },
         [119692] = 
         {
         },
-        [175850] = 
-        {
-        },
         [119701] = 
         {
         },
-        [152003] = 
+        [123120] = 
+        {
+        },
+        [155058] = 
         {
         },
         [119696] = 
@@ -14956,7 +16118,7 @@ GS07DataSavedVariables =
         [119700] = 
         {
         },
-        [100245] = 
+        [188309] = 
         {
         },
         [119702] = 
@@ -14968,46 +16130,46 @@ GS07DataSavedVariables =
         [119704] = 
         {
         },
-        [197529] = 
+        [119705] = 
         {
         },
         [69530] = 
         {
         },
-        [151692] = 
+        [180378] = 
         {
         },
-        [160668] = 
+        [68508] = 
         {
         },
-        [175965] = 
+        [68442] = 
         {
         },
-        [91856] = 
+        [87683] = 
         {
         },
-        [190367] = 
+        [177055] = 
         {
         },
         [156576] = 
         {
         },
-        [69376] = 
+        [176465] = 
         {
         },
-        [56036] = 
+        [89936] = 
         {
         },
-        [180358] = 
+        [102223] = 
         {
         },
-        [176263] = 
+        [157520] = 
         {
         },
         [126885] = 
         {
         },
-        [132555] = 
+        [100168] = 
         {
         },
         [114503] = 
@@ -15016,25 +16178,25 @@ GS07DataSavedVariables =
         [121768] = 
         {
         },
-        [92292] = 
+        [181504] = 
         {
         },
         [74666] = 
         {
         },
-        [96171] = 
+        [90027] = 
         {
         },
         [171948] = 
         {
         },
-        [115516] = 
+        [172319] = 
         {
         },
         [98222] = 
         {
         },
-        [116027] = 
+        [98098] = 
         {
         },
         [114608] = 
@@ -15043,7 +16205,7 @@ GS07DataSavedVariables =
         [91057] = 
         {
         },
-        [98098] = 
+        [180318] = 
         {
         },
         [122803] = 
@@ -15055,28 +16217,28 @@ GS07DataSavedVariables =
         [177077] = 
         {
         },
-        [125689] = 
+        [142311] = 
         {
         },
-        [93210] = 
+        [132666] = 
         {
         },
         [156600] = 
         {
         },
-        [180787] = 
+        [178452] = 
         {
         },
-        [149118] = 
+        [182325] = 
         {
         },
-        [100305] = 
+        [95614] = 
         {
         },
-        [55552] = 
+        [63942] = 
         {
         },
-        [118717] = 
+        [102333] = 
         {
         },
         [100286] = 
@@ -15085,19 +16247,19 @@ GS07DataSavedVariables =
         [153535] = 
         {
         },
-        [44812] = 
+        [46139] = 
         {
         },
-        [99858] = 
+        [77083] = 
         {
         },
         [88002] = 
         {
         },
-        [184083] = 
+        [171561] = 
         {
         },
-        [156683] = 
+        [57000] = 
         {
         },
         [190405] = 
@@ -15106,7 +16268,7 @@ GS07DataSavedVariables =
         [156614] = 
         {
         },
-        [122823] = 
+        [160711] = 
         {
         },
         [122824] = 
@@ -15115,85 +16277,85 @@ GS07DataSavedVariables =
         [46025] = 
         {
         },
-        [130277] = 
+        [57597] = 
         {
         },
-        [75110] = 
+        [75073] = 
         {
         },
-        [135137] = 
+        [95527] = 
         {
         },
-        [71705] = 
+        [135627] = 
         {
         },
-        [43685] = 
+        [152108] = 
         {
         },
-        [176177] = 
+        [119191] = 
         {
         },
-        [135463] = 
+        [178513] = 
         {
         },
-        [46033] = 
+        [102353] = 
         {
         },
-        [100306] = 
+        [194514] = 
         {
         },
-        [142473] = 
+        [123630] = 
         {
         },
-        [43646] = 
+        [56045] = 
         {
         },
-        [119820] = 
+        [135205] = 
         {
         },
-        [139547] = 
+        [116381] = 
         {
         },
-        [74031] = 
+        [123421] = 
         {
         },
         [149464] = 
         {
         },
-        [89825] = 
+        [139716] = 
         {
         },
-        [142553] = 
+        [189507] = 
         {
         },
-        [114948] = 
+        [140440] = 
         {
         },
-        [26588] = 
+        [122844] = 
         {
         },
-        [122845] = 
+        [49117] = 
         {
         },
-        [156638] = 
+        [33758] = 
         {
         },
-        [181491] = 
+        [116019] = 
         {
         },
         [159712] = 
         {
         },
-        [126945] = 
+        [194529] = 
         {
         },
-        [68189] = 
+        [149553] = 
         {
         },
-        [115734] = 
+        [114945] = 
         {
         },
-        [98398] = 
+        [189557] = 
         {
         },
         [102373] = 
@@ -15202,34 +16364,58 @@ GS07DataSavedVariables =
         [114662] = 
         {
         },
-        [177127] = 
+        [46055] = 
         {
         },
-        [128360] = 
+        [81138] = 
         {
         },
-        [167407] = 
+        [126482] = 
         {
         },
-        [123130] = 
+        [194172] = 
+        {
+            ["50:16:3:6:0"] = 
+            {
+                ["itemAdderText"] = "cp160 blue superior weapon set shell splitter bow two-handed training",
+                ["itemIcon"] = "/esoui/art/icons/gear_aldmeri_bow_a.dds",
+                ["totalCount"] = 1,
+                ["oldestTime"] = 1689661982,
+                ["itemDesc"] = "Shell Splitter Bow",
+                ["sales"] = 
+                {
+                    [1] = 
+                    {
+                        ["quant"] = 1,
+                        ["seller"] = 27632,
+                        ["guildId"] = 651311,
+                        ["timestamp"] = 1689661982,
+                        ["listingTime"] = 1689209215,
+                        ["id"] = "4638709484504157118",
+                        ["itemLink"] = 47269,
+                        ["price"] = 3750,
+                        ["guild"] = 80,
+                    },
+                },
+                ["wasAltered"] = false,
+            },
+        },
+        [33771] = 
         {
         },
-        [159723] = 
+        [85117] = 
         {
         },
-        [84566] = 
+        [192602] = 
         {
         },
-        [187765] = 
+        [189539] = 
         {
         },
-        [171330] = 
+        [149098] = 
         {
         },
-        [184904] = 
-        {
-        },
-        [135152] = 
+        [102384] = 
         {
         },
         [122865] = 
@@ -15238,7 +16424,7 @@ GS07DataSavedVariables =
         [122866] = 
         {
         },
-        [130198] = 
+        [92235] = 
         {
         },
         [49140] = 
@@ -15247,19 +16433,19 @@ GS07DataSavedVariables =
         [45045] = 
         {
         },
-        [116811] = 
+        [115736] = 
         {
         },
         [176119] = 
         {
         },
-        [195741] = 
+        [119271] = 
         {
         },
         [100345] = 
         {
         },
-        [95793] = 
+        [135483] = 
         {
         },
         [135163] = 
@@ -15268,14 +16454,17 @@ GS07DataSavedVariables =
         [172028] = 
         {
         },
-        [86013] = 
+        [135165] = 
         {
         },
-        [88062] = 
+        [120830] = 
         {
         },
-        [172328] = 
+        [15766] = 
         {
         },
+    },
+    ["dataeu"] = 
+    {
     },
 }

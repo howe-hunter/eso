@@ -6,10 +6,10 @@ MM05DataSavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["version"] = 1,
                 ["SalesData"] = 
                 {
                 },
-                ["version"] = 1,
             },
         },
         ["@Motiv_Impact"] = 

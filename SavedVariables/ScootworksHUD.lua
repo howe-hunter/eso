@@ -6,7 +6,8 @@ ScootworksHUD_Account =
         {
             ["$AccountWide"] = 
             {
-                ["MountIndicator"] = 
+                ["accountWideSettings"] = true,
+                ["WeaponRecharge"] = 
                 {
                     ["enabled"] = true,
                 },
@@ -15,17 +16,16 @@ ScootworksHUD_Account =
                     ["enabled"] = true,
                     ["announceTimer"] = 1,
                 },
-                ["WeaponRecharge"] = 
+                ["version"] = 1,
+                ["MountIndicator"] = 
                 {
                     ["enabled"] = true,
                 },
-                ["accountWideSettings"] = true,
-                ["soundEnabled"] = false,
                 ["ArmorRepair"] = 
                 {
                     ["enabled"] = true,
                 },
-                ["version"] = 1,
+                ["soundEnabled"] = false,
             },
         },
     },
@@ -36,42 +36,42 @@ ScootworksHUD_Character =
     {
         ["@Motiv_Impact"] = 
         {
+            ["8796093067191337"] = 
+            {
+                ["accountWideSettings"] = true,
+                ["WeaponRecharge"] = 
+                {
+                    ["enabled"] = true,
+                },
+                ["ArmorRepair"] = 
+                {
+                    ["enabled"] = true,
+                },
+                ["LibSavedVars"] = 
+                {
+                    ["accountSavedVarsActive"] = true,
+                },
+                ["MountIndicator"] = 
+                {
+                    ["enabled"] = true,
+                },
+                ["FoodIndicator"] = 
+                {
+                    ["enabled"] = true,
+                    ["announceTimer"] = 2,
+                },
+                ["version"] = 1,
+                ["$LastCharacterName"] = "scthree",
+                ["soundEnabled"] = true,
+            },
             ["8796093067978059"] = 
             {
                 ["LibSavedVars"] = 
                 {
                     ["accountSavedVarsActive"] = true,
                 },
+                ["version"] = 1,
                 ["$LastCharacterName"] = "katarrnn",
-                ["version"] = 1,
-            },
-            ["8796093067191337"] = 
-            {
-                ["$LastCharacterName"] = "scthree",
-                ["FoodIndicator"] = 
-                {
-                    ["enabled"] = true,
-                    ["announceTimer"] = 2,
-                },
-                ["WeaponRecharge"] = 
-                {
-                    ["enabled"] = true,
-                },
-                ["accountWideSettings"] = true,
-                ["ArmorRepair"] = 
-                {
-                    ["enabled"] = true,
-                },
-                ["version"] = 1,
-                ["soundEnabled"] = true,
-                ["MountIndicator"] = 
-                {
-                    ["enabled"] = true,
-                },
-                ["LibSavedVars"] = 
-                {
-                    ["accountSavedVarsActive"] = true,
-                },
             },
         },
     },
