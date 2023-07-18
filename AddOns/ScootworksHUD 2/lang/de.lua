@@ -1,0 +1,13 @@
+SafeAddString(SI_SCOOTWORKS_HUD_FOOD_EXPIRED_TT , "Es ist kein Effekt einer Speise oder eines Getränkes aktiv.", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_FOOD_EXPIRE_SOON_TT , "Der Effekt einer Speise oder eines Getränkes läuft bald aus.", 0)
+
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_FOOD_INDICATOR , "Gericht- oder Getränkeffektstatus", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_MOUNT_INDICATOR , "Reittierstatus", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_FOOD_INDICATOR_TT , "Gibt Euch einen sichtbaren Hinweis, wenn Eurer Gericht- oder Getränkeeffekt ausgelaufen ist.", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_MOUNT_INDICATOR_TT , "Gibt Euch einen sichtbaren Hinweis, wenn eine Eurer Reitfähigkeit verbessern könnt.", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_WEAPON_RECHARGE , "Waffe aufladen", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_WEAPON_RECHARGE_TT , "Aktiviere diese Einstellung um Eure Waffenverzauberung automatisch mit einem Seelenstein aufzufüllen.", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_ARMOR_REPAIR , "Rüstung reparieren", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_ARMOR_REPAIR_TT , "Aktiviere diese Einstellung um Eure Rüstung automatisch mit einem Reparaturwerkzeug zu reparieren. Diese Einstellung verwendet keine Reparaturwerkzeuge aus dem Kronen-Shop.", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_ANNOUNCE , "Schwellwert Hinweis", 0)
+SafeAddString(SI_SCOOTWORKS_HUD_LAM_ANNOUNCE_TT , "Sobald Eurer Gericht- oder Getränkeeffekt unterhalb diesem Schwellwert ist, wird Euch ein Hinweis angezeigt.", 0)

@@ -1,0 +1,13 @@
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_FOOD_EXPIRED_TT", "Your food or drink buff has expired.")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_FOOD_EXPIRE_SOON_TT", "Your food or drink buff will expire soon.")
+
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_FOOD_INDICATOR", "Food Indicator")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_MOUNT_INDICATOR", "Mount Indicator")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_FOOD_INDICATOR_TT", "Displays an indicator when your food or drink buff has expired.")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_MOUNT_INDICATOR_TT", "Displays an indicator when you are ready to train a riding skill.")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_WEAPON_RECHARGE", "Recharge Weapon")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_WEAPON_RECHARGE_TT", "Enable this option to automatically recharge your weapon enchantment with a soul gem.")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_ARMOR_REPAIR", "Repair Armor")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_ARMOR_REPAIR_TT", "Enable this option to automatically repair items with a Repair Kit. This option will not use a Crown Store Repair Kit.")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_ANNOUNCE", "Announce threshold")
+ZO_CreateStringId("SI_SCOOTWORKS_HUD_LAM_ANNOUNCE_TT", "Threshold for the announce before your food or drink buff expires.")

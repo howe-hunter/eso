@@ -1,0 +1,51 @@
+<GuiXml>
+	<Controls>
+		<!-- <Texture name="ScootworksHUDStatus_Indicator" virtual="true" mouseEnabled="true"> -->
+			<!-- <OnMouseEnter> -->
+				<!-- ScootworksHUDStatus_Indicator_OnMouseEnter(self) -->
+			<!-- </OnMouseEnter> -->
+			<!-- <OnMouseExit> -->
+				<!-- ScootworksHUDStatus_Indicator_OnMouseExit(self) -->
+			<!-- </OnMouseExit> -->
+		<!-- </Texture> -->
+
+		<Control name="ScootworksHUDStatus_Keyboard_Template" virtual="true">
+			<Dimensions x="80" y="40"/>
+			<Controls>
+				<Texture name="$(parent)MountIndicator">
+					<Dimensions x="40" y="40"/>
+				</Texture>
+				<Texture name="$(parent)FoodIndicator">
+					<Dimensions x="40" y="40"/>
+				</Texture>
+			</Controls>
+		</Control>
+		
+		<Control name="ScootworksHUDStatus_Gamepad_Template" virtual="true">
+			<Dimensions x="96" y="48"/>
+			<Controls>
+				<Texture name="$(parent)MountIndicator">
+					<Dimensions x="48" y="48"/>
+				</Texture>
+				<Texture name="$(parent)FoodIndicator">
+					<Dimensions x="48" y="48"/>
+				</Texture>
+			</Controls>
+		</Control>
+
+		<TopLevelControl name="ScootworksHUDStatus">
+			<OnInitialized>
+				ScootworksHUDStatus_Initialize(self)
+			</OnInitialized>
+			<Anchor point="TOPRIGHT" relativeTo="ZO_HUDEquipmentStatus" relativePoint="TOPLEFT" />
+			<Controls>
+				<Texture name="$(parent)MountIndicator" inherits="ZO_HUDEquipmentStatus_Indicator" textureFile="ScootworksHUD/textures/mount.dds">
+					<Anchor point="TOPLEFT" />
+				</Texture>
+				<Texture name="$(parent)FoodIndicator" inherits="ZO_HUDEquipmentStatus_Indicator" textureFile="ScootworksHUD/textures/food.dds">
+					<Anchor point="TOPLEFT" relativeTo="$(parent)MountIndicator" relativePoint="TOPRIGHT" />
+				</Texture>
+			</Controls>
+		</TopLevelControl>
+	</Controls>
+</GuiXml>

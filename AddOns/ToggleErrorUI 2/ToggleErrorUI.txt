@@ -1,0 +1,17 @@
+## Title: ToggleErrorUI
+## APIVersion: 101033
+## Version: 0.22
+## AddOnVersion: 1.1.4
+## Author: CastorMatze
+## Description: Type /xxx in chat to toogle error display, type /yyy to ReloadGUI
+## SavedVariables: ToggleErrorUI
+# ## DependsOn: LibAddonMenu-2.0 LibLoadedAddons
+
+# src/bindings.xml
+# src/Settings.lua
+
+ToggleErrorUI.lua
+
+# This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates.
+# The Elder Scrolls and related logos are registered trademarks or trademarks of ZeniMax Media Inc.
+# in the United States and/or other countries. All rights reserved.
