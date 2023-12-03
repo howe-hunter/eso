@@ -31,79 +31,84 @@ function internal:addCancelledItem(theEvent)
             buyer
           }
   ]]--
-  --internal:dm("Debug", theEvent)
-  local linkHash = internal:AddSalesTableData("itemLink", theEvent.itemLink)
-  local sellerHash = internal:AddSalesTableData("accountNames", theEvent.seller)
-  local guildHash = internal:AddSalesTableData("guildNames", theEvent.guild)
+  local newEvent = ZO_DeepTableCopy(theEvent)
+  local eventItemLink = newEvent.itemLink
+  local eventSeller = newEvent.seller
+  local eventGuild = newEvent.guild
+  local timestamp = newEvent.timestamp
 
-  local itemIndex = internal.GetOrCreateIndexFromLink(theEvent.itemLink)
-  local theIID = GetItemLinkItemId(theEvent.itemLink)
+  -- first add new data lookups to their tables
+  local linkHash = internal:AddSalesTableData("itemLink", eventItemLink)
+  local sellerHash = internal:AddSalesTableData("accountNames", eventSeller)
+  local guildHash = internal:AddSalesTableData("guildNames", eventGuild)
+  local formattedItemName = zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(eventItemLink))
+
+  --[[The quality effects itemIndex although the ID from the
+  itemLink may be the same. We will keep them separate.
+  ]]--
+  local itemIndex = internal.GetOrCreateIndexFromLink(eventItemLink)
+
+  --[[theIID is used in wordData for the SRIndex, define it here.
+  ]]--
+  local theIID = GetItemLinkItemId(eventItemLink)
   if theIID == nil or theIID == 0 then return false end
 
+  --[[If the ID from the itemLink doesn't exist determine which
+  file or container it will belong to using SetGuildStoreData()
+  ]]--
   if not cancelled_items_data[theIID] then
     cancelled_items_data[theIID] = internal:SetCancelledItmesData(theIID)
   end
-  local newEvent = ZO_DeepTableCopy(theEvent)
+  cancelled_items_data[theIID][itemIndex] = cancelled_items_data[theIID][itemIndex] or {}
+  cancelled_items_data[theIID][itemIndex].itemIcon = cancelled_items_data[theIID][itemIndex].itemIcon or GetItemLinkInfo(eventItemLink)
+  cancelled_items_data[theIID][itemIndex].itemAdderText = cancelled_items_data[theIID][itemIndex].itemAdderText or internal:AddSearchToItem(eventItemLink)
+  cancelled_items_data[theIID][itemIndex].itemDesc = cancelled_items_data[theIID][itemIndex].itemDesc or formattedItemName
+  cancelled_items_data[theIID][itemIndex].totalCount = cancelled_items_data[theIID][itemIndex].totalCount or 0 -- assign count if if new sale
+  cancelled_items_data[theIID][itemIndex].totalCount = cancelled_items_data[theIID][itemIndex].totalCount + 1 -- increment count if existing sale
+  cancelled_items_data[theIID][itemIndex].wasAltered = true
+  cancelled_items_data[theIID][itemIndex]['sales'] = cancelled_items_data[theIID][itemIndex]['sales'] or {}
+  local searchItemDesc = cancelled_items_data[theIID][itemIndex].itemDesc -- used for searchText
+  local searchItemAdderText = cancelled_items_data[theIID][itemIndex].itemAdderText -- used for searchText
+
   newEvent.itemLink = linkHash
   newEvent.seller = sellerHash
   newEvent.guild = guildHash
 
   local insertedIndex = 1
-  local searchItemDesc = ""
-  local searchItemAdderText = ""
-  if cancelled_items_data[theIID][itemIndex] then
-    searchItemDesc = cancelled_items_data[theIID][itemIndex].itemDesc
-    searchItemAdderText = cancelled_items_data[theIID][itemIndex].itemAdderText
+  local salesTable = cancelled_items_data[theIID][itemIndex]['sales']
+  local nextLocation = #salesTable + 1
+  --[[Note, while salesTable helps readability table.insert() can not insert
+  into the local variable]]--
+  if salesTable[nextLocation] == nil then
+    table.insert(cancelled_items_data[theIID][itemIndex]['sales'], nextLocation, newEvent)
+    insertedIndex = nextLocation
+  else
     table.insert(cancelled_items_data[theIID][itemIndex]['sales'], newEvent)
-    insertedIndex = #cancelled_items_data[theIID][itemIndex]['sales']
-  else
-    if cancelled_items_data[theIID][itemIndex] == nil then cancelled_items_data[theIID][itemIndex] = {} end
-    if cancelled_items_data[theIID][itemIndex]['sales'] == nil then cancelled_items_data[theIID][itemIndex]['sales'] = {} end
-    searchItemDesc = zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(theEvent.itemLink))
-    searchItemAdderText = internal:AddSearchToItem(theEvent.itemLink)
-    cancelled_items_data[theIID][itemIndex] = {
-      itemIcon = GetItemLinkInfo(theEvent.itemLink),
-      itemAdderText = searchItemAdderText,
-      itemDesc = searchItemDesc,
-      sales = { newEvent } }
-    --internal:dm("Debug", newEvent)
-  end
-  cancelled_items_data[theIID][itemIndex].wasAltered = true
-  if cancelled_items_data[theIID][itemIndex] and cancelled_items_data[theIID][itemIndex].totalCount then
-    cancelled_items_data[theIID][itemIndex].totalCount = cancelled_items_data[theIID][itemIndex].totalCount + 1
-  else
-    cancelled_items_data[theIID][itemIndex].totalCount = 1
+    insertedIndex = #salesTable
   end
 
-  local playerName = zo_strlower(GetDisplayName())
-  local isSelfSale = playerName == zo_strlower(theEvent.seller)
+  local newestTime = cancelled_items_data[theIID][itemIndex]["newestTime"]
+  local oldestTime = cancelled_items_data[theIID][itemIndex]["oldestTime"]
+  if newestTime == nil or newestTime < timestamp then cancelled_items_data[theIID][itemIndex]["newestTime"] = timestamp end
+  if oldestTime == nil or oldestTime > timestamp then cancelled_items_data[theIID][itemIndex]["oldestTime"] = timestamp end
 
-  local temp = { '', ' ', '', ' ', '', ' ', '', ' ', '', ' ', '', }
-  local searchText = ""
-  if LibGuildStore_SavedVariables["minimalIndexing"] then
-    if isSelfSale then
-      searchText = internal.PlayerSpecialText
-    end
-  else
-    if theEvent.buyer then temp[1] = 'b' .. theEvent.buyer end
-    if theEvent.seller then temp[3] = 's' .. theEvent.seller end
-    temp[5] = theEvent.guild or ''
-    temp[7] = searchItemDesc or ''
-    temp[9] = searchItemAdderText or ''
-    if isSelfSale then
-      temp[11] = internal.PlayerSpecialText
-    end
-    searchText = zo_strlower(table.concat(temp, ''))
-  end
+  local temp = { '', ' ', '', ' ', '', ' ', '', } -- fewer tokens for cancelled items
+
+  temp[1] = eventSeller and ('s' .. eventSeller) or ''
+  temp[3] = eventGuild or ''
+  temp[5] = searchItemDesc or ''
+  temp[7] = searchItemAdderText or ''
+
+  local searchText = zo_strlower(table.concat(temp, ''))
 
   local searchByWords = zo_strgmatch(searchText, '%S+')
   local wordData = { theIID, itemIndex, insertedIndex }
 
   -- Index each word
   for i in searchByWords do
-    if cr_index[i] == nil then cr_index[i] = {} end
+    cr_index[i] = cr_index[i] or {}
     table.insert(cr_index[i], wordData)
-    internal.cr_index_count = internal.cr_index_count + 1
+    internal.cr_index_count = (internal.cr_index_count or 0) + 1
   end
 
   return true
@@ -172,7 +177,7 @@ function internal:iterateOverCancelledItemData(itemid, versionid, saleid, prefun
           -- We've run out of time, wait and continue with next sale
           if saleid and (GetGameTimeMilliseconds() - checkTime) > extraData.checkMilliseconds then
             local LEQ = LibExecutionQueue:new()
-            LEQ:ContinueWith(function() internal:iterateOverCancelledItemData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
+            LEQ:continueWith(function() internal:iterateOverCancelledItemData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
             return
           end
         end
@@ -225,7 +230,7 @@ function internal:iterateOverCancelledItemData(itemid, versionid, saleid, prefun
       saleid = nil
       if versionid and (GetGameTimeMilliseconds() - checkTime) > extraData.checkMilliseconds then
         local LEQ = LibExecutionQueue:new()
-        LEQ:ContinueWith(function() internal:iterateOverCancelledItemData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
+        LEQ:continueWith(function() internal:iterateOverCancelledItemData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
         return
       end
     end
@@ -344,41 +349,29 @@ function internal:IndexCancelledItemData()
     local currentGuild = internal:GetGuildNameByIndex(cancelledItem['guild'])
     local currentSeller = internal:GetAccountNameByIndex(cancelledItem['seller'])
 
-    local playerName = zo_strlower(GetDisplayName())
-    local selfSale = playerName == zo_strlower(currentSeller)
-    local searchText = ""
-    if LibGuildStore_SavedVariables["minimalIndexing"] then
-      if selfSale then
-        searchText = internal.PlayerSpecialText
-      end
-    else
-      versiondata.itemAdderText = versiondata.itemAdderText or self.addedSearchToItem(currentItemLink)
-      versiondata.itemDesc = versiondata.itemDesc or zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(currentItemLink))
-      versiondata.itemIcon = versiondata.itemIcon or GetItemLinkInfo(currentItemLink)
+    versiondata.itemAdderText = versiondata.itemAdderText or self.addedSearchToItem(currentItemLink)
+    versiondata.itemDesc = versiondata.itemDesc or zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(currentItemLink))
+    versiondata.itemIcon = versiondata.itemIcon or GetItemLinkInfo(currentItemLink)
 
-      local temp = { '', ' ', '', ' ', '', ' ', '', ' ', '', ' ', '', }
-      if currentSeller then temp[3] = 's' .. currentSeller end
-      temp[5] = currentGuild or ''
-      temp[7] = versiondata.itemDesc or ''
-      temp[9] = versiondata.itemAdderText or ''
-      if selfSale then
-        temp[11] = internal.PlayerSpecialText
-      end
-      searchText = zo_strlower(table.concat(temp, ''))
-    end
+    local temp = { '', ' ', '', ' ', '', ' ', '', } -- fewer tokens for cancelled items
+
+    temp[1] = currentSeller and ('s' .. currentSeller) or ''
+    temp[3] = currentGuild or ''
+    temp[5] = versiondata.itemDesc or ''
+    temp[7] = versiondata.itemAdderText or ''
+
+    local searchText = zo_strlower(table.concat(temp, ''))
 
     -- Index each word
     local searchByWords = zo_strgmatch(searchText, '%S+')
     local wordData = { numberID, itemData, itemIndex }
-    for i in searchByWords do
-      if cr_index[i] == nil then
-        extraData.wordsIndexCount = extraData.wordsIndexCount + 1
-        cr_index[i] = {}
-      end
-      table.insert(cr_index[i], wordData)
-      internal.cr_index_count = internal.cr_index_count + 1
-    end
 
+    for i in searchByWords do
+      cr_index[i] = cr_index[i] or {}
+      table.insert(cr_index[i], wordData)
+      extraData.wordsIndexCount = (extraData.wordsIndexCount or 0) + 1
+      internal.cr_index_count = (internal.cr_index_count or 0) + 1
+    end
   end
 
   local postfunc = function(extraData)

@@ -11,9 +11,9 @@ local zo_strformat = zo_strformat
 -- Slash Command to add someone to the friendslist
 function SlashCommands.SlashFriend(option)
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_FRIEND_FAILED_NONAME), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_FRIEND_FAILED_NONAME), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_FRIEND_FAILED_NONAME)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_FRIEND_FAILED_NONAME)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -24,9 +24,9 @@ end
 -- Slash Command to add someone to ignore list
 function SlashCommands.SlashIgnore(option)
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -37,24 +37,29 @@ end
 -- Slash Command to remove someone from friends list
 function SlashCommands.SlashRemoveFriend(option)
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
     end
 
-    local compareChar = string.lower(option)
+    local compareChar = zo_strlower(option)
     local friends = GetNumFriends()
     local g_friendIndex = {}
-    for i = 1,friends do
+    for i = 1, friends do
         local displayName = GetFriendInfo(i)
         local _, characterName = GetFriendCharacterInfo(i)
-        local compareDisplay = string.lower(displayName)
-        local compareCharacter = string.lower(characterName)
-        compareCharacter = string.gsub(compareCharacter,"%^%a+","")
-        g_friendIndex[i] = {displayName=displayName, characterName=characterName, compareDisplay=compareDisplay, compareCharacter=compareCharacter}
+        local compareDisplay = zo_strlower(displayName)
+        local compareCharacter = zo_strlower(characterName)
+        compareCharacter = zo_strgsub(compareCharacter, "%^%a+", "")
+        g_friendIndex[i] = {
+            displayName = displayName,
+            characterName = characterName,
+            compareDisplay = compareDisplay,
+            compareCharacter = compareCharacter,
+        }
     end
 
     local finalName = ""
@@ -70,9 +75,9 @@ function SlashCommands.SlashRemoveFriend(option)
     if finalName ~= "" then
         RemoveFriend(finalName)
     else
-        printToChat(GetString(SI_LUIE_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_FRIEND_REMOVE_FAILED_NONAME)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
     end
@@ -81,26 +86,26 @@ end
 -- Slash Command to remove a given name from the ignore list
 function SlashCommands.SlashRemoveIgnore(option)
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
     end
 
-    local compareChar = string.lower(option)
+    local compareChar = zo_strlower(option)
     local ignore = GetNumIgnored()
     local g_ignoreIndex = {}
-    for i = 1,ignore do
+    for i = 1, ignore do
         local displayName = GetIgnoredInfo(i)
-        displayName = string.lower(displayName)
-        g_ignoreIndex[i] = {displayName=displayName}
+        displayName = zo_strlower(displayName)
+        g_ignoreIndex[i] = { displayName = displayName }
     end
 
     local finalName = ""
 
-    for i = 1,#g_ignoreIndex do
+    for i = 1, #g_ignoreIndex do
         local comparing = g_ignoreIndex[i]
         if comparing.displayName == compareChar then
             finalName = comparing.displayName
@@ -111,9 +116,9 @@ function SlashCommands.SlashRemoveIgnore(option)
     if finalName ~= "" then
         RemoveIgnore(option)
     else
-        printToChat(GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE), true)
         if LUIE.ChatAnnouncements.SV.Social.FriendIgnoreAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_IGNORE_FAILED_NONAME_REMOVE)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return

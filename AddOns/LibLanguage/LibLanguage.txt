@@ -1,9 +1,9 @@
-## APIVersion: 101038 101037
+## APIVersion: 101040 101041
 ## Title: LibLanguage
 ## Author: Shadowfen
 ## IsLibrary: true
-## AddOnVersion: 36
-## Version: 36
+## AddOnVersion: 37
+## Version: 37
 ## Description: Library containing language localisation functionality for use by addons.
 
 ; Library

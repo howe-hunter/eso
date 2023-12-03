@@ -23,6 +23,9 @@ local strlen = string.len
 local tins = table.insert
 local tcon = table.concat
 
+--String patterns
+local colorAlreadyAddedPattern = "|c[%d%a][%d%a][%d%a][%d%a][%d%a][%d%a]"
+
 --Local speed-ups (not changing until reloadui/logout)
 local exclamationMarkTexture = "pChat/dds/excl3.dds"
 
@@ -347,18 +350,26 @@ local function checkColorCorrectCaseAndPlaySound(k, v, text, origtext, appendCol
 end
 
 -- The main formatting routine that gets called inside FormatMessage.
-function cm.cm_format(text, fromDisplayName, isCS, appendColor)
+function cm.cm_format(chanCode, text, fromDisplayName, isCS, appendColor)
     local lfrom = strlow(fromDisplayName)
 
 	-- Support custom colors already in the text
-	local alreadyHasColor, lastColorValue = strfind(text, "|c[%d%a][%d%a][%d%a][%d%a][%d%a][%d%a]")
+	local alreadyHasColor, lastColorValue = strfind(text, colorAlreadyAddedPattern)
 	local origColor = ""
 	if alreadyHasColor then
 		origColor = strsub(text, alreadyHasColor, lastColorValue)
 	end
 	
     if isCS == false then
-		if db.selfsend == true or (lfrom ~= "" and lfrom ~= nil and lfrom ~= cm_lplayerAt) then
+		local mentionOnSelfSend = db.selfsend
+		-->Upon whispering lfrom is not the sender's name e.g. @Baertram but the receivers? Somehow mixed up here by ZOs?
+		if chanCode == CHAT_CHANNEL_WHISPER_SENT then
+--d("[pChat-ChatMentions]whisper messabe from: " ..tos(lfrom))
+			lfrom = cm_lplayerAt
+		end
+		local sendByMyself = lfrom ~= nil and lfrom ~= "" and lfrom == cm_lplayerAt
+--d("[pChat-ChatMentions]sendByMyself: " ..tos(sendByMyself) .. ", lfrom: " ..tos(lfrom) .. ", cm_lplayerAt: " ..tos(cm_lplayerAt) .. ", db.selfsend: " ..tos(mentionOnSelfSend))
+		if mentionOnSelfSend == true or (mentionOnSelfSend == false and not sendByMyself) then
 			local origtext = text
 			local matched = false
 

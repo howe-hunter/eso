@@ -1050,10 +1050,41 @@
       </Controls>
     </Control>
 
+    <!-- tooltip specs -->
+    <Tooltip name="IIFA_BaseTooltipBehavior" hidden="true" mouseEnabled="false" movable="false" clampedToScreen="true" resizeToFitConstrains="Y" virtual="true">
+        <DimensionConstraints minX="416" maxX="416" />
+        <ResizeToFitPadding width="25" height="25" />
+        <OnAddGameData>
+            ZO_Tooltip_OnAddGameData(...)
+        </OnAddGameData>
+
+        <OnCleared>
+            ZO_Tooltip_OnCleared(self)
+        </OnCleared>
+    </Tooltip>
+
+    <Tooltip name="IIFA_BaseTooltipVisuals" font="ZoFontGame" virtual="true">
+        <Controls>
+            <Backdrop name="$(parent)BG" inherits="ZO_DefaultBackdrop" excludeFromResizeToFitExtents="true">
+                <AnchorFill/>
+            </Backdrop>
+        </Controls>
+    </Tooltip>
+
+    <Tooltip name="IIFA_BaseTooltip" inherits="IIFA_BaseTooltipBehavior IIFA_BaseTooltipVisuals" virtual="true" />
+
+    <Tooltip name="IIFA_ItemTooltipBase" inherits="IIFA_BaseTooltip" virtual="true" headerVerticalOffset="11">
+        <OnCleared>
+            ZO_ItemTooltip_Cleared(self)
+        </OnCleared>
+
+        <OnAddGameData>
+            ZO_ItemTooltip_OnAddGameData(...)
+        </OnAddGameData>
+    </Tooltip>
 
     <!-- tooltips -->
-    <Tooltip name="IIFA_POPUP_TOOLTIP" hidden="true" mouseEnabled="false" movable="false" clampedToScreen="true" virtual="true" inherits="ItemTooltipBase">
-      <Dimensions x="416" y="200"/>
+    <Tooltip name="IIFA_POPUP_TOOLTIP" inherits="IIFA_ItemTooltipBase" virtual="true">
       <Anchor point="TOP" relativeTo="PopupTooltip" relativePoint="BOTTOM" offsetX="0" offsetY="0"/>
       <Controls>
         <Label name="$(parent)_StyleLabel" font="ZoFontWinH4" text="" hidden="true">
@@ -1066,8 +1097,7 @@
       </Controls>
     </Tooltip>
 
-    <Tooltip name="IIFA_ITEM_TOOLTIP" hidden="true" mouseEnabled="false" movable="false" clampedToScreen="true" virtual="true" inherits="ItemTooltipBase">
-      <Dimensions x="200" y="200"/>
+    <Tooltip name="IIFA_ITEM_TOOLTIP" inherits="IIFA_ItemTooltipBase" virtual="true">
       <Anchor point="TOP" relativeTo="ItemTooltip" relativePoint="BOTTOM" offsetX="0" offsetY="0"/>
       <Controls>
         <Label name="$(parent)_StyleLabel" font="ZoFontWinH4" text="" hidden="true">

@@ -117,7 +117,7 @@ local function MenuOptions_Init()	--Menu options
 	--Reset Default Frames
 	{	type		="button",
 		name		="ResetPositions",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ResetPositionsDesc"),func=function()BUI.Menu.Reset("Positions")end})end,
+		func		=function()ZO_Dialogs_ShowDialog ("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ResetPositionsDesc"),func=function()BUI.Menu.Reset("Positions")end})end,
 		reference	="BUI_MenuButton_Reset",
 	},
 	--Theme
@@ -215,7 +215,7 @@ local function MenuOptions_Init()	--Menu options
 	--Reset Addon
 	{	type		="button",
 		name		="Reset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ResetDesc"),func=BUI.Menu.Reset})end,
+		func		=function()ZO_Dialogs_ShowDialog ("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ResetDesc"),func=BUI.Menu.Reset})end,
 	}}
 	MenuPanel["MenuMisc"]={name="MiscHeader"}
 	MenuHandlers["MenuMisc"]={
@@ -474,7 +474,7 @@ local function MenuOptions_Init()	--Menu options
 	--Reset Unit Frames
 	{	type		="button",
 		name		="FramesReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
 	},
 	--	==Curved Frames==
 	{type="submenu",name="CurvedHeader",controls={
@@ -558,7 +558,7 @@ local function MenuOptions_Init()	--Menu options
 	{
 		type		="button",
 		name		="CurvedReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("CurvedResetDesc"),func=function()BUI.Menu.Reset("Curved")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("CurvedResetDesc"),func=function()BUI.Menu.Reset("Curved")end})end,
 	}}},
 	--	=="Advanced settings==
 	{type="submenu",name="AdvancedHeader",controls={
@@ -686,7 +686,7 @@ local function MenuOptions_Init()	--Menu options
 	{
 		type		="button",
 		name		="CurvedReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("CurvedResetDesc"),func=function()BUI.Menu.Reset("Curved")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("CurvedResetDesc"),func=function()BUI.Menu.Reset("Curved")end})end,
 	}}
 	MenuPanel["MenuCurvedFrames"]={name="CurvedHeader"}
 	MenuHandlers["MenuCurvedFrames"]={
@@ -800,7 +800,7 @@ local function MenuOptions_Init()	--Menu options
 	--Reset Unit Frames
 	{	type		="button",
 		name		="FramesReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
 	}}
 	MenuPanel["MenuTargetFrames"]={name="TargetHeader"}
 	MenuHandlers["MenuTargetFrames"]={
@@ -1092,7 +1092,7 @@ end
 	--Reset Unit Frames
 	{	type		="button",
 		name		="FramesReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("FramesResetDesc"),func=function()BUI.Menu.Reset("Frames")end})end,
 	}
 	}
 	MenuPanel["MenuGroupFrames"]={name="GroupHeader"}
@@ -1237,7 +1237,7 @@ end
 	--Reset Stats
 	{	type		="button",
 		name		="StatsReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("StatsResetDesc"),func=function()BUI.Menu.Reset("Stats")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("StatsResetDesc"),func=function()BUI.Menu.Reset("Stats")end})end,
 	}}
 	MenuPanel["MenuDamageStatistics"]={name="StatHeader"}
 	MenuHandlers["MenuDamageStatistics"]={
@@ -1573,7 +1573,7 @@ end
 	{--Reset
 		type		="button",
 		name		="BuffsReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("BuffsResetDesc"),func=function()BUI.Menu.Reset("Buffs")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("BuffsResetDesc"),func=function()BUI.Menu.Reset("Buffs")end})end,
 	}}
 	MenuPanel["MenuBuffs"]={name="BuffsHeader"}
 	MenuHandlers["MenuBuffs"]={
@@ -1644,7 +1644,7 @@ end
 	--Reset
 	{	type		="button",
 		name		="ActionsReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ActionsResetDesc"),func=function()BUI.Menu.Reset("Actions")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ActionsResetDesc"),func=function()BUI.Menu.Reset("Actions")end})end,
 	}}
 	MenuPanel["MenuActions"]={name="ActionsHeader"}
 	MenuHandlers["MenuActions"]={
@@ -1892,7 +1892,7 @@ end
 		{--Reset
 		type		="button",
 		name		="MinimapReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("MinimapResetDesc"),func=function()BUI.Menu.Reset("Minimap")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("MinimapResetDesc"),func=function()BUI.Menu.Reset("Minimap")end})end,
 		})
 	end
 
@@ -1975,9 +1975,17 @@ end
 		getFunc2	=function() return BUI.Vars.FrameShieldColor1[1],BUI.Vars.FrameShieldColor1[2],BUI.Vars.FrameShieldColor1[3] end,
 		setFunc2	=function(r,g,b,a) BUI.Menu.UpdateFrames('FrameShieldColor1', {math.floor(r*100)/100, math.floor(g*100)/100, math.floor(b*100)/100,1}) end,
 	},
+	--Trauma Bar Colors
+	{	type		="gradient",
+		name		="FrameTraumaColor",
+		getFunc	=function() return BUI.Vars.FrameTraumaColor[1],BUI.Vars.FrameTraumaColor[2],BUI.Vars.FrameTraumaColor[3] end,
+		setFunc	=function(r,g,b,a) BUI.Menu.UpdateFrames('FrameTraumaColor', {math.floor(r*100)/100, math.floor(g*100)/100, math.floor(b*100)/100,1}) end,
+		getFunc2	=function() return BUI.Vars.FrameTraumaColor[1],BUI.Vars.FrameTraumaColor[2],BUI.Vars.FrameTraumaColor[3] end,
+		setFunc2	=function(r,g,b,a) BUI.Menu.UpdateFrames('FrameTraumaColor', {math.floor(r*100)/100, math.floor(g*100)/100, math.floor(b*100)/100,1}) end,
+	},
 	{	type		="button",
 		name		="SameColors",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("SameColorsDesc"),func=function()BUI.Menu.Reset("SameColors")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("SameColorsDesc"),func=function()BUI.Menu.Reset("SameColors")end})end,
 	},
 	{type="header",name="GroupRolesHeader"},	--Group Roles
 	--Self Color difference
@@ -2016,7 +2024,7 @@ end
 	--Reset Colors
 	{	type		="button",
 		name		="ColorsReset",
-		func		=function()ZO_Dialogs_ShowPlatformDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ColorsResetDesc"),func=function()BUI.Menu.Reset("Colors")end})end,
+		func		=function()ZO_Dialogs_ShowDialog("BUI_RESET_CONFIRMATION", {text=BUI.Loc("ColorsResetDesc"),func=function()BUI.Menu.Reset("Colors")end})end,
 	}}
 	MenuPanel["MenuFrameColors"]={name="ColorsHeader"}
 	MenuHandlers["MenuFrameColors"]={
@@ -2065,51 +2073,6 @@ end
 	}}
 	MenuPanel["MenuMeters"]={name="Meters_Header"}
 	MenuHandlers["MenuMeters"]={
-	["OnEffectivelyShown"]=function()
-		BUI.inMenu=true
-		BanditsUI:SetHidden(false)
-	end,
-	["OnEffectivelyHidden"]=function()
-		BUI.inMenu=false
-	end,
-	}
-	
-	MenuOptions["MenuMarkers"]={
-	{	type		="checkbox",
-		name		="Markers_Dungeons",
-		getFunc	=function() return BUI.Vars.Markers_Dungeons or BUI.Markers.Default.Dungeons end,
-		setFunc	=function(value) BUI.Vars.Markers_Dungeons=value BUI.Markers.Initialize() end,
-	},
-	{	type		="checkbox",
-		name		="Markers_Trials",
-		getFunc	=function() return BUI.Vars.Markers_Trials or BUI.Markers.Default.Trials end,
-		setFunc	=function(value) BUI.Vars.Markers_Trials=value BUI.Markers.Initialize() end,
-	},
-	{	type		="checkbox",
-		name		="Markers_Message",
-		getFunc	=function() return BUI.Vars.Markers_Message or BUI.Markers.Default.Message end,
-		setFunc	=function(value) BUI.Vars.Markers_Message=value BUI.Markers.Initialize() end,
-	},
-	{	type		="checkbox",
-		name		="Markers_Icon",
-		getFunc	=function() return BUI.Vars.Markers_Icon or BUI.Markers.Default.Icon end,
-		setFunc	=function(value) BUI.Vars.Markers_Icon=value BUI.Markers.Initialize() end,
-	},
-	{	type		="checkbox",
-		name		="Markers_HeavySack",
-		getFunc	=function() return BUI.Vars.Markers_HeavySack or BUI.Markers.Default.HeavySack end,
-		setFunc	=function(value) BUI.Vars.Markers_HeavySack=value BUI.Markers.Initialize() end,
-	},	
-	{	type		="slider",
-		name		="Markers_IconDuration",
-		min		=5,
-		max		=90,
-		step		=1,
-		getFunc	=function() return BUI.Vars.Markers_IconDuration or BUI.Markers.Default.IconDuration end,
-		setFunc	=function(value) BUI.Vars.Markers_IconDuration=value BUI.Markers.Initialize() end,
-	}}
-	MenuPanel["MenuMarkers"]={name="Markers_Header"}
-	MenuHandlers["MenuMarkers"]={
 	["OnEffectivelyShown"]=function()
 		BUI.inMenu=true
 		BanditsUI:SetHidden(false)
@@ -2213,6 +2176,11 @@ function BUI.Menu:FramesReposition()
 			BUI_Curved:SetAlpha(BUI.Vars.FrameOpacityIn/100)
 			BUI_CurvedTarget:ClearAnchors()
 			BUI_CurvedTarget:SetAnchor(CENTER,BUI_MenuPlayerFrames,RIGHT,300,BUI.Vars.CurvedOffset)
+
+			--Spoof a shield
+			BUI.Curved.Shield('player',math.floor(BUI.Player.health.max*.5),BUI.Player.health.pct,BUI.Player.health.max,BUI.Player.trauma.current)
+			BUI.Curved.Trauma('player',math.floor(BUI.Player.health.max*.25),BUI.Player.health.pct,BUI.Player.health.max,BUI.Player.shield.current)
+
 			if not BUI.Vars.CurvedShift then
 				BUI_CurvedTarget:SetHidden(false)
 				BUI_CurvedTarget:SetAlpha(BUI.Vars.FrameOpacityIn/100)
@@ -2225,6 +2193,8 @@ function BUI.Menu:FramesReposition()
 	end
 	--Spoof a shield on the player frame
 	BUI.Player:UpdateShield('player', math.floor(BUI.Player.health.max*.5),	BUI.Player.health.max)
+	--Spoof trauma on the player frame
+	BUI.Player:UpdateTrauma('player', math.floor(BUI.Player.health.max*.25),	BUI.Player.health.max)
 	--Show the UI layer
 	BanditsUI:SetHidden(false)
 end
@@ -2249,6 +2219,7 @@ function BUI.Menu.FramesRestore()
 		end
 	end
 	BUI.Player:UpdateShield('player')
+	BUI.Player:UpdateTrauma('player')
 	--Toggle visibility
 	BanditsUI:SetHidden(not BUI_SettingsWindow:IsHidden())
 end
@@ -2310,7 +2281,7 @@ function BUI.Menu.Reset(context)
 		BUI.Menu.UpdateFrames()
 		BUI.Menu.UpdateOptions("BUI_MenuFrameColors")
 	elseif context=="SameColors" then
-		local vars={"FrameHealthColor","FrameMagickaColor","FrameStaminaColor","FrameShieldColor"}
+		local vars={"FrameHealthColor","FrameMagickaColor","FrameStaminaColor","FrameShieldColor","FrameTraumaColor"}
 		for _,var in pairs(vars) do BUI.Vars[var.."1"]=BUI.Vars[var] end
 		BUI.Menu.UpdateFrames()
 		BUI.Menu.UpdateOptions("BUI_MenuFrameColors")
@@ -2639,7 +2610,7 @@ function BUI.Menu.ManageWidgets(move)
 				BUI.Menu.ManageWidgets(false)
 			end
 		end
-		EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_POPPED	,OnLayerChange)
+		--EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_POPPED	,OnLayerChange)
 		EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_PUSHED	,OnLayerChange)
 	else
 		BUI_Menu_Move_Anchor:SetHidden(true) BUI_Menu_Move_B1:SetHidden(true) BUI_Menu_Move_B2:SetHidden(true) BUI_Menu_Move_B3:SetHidden(true) BUI_Menu_Move_B4:SetHidden(true)
@@ -2672,6 +2643,10 @@ local function MoveDefaultFrames(move)
 				anchorPoint=RIGHT
 			elseif name=="ZO_PlayerAttributeStamina" then
 				anchorPoint=LEFT
+			elseif name=="ZO_EndDunHUDTrackerContainer" then
+				frame:SetWidth(200)
+				lX,lY=-100,-20
+				anchorPoint=BOTTOMRIGHT
 			end
 			local w,h=frame:GetDimensions()
 			if w==0 then w=14 end w=w+math.abs(lX)
@@ -2789,7 +2764,7 @@ function BUI.Menu.MoveFrames(move)
 		--		if BUI.moveDefault then BUI.Menu:MoveDefaultFrames(false) end
 			end
 		end
-		EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_POPPED	,OnLayerChange)
+		--EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_POPPED	,OnLayerChange)
 		EVENT_MANAGER:RegisterForEvent("BUI_Event", EVENT_ACTION_LAYER_PUSHED	,OnLayerChange)
 	else
 		BUI_Menu_Move_Anchor:SetHidden(true) BUI_Menu_Move_B1:SetHidden(true) BUI_Menu_Move_B2:SetHidden(true) BUI_Menu_Move_B3:SetHidden(true) BUI_Menu_Move_B4:SetHidden(true)

@@ -2,8 +2,8 @@
 ## Title: LibMultilingualName_jp
 ## Author: @Shinntarou (NA,PC)
 ## IsLibrary: true
-## APIVersion: 101037
-## Version: 1.2.25
+## APIVersion: 101039
+## Version: 1.2.27
 ## DependsOn: LibMultilingualName
 
 LibMultilingualName_jp.lua

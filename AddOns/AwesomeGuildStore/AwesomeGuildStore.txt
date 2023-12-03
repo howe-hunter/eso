@@ -1,8 +1,8 @@
 ## Title: AwesomeGuildStore
 ## Author: sirinsidiator
-## Version: 1.6.7
-## APIVersion: 101038
-## AddOnVersion: 3129
+## Version: 1.6.8
+## APIVersion: 101039
+## AddOnVersion: 3148
 ## DependsOn: LibCustomMenu>=680 LibDebugLogger>=196 LibDateTime>=28 LibAddonMenu-2.0>=31 LibMapPing>=900 LibGPS>=17 LibPromises>=10 LibTextFilter>=10 LibGetText>=10 LibChatMessage>=87
 ## OptionalDependsOn: LibFilters-3.0>=312 CraftedPotions>=20
 ## SavedVariables: AwesomeGuildStore_Data

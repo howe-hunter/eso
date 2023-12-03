@@ -73,7 +73,7 @@ l.queueAction -- #(Models#Action:action)->()
   newQueue[1] = action
   local now = GetGameTimeMilliseconds()
   for key, a in ipairs(l.actionQueue) do
-    if not a.newAction and now < a.startTime+l.getSavedVars().coreSecondsBeforeFade*1000 then
+    if not a.newAction and now - a.startTime < 3 * 1000 then
       table.insert(newQueue,a)
     end
   end
@@ -83,12 +83,16 @@ end
 l.debug -- #(#string:switch,#number:level)->(#(#string:format, #string:...)->())
 =function(switch, level)
   return function(format, ...)
-    if (m.debugLevels[switch] and m.debugLevels[switch]>=level) or
-      (m.debugLevels[DS_ALL] and m.debugLevels[DS_ALL]>=level)
-    then
+    if l.debugEnabled(switch,level) then
       d(os.date()..'>', string.format(format, ...))
     end
   end
+end
+
+l.debugEnabled -- #(#string:switch,#number:level)->(#boolean)
+= function(switch, level)
+  return (m.debugLevels[switch] and m.debugLevels[switch]>=level) or
+    (m.debugLevels[DS_ALL] and m.debugLevels[DS_ALL]>=level)
 end
 
 l.filterAbilityOk -- #(Models#Ability:ability)->(#boolean)
@@ -160,10 +164,10 @@ l.findActionByNewEffect --#(Models#Effect:effect, #boolean:stacking)->(Models#Ac
   for i = 1,#l.actionQueue do
     local action = l.actionQueue[i] --Models#Action
     if action:matchesNewEffect(effect) then
-      l.debug(DS_ACTION,1)('[F]found one of queue by new match:%s@%.2f', action.ability.name, action.startTime/1000)
+      l.debug(DS_ACTION,1)('[F]found one of queue by new match:%s', action:toLogString())
       return action
     else
-      l.debug(DS_ACTION,1)('[F?]not found one of queue by new match:%s@%.2f', action.ability.name, action.startTime/1000)
+      l.debug(DS_ACTION,1)('[F?]not found one of queue by new match:%s', action:toLogString())
     end
   end
   -- try saved actions
@@ -228,24 +232,32 @@ l.findBarActionByNewEffect --#(Models#Effect:effect, #boolean:stacking)->(Models
   if effect.startTime - l.lastQuickslotTime < 100 then return nil end
   -- check if it's a one word name effect e.g. burning, chilling, concussion
   -- or we are using chinese lang
-  local checkDescription =  effect.ability.name:find(" ",1,true) or GetCVar("language.2")=='zh'
+  local isZh = GetCVar("language.2")=='zh'
+  local checkDescription =  effect.ability.name:find(" ",1,true) or isZh
   checkDescription = checkDescription and (stacking or effect.duration >= 5000)
   --
   local matchSlotNum = nil
-  for slotNum = 3,8 do
-    local slotBoundId = GetSlotBoundId(slotNum)
-    if slotBoundId >0 then
-      local slotName = fStripBracket(zo_strformat("<<1>>", GetSlotName(slotNum)))
-      if (effect.ability.name:find(slotName,1,true) and slotName:find(' ',1,true))
-        or checkDescription and zo_strformat("<<1>>", GetAbilityDescription(slotBoundId)):find(effect.ability.name,1,true)
-      then
-        matchSlotNum = slotNum
-        break
+  local matchHotbarCategory = nil
+  local currentHotbarCategory = GetActiveHotbarCategory()
+  local indices = {currentHotbarCategory, HOTBAR_CATEGORY_PRIMARY, HOTBAR_CATEGORY_BACKUP}
+  for i=1, 3 do
+    local hotbarCategory = indices[i]
+    for slotNum = 3,8 do
+      local slotBoundId = GetSlotBoundId(slotNum,hotbarCategory)
+      if slotBoundId >0 then
+        local slotName = fStripBracket(zo_strformat("<<1>>", GetSlotName(slotNum, hotbarCategory)))
+        if (effect.ability.name== slotName)
+          or checkDescription and zo_strformat("<<1>>", GetAbilityDescription(slotBoundId)):find(effect.ability.name,1,true)
+        then
+          matchSlotNum = slotNum
+          matchHotbarCategory = hotbarCategory
+          break
+        end
       end
     end
   end
   if matchSlotNum then
-    local action = models.newAction(matchSlotNum,GetActiveWeaponPairInfo(), false)
+    local action = models.newAction(matchSlotNum,matchHotbarCategory)
     action.fake = true
     l.debug(DS_ACTION,1)('[F]found one by bar match:%s@%.2f', action.ability.name, action.startTime/1000)
     return action
@@ -293,13 +305,14 @@ l.getActionByNewAction -- #(Models#Action:action)->(Models#Action)
     end
     if abilityName:find(a.ability.name,1,true) then return true end
     -- i.e. Assassin's Will name can match Merciless Resolve action by its description
-    if action.weaponPairIndex == a.weaponPairIndex and action.slotNum == a.slotNum
+    if action.hotbarCategory == a.hotbarCategory and action.slotNum == a.slotNum
       and not addon.isSimpleWord(abilityName) and a.description:find(abilityName,1,true) -- TODO test chinese version
     then
       l.debug(DS_ACTION,1)('[aM:slot]')
       return true
     end
   end
+
   for id, a in pairs(l.idActionMap) do
     if matcher(a) then
       if a.flags.forArea and action.flags.forEnemy then
@@ -316,14 +329,25 @@ l.getActionByNewAction -- #(Models#Action:action)->(Models#Action)
       if a.ability.id ~= action.ability.id then
         return a
       end
-      -- don't replace enemy actions, so that they can be traced seperately
-      if action.flags.forEnemy then
+      -- don't replace enemy actions excluding fake, so that they can be traced seperately
+      if action.flags.forEnemy and not a.fake then
         return nil
       end
       return a
     end
+    
   end
   l.debug(DS_ACTION,1)('[aM:none]')
+  return nil
+end
+
+l.getActionBySlot --#(#number:hotbarCategory, #number:slotNum)->(Models#Action)
+= function(hotbarCategory, slotNum)
+  for key, var in pairs(l.idActionMap) do
+    if var.hotbarCategory == hotbarCategory and var.slotNum == slotNum then
+      return var
+    end
+  end
   return nil
 end
 
@@ -332,9 +356,9 @@ l.onActionSlotAbilityUsed -- #(#number:eventCode,#number:slotNum)->()
   -- 1. filter other actions
   if slotNum < 3 or slotNum > 8 then return end
   -- 2. create action
-  local action = models.newAction(slotNum,GetActiveWeaponPairInfo(), false)
-  l.debug(DS_ACTION,1)('[a]%s@%.2f+%i++%.2f\n%s\n<%.2f~%.2f>', action.ability:toLogString(),
-    action.startTime/1000, action.castTime, GetLatency()/1000, action:getFlagsInfo(),
+  local action = models.newAction(slotNum,GetActiveHotbarCategory())
+  l.debug(DS_ACTION,1)('[a]%s@%.2f+%.1f++%.2f\n%s\n<%.2f~%.2f>', action.ability:toLogString(),
+    action.startTime/1000, action.castTime/1000, GetLatency()/1000, action:getFlagsInfo(),
     action:getStartTime()/1000, action:getEndTime()/1000)
   if action.ability.icon:find('_curse',1,true) -- daedric curse, haunting curse, daedric prey
     or action.ability.icon:find('dark_haze',1,true) -- rune cage
@@ -350,7 +374,7 @@ l.onActionSlotAbilityUsed -- #(#number:eventCode,#number:slotNum)->()
   -- 4. queue it
   l.queueAction(action)
   -- 5. replace saved
-  if not action.flags.forGround then
+  if not action.flags.forGround and action.channelTime==0 then -- ground and channel action should not inherit old action effects
     local sameNameAction = l.getActionByNewAction(action) -- Models#Action
     if sameNameAction and sameNameAction.saved then
       sameNameAction = sameNameAction:getNewest()
@@ -389,11 +413,12 @@ l.onActionSlotAbilityUsed -- #(#number:eventCode,#number:slotNum)->()
         abilityAccepter(var)
       end
       l.saveAction(action)
+    else
     end
   end
   -- 6. save
   if not action.flags.forGround -- i.e. Scalding Rune ground action should not show the timer without effect
-    and action.descriptionDuration and action.descriptionDuration<3000 and action.descriptionDuration>l.getSavedVars().coreMinimumDurationSeconds then
+    and action.descriptionDuration and action.descriptionDuration<3000 and action.descriptionDuration>l.getSavedVars().coreMinimumDurationSeconds*1000 then
     -- 6.x save short without effects
     l.saveAction(action)
   end
@@ -414,9 +439,34 @@ l.onCombatEvent -- #(#number:eventCode,#number:result,#boolean:isError,
 --#number:damageType,#boolean:log,#number:sourceUnitId,#number:targetUnitId,#number:abilityId,#number:overflow)->()
 = function(eventCode,result,isError,abilityName,abilityGraphic,abilityActionSlotType,sourceName,sourceType,targetName,
   targetType,hitValue,powerType,damageType,log,sourceUnitId,targetUnitId,abilityId,overflow)
+  local now = GetGameTimeMilliseconds()
+  l.debug(DS_EFFECT, 3)('[CE+]%s(%s)@%.2f[%s] source:%s(%i:%i) target:%s(%i:%i), abilityActionSlotType:%d,  damageType:%d, overflow:%d,result:%d,powerType:%d,hitvalue:%d',
+    abilityName,
+    abilityId,
+    now/1000,
+    abilityGraphic,
+    sourceName,
+    sourceType,
+    sourceUnitId,
+    targetName,
+    targetType,
+    targetUnitId,
+    abilityActionSlotType,
+    damageType,
+    overflow,
+    result,
+    powerType,
+    hitValue
+  )
   if result == ACTION_RESULT_DIED_XP then
     for key, var in pairs(l.idActionMap) do
       var:purgeEffectByTargetUnitId(targetUnitId)
+    end
+  end
+  if result == ACTION_RESULT_EFFECT_FADED then
+    local action = l.idActionMap[abilityId]
+    if action and action.channelUnitType == targetType and action.channelUnitId == targetUnitId then
+      action.endTime = now
     end
   end
 
@@ -428,35 +478,52 @@ l.onCombatEventFromPlayer -- #(#number:eventCode,#number:result,#boolean:isError
 --#number:damageType,#boolean:log,#number:sourceUnitId,#number:targetUnitId,#number:abilityId,#number:overflow)->()
 = function(eventCode,result,isError,abilityName,abilityGraphic,abilityActionSlotType,sourceName,sourceType,targetName,
   targetType,hitValue,powerType,damageType,log,sourceUnitId,targetUnitId,abilityId,overflow)
-  if result ~= ACTION_RESULT_EFFECT_GAINED and result ~= ACTION_RESULT_EFFECT_GAINED_DURATION then return end -- ACTION_RESULT_EFFECT_GAINED and ACTION_RESULT_EFFECT_GAINED_DURATION
+  if result ~= ACTION_RESULT_EFFECT_GAINED and result ~= ACTION_RESULT_EFFECT_GAINED_DURATION then return end
   local now = GetGameTimeMilliseconds()
-  l.debug(DS_EFFECT, 3)('[CE+]%s(%s)@%.2f[%s] for %s(%i), abilityActionSlotType:%d, targetType:%d, damageType:%d, overflow:%d,result:%d,powerType:%d',
-    abilityName,
-    abilityId,
-    now/1000,
-    abilityGraphic,
-    targetName,
-    targetUnitId,
-    abilityActionSlotType,
-    targetType,
-    damageType,
-    overflow,
-    result,
-    powerType
-  )
+  --  l.debug(DS_EFFECT, 3)('[CE+]%s(%s)@%.2f[%s] source:%s(%i:%i) target:%s(%i:%i), abilityActionSlotType:%d,  damageType:%d, overflow:%d,result:%d,powerType:%d,hitvalue:%d',
+  --    abilityName,
+  --    abilityId,
+  --    now/1000,
+  --    abilityGraphic,
+  --    sourceName,
+  --    sourceType,
+  --    sourceUnitId,
+  --    targetName,
+  --    targetType,
+  --    targetUnitId,
+  --    abilityActionSlotType,
+  --    damageType,
+  --    overflow,
+  --    result,
+  --    powerType,
+  --    hitValue
+  --  )
+
   for key, action in pairs(l.actionQueue) do
     if not action.saved
       and (action.ability.id == abilityId or action.ability.name == abilityName)
-      and action.duration > l.getSavedVars().coreMinimumDurationSeconds
-      and ((action.flags.forArea and now-action.startTime<2000) or action.flags.forGround )
     then
-      action.startTime = now
-      action.endTime = now+action.duration
-      if action.flags.forGround then
-        -- record this to mark next effect as activated one
-        action.groundFirstEffectId = -1
+      local duration = action.duration
+      -- use descript duration if action has channel time i.e. Arcanist FateCarver,
+      if result == ACTION_RESULT_EFFECT_GAINED_DURATION and duration == 0 and action.channelTime>l.getSavedVars().coreMinimumDurationSeconds*1000
+        and sourceType==targetType and sourceUnitId == targetUnitId
+      then
+        duration = hitValue
+        action.channelUnitType = targetType
+        action.channelUnitId = targetUnitId
       end
-      l.saveAction(action)    end
+      --
+      if  duration > l.getSavedVars().coreMinimumDurationSeconds*1000
+        and ((action.flags.forArea and now-action.startTime<2000) or action.flags.forGround ) then
+        action.startTime = now
+        action.endTime = now+duration
+        if action.flags.forGround then
+          -- record this to mark next effect as activated one
+          action.groundFirstEffectId = -1
+        end
+        l.saveAction(action)
+      end
+    end
   end
 end
 
@@ -484,14 +551,14 @@ l.onEffectChanged -- #(#number:eventCode,#number:changeType,#number:effectSlot,#
   )
   -- ignore rubbish effects
   if l.ignoredIds[abilityId] then
-    l.debug(DS_ACTION,1)('[] '..effectName..' ignored by id:'..abilityId)
+    l.debug(DS_ACTION,1)('[] '..effectName..' ignored by id:'..abilityId..', reason:'..l.ignoredIds[abilityId])
     return
   end
-  local key = ('%d:%s:%d:%d'):format(abilityId,effectName,changeType,stackCount)
+  local key =(changeType == EFFECT_RESULT_UPDATED) and  ('%d:%s:update'):format(abilityId,effectName) or ('%d:%s:%d:%d'):format(abilityId,effectName,changeType,stackCount)
   local numMarks = l.ignoredCache:get(key)
   --  df(' |t24:24:%s|t%s (id: %d) mark: %d',iconName, effectName,abilityId,numMarks)
   if numMarks>=4 then
-    l.debug(DS_ACTION,1)('[] '..key..' ignored by cache'..numMarks)
+    l.debug(DS_ACTION,1)('[] '..key..' ignored by cache counted '..numMarks)
     return
   end
   l.ignoredCache:mark(key)
@@ -499,11 +566,19 @@ l.onEffectChanged -- #(#number:eventCode,#number:changeType,#number:effectSlot,#
   -- 0. prepare
   -- ignore expedition on others
   if unitTag~='player' and iconName:find('buff_major_expedition',1,true) then return end
-  -- ignore burning effect
-  if not l.ignoredIds['ability_mage_062'] and iconName:find('ability_mage_062',1,true) then
-    l.ignoredIds['ability_mage_062']='ignored burning effect'
-    l.ignoredIds[abilityId]='ignored burning effect'
-    return
+  local ignoredIdsConfig ={
+    ['ability_mage_062']='burning effect',
+    ['ability_mage_039']='blight seed',
+    ['arcanist_crux']='arcanist crux',
+    ['death_recap_bleed_dot']='bleed dot',
+  }
+  for key, var in pairs(ignoredIdsConfig) do
+    if not l.ignoredIds[key] and iconName:find(key,1,true) then
+      local info = 'ignored '..var --#string
+      l.ignoredIds[key]=info
+      l.ignoredIds[abilityId]=info
+      return
+    end
   end
 
   if unitTag and string.find(unitTag, 'group') then return end -- ignore effects on group members especially those same as player
@@ -588,11 +663,13 @@ l.onEffectChanged -- #(#number:eventCode,#number:changeType,#number:effectSlot,#
     end
     local action = l.findActionByNewEffect(effect)
     if action then
-      -- filter debuff if longer than default duration
+      -- filter debuff if a bit longer than default duration
       if l.getSavedVars().coreIgnoreLongDebuff and action.duration and action.duration >0 and effect.duration>action.duration
         and effect.ability.icon:find('ability_debuff_',1,true)
+        --        and not action.descriptionNums[effect.duration/1000] -- This line should be commented out because it conflicts with option *coreIgnoreLongDebuff*
+        and effect.duration < 15000 -- some longer debuff is useful, i.e. Rune of Edric Horror has a 20sec duration need to be tracked
       then
-        l.debug(DS_ACTION,1)('[!] ignore long debuff %s for %s',effect:toLogString(), action:toLogString())
+        l.debug(DS_ACTION,1)('[!] ignore a bit longer debuff %s for %s',effect:toLogString(), action:toLogString())
         for key, effect in ipairs(action.effectList) do
           l.debug(DS_ACTION,1)('[+--e:]%s', effect:toLogString())
         end
@@ -682,11 +759,13 @@ l.onEffectChanged -- #(#number:eventCode,#number:changeType,#number:effectSlot,#
       for key, var in ipairs(action.effectList) do
         if var.startTime == oldEffect.startTime then clearTimeRecord=false end
       end
-      if clearTimeRecord then l.timeActionMap[oldEffect.startTime] = nil end -- don't clear time record if other effect still there
+      if clearTimeRecord then l.timeActionMap[oldEffect.startTime] = nil end -- don't clear time record if other effect still exist
       --  action trigger effect's end i.e. Crystal Fragment/Molten Whip
-      if action.oldAction and action.oldAction.fake and action:getEndTime() <= now+20 and  action:getStartTime()>now-500 then
-        l.debug(DS_ACTION,1)('[trg]%s', action:toLogString())
-        l.removeAction(action)
+      if action.oldAction and action.oldAction.fake then
+        if now < action:getStartTime()+1100 then
+          l.debug(DS_ACTION,1)('[trg]%s', action:toLogString())
+          l.removeAction(action)
+        end
       end
       return
     end
@@ -839,7 +918,9 @@ l.refineActions -- #()->()
   local endLimit = now - l.getSavedVars().coreSecondsBeforeFade * 1000
   for key,action in pairs(l.idActionMap) do
     local endTime = action:isUnlimited() and endLimit+1 or action:getEndTime()
-    if endTime < (action.fake and now or endLimit) then
+    if action.stackCount==0 -- i.e. Grim Focus triggered by weapon attack
+      and endTime < (action.fake and now or endLimit)
+    then
       l.debug(DS_ACTION,1)('[dr]%s, endTime:%d < endLimit:%d', action:toLogString(),
         endTime, endLimit)
       l.removeAction(action)
@@ -900,21 +981,14 @@ l.saveAction -- #(Models#Action:action)->()
     end
     return count
   end
-  l.debug(DS_ACTION,1)('[s]%s,idActionMap(%i),timeActionMap(%i),#effectList:%d', action:toLogString(),
-    len(l.idActionMap),len(l.timeActionMap), #action.effectList)
-  for key, effect in ipairs(action.effectList) do
-    l.debug(DS_ACTION,1)('[+--e:]%s', effect:toLogString())
-  end
-end
-
-l.getActionBySlot --#(#number:weaponPairIndex, #number:slotNum)->(Models#Action)
-= function(weaponPairIndex, slotNum)
-  for key, var in pairs(l.idActionMap) do
-    if var.weaponPairIndex == weaponPairIndex and var.slotNum == slotNum then
-      return var
+  if l.debugEnabled(DS_ACTION,1) then
+    local effectListLog = ''
+    for key, effect in ipairs(action.effectList) do
+      effectListLog= effectListLog ..'\n [+--e:]'.. effect:toLogString()
     end
+    l.debug(DS_ACTION,1)('[s]%s,idActionMap(%i),timeActionMap(%i),#effectList:%d%s', action:toLogString(),
+      len(l.idActionMap),len(l.timeActionMap), #action.effectList, effectListLog)
   end
-  return nil
 end
 
 
@@ -930,7 +1004,7 @@ m.getActionByAbilityId = l.getActionByAbilityId -- #(#number:abilityId)->(Models
 
 m.getActionByAbilityName = l.getActionByAbilityName-- #(#string:abilityName)->(Models#Action)
 
-m.getActionBySlot = l.getActionBySlot-- #(#number:weaponPairIndex,#number:slotNum)->(Models#Action)
+m.getActionBySlot = l.getActionBySlot-- #(#number:hotbarCategory,#number:slotNum)->(Models#Action)
 
 m.clearActions -- #()->()
 = function()
@@ -995,14 +1069,14 @@ end)
 
 addon.extend(settings.EXTKEY_ADD_MENUS, function()
   settings.addMenuOptions(
-        {
-          type = "checkbox",
-          name = addon.text("Log Tracked Effects In Chat"),
-          getFunc = function() return l.getSavedVars().coreLogTrackedEffectsInChat end,
-          setFunc = function(value) l.getSavedVars().coreLogTrackedEffectsInChat = value end,
-          width = "full",
-          default = coreSavedVarsDefaults.coreLogTrackedEffectsInChat,
-        }
+    {
+      type = "checkbox",
+      name = addon.text("Log Tracked Effects In Chat"),
+      getFunc = function() return l.getSavedVars().coreLogTrackedEffectsInChat end,
+      setFunc = function(value) l.getSavedVars().coreLogTrackedEffectsInChat = value end,
+      width = "full",
+      default = coreSavedVarsDefaults.coreLogTrackedEffectsInChat,
+    }
   )
   settings.addMenuOptions(
     {

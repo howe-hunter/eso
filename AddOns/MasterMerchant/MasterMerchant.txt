@@ -5,16 +5,16 @@
 ; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
 
 
-## Title: Master Merchant 3.7.67 by Sharlikran
-## APIVersion: 101037 101038
+## Title: Master Merchant 3.7.83 by Sharlikran
+## APIVersion: 101039 101040
 ## Description: Tools for the Master Merchant: Sales History, Guild Sales Info, Pricing Assistance.
 ## Authors: Philgo68, Khaibit, dOpiate, Garkin, Sharlikran
-## Version: 3.7.67
-## AddOnVersion: 3767
+## Version: 3.7.83
+## AddOnVersion: 3783
 ## License: See license - distribution without license is prohibited!
 ## LastUpdated: April 2023
 ## SavedVariables: ShopkeeperSavedVars
-## DependsOn: LibExecutionQueue>=200 LibAddonMenu-2.0>=34 LibMediaProvider-1.0>=21 LibGuildRoster>=10
+## DependsOn: LibExecutionQueue>=200 LibAddonMenu-2.0>=35 LibMediaProvider-1.0>=26 LibGuildRoster>=10
 ## DependsOn: LibGuildStore>=103 LibDebugLogger>=255 LibAlchemy LibPrice>=070200
 ## OptionalDependsOn: MM00Data MM01Data MM02Data MM03Data MM04Data MM05Data MM06Data MM07Data MM08Data MM09Data
 ## OptionalDependsOn: MM10Data MM11Data MM12Data MM13Data MM14Data MM15Data MM16Data AwesomeGuildStore>=3079
@@ -24,7 +24,8 @@
 
 i18n\en.lua
 i18n\$(language).lua
-Libs\lua-bit-numberlua\lua-bit-numberlua.lua
+font_defs\fontstrings_shared.xml
+font_defs\backupfont_$(language).xml
 MasterMerchantListings.xml
 MasterMerchantReports.xml
 MasterMerchantFilters.xml
@@ -42,6 +43,7 @@ AGS_Integration\SortOrderDealPercent.lua
 MasterMerchant_Writs.lua
 MasterMerchant_DealCalc.lua
 MasterMerchant_Util.lua
+MasterMerchant_Utils.lua
 MasterMerchant_Tooltip.lua
 MasterMerchant_UI.lua
 MasterMerchant_Guild.lua
@@ -51,6 +53,7 @@ MasterMerchant_GuildListings.lua
 MasterMerchant_ItemNameFilter.lua
 MasterMerchant_Filters.lua
 MasterMerchant_Inventory.lua
+MasterMerchant_Settings.lua
 MasterMerchant.lua
 MasterMerchant_Alias.lua
 bindings.xml

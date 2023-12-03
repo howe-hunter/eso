@@ -8,13 +8,15 @@ local SlashCommands = LUIE.SlashCommands
 local printToChat = LUIE.PrintToChat
 local zo_strformat = zo_strformat
 
+local pairs = pairs
+
 -- Slash Command to invite someone to a guild
 function SlashCommands.SlashGuildInvite(option)
     -- If no input was entered, display an error and end.
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -22,9 +24,9 @@ function SlashCommands.SlashGuildInvite(option)
 
     -- Parse input
     local options = {}
-    local searchResult = { string.match(option,"^(%S*)%s*(.-)$") }
-    for i,v in pairs(searchResult) do
-        if (v ~= nil and v ~= "") then
+    local searchResult = { zo_strmatch(option, "^(%S*)%s*(.-)$") }
+    for i, v in pairs(searchResult) do
+        if v ~= nil and v ~= "" then
             options[i] = v
         end
     end
@@ -34,9 +36,9 @@ function SlashCommands.SlashGuildInvite(option)
 
     -- If no name was entered, display an error and end.
     if guildnumber == nil or name == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -53,11 +55,11 @@ function SlashCommands.SlashGuildInvite(option)
     elseif guildnumber == "5" and LUIE.GuildIndexData[5] then
         guildnumber = LUIE.GuildIndexData[5].id
     else -- If we enter anything outside of the range of 1-5, display an error and end.
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_INV)))
         end
-            PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
+        PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
     end
 
@@ -77,9 +79,9 @@ function SlashCommands.SlashGuildQuit(guildnumber)
     elseif guildnumber == "5" and LUIE.GuildIndexData[5] then
         guildnumber = LUIE.GuildIndexData[5].id
     else
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -87,9 +89,9 @@ function SlashCommands.SlashGuildQuit(guildnumber)
 
     -- If we try to leave a guild we don't have display an error and end.
     if guildnumber == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILD_LEAVE)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -103,9 +105,9 @@ end
 function SlashCommands.SlashGuildKick(option)
     -- If no input was entered, display an error and end.
     if option == "" or option == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -113,9 +115,9 @@ function SlashCommands.SlashGuildKick(option)
 
     -- Parse input
     local options = {}
-    local searchResult = { string.match(option,"^(%S*)%s*(.-)$") }
-    for i,v in pairs(searchResult) do
-        if (v ~= nil and v ~= "") then
+    local searchResult = { zo_strmatch(option, "^(%S*)%s*(.-)$") }
+    for i, v in pairs(searchResult) do
+        if v ~= nil and v ~= "" then
             options[i] = v
         end
     end
@@ -125,9 +127,9 @@ function SlashCommands.SlashGuildKick(option)
 
     -- If no name was entered, display an error and end.
     if guildnumber == nil or name == nil then
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -143,11 +145,11 @@ function SlashCommands.SlashGuildKick(option)
         guildnumber = LUIE.GuildIndexData[4].id
     elseif guildnumber == "5" and LUIE.GuildIndexData[5] then
         guildnumber = LUIE.GuildIndexData[5].id
-    -- If we enter anything outside of the range of 1-5, display an error and end.
+        -- If we enter anything outside of the range of 1-5, display an error and end.
     else
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDGUILDACC_KICK)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
         return
@@ -164,19 +166,24 @@ function SlashCommands.SlashGuildKick(option)
 
     -- Index guild members so we can use character name as a kick option
     local guildNumbers = GetNumGuildMembers(guildnumber)
-    local compareChar = string.lower(name)
+    local compareChar = zo_strlower(name)
 
-    g_guildNamesTable = { }
+    local g_guildNamesTable = {}
 
-    for i = 1,guildNumbers do
+    for i = 1, guildNumbers do
         local displayName = GetGuildMemberInfo(guildnumber, i)
         local _, characterName = GetGuildMemberCharacterInfo(guildnumber, i)
-        local compareDisplay = string.lower(displayName)
-        local compareCharacter = string.lower(characterName)
+        local compareDisplay = zo_strlower(displayName)
+        local compareCharacter = zo_strlower(characterName)
 
-        compareCharacter = string.gsub(compareCharacter,"%^%a+","")
+        compareCharacter = zo_strgsub(compareCharacter, "%^%a+", "")
 
-        g_guildNamesTable[i] = { displayName=displayName, characterName=characterName, compareDisplay=compareDisplay, compareCharacter=compareCharacter}
+        g_guildNamesTable[i] = {
+            displayName = displayName,
+            characterName = characterName,
+            compareDisplay = compareDisplay,
+            compareCharacter = compareCharacter,
+        }
         --d(compareDisplay .. compareCharacter)
         --d("comparing vs... " .. compareChar)
     end
@@ -194,9 +201,9 @@ function SlashCommands.SlashGuildKick(option)
     if finalName ~= "" then
         GuildRemove(guildnumber, finalName)
     else
-        printToChat(GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDNAME_GUILD), true)
+        printToChat(GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDNAME_GUILD), true)
         if LUIE.ChatAnnouncements.SV.Social.GuildAlert then
-            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(SI_LUIE_SLASHCMDS_KICK_FAILED_NOVALIDNAME_GUILD)))
+            ZO_Alert(UI_ALERT_CATEGORY_ERROR, nil, (GetString(LUIE_STRING_SLASHCMDS_KICK_FAILED_NOVALIDNAME_GUILD)))
         end
         PlaySound(SOUNDS.GENERAL_ALERT_ERROR)
     end

@@ -6,37 +6,37 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["name"] = "Profile 1",
-                    ["autoRepairEnabled"] = true,
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["silentMode"] = false,
                     ["RepairInventory"] = 
                     {
-                        ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithGold"] = true,
                     },
                     ["RechargeWeapons"] = 
                     {
                         ["defaultSoulGem"] = 1,
-                        ["lowSoulGemWarning"] = true,
                         ["lowSoulGemThreshold"] = 30,
+                        ["lowSoulGemWarning"] = true,
                         ["useSoulGems"] = true,
                     },
+                    ["autoRepairInventoryEnabled"] = true,
+                    ["silentMode"] = false,
+                    ["autoRepairEnabled"] = true,
                     ["RepairEquipped"] = 
                     {
-                        ["repairWithRepairKit"] = true,
-                        ["repairWithRepairKitThreshold"] = 15,
-                        ["repairWithGoldDurabilityThreshold"] = 10,
                         ["defaultRepairKit"] = 1,
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitWarning"] = true,
+                        ["repairWithGoldDurabilityThreshold"] = 10,
+                        ["repairWithRepairKitThreshold"] = 15,
                         ["lowRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = true,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithGold"] = true,
                     },
+                    ["name"] = "Profile 1",
                 },
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 ["profileCounter"] = 1,
             },
         },

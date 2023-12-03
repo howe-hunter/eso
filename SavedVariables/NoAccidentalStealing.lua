@@ -4,85 +4,94 @@ NAS_SavedVariables =
     {
         ["@Motiv_Impact"] = 
         {
-            ["katarrnn"] = 
+            ["rock-in-bush"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
+                    ["delay"] = 250,
                 },
             },
-            ["Durro'tan"] = 
+            ["Mynrog"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
-                },
-            },
-            ["scelara"] = 
-            {
-                ["settings"] = 
-                {
                     ["delay"] = 250,
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                 },
             },
             ["rieyya"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
-                },
-            },
-            ["evil janet"] = 
-            {
-                ["settings"] = 
-                {
                     ["delay"] = 250,
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
-                },
-            },
-            ["morregann"] = 
-            {
-                ["settings"] = 
-                {
-                    ["delay"] = 250,
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                 },
             },
             ["Lliliara"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
+                    ["delay"] = 250,
+                },
+            },
+            ["scelara"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                    ["delay"] = 250,
+                },
+            },
+            ["morregann"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                    ["delay"] = 250,
+                },
+            },
+            ["katarrnn"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                    ["delay"] = 250,
+                },
+            },
+            ["evil janet"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["version"] = 1,
+                    ["delay"] = 250,
                 },
             },
             ["scthree"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
+                    ["delay"] = 250,
                 },
             },
-            ["rock-in-bush"] = 
+            ["Durro'tan"] = 
             {
                 ["settings"] = 
                 {
-                    ["delay"] = 250,
                     ["criminalPressDuration"] = 750,
                     ["version"] = 1,
+                    ["delay"] = 250,
                 },
             },
         },

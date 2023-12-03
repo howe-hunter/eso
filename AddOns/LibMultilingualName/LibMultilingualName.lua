@@ -18,7 +18,7 @@ end
 --------
 
 LIB.NAME = "LibMultilingualName"
-LIB.VERSION = "1.2.25"
+LIB.VERSION = "1.2.27"
 
 LMN.CODE_ENGLISH = "en"
 LMN.CODE_JAPANESE = "jp"

@@ -256,7 +256,7 @@ function IIfA:GuildBankDelayReady()
   end
 end
 
-function IIfA:GuildBankAddRemove(eventID, slotId)
+function IIfA:GuildBankAddRemove(eventCode, slotId, addedByLocalPlayer, itemSoundCategory, isLastUpdateForMessage)
   p("Guild Bank Add or Remove...")
 
   if not IIfA.data.bCollectGuildBankData then return end
@@ -267,7 +267,7 @@ function IIfA:GuildBankAddRemove(eventID, slotId)
     --IIfA:CollectGuildBank()
     local dbItem, itemKey
     local guildName = GetGuildName(GetSelectedGuildBankId())
-    if eventID == EVENT_GUILD_BANK_ITEM_ADDED then
+    if eventCode == EVENT_GUILD_BANK_ITEM_ADDED then
       p("GB Add - Slot <<1>>", slotId)
       dbItem, itemKey = IIfA:EvalBagItem(BAG_GUILDBANK, slotId, true)
       --			IIfA:ValidateItemCounts(BAG_GUILDBANK, slotId, dbItem, itemKey)

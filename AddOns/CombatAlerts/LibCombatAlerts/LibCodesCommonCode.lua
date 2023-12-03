@@ -1,5 +1,5 @@
 local NAME = "LibCodesCommonCode"
-local VERSION = 10
+local VERSION = 11
 
 if (type(_G[NAME]) == "table" and type(_G[NAME].version) == "number" and _G[NAME].version >= VERSION) then return end
 
@@ -245,13 +245,16 @@ do
 	local callbacks = { }
 	local registered = false
 	local zoneId = 0
+	local difficulty = -1
 
 	local function onPlayerActivated( )
 		local previousZoneId = zoneId
 		local currentZoneId = GetZoneId(GetUnitZoneIndex("player"))
+		local currentDifficulty = GetCurrentZoneDungeonDifficulty()
 
-		if (zoneId ~= currentZoneId) then
+		if (zoneId ~= currentZoneId or difficulty ~= currentDifficulty) then
 			zoneId = currentZoneId
+			difficulty = currentDifficulty
 			for _ , callback in pairs(callbacks) do
 				callback(currentZoneId, previousZoneId)
 			end

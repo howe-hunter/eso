@@ -172,7 +172,7 @@ local ALL_DATA = {
 			{ 0.2003, 0.2180, "glenmoral_weapon_auridon_map", 153640 }, -- Glenmoril Wyrd Treasure Map: Auridon
 		},
 		[PIN_TYPE_SURVEYS] = {
-			{ 0.4085, 0.7007, "auridon_survey_clothier", 57738 }, -- Clothier Survey: Auridon
+			{ 0.4039, 0.7015, "auridon_survey_clothier", 57738 }, -- Clothier Survey: Auridon
 			{ 0.5451, 0.3001, "auridon_survey_alchemist", 57744 }, -- Alchemist Survey: Auridon
 			{ 0.4449, 0.2856, "auridon_survey_enchanter", 57733 }, -- Enchanter Survey: Auridon
 			{ 0.5455, 0.4624, "auridon_survey_woodworker", 57741 }, -- Woodworker Survey: Auridon
@@ -247,6 +247,7 @@ local ALL_DATA = {
 		},
 		[PIN_TYPE_CLUES] = {
 			{ 0.3245, 0.5212, "no map opened", 188204 }, -- Ring's Guile Clue
+			{ 0.2792, 0.1583, "no map opened", 203826 }, -- Lantern of the Endless Clue
 		},
 	},
 	-- SubPin:  Rawlkha
@@ -352,6 +353,7 @@ local ALL_DATA = {
 		},
 		[PIN_TYPE_CLUES] = {
 			{ 0.5414, 0.3916, "no map opened", 187898 }, -- Blood Sacrifice Clue
+			{ 0.5168, 0.5997, "no map opened", 203825 }, -- Unfathomable Secrets Clue
 		},
 	},
 	-- SubPin: Riften
@@ -889,8 +891,8 @@ local ALL_DATA = {
 	-- Galen and Y'ffelon
 	[2212] = {
 		[PIN_TYPE_TREASURE] = {
-			{ 0.4401, 0.2468, "treasuremap_firesong_01", 192370 }, -- Galen Treasure Map I
-			{ 0.4029, 0.4139, "treasuremap_firesong_02", 192371 }, -- Galen Treasure Map II
+			{ 0.4402, 0.2476, "treasuremap_firesong_01", 192370 }, -- Galen Treasure Map I
+			{ 0.4031, 0.4146, "treasuremap_firesong_02", 192371 }, -- Galen Treasure Map II
 		},
 		[PIN_TYPE_CLUES] = {
 			{ 0.5933, 0.3561, "no map opened", 191158 }, -- Vestments of the Druid King Clue
@@ -899,7 +901,7 @@ local ALL_DATA = {
 	-- Telvanni Peninsula
 	[2274] = {
 		[PIN_TYPE_TREASURE] = {
-			{ 0.3747, 0.6218, "treasuremap_necrom_04", 196201 }, -- Telvanni Peninsula CE Treasure Map I
+			{ 0.3750, 0.6207, "treasuremap_necrom_04", 196201 }, -- Telvanni Peninsula CE Treasure Map I
 			{ 0.6620, 0.6642, "treasuremap_necrom_06", 196202 }, -- Telvanni Peninsula CE Treasure Map II
 			{ 0.6265, 0.5847, "treasuremap_necrom_02", 198097 }, -- Telvanni Peninsula Treasure Map I
 			{ 0.7695, 0.5408, "treasuremap_necrom_03", 198098 }, -- Telvanni Peninsula Treasure Map II
@@ -913,6 +915,12 @@ local ALL_DATA = {
 		},
 		[PIN_TYPE_CLUES] = {
 			{ 0.2147, 0.4562, "no map opened", 197842 }, -- Hand of Almalexia Clue
+		},
+	},
+	-- SubPin: Ald Isra
+	[2386] = {
+		[PIN_TYPE_CLUES] = {
+				{ 0.2048, 0.2800, "no map opened", 197842 }, -- Hand of Almalexia Clue
 		},
 	},
 	-- Apocrypha
@@ -1012,5 +1020,7 @@ data.BOOK_ID =
 	[7546] = 191158, -- Vestments of the Druid King Clue
 	[7767] = 197842, -- Hand of Almalexia Clue
 	[7768] = 197843, -- Mercymother Elite Clue
+	[8010] = 203825, -- Unfathomable Secrets Clue
+	[8011] = 203826, -- Lantern of the Endless Clue
 	
 }

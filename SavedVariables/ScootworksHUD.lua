@@ -6,17 +6,12 @@ ScootworksHUD_Account =
         {
             ["$AccountWide"] = 
             {
-                ["accountWideSettings"] = true,
-                ["WeaponRecharge"] = 
-                {
-                    ["enabled"] = true,
-                },
+                ["soundEnabled"] = false,
                 ["FoodIndicator"] = 
                 {
-                    ["enabled"] = true,
                     ["announceTimer"] = 1,
+                    ["enabled"] = true,
                 },
-                ["version"] = 1,
                 ["MountIndicator"] = 
                 {
                     ["enabled"] = true,
@@ -25,7 +20,12 @@ ScootworksHUD_Account =
                 {
                     ["enabled"] = true,
                 },
-                ["soundEnabled"] = false,
+                ["accountWideSettings"] = true,
+                ["version"] = 1,
+                ["WeaponRecharge"] = 
+                {
+                    ["enabled"] = true,
+                },
             },
         },
     },
@@ -39,11 +39,17 @@ ScootworksHUD_Character =
             ["8796093067191337"] = 
             {
                 ["accountWideSettings"] = true,
+                ["ArmorRepair"] = 
+                {
+                    ["enabled"] = true,
+                },
+                ["$LastCharacterName"] = "scthree",
                 ["WeaponRecharge"] = 
                 {
                     ["enabled"] = true,
                 },
-                ["ArmorRepair"] = 
+                ["soundEnabled"] = true,
+                ["MountIndicator"] = 
                 {
                     ["enabled"] = true,
                 },
@@ -51,18 +57,21 @@ ScootworksHUD_Character =
                 {
                     ["accountSavedVarsActive"] = true,
                 },
-                ["MountIndicator"] = 
-                {
-                    ["enabled"] = true,
-                },
+                ["version"] = 1,
                 ["FoodIndicator"] = 
                 {
-                    ["enabled"] = true,
                     ["announceTimer"] = 2,
+                    ["enabled"] = true,
+                },
+            },
+            ["8796093074778299"] = 
+            {
+                ["LibSavedVars"] = 
+                {
+                    ["accountSavedVarsActive"] = true,
                 },
                 ["version"] = 1,
-                ["$LastCharacterName"] = "scthree",
-                ["soundEnabled"] = true,
+                ["$LastCharacterName"] = "Mynrog",
             },
             ["8796093067978059"] = 
             {

@@ -9,10 +9,10 @@ LibSaveToDiskVars =
                 ["version"] = 1,
                 ["Settings"] = 
                 {
-                    ["CritMin"] = 0,
                     ["RMLdelay"] = 5,
-                    ["NoncritMin"] = 0,
                     ["NumNonsBeforeNote"] = 10,
+                    ["CritMin"] = 0,
+                    ["NoncritMin"] = 0,
                 },
             },
         },

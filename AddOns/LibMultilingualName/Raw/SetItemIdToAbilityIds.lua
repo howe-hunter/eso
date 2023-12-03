@@ -692,4 +692,14 @@ LibMultilingualName.SetItemIdToAbilityIds = {
 [706]={194154},--Perfected Test of Resolve
 [707]={194100},--Perfected Ansuul's Torment
 [708]={194087},--Perfected Peace and Serenity
+[711]={202834},--Colovian Highlands General
+[712]={202585},--Jerall Mountains Warchief
+[713]={203741,202769},--Nibenay Bay Battlereeve
+[722]={210751},--Reawakened Hierophant
+[723]={206085},--Basalt-Blooded Warrior
+[724]={210811},--Nobility in Decay
+[726]={208047},--Soulcleaver
+[727]={209779},--Monolith of Storms
+[728]={211546},--Wrathsun
+[729]={210078},--Gardener of Seasons
 }

@@ -29,6 +29,7 @@ mkstr(SI.TELE_UI_UNRELATED_ITEMS, "Mappe in altre Zone")
 mkstr(SI.TELE_UI_UNRELATED_QUESTS, "Missioni in altre Zone")
 mkstr(SI.TELE_UI_SAME_INSTANCE, "Stessa Istanza")
 mkstr(SI.TELE_UI_DIFFERENT_INSTANCE, "Differente Istanza")
+mkstr(SI.TELE_UI_GROUP_EVENT, "Evento di gruppo")
 ---------
 --------- Menu
 mkstr(SI.TELE_UI_FAVORITE_PLAYER, "Giocatore Preferito")
@@ -45,6 +46,7 @@ mkstr(SI.TELE_UI_VIEW_MAP_ITEM, "Visualizza Mappa Oggetti")
 mkstr(SI.TELE_UI_TOGGLE_ARENAS, "Solo Arenas")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_ARENAS, "Group Arenas")
 mkstr(SI.TELE_UI_TOGGLE_TRIALS, "Trials")
+mkstr(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS, "Endless Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS, "Group Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_SORT_ACRONYM, "Sort by Acronym")
 mkstr(SI.TELE_UI_DAYS_LEFT, "%d days left")
@@ -173,6 +175,8 @@ mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT, "Map ping")
 mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT_TOOLTIP, "Display a map ping (rally point) on the destination on the map when you click on group members or specific zones (dungeons, houses etc.). The library LibMapPing must be installed. Also remember: If you are the group leader, your pings (rally points) are visible for all group members.")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS, "Show zones without players or houses")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS_TOOLTIP, "Display zones in the main list even if there are no players or houses you can travel to. You still have the option to travel for gold if you have discovered at least one wayshrine in the zone.")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP, "Show displayed zone & subzones always on top")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP_TOOLTIP, "Show currently displayed zone and subzones (opened world map) always on top of the list.")
 
 
 -----------------------------------------------------------------------------
@@ -188,6 +192,7 @@ mkstr(SI.TELE_KEYBINDING_CURRENT_ZONE, "Viaggia nella zona corrente")
 mkstr(SI.TELE_KEYBINDING_PRIMARY_RESIDENCE_OUTSIDE, "Viaggia fuori la Residenza Primaria")
 mkstr(SI.TELE_KEYBINDING_TOGGLE_MAIN_DUNGEON_FINDER, "Arenas / Trials / Dungeons")
 mkstr(SI.TELE_KEYBINDING_TRACKED_QUEST, "Port to focused quest")
+mkstr(SI.TELE_KEYBINDING_ANY_ZONE, "Port to any zone")
 
 
 -----------------------------------------------------------------------------

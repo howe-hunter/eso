@@ -7,8 +7,8 @@
 ## Title: Code's Combat Alerts
 ## Description: Combat alerts for select PvE mechanics
 ## Author: @code65536
-## Version: 1.16.1
-## APIVersion: 101037 101038
+## Version: 1.16.6
+## APIVersion: 101040
 ## SavedVariables: CombatAlertsSavedVariables
 ## DependsOn: LibCombatAlerts
 
@@ -17,7 +17,31 @@ CombatAlerts.lua
 CombatAlertsData.lua
 CombatAlerts.xml
 
+DTRStubClient.lua
+
 ; Changelog:
+;
+; Version 1.16.6 (2023/10/30)
+; * Added alerts for Splintering Mirror and Threshing Wings in Endless Archive
+;
+; Version 1.16.5 (2023/09/12)
+; * Added support for the Dungeon and Trial Instance Reset Tool addon
+;
+; Version 1.16.4 (2023/08/03)
+; * Reverted the recent change to the Poisoned Mind alert in Sanity's Edge
+; * Added alert for Spray in Sanity's Edge
+;
+; Version 1.16.3 (2023/07/28)
+; * Added additional warning indicator to the Fire Bomb Toss timer in Sanity's
+;   Edge when approaching the timer change threshold
+;
+; Version 1.16.2 (2023/07/25)
+; * Removed the targeting information for Wamasu charges outside of the first
+;   boss in Sanity's Edge because it was never accurate
+; * Added Fire Bomb Toss timer for the first boss in Sanity's Edge
+; * Added Manic Phobia timer for the final boss in Sanity's Edge, visible
+;   only by players with a taunt slotted
+; * Added alert for Wrathstorm in Sanity's Edge
 ;
 ; Version 1.16.1 (2023/05/08)
 ; * Added alerts for Charge, Mantle, Sunburst, Poisoned Mind, and Uppercut in

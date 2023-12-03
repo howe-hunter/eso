@@ -6,12 +6,12 @@
 
 ## Title: Lost Treasure
 ## Description: The one and only true treasure map and survey report locator. All others are just copies.
-## Version: 28
-## AddOnVersion: 28
+## Version: 29
+## AddOnVersion: 29
 ## Author: CrazyDutchGuy, Scootworks, Gamer1986PAN
-## APIVersion: 101037 101038
+## APIVersion: 101039 101040
 ## SavedVariables: LostTreasure_Account LostTreasure_Character
-## DependsOn: LibAddonMenu-2.0>=34 LibMapPins-1.0>=10034 CustomCompassPins>=32 LibDebugLogger>=255 LibSavedVars>=60007 LibNotification>=10 LibTreasure>=12
+## DependsOn: LibAddonMenu-2.0>=34 LibMapPins-1.0>=10034 CustomCompassPins>=32 LibDebugLogger>=255 LibSavedVars>=60007 LibNotification>=10 LibTreasure>=16
 ## OptionalDependsOn: LibGPS
 
 lang\en.lua

@@ -23,8 +23,8 @@ ESOFarmBuddy.PROGRESS_STYLE_TEXTURE = 2
 
 ESOFarmBuddy.Name = "ESOFarmBuddy"
 ESOFarmBuddy.DisplayName = "ESO Farm-Buddy"
-ESOFarmBuddy.AddonVersion = "1.0.24"
-ESOFarmBuddy.AddonVersionInt = 1024
+ESOFarmBuddy.AddonVersion = "1.0.26"
+ESOFarmBuddy.AddonVersionInt = 1026
 ESOFarmBuddy.SavedVariablesName = "ESOFarmBuddySV"
 ESOFarmBuddy.LAMPanelName = "ESOFarmBuddySettingsPanel"
 ESOFarmBuddy.DonationUrl = "https://www.patreon.com/keldor"

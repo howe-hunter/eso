@@ -35,79 +35,83 @@ function internal:addPostedItem(theEvent)
             buyer
           }
   ]]--
-  --internal:dm("Debug", theEvent)
-  local linkHash = internal:AddSalesTableData("itemLink", theEvent.itemLink)
-  local sellerHash = internal:AddSalesTableData("accountNames", theEvent.seller)
-  local guildHash = internal:AddSalesTableData("guildNames", theEvent.guild)
+  local newEvent = ZO_DeepTableCopy(theEvent)
+  local eventItemLink = newEvent.itemLink
+  local eventSeller = newEvent.seller
+  local eventGuild = newEvent.guild
+  local timestamp = newEvent.timestamp
 
-  local itemIndex = internal.GetOrCreateIndexFromLink(theEvent.itemLink)
-  local theIID = GetItemLinkItemId(theEvent.itemLink)
+  -- first add new data lookups to their tables
+  local linkHash = internal:AddSalesTableData("itemLink", eventItemLink)
+  local sellerHash = internal:AddSalesTableData("accountNames", eventSeller)
+  local guildHash = internal:AddSalesTableData("guildNames", eventGuild)
+  local formattedItemName = zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(eventItemLink))
+
+  --[[The quality effects itemIndex although the ID from the
+  itemLink may be the same. We will keep them separate.
+  ]]--
+  local itemIndex = internal.GetOrCreateIndexFromLink(eventItemLink)
+
+  --[[theIID is used in wordData for the SRIndex, define it here.
+  ]]--
+  local theIID = GetItemLinkItemId(eventItemLink)
   if theIID == nil or theIID == 0 then return false end
 
+  --[[If the ID from the itemLink doesn't exist determine which
+  file or container it will belong to using SetGuildStoreData()
+  ]]--
   if not posted_items_data[theIID] then
     posted_items_data[theIID] = internal:SetPostedItmesData(theIID)
   end
-  local newEvent = ZO_DeepTableCopy(theEvent)
+  posted_items_data[theIID][itemIndex] = posted_items_data[theIID][itemIndex] or {}
+  posted_items_data[theIID][itemIndex].itemIcon = posted_items_data[theIID][itemIndex].itemIcon or GetItemLinkInfo(eventItemLink)
+  posted_items_data[theIID][itemIndex].itemAdderText = posted_items_data[theIID][itemIndex].itemAdderText or internal:AddSearchToItem(eventItemLink)
+  posted_items_data[theIID][itemIndex].itemDesc = posted_items_data[theIID][itemIndex].itemDesc or formattedItemName
+  posted_items_data[theIID][itemIndex].totalCount = posted_items_data[theIID][itemIndex].totalCount or 0 -- assign count if if new sale
+  posted_items_data[theIID][itemIndex].totalCount = posted_items_data[theIID][itemIndex].totalCount + 1 -- increment count if existing sale
+  posted_items_data[theIID][itemIndex].wasAltered = true
+  posted_items_data[theIID][itemIndex]['sales'] = posted_items_data[theIID][itemIndex]['sales'] or {}
+  local searchItemDesc = posted_items_data[theIID][itemIndex].itemDesc -- used for searchText
+  local searchItemAdderText = posted_items_data[theIID][itemIndex].itemAdderText -- used for searchText
+
   newEvent.itemLink = linkHash
   newEvent.seller = sellerHash
   newEvent.guild = guildHash
 
   local insertedIndex = 1
-  local searchItemDesc = ""
-  local searchItemAdderText = ""
-  if posted_items_data[theIID][itemIndex] then
-    searchItemDesc = posted_items_data[theIID][itemIndex].itemDesc
-    searchItemAdderText = posted_items_data[theIID][itemIndex].itemAdderText
+  local salesTable = posted_items_data[theIID][itemIndex]['sales']
+  local nextLocation = #salesTable + 1
+  --[[Note, while salesTable helps readability table.insert() can not insert
+  into the local variable]]--
+  if salesTable[nextLocation] == nil then
+    table.insert(posted_items_data[theIID][itemIndex]['sales'], nextLocation, newEvent)
+    insertedIndex = nextLocation
+  else
     table.insert(posted_items_data[theIID][itemIndex]['sales'], newEvent)
-    insertedIndex = #posted_items_data[theIID][itemIndex]['sales']
-  else
-    if posted_items_data[theIID][itemIndex] == nil then posted_items_data[theIID][itemIndex] = {} end
-    if posted_items_data[theIID][itemIndex]['sales'] == nil then posted_items_data[theIID][itemIndex]['sales'] = {} end
-    searchItemDesc = zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(theEvent.itemLink))
-    searchItemAdderText = internal:AddSearchToItem(theEvent.itemLink)
-    posted_items_data[theIID][itemIndex] = {
-      itemIcon = GetItemLinkInfo(theEvent.itemLink),
-      itemAdderText = searchItemAdderText,
-      itemDesc = searchItemDesc,
-      sales = { newEvent } }
-    --internal:dm("Debug", newEvent)
-  end
-  posted_items_data[theIID][itemIndex].wasAltered = true
-  if posted_items_data[theIID][itemIndex] and posted_items_data[theIID][itemIndex].totalCount then
-    posted_items_data[theIID][itemIndex].totalCount = posted_items_data[theIID][itemIndex].totalCount + 1
-  else
-    posted_items_data[theIID][itemIndex].totalCount = 1
+    insertedIndex = #salesTable
   end
 
-  local playerName = zo_strlower(GetDisplayName())
-  local isSelfSale = playerName == zo_strlower(theEvent.seller)
+  local newestTime = posted_items_data[theIID][itemIndex]["newestTime"]
+  local oldestTime = posted_items_data[theIID][itemIndex]["oldestTime"]
+  if newestTime == nil or newestTime < timestamp then posted_items_data[theIID][itemIndex]["newestTime"] = timestamp end
+  if oldestTime == nil or oldestTime > timestamp then posted_items_data[theIID][itemIndex]["oldestTime"] = timestamp end
 
-  local temp = { '', ' ', '', ' ', '', ' ', '', ' ', '', ' ', '', }
-  local searchText = ""
-  if LibGuildStore_SavedVariables["minimalIndexing"] then
-    if isSelfSale then
-      searchText = internal.PlayerSpecialText
-    end
-  else
-    -- if theEvent.buyer then temp[1] = 'b' .. theEvent.buyer end
-    if theEvent.seller then temp[3] = 's' .. theEvent.seller end
-    temp[5] = theEvent.guild or ''
-    temp[7] = searchItemDesc or ''
-    temp[9] = searchItemAdderText or ''
-    if isSelfSale then
-      temp[11] = internal.PlayerSpecialText
-    end
-    searchText = zo_strlower(table.concat(temp, ''))
-  end
+  local temp = { '', ' ', '', ' ', '', ' ', '', } -- fewer tokens for posted items
+
+  temp[1] = eventSeller and ('s' .. eventSeller) or ''
+  temp[3] = eventGuild or ''
+  temp[5] = searchItemDesc or ''
+  temp[7] = searchItemAdderText or ''
+  local searchText = zo_strlower(table.concat(temp, ''))
 
   local searchByWords = zo_strgmatch(searchText, '%S+')
   local wordData = { theIID, itemIndex, insertedIndex }
 
   -- Index each word
   for i in searchByWords do
-    if pir_index[i] == nil then pir_index[i] = {} end
+    pir_index[i] = pir_index[i] or {}
     table.insert(pir_index[i], wordData)
-    internal.pir_index_count = internal.pir_index_count + 1
+    internal.pir_index_count = (internal.pir_index_count or 0) + 1
   end
 
   return true
@@ -176,7 +180,7 @@ function internal:iterateOverPostedItemsData(itemid, versionid, saleid, prefunc,
           -- We've run out of time, wait and continue with next sale
           if saleid and (GetGameTimeMilliseconds() - checkTime) > extraData.checkMilliseconds then
             local LEQ = LibExecutionQueue:new()
-            LEQ:ContinueWith(function() internal:iterateOverPostedItemsData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
+            LEQ:continueWith(function() internal:iterateOverPostedItemsData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
             return
           end
         end
@@ -229,7 +233,7 @@ function internal:iterateOverPostedItemsData(itemid, versionid, saleid, prefunc,
       saleid = nil
       if versionid and (GetGameTimeMilliseconds() - checkTime) > extraData.checkMilliseconds then
         local LEQ = LibExecutionQueue:new()
-        LEQ:ContinueWith(function() internal:iterateOverPostedItemsData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
+        LEQ:continueWith(function() internal:iterateOverPostedItemsData(itemid, versionid, saleid, nil, loopfunc, postfunc, extraData) end, nil)
         return
       end
     end
@@ -348,41 +352,28 @@ function internal:IndexPostedItemsData()
     local currentGuild = internal:GetGuildNameByIndex(postedItem['guild'])
     local currentSeller = internal:GetAccountNameByIndex(postedItem['seller'])
 
-    local playerName = zo_strlower(GetDisplayName())
-    local selfSale = playerName == zo_strlower(currentSeller)
-    local searchText = ""
-    if LibGuildStore_SavedVariables["minimalIndexing"] then
-      if selfSale then
-        searchText = internal.PlayerSpecialText
-      end
-    else
-      versiondata.itemAdderText = versiondata.itemAdderText or self.addedSearchToItem(currentItemLink)
-      versiondata.itemDesc = versiondata.itemDesc or zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(currentItemLink))
-      versiondata.itemIcon = versiondata.itemIcon or GetItemLinkInfo(currentItemLink)
+    versiondata.itemAdderText = versiondata.itemAdderText or self.addedSearchToItem(currentItemLink)
+    versiondata.itemDesc = versiondata.itemDesc or zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(currentItemLink))
+    versiondata.itemIcon = versiondata.itemIcon or GetItemLinkInfo(currentItemLink)
 
-      local temp = { '', ' ', '', ' ', '', ' ', '', ' ', '', ' ', '', }
-      if currentSeller then temp[3] = 's' .. currentSeller end
-      temp[5] = currentGuild or ''
-      temp[7] = versiondata.itemDesc or ''
-      temp[9] = versiondata.itemAdderText or ''
-      if selfSale then
-        temp[11] = internal.PlayerSpecialText
-      end
-      searchText = zo_strlower(table.concat(temp, ''))
-    end
+    local temp = { '', ' ', '', ' ', '', ' ', '', } -- fewer tokens for posted items
 
-    -- Index each word
+    temp[1] = currentSeller and ('s' .. currentSeller) or ''
+    temp[3] = currentGuild or ''
+    temp[5] = versiondata.itemDesc or ''
+    temp[7] = versiondata.itemAdderText or ''
+
+    local searchText = zo_strlower(table.concat(temp, ''))
     local searchByWords = zo_strgmatch(searchText, '%S+')
     local wordData = { numberID, itemData, itemIndex }
-    for i in searchByWords do
-      if pir_index[i] == nil then
-        extraData.wordsIndexCount = extraData.wordsIndexCount + 1
-        pir_index[i] = {}
-      end
-      table.insert(pir_index[i], wordData)
-      internal.pir_index_count = internal.pir_index_count + 1
-    end
 
+    -- Index each word
+    for i in searchByWords do
+      pir_index[i] = pir_index[i] or {}
+      table.insert(pir_index[i], wordData)
+      extraData.wordsIndexCount = (extraData.wordsIndexCount or 0) + 1
+      internal.pir_index_count = (internal.pir_index_count or 0) + 1
+    end
   end
 
   local postfunc = function(extraData)

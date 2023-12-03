@@ -29,6 +29,7 @@ mkstr(SI.TELE_UI_UNRELATED_ITEMS      , "Carte dans d'autres zones"  )
 mkstr(SI.TELE_UI_UNRELATED_QUESTS     , "Quêtes dans d'autres zones" )
 mkstr(SI.TELE_UI_SAME_INSTANCE        , "Même instance"              )
 mkstr(SI.TELE_UI_DIFFERENT_INSTANCE   , "Instance différente"        )
+mkstr(SI.TELE_UI_GROUP_EVENT          , "Événement de groupe"        )
 ---------
 --------- Menu
 mkstr(SI.TELE_UI_FAVORITE_PLAYER         , "Joueurs favoris")
@@ -45,6 +46,7 @@ mkstr(SI.TELE_UI_VIEW_MAP_ITEM           , "Montrer la carte")
 mkstr(SI.TELE_UI_TOGGLE_ARENAS			 , "Arènes solo")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_ARENAS	 , "Arènes de groupe")
 mkstr(SI.TELE_UI_TOGGLE_TRIALS			 , "Épreuves")
+mkstr(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS , "Endless Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS	 , "Donjons de groupe")
 mkstr(SI.TELE_UI_TOGGLE_SORT_ACRONYM	 , "Tri par acronyme")
 mkstr(SI.TELE_UI_DAYS_LEFT				 , "%d jours restants")
@@ -173,6 +175,8 @@ mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT, "Signe de carte")
 mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT_TOOLTIP, "Affiche un signe sur la carte (point de ralliement) à la destination sur la carte quand vous cliquez sur des membres du groupe ou des zones spécifiques (donjons, maisons, etc.). La librairie LibMapPing doit être installée. De plus, rappelez-vous : si vous êtes le chef de groupe, vos signes (points de ralliement) sont visibles pour tous les membres du groupe.")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS, "Montrer les zones sans joueur ni maison")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS_TOOLTIP, "Montre les zones de la liste principale, même si il n'y a ni joueur ni maison vers lesquels vous puissiez voyager. Vous avez toujours la possibilité de voyager contre de l'or si vous avez découvert au moins un oratoire dans la zone.")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP, "Show displayed zone & subzones always on top")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP_TOOLTIP, "Show currently displayed zone and subzones (opened world map) always on top of the list.")
 
 
 -----------------------------------------------------------------------------
@@ -188,6 +192,7 @@ mkstr(SI.TELE_KEYBINDING_CURRENT_ZONE, "Voyage dans la zone actuelle")
 mkstr(SI.TELE_KEYBINDING_PRIMARY_RESIDENCE_OUTSIDE, "Se téléporter à l'extérieur de la résidence principale")
 mkstr(SI.TELE_KEYBINDING_TOGGLE_MAIN_DUNGEON_FINDER, "Arènes / Épreuves / Donjons")
 mkstr(SI.TELE_KEYBINDING_TRACKED_QUEST, "Voyage vers la quête courante")
+mkstr(SI.TELE_KEYBINDING_ANY_ZONE, "Port to any zone")
 
 
 -----------------------------------------------------------------------------

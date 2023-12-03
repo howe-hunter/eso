@@ -64,9 +64,6 @@ ZO_CreateStringId("MM_TRAVEL_TO_ZONE_TEXT", "Skocz do...")
 ZO_CreateStringId("MM_DISABLE_ATT_WARN_NAME", "Wyłącz ostrzeżenia ATT")
 ZO_CreateStringId("MM_DISABLE_ATT_WARN_TIP", "Jeśli lubisz używać MM i ATT jednocześnie, to proszę wyłączyć ostrzeżenie o aktywnych plikach ATT przez ten przełącznik.")
 
-ZO_CreateStringId("SK_TRIM_OUTLIERS_NAME", "Zignoruj odstające ceny")
-ZO_CreateStringId("SK_TRIM_OUTLIERS_TIP", "Zignoruj transakcje z cenami po za standardowym odchyleniem.")
-
 ZO_CreateStringId("SK_TRIM_DECIMALS_NAME", "Ukryj wartości dziesiętne w cenach")
 ZO_CreateStringId("SK_TRIM_DECIMALS_TIP", "Zaokrągl wszystkie ceny do najbliżej wartości w złocie.")
 
@@ -193,7 +190,8 @@ ZO_CreateStringId("MM_TIP_BONANZA_HEADER", "Bonanza (")
 ZO_CreateStringId("MM_TIP_TTC_HEADER", "TTC (")
 
 ZO_CreateStringId("MM_NO_DATA_FORMAT", "no sales data")
-ZO_CreateStringId("MM_NO_DATA_RANGE_FORMAT", "no sales data in last %d days")
+ZO_CreateStringId("MM_NO_DATA_RANGE_FORMAT", "no sales data in last %s days")
+ZO_CreateStringId("MM_DATE_RANGE_NONE", "Date range None is selected")
 
 ZO_CreateStringId("MM_PTC_PER_VOUCHER", "Per Voucher Average: %s")
 
@@ -428,6 +426,7 @@ ZO_CreateStringId("MM_FILTER_TIME", "Czas filtrowania: %s")
 ZO_CreateStringId("MM_GUILD_DEAL_TYPE", "Przełączono wyświetlanie listy gildii.")
 ZO_CreateStringId("MM_RESET_POSITION", "Pozycja okna MM została zresetowana.")
 ZO_CreateStringId("MM_CLEAR_SAVED_PRICES", "Twoje ceny zostały wyczyszczone.")
+ZO_CreateStringId("MM_CLEAR_SAVED_PRICES_GUILD", "Your prices have been cleared for the selected guild.")
 ZO_CreateStringId("MM_CLEAN_UPDATE_DESC", "Czyszczenie MM jest ustawione na aktualizacje tekstu wyszukiwania.")
 ZO_CreateStringId("MM_CLEAN_START", "Czyszczenie niepoprawnych wpisów.")
 ZO_CreateStringId("MM_CLEAN_START_DELAY", "Czyszczenie błędnych wpisów sprzedaży rozpocznie się po zakończeniu bieżącego skanowania.")
@@ -557,4 +556,18 @@ ZO_CreateStringId("MM_WINDOW_TIME_RANGE_LABEL_SIXTY", "30-60 Days")
 ZO_CreateStringId("MM_WINDOW_TIME_RANGE_LABEL_NINETY", "60-90 Days")
 ZO_CreateStringId("MM_WINDOW_TIME_RANGE_LABEL_CUSTOM", "Custom")
 ZO_CreateStringId("MM_WINDOW_CUSTOM_TIMEFRAME_NAME", "Custom Filter Timeframe")
-ZO_CreateStringId("MM_WINDOW_CUSTOM_TIMEFRAME_TIP", "Number of days for the Custom filter timeframe.")
+ZO_CreateStringId("MM_WINDOW_CUSTOM_TIMEFRAME_TIP", "Choose the number of days that will be used when showning sales in the Master Merchant Window. This is used for the dropdown menu at the bottom of the Guild Sales view.")
+
+ZO_CreateStringId("MM_DUPE_LIBGUILDSTORE_CONFIRM_TITLE", "Duplicate LibGuildStore Data Detected")
+ZO_CreateStringId("MM_DUPE_LIBGUILDSTORE_CONFIRM_MAIN", "Duplicate Account Name, Guild Name, or Item Link indexes detected. Sales discrepancies will occur. You can cancel and restore a backup prior to August 14 2023 otherwise a full reset of all data is required.")
+
+-- New Outlier Options
+ZO_CreateStringId("SK_TRIM_OUTLIERS_NAME", "Zignoruj odstające ceny")
+ZO_CreateStringId("SK_TRIM_OUTLIERS_TIP", "Zignoruj transakcje z cenami po za standardowym odchyleniem.")
+ZO_CreateStringId("MM_OUTLIER_OPTIONS_HEADER", "Outlier Options")
+ZO_CreateStringId("MM_OUTLIER_PERCENTILE_NAME", "Trim by percentile only")
+ZO_CreateStringId("MM_OUTLIER_PERCENTILE_TIP", "Enable trimming only the outer percentile of sales data.")
+ZO_CreateStringId("MM_OUTLIER_PERCENTILE_VALUE_NAME", "Percentile")
+ZO_CreateStringId("MM_OUTLIER_PERCENTILE_VALUE_TIP", "Specify the outer percentiles to remove extreme values only.")
+ZO_CreateStringId("MM_AGRESSIVE_TRIM_OUTLIERS_NAME", "Enable Aggressive Restrictions")
+ZO_CreateStringId("MM_AGRESSIVE_TRIM_OUTLIERS_TIP", "When enabled additional outlier calculations will be performed that are very restrictive.")

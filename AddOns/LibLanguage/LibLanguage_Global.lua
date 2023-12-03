@@ -3,6 +3,6 @@
 
 LibLanguage = {
     name = "LibLanguage",
-    LibVersion = 36,    -- change this with every release!
+    LibVersion = 37,    -- change this with every release!
     author = "Shadowfen",
 }

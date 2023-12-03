@@ -53,3 +53,38 @@ function Public.GetTexture( id )
 		return ""
 	end
 end
+
+do
+	local HOTBARS = {
+		[HOTBAR_CATEGORY_PRIMARY] = EQUIP_SLOT_MAIN_HAND,
+		[HOTBAR_CATEGORY_BACKUP] = EQUIP_SLOT_BACKUP_MAIN,
+	}
+
+	local SKILL_TYPES = {
+		[ 28306] = 1, -- Puncture
+		[ 38250] = 1, -- Pierce Armor
+		[ 38256] = 1, -- Ransack
+		[ 38984] = 2, -- Destructive Clench
+		[ 38985] = 2, -- Flame Clench
+		[ 38989] = 2, -- Frost Clench
+		[ 38993] = 2, -- Shock Clench
+		[ 39475] = 1, -- Inner Fire
+		[ 42056] = 1, -- Inner Rage
+		[ 42060] = 1, -- Inner Beast
+		[183165] = 1, -- Runic Jolt
+		[183430] = 1, -- Runic Sunder
+		[186531] = 1, -- Runic Embrace
+	}
+
+	function Public.DoesPlayerHaveTauntSlotted( )
+		for hotbarCategory, equipSlot in pairs(HOTBARS) do
+			for i = 3, 7 do
+				local skillType = SKILL_TYPES[GetSlotBoundId(i, hotbarCategory)]
+				if (skillType == 1 or (skillType == 2 and GetItemWeaponType(BAG_WORN, equipSlot) == WEAPONTYPE_FROST_STAFF)) then
+					return true
+				end
+			end
+		end
+		return false
+	end
+end

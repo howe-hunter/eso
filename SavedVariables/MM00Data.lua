@@ -2,6 +2,13 @@ MM00DataSavedVariables =
 {
     ["Default"] = 
     {
+        ["@Motiv_Impact"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["version"] = 1,
+            },
+        },
         ["MasterMerchant"] = 
         {
             ["$AccountWide"] = 
@@ -10,13 +17,6 @@ MM00DataSavedVariables =
                 ["SalesData"] = 
                 {
                 },
-            },
-        },
-        ["@Motiv_Impact"] = 
-        {
-            ["$AccountWide"] = 
-            {
-                ["version"] = 1,
             },
         },
     },

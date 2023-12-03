@@ -5,7 +5,7 @@ IIfA = {}
 -- --------------------------------------------------------------
 
 IIfA.name = "Inventory Insight"
-IIfA.version = "3.65"
+IIfA.version = "3.66"
 IIfA.author = "AssemblerManiac, manavortex, |cff9b15Sharlikran|r"
 IIfA.defaultAlertSound = nil
 IIfA.colorHandler = nil

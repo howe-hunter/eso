@@ -1,8 +1,10 @@
 LibGuildStore_SavedVariables =
 {
-    ["historyDepthPI"] = 180,
-    ["showGuildInitSummary"] = false,
     ["showIndexingSummary"] = false,
+    ["minimalIndexing"] = false,
+    ["maxItemCount"] = 5000,
+    ["overrideMMImport"] = false,
+    ["historyDepth"] = 365,
     ["lastReceivedEventID"] = 
     {
         ["libhistoirena"] = 
@@ -19,19 +21,17 @@ LibGuildStore_SavedVariables =
             [695439] = "1813548761",
         },
     },
-    ["minSalesInterval"] = 0,
-    ["libHistoireScanByTimestamp"] = true,
-    ["version"] = 2,
-    ["overrideMMImport"] = false,
-    ["showTruncateSummary"] = false,
-    ["historyDepth"] = 365,
-    ["firstRunNa"] = false,
+    ["historyDepthPI"] = 180,
     ["firstRunEu"] = true,
+    ["version"] = 2,
+    ["showTruncateSummary"] = false,
+    ["minSalesInterval"] = 0,
     ["minItemCount"] = 20,
-    ["historyDepthSL"] = 180,
-    ["minimalIndexing"] = false,
     ["updateAdditionalText"] = false,
-    ["maxItemCount"] = 5000,
-    ["historyDepthCI"] = 180,
+    ["libHistoireScanByTimestamp"] = true,
+    ["firstRunNa"] = false,
     ["useSalesHistory"] = true,
+    ["showGuildInitSummary"] = false,
+    ["historyDepthSL"] = 180,
+    ["historyDepthCI"] = 180,
 }

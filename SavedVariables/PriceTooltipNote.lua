@@ -6,26 +6,26 @@ PriceTooltipNote_Settings =
         {
             ["$AccountWide"] = 
             {
-                ["TooltipColor"] = 
-                {
-                    ["Green"] = 1,
-                    ["Red"] = 0.5800000000,
-                    ["Blue"] = 0.5400000000,
-                },
-                ["FixDoubleTooltip"] = false,
                 ["ContextMenuColor"] = 
                 {
-                    ["Green"] = 1,
-                    ["Red"] = 0.5800000000,
                     ["Blue"] = 0.5400000000,
+                    ["Red"] = 0.5800000000,
+                    ["Green"] = 1,
                 },
-                ["TooltipLineSpacing"] = -5,
-                ["version"] = 1,
-                ["GamepadFont"] = "topSection",
+                ["Font"] = "ZoFontWinH4",
+                ["FixDoubleTooltip"] = false,
+                ["TooltipColor"] = 
+                {
+                    ["Blue"] = 0.5400000000,
+                    ["Red"] = 0.5800000000,
+                    ["Green"] = 1,
+                },
                 ["Data"] = 
                 {
                 },
-                ["Font"] = "ZoFontWinH4",
+                ["version"] = 1,
+                ["GamepadFont"] = "topSection",
+                ["TooltipLineSpacing"] = -5,
             },
         },
     },

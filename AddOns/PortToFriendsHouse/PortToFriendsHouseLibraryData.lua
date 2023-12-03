@@ -541,7 +541,7 @@ function PortToFriendData.CreateEuDataList()
 		category = {PortToFriend.constants.FILTER_ID_JUMPNRUN, PortToFriend.constants.FILTER_ID_LABYRINTH}
 	}
 	list[#list + 1] = {
-		name = "@fred4",
+		name = "@fred571",
 		houseId = 62,
 		description = "Parkour House",
 		category = {PortToFriend.constants.FILTER_ID_JUMPNRUN, PortToFriend.constants.FILTER_ID_LABYRINTH}
@@ -629,6 +629,12 @@ function PortToFriendData.CreateEuDataList()
 		houseId = 98,
 		description = "Du möchtest einfach mal raus? Ein wenig Urlaub machen? Dann reise doch mal zum Nebelbruch Leuchtturm.",
 		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT, PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Greetha",
+		houseId = 76,
+		description = "Auch Langfinger haben ein zu hause^^.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
 	}
 	list[#list + 1] = {
 		name = "@sheitana",
@@ -1000,6 +1006,18 @@ function PortToFriendData.CreateEuDataList()
 		name = "@Lokia99",
 		houseId = 16,
 		description = "Pizzeria / Bäckerei",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@Lokia99",
+		houseId = 46,
+		description = "Ferien auf dem Reiterhof/Hotel",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@Lokia99",
+		houseId = 101,
+		description = "Shopping Center mit Restaurant",
 		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
 	}
 	list[#list + 1] = {
@@ -1663,6 +1681,12 @@ function PortToFriendData.CreateEuDataList()
 		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
 	}
 	list[#list + 1] = {
+		name = "@Aetherlethe",
+		houseId = 47,
+		description = "Vampire Castle",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT, PortToFriend.constants.FILTER_ID_ROLEPLAY, PortToFriend.constants.FILTER_ID_RAID, PortToFriend.constants.FILTER_ID_HIDE_SEEK}
+	}
+	list[#list + 1] = {
 		name = "@Dixitos",
 		houseId = 75,
 		description = "Nordheim - A cozy northern style home, far from civilization, with everything you need in ESO everyday life.",
@@ -1807,6 +1831,84 @@ function PortToFriendData.CreateEuDataList()
 		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
 	}
 	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 62,
+		description = "manoir de recherche",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 91,
+		description = "auberge",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 74,
+		description = "villa du sud",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 42,
+		description = "bibliothèque oubliée",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 6,
+		description = "Mini temple Khajiit",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 47,
+		description = "restaurant",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 82,
+		description = "guilde des mages",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 11,
+		description = "grotte sous-marine",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 23,
+		description = "temple khajiit",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 64,
+		description = "maison argonienne",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 33,
+		description = "guilde des guerriers",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 56,
+		description = "guilde des assassins",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Lazulischaton",
+		houseId = 38,
+		description = "grotte des 4 saisons",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
 		name = "@Neomazu",
 		houseId = 47,
 		description = "Alle Set Tische, 21 Puppen in doppelter Ausführung in allen Großen, Blutbrunnen Humanoid für die Vampire, 6 Quellen für ultimative Kraft, Kochstellen, Alchemie, Verzaubern, Transmutation, Montur und Färber, alle Mundusstein.",
@@ -1902,6 +2004,24 @@ function PortToFriendData.CreateEuDataList()
 		description = "",
 		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
 	}
+	list[#list + 1] = {
+		name = "@Dux-Nihilus",
+		houseId = 89,
+		description = "",
+		category = {PortToFriend.constants.FILTER_ID_ROLEPLAY, PortToFriend.constants.FILTER_ID_CRAFTING}
+	}
+	list[#list + 1] = {
+		name = "@Nemedon",
+		houseId = 23,
+		description = "CSI-Tamriel in einem befestigten Handelsposten:\r\n- Entdecke alle 7 Totem.\r\n- Suche alle 3 versteckten Überlebendem.\r\n- Finde alle 4 Täter.\r\n- Starb jemand vor dem Überfall?\r\n- Was taten die Opfer zuletzt?\r\n- Was war die Motivation der 'Killer'?\r\n- Finde alle 6 Kollateralschäden auẞerhalb des Handelspostens.\r\n\r\nCrime Scene Investigation in a fortified trading post.\r\n- Discover the all 7 dead.\r\n- Search and find all 3 hidden survivors.\r\n- Find all 4 perpetrators.\r\n- Did someone die before the rampage?\r\n- What were the victims in their last moments doing?\r\n- What was the 'killers' motive?\r\n- Find all 6 collateral damage outside the trading post.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT, PortToFriend.constants.FILTER_ID_ROLEPLAY, PortToFriend.constants.FILTER_ID_HIDE_SEEK}
+	}
+	list[#list + 1] = {
+		name = "@O'mighty",
+		houseId = 98,
+		description = "Utilitarian all purpose guild hall with all amenities within close proximity of spawn\r\nDirectly to your left when you enter you'll find the crafting hub, this includes:\r\nAll fully attuned Grand Master Crafting stations\r\nAlchemy, Enchanting and Provisioning stations\r\nTransmute, Armoury and Outfit stations\r\nBanker, Merchant and Fence NPCs\r\nAetherial Well, Vampire Fountain and Thrall\r\nPvP Duelling Arena\r\nTo your right from spawn you will find a Trial Dummy (21 million health) in addition to another Aetherial Well, Armoury Assistant and all 13 Mundus Stones.",
+		category = {PortToFriend.constants.FILTER_ID_CRAFTING, PortToFriend.constants.FILTER_ID_GUILD, PortToFriend.constants.FILTER_ID_RAID}
+	}
 end
 
 function PortToFriendData.CreateNaDataList()
@@ -1922,7 +2042,7 @@ function PortToFriendData.CreateNaDataList()
 	list[#list + 1] = {
 		name = "@SoftPink",
 		houseId = 66,
-		description = "Perfect for dueling & all your needs. My house is equipped with all current crafting stations, all mundus, vampire fountain, aetherial well, 21M parse dummy, banker, merchant, ragpicker, and even an armory station. Feel free to stop by ^_^",
+		description = "Perfect for all your needs. My house is equipped with all Grandmaster crafting stations (current sets), all Mundus, all Assistants, Vampire needs, Aetherial well, and 21M parse dummies. Everything can be found towards the lava (back of the house). Feel free to stop by ^_^",
 		category = {PortToFriend.constants.FILTER_ID_CRAFTING}
 	}
 	list[#list + 1] = {
@@ -1960,6 +2080,36 @@ function PortToFriendData.CreateNaDataList()
 		houseId = 55,
 		description = "Vulcan Commandos Guild Hall. Beam aboard the warship K'Lemal and you'll find all craftable set stations inside! All Mundus Stones and Trial Atronach. Transmute Station, Aethereal Well, Vampire Util, Armory, Assistants and more immediately available at the entrance.",
 		category = {PortToFriend.constants.FILTER_ID_GUILD, PortToFriend.constants.FILTER_ID_CRAFTING}
+	}
+	list[#list + 1] = {
+		name = "@Sharktoes",
+		houseId = 81,
+		description = "Antiquities and magical items from all over Tamriel are brought to this Alpine College for study and display. And extensive library, collection of banned books, and sacred relics can be found",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT, PortToFriend.constants.FILTER_ID_ROLEPLAY}
+	}
+	list[#list + 1] = {
+		name = "@Sharktoes",
+		houseId = 16,
+		description = "A small, quaint alchemy and enchanting laboratory filled with plants, elixirs, and poisons from all over Tamriel.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@Sharktoes",
+		houseId = 41,
+		description = "At first glance, the sanctuary ruins are a place of meditation and reflection. But hidden behind the facade is the seedy underbelly of an Outlaw's Refuge, specializing in the buying and selling of sacred relics.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@Sharktoes",
+		houseId = 70,
+		description = "Below the luxury on display in the inner chamber and upper courtyard is a world for those less fortunate. Precariously clinging to the rock face, weave your way down to the waters below, with nooks and crannies to explore along the way.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@Sharktoes",
+		houseId = 91,
+		description = "A hall of respite after the toils of battle in Cyrodiil. Collections of relics and research materials, a hospital and armory, barracks, shrines and memorials to honor our brothers-in-arms, and more.",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT, PortToFriend.constants.FILTER_ID_ROLEPLAY}
 	}
 end
 

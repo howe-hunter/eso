@@ -4,61 +4,69 @@ BUI_CharData =
     {
         ["@Motiv_Impact"] = 
         {
-            ["katarrnn"] = 
+            ["rock-in-bush"] = 
             {
-                ["Instance"] = 0,
-                ["version"] = 1,
                 ["InstanceNames"] = 
                 {
                 },
+                ["version"] = 1,
+                ["Instance"] = 0,
             },
-            ["Durro'tan"] = 
+            ["Mynrog"] = 
             {
-                ["Instance"] = 0,
-                ["version"] = 1,
                 ["InstanceNames"] = 
                 {
                 },
-            },
-            ["scelara"] = 
-            {
-                ["Instance"] = 0,
                 ["version"] = 1,
-                ["InstanceNames"] = 
-                {
-                },
+                ["Instance"] = 0,
             },
             ["rieyya"] = 
             {
-                ["Instance"] = 0,
-                ["version"] = 1,
                 ["InstanceNames"] = 
                 {
                 },
-            },
-            ["evil janet"] = 
-            {
-                ["Instance"] = 0,
                 ["version"] = 1,
-                ["InstanceNames"] = 
-                {
-                },
-            },
-            ["morregann"] = 
-            {
                 ["Instance"] = 0,
-                ["version"] = 1,
-                ["InstanceNames"] = 
-                {
-                },
             },
             ["Lliliara"] = 
             {
-                ["Instance"] = 0,
-                ["version"] = 1,
                 ["InstanceNames"] = 
                 {
                 },
+                ["version"] = 1,
+                ["Instance"] = 0,
+            },
+            ["scelara"] = 
+            {
+                ["InstanceNames"] = 
+                {
+                },
+                ["version"] = 1,
+                ["Instance"] = 0,
+            },
+            ["morregann"] = 
+            {
+                ["InstanceNames"] = 
+                {
+                },
+                ["version"] = 1,
+                ["Instance"] = 0,
+            },
+            ["katarrnn"] = 
+            {
+                ["InstanceNames"] = 
+                {
+                },
+                ["version"] = 1,
+                ["Instance"] = 0,
+            },
+            ["evil janet"] = 
+            {
+                ["InstanceNames"] = 
+                {
+                },
+                ["version"] = 1,
+                ["Instance"] = 0,
             },
             ["scthree"] = 
             {
@@ -202,10 +210,10 @@ BUI_CharData =
                 },
                 [4] = 
                 {
+                    ["name"] = "mace tank",
                     ["abil"] = 
                     {
                     },
-                    ["name"] = "mace tank",
                 },
                 [5] = 
                 {
@@ -213,21 +221,21 @@ BUI_CharData =
                     {
                     },
                 },
+                ["ActiveGear"] = 3,
+                ["Instance"] = 0,
                 ["InstanceNames"] = 
                 {
                     [1] = "default",
                 },
-                ["ActiveGear"] = 3,
                 ["version"] = 1,
-                ["Instance"] = 0,
             },
-            ["rock-in-bush"] = 
+            ["Durro'tan"] = 
             {
-                ["Instance"] = 0,
-                ["version"] = 1,
                 ["InstanceNames"] = 
                 {
                 },
+                ["version"] = 1,
+                ["Instance"] = 0,
             },
         },
     },
@@ -240,18 +248,18 @@ BUI_GlobalData =
         {
             ["$AccountWide"] = 
             {
-                ["AbilityManager"] = 3,
-                ["Button"] = true,
-                ["SlotSize"] = 44,
-                ["Inventory"] = true,
-                ["CurrentGear"] = 3,
-                ["Message"] = false,
-                ["MarkItems"] = true,
-                ["Gears"] = 5,
-                ["version"] = 1,
                 ["AddBar"] = false,
+                ["SlotSize"] = 44,
+                ["Message"] = false,
                 ["MarkCollect"] = true,
+                ["AbilityManager"] = 3,
+                ["Inventory"] = true,
+                ["MarkItems"] = true,
+                ["Button"] = true,
+                ["Gears"] = 5,
                 ["Height"] = 4,
+                ["version"] = 1,
+                ["CurrentGear"] = 3,
             },
         },
     },

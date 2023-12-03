@@ -1,14 +1,15 @@
-local libName, libVersion = "LibQuestData", 260
+local libName, libVersion = "LibQuestData", 262
 local lib = {}
 local internal = {}
 _G["LibQuestData"] = lib
 _G["LibQuestData_Internal"] = internal
+internal.masterModeActive = false
 
 -------------------------------------------------
 ----- Logger Function                       -----
 -------------------------------------------------
-internal.show_log = false
-
+internal.logger = {}
+internal.logger.show_log = false
 if LibDebugLogger then
   internal.logger = LibDebugLogger.Create(libName)
 end
@@ -22,6 +23,7 @@ local function create_log(log_type, log_content)
     CHAT_ROUTER:AddSystemMessage(log_content)
     return
   end
+  if not internal.logger.show_log then return end
   if logger and log_type == "Debug" then
     internal.logger:Debug(log_content)
   end
@@ -64,7 +66,6 @@ local function emit_table(log_type, t, indent, table_history)
 end
 
 function internal.dm(log_type, ...)
-  if not internal.show_log then return end
   for i = 1, select("#", ...) do
     local value = select(i, ...)
     if (type(value) == "table") then
@@ -210,7 +211,7 @@ lib.quest_data_index = {
   quest_line = 4, -- QuestLine (10000 = not assigned/not verified. 10001 = not part of a quest line/verified)
   quest_number = 5, -- Quest Number In QuestLine (10000 = not assigned/not verified)
   quest_series = 6, -- None = 0, Cadwell's Almanac = 1, Undaunted = 2, AD = 3, DC = 4, EP = 5.
-  quest_display_type = 7, -- INSTANCE_DISPLAY_TYPE_ZONE_STORY, INSTANCE_DISPLAY_TYPE_DUNGEON << -1 = Undefined >>
+  quest_display_type = 7, -- ZONE_DISPLAY_TYPE_ZONE_STORY, ZONE_DISPLAY_TYPE_DUNGEON << -1 = Undefined >>
 }
 
 lib.quest_map_pin_index = {
@@ -248,10 +249,12 @@ lib.quest_data_type = {
 }
 
 lib.quest_display_type = {
-  -- ESO Values, ommitted INSTANCE_DISPLAY_TYPE_
+  -- ESO Values, ommitted prifix of ZONE_DISPLAY_TYPE_
   battleground = 9,
+  companion = 11,
   delve = 7,
   dungeon = 2,
+  endless_dungeon = 12,
   group_area = 5,
   group_delve = 4,
   housing = 8,
@@ -267,9 +270,9 @@ lib.quest_series_type = {
   quest_type_none = 0,
   quest_type_cadwell = 1,
   quest_type_undaunted = 2,
-  quest_type_ad = 3,
-  quest_type_dc = 4,
-  quest_type_ep = 5,
+  quest_type_ad = 3, -- DOM, AD
+  quest_type_dc = 4, -- COV, DC
+  quest_type_ep = 5, -- PAC, EP
   quest_type_guild_mage = 6,
   quest_type_guild_fighter = 7,
   quest_type_guild_psijic = 8,

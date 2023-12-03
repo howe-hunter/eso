@@ -3,20 +3,6 @@ local portalPlayers = {}
 local TeleportAllPlayersTable = {}
 local allZoneIds = {} -- stores the number of hits of a zoneId at index (allzoneIds[zoneId] = 1) | to know which zoneId is already added | to count the number of port options/alternatives
 
--- removes all duplicates (displayName) and return cleared table
-local function removeDuplicates(tbl)
-    local playername = {}
-    local newTable = {}
-    for index, record in ipairs(tbl) do
-        if playername[record.displayName] == nil then
-            playername[record.displayName] = 1
-            table.insert(newTable, record)
-        end
-    end
-    return newTable
-end
-
-
 -- format zone name and removes articles (if enabled)
 function BMU.formatName(unformatted, flag)
 
@@ -31,7 +17,6 @@ function BMU.formatName(unformatted, flag)
 		formatted = zo_strformat("<<C:1>>", unformatted)
 	else
 		-- remove all articles
-		
 		if BMU.lang == "en" then
 			if "The " == string.sub(unformatted, 1, 4) then
 				-- remove "The " in the beginning
@@ -741,15 +726,27 @@ function BMU.addInfo_2(e)
 	e.zoneWayhsrineDiscoveryInfo, e.zoneWayshrineDiscovered, e.zoneWayshrineTotal = BMU.getZoneGuideDiscoveryInfo(e.zoneId, ZONE_COMPLETION_TYPE_WAYSHRINES)
 	-- add skyshard discovery info (for zone tooltip)
 	e.zoneSkyshardDiscoveryInfo, e.zoneSkyshardDiscovered, e.zoneSkyshardTotal = BMU.getZoneGuideDiscoveryInfo(e.zoneId, ZONE_COMPLETION_TYPE_SKYSHARDS)
-		
+	-- add public dungeon completeness info (for zone tooltip)
+	-- e.zonePublicDungeonDiscoveryInfo, e.zonePublicDungeonDiscovered, e.zonePublicDungeonTotal = BMU.getZoneGuideDiscoveryInfo(e.zoneId, ZONE_COMPLETION_TYPE_PUBLIC_DUNGEONS)
+	-- add delve completeness info (for zone tooltip)
+	-- e.zoneDelveDiscoveryInfo, e.zoneDelveDiscovered, e.zoneDelveTotal = BMU.getZoneGuideDiscoveryInfo(e.zoneId, ZONE_COMPLETION_TYPE_DELVES)
+	
 	-- categorize zone
 	e.category = BMU.categorizeZone(e.zoneId)
-	
-	-- get parent map index and zoneId (for map opening)
-	e.mapIndex = BMU.getMapIndex(e.zoneId)
 	e.parentZoneId = BMU.getParentZoneId(e.zoneId)
 	e.parentZoneName = BMU.formatName(GetZoneNameById(e.parentZoneId))
+	-- get parent map index and zoneId (for map opening)
+	e.mapIndex = BMU.getMapIndex(e.zoneId)
 	
+	-- check public dungeon achievement / skill point
+	if e.category == TELEPORTER_ZONE_CATEGORY_OVERLAND then
+		-- overland zone --> show completion of all public dungeons in the zone
+		e.publicDungeonAchiementInfo = BMU.createPublicDungeonAchiementInfo(e.zoneId)
+	elseif e.category == TELEPORTER_ZONE_CATEGORY_PUBDUNGEON then
+		-- specific public dungeon --> show completion of itself
+		e.publicDungeonAchiementInfo = BMU.createPublicDungeonAchiementInfo(e.parentZoneId, e.zoneId)
+	end
+
 	-- add set collection information
 	e.setCollectionProgress = BMU.getSetCollectionProgressString(e.zoneId, e.category, e.parentZoneId)
 	
@@ -769,27 +766,83 @@ function BMU.addInfo_2(e)
 	end	
 		
 	--set prio
-	if BMU.savedVarsAcc.currentZoneAlwaysTop and e.playersZone then
+	local currentZoneId = GetZoneId(GetCurrentMapZoneIndex())
+	if BMU.savedVarsAcc.currentViewedZoneAlwaysTop and (BMU.getParentZoneId(e.zoneId) == currentZoneId or e.zoneId == currentZoneId or e.zoneId == BMU.getParentZoneId(currentZoneId)) then
+		-- current viewed zone + subzones
 		e.prio = 0
-	elseif e.sourceIndexLeading == TELEPORTER_SOURCE_INDEX_GROUP and e.isLeader then
+		e.textColorDisplayName = "teal"
+		e.textColorZoneName = "teal"
+	elseif BMU.savedVarsAcc.currentZoneAlwaysTop and e.playersZone then
+		-- current zone (players location)
 		e.prio = 1
-	elseif e.sourceIndexLeading == TELEPORTER_SOURCE_INDEX_GROUP and (e.category == 4 or e.category == 5 or e.category == 6) then -- group member is in 4 men Group Dungeons | 12 men Raids (Trials) | Group Zones
+	elseif e.sourceIndexLeading == TELEPORTER_SOURCE_INDEX_GROUP and e.isLeader then
+		-- group leader
 		e.prio = 2
-	elseif BMU.isFavoritePlayer(e.displayName) and BMU.isFavoriteZone(e.zoneId) then
+	elseif e.sourceIndexLeading == TELEPORTER_SOURCE_INDEX_GROUP and (e.category == TELEPORTER_ZONE_CATEGORY_GRPDUNGEON or e.category == TELEPORTER_ZONE_CATEGORY_TRAIL or e.category == TELEPORTER_ZONE_CATEGORY_GRPZONES or e.category == TELEPORTER_ZONE_CATEGORY_GRPARENA or e.category == TELEPORTER_ZONE_CATEGORY_ENDLESSD) then
+		-- group member is in 4 men Group Dungeons | 12 men Raids (Trials) | Group Zones | Group Arenas | Endless Dungeons
 		e.prio = 3
+	elseif BMU.isFavoritePlayer(e.displayName) and BMU.isFavoriteZone(e.zoneId) then
+		-- favorite player + favorite zone
+		e.prio = 4
 		e.textColorDisplayName = "gold"
 		e.textColorZoneName = "gold"
 	elseif BMU.isFavoritePlayer(e.displayName) then
-		e.prio = 4
+		-- favorite player
+		e.prio = 5
 		e.textColorDisplayName = "gold"
 	elseif BMU.isFavoriteZone(e.zoneId) then
-		e.prio = 5
+		-- favorite zone
+		e.prio = 6
 		e.textColorZoneName = "gold"
 	else
-		e.prio = 6
+		e.prio = 7
 	end
 	
 	return e
+end
+
+
+-- create tooltip text info about public dungeon achievement completion (group event / skill point)
+function BMU.createPublicDungeonAchiementInfo(overlandZoneId, onlyPublicDungeonZoneId)
+	local info = {}
+	if BMU.overlandDelvesPublicDungeons[overlandZoneId] and BMU.overlandDelvesPublicDungeons[overlandZoneId].publicDungeonsAchievements then
+		-- only for a specific public dungeon
+		if onlyPublicDungeonZoneId then
+			local publicDungeonAchvText = BMU.getColorizedPublicDungeonAchievementText(overlandZoneId, onlyPublicDungeonZoneId)
+			if publicDungeonAchvText then
+				table.insert(info, publicDungeonAchvText)
+			end
+
+		-- for all public dungeons of the zone
+		else
+			for publicDungeonZoneId, _ in pairs(BMU.overlandDelvesPublicDungeons[overlandZoneId].publicDungeonsAchievements) do
+				local publicDungeonAchvText = BMU.getColorizedPublicDungeonAchievementText(overlandZoneId, publicDungeonZoneId)
+				if publicDungeonAchvText then
+					table.insert(info, publicDungeonAchvText)
+				end
+			end
+		end
+
+		-- add header and return info
+		if #info > 0 then
+			table.insert(info, 1, GetString(SI_LEVEL_UP_REWARDS_SKILL_POINT_TOOLTIP_HEADER) .. " (" .. SI.get(SI.TELE_UI_GROUP_EVENT) .. "):")
+			return info
+		end
+	end
+end
+
+-- generate colorized text for a specific public dungeon (group event / skill point)
+function BMU.getColorizedPublicDungeonAchievementText(overlandZoneId, publicDungeonZoneId)
+	local achievmentId = BMU.overlandDelvesPublicDungeons[overlandZoneId].publicDungeonsAchievements[publicDungeonZoneId]
+	if achievmentId then
+		-- local name, _, _, _, completed, _, _ = GetAchievementInfo(achievmentId)
+		local completed = IsAchievementComplete(achievmentId)
+		if completed then
+			return BMU.textures.acceptGreen .. "  " .. BMU.colorizeText(BMU.formatName(GetZoneNameById(publicDungeonZoneId)), "green")
+		else
+			return BMU.textures.declineRed .. "  " .. BMU.colorizeText(BMU.formatName(GetZoneNameById(publicDungeonZoneId)), "red")
+		end
+	end
 end
 
 
@@ -824,7 +877,7 @@ function BMU.getNumSetCollectionProgressPieces(zoneId, category, parentZoneId)
 			workingZoneId = zoneId
 		end
 		
-		if not (numUnlocked and numTotal) and (category == 1 or category == 2) and parentZoneId then
+		if not (numUnlocked and numTotal) and (category == TELEPORTER_ZONE_CATEGORY_DELVE or category == TELEPORTER_ZONE_CATEGORY_PUBDUNGEON) and parentZoneId then
 			-- catch possible exceptions | pcall returns false if function call fails, otherwise true
 			if pcall(function() BMU.LibSets.GetNumItemSetCollectionZoneUnlockedPieces(parentZoneId) end) then
 				numUnlocked, numTotal = BMU.LibSets.GetNumItemSetCollectionZoneUnlockedPieces(parentZoneId)
@@ -882,7 +935,7 @@ function BMU.filterAndDecide(index, e, inputString, currentZoneId, fZoneId, filt
 	if index == 1 then
 		-- only add records of the current (displayed) zone (and ensure that a record without player (dark red) is only added if there is no other record -> see BMU.checkOnceOnly())
 		-- OR if displayed zone is not overland and zone is parent of current zone (e.g. to see the parent overland zone in the list if the player is in a delve)
-		if (e.currentZone and BMU.checkOnceOnly(false, e)) or (BMU.categorizeZone(currentZoneId) ~= 9 and e.zoneId == BMU.getParentZoneId(currentZoneId) and BMU.checkOnceOnly(true, e)) then
+		if (e.currentZone and BMU.checkOnceOnly(false, e)) or (BMU.categorizeZone(currentZoneId) ~= TELEPORTER_ZONE_CATEGORY_OVERLAND and e.zoneId == BMU.getParentZoneId(currentZoneId) and BMU.checkOnceOnly(true, e)) then
 			return true
 		end
 		
@@ -904,13 +957,13 @@ function BMU.filterAndDecide(index, e, inputString, currentZoneId, fZoneId, filt
 			return true
 		end
 		
-	-- index == 5 -> only Delves and open Dungeons (in your own Zone or globally)
+	-- index == 5 -> only Delves and Public Dungeons (in your own Zone or globally)
 	elseif index == 5 then
 		if BMU.savedVarsChar.showAllDelves then
 			-- add all delves and public dungeons
 			-- zone is delve or public dungeon + not blacklisted + add only once to list
 			local zoneCategory = BMU.categorizeZone(e.zoneId)
-			if (zoneCategory == 1 or zoneCategory == 2) and not BMU.isBlacklisted(e.zoneId, e.sourceIndexLeading, false) and BMU.checkOnceOnly(BMU.savedVarsAcc.zoneOnceOnly, e) then
+			if (zoneCategory == TELEPORTER_ZONE_CATEGORY_DELVE or zoneCategory == TELEPORTER_ZONE_CATEGORY_PUBDUNGEON) and not BMU.isBlacklisted(e.zoneId, e.sourceIndexLeading, false) and BMU.checkOnceOnly(BMU.savedVarsAcc.zoneOnceOnly, e) then
 				return true
 			end
 		else
@@ -1049,6 +1102,19 @@ function BMU.shuffle_table(tbl)
 end
 
 
+-- find lowest number in a table
+function BMU.getLowestNumber(tab)
+	local low = math.huge
+	local index
+	for i, v in pairs(tab) do
+		if v < low then
+			low = v
+			index = i
+		end
+	end
+	return low
+end
+
 
 -- checks if "only one entry per zone" is enabled
 -- increments counter according to case
@@ -1115,9 +1181,9 @@ function BMU.categorizeZone(zoneId)
 	local value = BMU.CategoryMap[zoneId]
 	
 	if value ~= nil then
-		return value		-- category index
+		return value									-- category index
 	else
-		return 0			-- category index (no category)
+		return TELEPORTER_ZONE_CATEGORY_UNKNOWN			-- category index (unknown)
 	end
 end
 
@@ -1273,7 +1339,7 @@ function BMU.itemIsRelated(portalPlayers, bagId, slotIndex, itemZoneId)
 	-- go over all records in portalPlayers
 	for index, record in ipairs(portalPlayers) do
 		-- only check overland maps & Cyrodiil
-		if record.category == 9 or record.zoneId == 181 then
+		if record.category == TELEPORTER_ZONE_CATEGORY_OVERLAND or record.zoneId == 181 then
 			-- try to match with zone
 			if record.zoneId == itemZoneId then
 				return true, BMU.addItemInformation(record, bagId, slotIndex), index
@@ -1289,7 +1355,7 @@ function BMU.leadIsRelated(portalPlayers, antiquityId)
 	-- go over all records in portalPlayers
 	for index, record in ipairs(portalPlayers) do
 		-- only check overland maps
-		if record.category == 9 then
+		if record.category == TELEPORTER_ZONE_CATEGORY_OVERLAND then
 			-- try to match lead with zone
 			if GetAntiquityZoneId(antiquityId) == record.zoneId then
 				return true, BMU.addLeadInformation(record, antiquityId), index
@@ -1653,7 +1719,7 @@ function BMU.questIsRelated(portalPlayers, slotIndex)
 	local questRepeatType = GetJournalQuestRepeatType(slotIndex)
 	
 	if tracked then
-		questName =  BMU.colorizeText(questName, "gold")
+		questName = BMU.colorizeText(questName, "gold")
 	elseif questRepeatType == 1 or questRepeatType == 2 then
 	-- color repeatable quests (1,2: repeatable quest | 0: not repeatable)
 		questName = BMU.colorizeText(questName, "teal")
@@ -1850,6 +1916,12 @@ function BMU.createTableHouses()
 		-- prio
 		if a.prio ~= b.prio then
 			return a.prio < b.prio
+		end
+		-- custom sorting
+		local cSortingA = BMU.savedVarsServ.houseCustomSorting[a.houseId] or -99
+		local cSortingB = BMU.savedVarsServ.houseCustomSorting[b.houseId] or -99
+		if cSortingA ~= cSortingB then
+			return cSortingA > cSortingB
 		end
 		-- name
 		return a.zoneName < b.zoneName
@@ -2130,10 +2202,48 @@ end
 function BMU.createTableDungeons()
 	-- change global state to 14, to have the correct tab active
 	BMU.changeState(14)
+	local resultListEndlessDungeons = {}
 	local resultListArenas = {}
 	local resultListGroupArenas = {}
 	local resultListTrials = {}
 	local resultListGroupDungeons = {}
+
+	if BMU.savedVarsChar.dungeonFinder.showEndlessDungeons then
+		for _, zoneId in ipairs(BMU.blacklistEndlessDungeons) do
+			local entry = BMU.createDungeonRecord(zoneId)
+			if entry then
+				if BMU.savedVarsChar.dungeonFinder.toggleShowZoneNameDungeonName then
+					-- show zone name instead of instance name
+					entry.zoneName = entry.parentZoneName
+				end
+				table.insert(resultListEndlessDungeons, entry)
+			end
+		end
+		
+		if BMU.savedVarsChar.dungeonFinder.sortByAcronym then
+			-- sort by acronym
+			table.sort(resultListEndlessDungeons, function(a, b)
+				return a.acronym < b.acronym
+			end)
+		else
+			-- sort by release and name
+			table.sort(resultListEndlessDungeons, function(a, b)
+				if a.updateNum ~= b.updateNum then
+					return (a.updateNum < b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseASC) or (a.updateNum > b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseDESC)
+				end
+				return a.zoneName < b.zoneName
+			end)
+		end
+		
+		-- add headline
+		if #resultListEndlessDungeons > 0 then
+			local entry = BMU.createBlankRecord()
+			entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS)) .. " --"
+			entry.textColorZoneName = "gray"
+			table.insert(resultListEndlessDungeons, 1, entry)
+		end
+	end
+
 
 	if BMU.savedVarsChar.dungeonFinder.showArenas then		
 		for _, zoneId in ipairs(BMU.blacklistSoloArenas) do
@@ -2147,7 +2257,7 @@ function BMU.createTableDungeons()
 			end
 		end
 		
-		if BMU.savedVarsChar.dungeonFinder.toggleSortByAcronymRelease then
+		if BMU.savedVarsChar.dungeonFinder.sortByAcronym then
 			-- sort by acronym
 			table.sort(resultListArenas, function(a, b)
 				return a.acronym < b.acronym
@@ -2156,17 +2266,19 @@ function BMU.createTableDungeons()
 			-- sort by release and name
 			table.sort(resultListArenas, function(a, b)
 				if a.updateNum ~= b.updateNum then
-					return a.updateNum < b.updateNum
+					return (a.updateNum < b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseASC) or (a.updateNum > b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseDESC)
 				end
 				return a.zoneName < b.zoneName
 			end)
 		end
 		
 		-- add headline
-		local entry = BMU.createBlankRecord()
-		entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_ARENAS)) .. " --"
-		entry.textColorZoneName = "gray"
-		table.insert(resultListArenas, 1, entry)
+		if #resultListArenas > 0 then
+			local entry = BMU.createBlankRecord()
+			entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_ARENAS)) .. " --"
+			entry.textColorZoneName = "gray"
+			table.insert(resultListArenas, 1, entry)
+		end
 	end
 	
 	
@@ -2182,7 +2294,7 @@ function BMU.createTableDungeons()
 			end
 		end
 		
-		if BMU.savedVarsChar.dungeonFinder.toggleSortByAcronymRelease then
+		if BMU.savedVarsChar.dungeonFinder.sortByAcronym then
 			-- sort by acronym
 			table.sort(resultListGroupArenas, function(a, b)
 				return a.acronym < b.acronym
@@ -2191,17 +2303,19 @@ function BMU.createTableDungeons()
 			-- sort by release and name
 			table.sort(resultListGroupArenas, function(a, b)
 				if a.updateNum ~= b.updateNum then
-					return a.updateNum < b.updateNum
+					return (a.updateNum < b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseASC) or (a.updateNum > b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseDESC)
 				end
 				return a.zoneName < b.zoneName
 			end)
 		end
 		
 		-- add headline
-		local entry = BMU.createBlankRecord()
-		entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_GROUP_ARENAS)) .. " --"
-		entry.textColorZoneName = "gray"
-		table.insert(resultListGroupArenas, 1, entry)
+		if #resultListGroupArenas > 0 then
+			local entry = BMU.createBlankRecord()
+			entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_GROUP_ARENAS)) .. " --"
+			entry.textColorZoneName = "gray"
+			table.insert(resultListGroupArenas, 1, entry)
+		end
 	end
 	
 	
@@ -2217,7 +2331,7 @@ function BMU.createTableDungeons()
 			end
 		end
 		
-		if BMU.savedVarsChar.dungeonFinder.toggleSortByAcronymRelease then
+		if BMU.savedVarsChar.dungeonFinder.sortByAcronym then
 			-- sort by acronym
 			table.sort(resultListTrials, function(a, b)
 				return a.acronym < b.acronym
@@ -2226,17 +2340,19 @@ function BMU.createTableDungeons()
 			-- sort by release and name
 			table.sort(resultListTrials, function(a, b)
 				if a.updateNum ~= b.updateNum then
-					return a.updateNum < b.updateNum
+					return (a.updateNum < b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseASC) or (a.updateNum > b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseDESC)
 				end
 				return a.zoneName < b.zoneName
 			end)
 		end
 		
 		-- add headline
-		local entry = BMU.createBlankRecord()
-		entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_TRIALS)) .. " --"
-		entry.textColorZoneName = "gray"
-		table.insert(resultListTrials, 1, entry)
+		if #resultListTrials > 0 then
+			local entry = BMU.createBlankRecord()
+			entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_TRIALS)) .. " --"
+			entry.textColorZoneName = "gray"
+			table.insert(resultListTrials, 1, entry)
+		end
 	end
 
 
@@ -2252,7 +2368,7 @@ function BMU.createTableDungeons()
 			end
 		end
 		
-		if BMU.savedVarsChar.dungeonFinder.toggleSortByAcronymRelease then
+		if BMU.savedVarsChar.dungeonFinder.sortByAcronym then
 			-- sort by acronym
 			table.sort(resultListGroupDungeons, function(a, b)
 				return a.acronym < b.acronym
@@ -2261,21 +2377,24 @@ function BMU.createTableDungeons()
 			-- sort by release and name
 			table.sort(resultListGroupDungeons, function(a, b)
 				if a.updateNum ~= b.updateNum then
-					return a.updateNum < b.updateNum
+					return (a.updateNum < b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseASC) or (a.updateNum > b.updateNum and BMU.savedVarsChar.dungeonFinder.sortByReleaseDESC)
 				end
 				return a.zoneName < b.zoneName
 			end)
 		end
 		
 		-- add headline
-		local entry = BMU.createBlankRecord()
-		entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS)) .. " --"
-		entry.textColorZoneName = "gray"
-		table.insert(resultListGroupDungeons, 1, entry)
+		if #resultListGroupDungeons > 0 then
+			local entry = BMU.createBlankRecord()
+			entry.zoneName = "-- " .. string.upper(SI.get(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS)) .. " --"
+			entry.textColorZoneName = "gray"
+			table.insert(resultListGroupDungeons, 1, entry)
+		end
 	end
 	
 	-- merge all lists together
 	local resultList = {}
+	for _, v in pairs(resultListEndlessDungeons) do table.insert(resultList, v) end
 	for _, v in pairs(resultListArenas) do table.insert(resultList, v) end
 	for _, v in pairs(resultListGroupArenas) do table.insert(resultList, v) end
 	for _, v in pairs(resultListTrials) do table.insert(resultList, v) end
@@ -2452,8 +2571,15 @@ function BMU.getZoneGuideDiscoveryInfo(zoneId, completionType)
 	
 	if completionType == ZONE_COMPLETION_TYPE_WAYSHRINES then
 		infoString = GetString(SI_ZONECOMPLETIONTYPE4) .. ": " .. infoString
+	
 	elseif completionType == ZONE_COMPLETION_TYPE_SKYSHARDS then
 		infoString = GetString(SI_ZONECOMPLETIONTYPE7) .. ": " .. infoString
+	
+	elseif completionType == ZONE_COMPLETION_TYPE_PUBLIC_DUNGEONS then
+		infoString = GetString(SI_ZONECOMPLETIONTYPE13) .. ": " .. infoString
+	
+	elseif completionType == ZONE_COMPLETION_TYPE_DELVES then
+		infoString = GetString(SI_ZONECOMPLETIONTYPE5) .. ": " .. infoString
 	end
 	
 	return infoString, numCompletedActivities, totalActivities

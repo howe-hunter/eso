@@ -24,7 +24,11 @@ function GuildSelector:Initialize(tradingHouseWrapper)
     self.selectedItemText = GetControl(comboBoxControl, "SelectedItemText")
 
     self:InitializeComboBox(comboBoxControl, self.comboBox)
-    self:InitializeHiredTraderTooltip(comboBoxControl, self.comboBox)
+    if GetAPIVersion() < 101040 then -- TODO remove
+        self:InitializeHiredTraderTooltipOld(comboBoxControl, self.comboBox)
+    else
+        self:InitializeHiredTraderTooltip(self.comboBox)
+    end
 
     AGS:RegisterCallback(AGS.callback.AVAILABLE_GUILDS_CHANGED, function(guilds)
         self:SetupGuildList(guilds)
@@ -95,7 +99,28 @@ function GuildSelector:InitializeComboBox(comboBoxControl, comboBox)
     end)
 end
 
-function GuildSelector:InitializeHiredTraderTooltip(comboBoxControl, comboBox)
+function GuildSelector:InitializeHiredTraderTooltip(comboBox)
+    local traderTooltip = HiredTraderTooltip:New(self.tradingHouseWrapper.saveData)
+    local function GuildSelectorShowTooltip(comboBox, control)
+        local guildId = self.guildIdByMenuIndex[control.m_data.m_index]
+        traderTooltip:Show(control, guildId)
+    end
+    local function GuildSelectorShowSelectedTooltip(control)
+        local guildId = self.selectedGuildData.guildId
+        traderTooltip:Show(control, guildId)
+    end
+    local function GuildSelectorHideTooltip()
+        traderTooltip:Hide()
+    end
+    comboBox:SetEntryMouseOverCallbacks(GuildSelectorShowTooltip, GuildSelectorHideTooltip)
+
+    self.traderTooltip = traderTooltip
+
+    self.selectedItemText:SetHandler("OnMouseEnter", GuildSelectorShowSelectedTooltip)
+    self.selectedItemText:SetHandler("OnMouseExit", GuildSelectorHideTooltip)
+end
+
+function GuildSelector:InitializeHiredTraderTooltipOld(comboBoxControl, comboBox)
     local traderTooltip = HiredTraderTooltip:New(self.tradingHouseWrapper.saveData)
     local function GuildSelectorShowTooltip(control)
         local guildId = self.guildIdByMenuIndex[control.menuIndex]

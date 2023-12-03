@@ -43,13 +43,16 @@ function CS.OnCraftingStationInteract(eventCode,craftSkill)
   end
   if CS.Account.options.usecook and craftSkill == CRAFTING_TYPE_PROVISIONING then
       CS.CookShowCategory(CS.Character.recipe)
-      CraftStoreFixed_CookAmount:SetText('')
-      CraftStoreFixed_CookSearch:SetText(GetString(SI_GAMEPAD_HELP_SEARCH)..'...')
-      CraftStoreFixed_Cook:SetHidden(false)
-      for x = 2, ZO_ProvisionerTopLevel:GetNumChildren() do ZO_ProvisionerTopLevel:GetChild(x):SetAlpha(0) end
-      ZO_KeybindStripControl:SetHidden(not IsInGamepadPreferredMode())
+      CS.CookShow()
 	  --Update space
 	  CS.InventorySpace(CraftStoreFixed_CookSpaceButtonName)	  
+    
+    if not CS.Cook.hooksInitialized and not IsInGamepadPreferredMode() then
+      ZO_PreHookHandler(ZO_ProvisionerTopLevelTabsButton2,'OnMouseDown', CS.CookFoodTabShow)
+      ZO_PreHookHandler(ZO_ProvisionerTopLevelTabsButton3,'OnMouseDown', CS.CookDrinkTabShow)
+      ZO_PreHookHandler(ZO_ProvisionerTopLevelTabsButton4,'OnMouseDown', CS.CookFurnitureTabShow)
+      CS.Cook.hooksInitialized = true
+    end
   end
   if CS.Account.options.userune and craftSkill == CRAFTING_TYPE_ENCHANTING then
       CS.Extern = false
@@ -94,8 +97,8 @@ function CS.OnCraftingStationInteract(eventCode,craftSkill)
 end
 
 function CS.OnCraftCompleted(eventCode,craftSkill)
-  local val = GetLastCraftingResultTotalInspiration()
-    if val > 0 then CS.Inspiration = '|t30:30:/esoui/art/currency/currency_inspiration.dds|t |c9095FF'..val..'|r' end
+  local inspirationGained = GetLastCraftingResultTotalInspiration()
+    if inspirationGained > 0 then CS.Inspiration = '|t30:30:/esoui/art/currency/currency_inspiration.dds|t |c9095FF'..inspirationGained..'|r' end
     if CS.Account.options.usecook and craftSkill == CRAFTING_TYPE_PROVISIONING then
       CraftStoreFixed_CookAmount:SetText('')
       zo_callLater(function() CS.CookShowCategory(CS.Character.recipe,false) end,500)
@@ -320,6 +323,27 @@ function CS.RuneRecipeTabShow()
 	CS.Character.runemode = 'furniture'
 	if CS.Account.options.userune then
 		CS.RuneShowMode()
+	end
+end
+
+function CS.CookFoodTabShow()
+	if CS.Account.options.usecook then
+		CS.CookShowCategory(1)
+    CS.CookShow()
+	end
+end
+
+function CS.CookDrinkTabShow()
+	if CS.Account.options.usecook then
+		CS.CookShowCategory(8)
+    CS.CookShow()
+	end
+end
+
+function CS.CookFurnitureTabShow()
+	if CS.Account.options.usecook then
+		CS.CookShowCategory(19)
+    CS.CookShow()
 	end
 end
 

@@ -270,12 +270,19 @@ local function getStyleIntel(itemLink)
 end
 
 function IIfA:AnchorFrame(frame, parentTooltip)
-  if frame:GetTop() < parentTooltip:GetBottom() then
+  local frameHeight = frame:GetHeight() -- height of IIFA tooltip
+  local uiWidth, uiHeight = GuiRoot:GetDimensions() -- Screen Resolution
+  local bottom = parentTooltip:GetBottom() -- Bottom of ZO tooltip
+  local difference = zo_abs(uiHeight - bottom)
+  local tooltipAtBottom = difference >= frameHeight
+  if tooltipAtBottom then
     frame:ClearAnchors()
-    frame:SetAnchor(BOTTOM, parentTooltip, TOP, 0, 0)
-  elseif frame:GetBottom() > parentTooltip:GetTop() then
+    frame:SetAnchor(TOPLEFT, parentTooltip, BOTTOMLEFT, 0, 0)
+    frame:SetAnchor(TOPRIGHT, parentTooltip, BOTTOMRIGHT, 0, 0)
+  else
     frame:ClearAnchors()
-    frame:SetAnchor(TOP, parentTooltip, BOTTOM, 0, 0)
+    frame:SetAnchor(BOTTOMLEFT, parentTooltip, TOPLEFT, 0, 0)
+    frame:SetAnchor(BOTTOMRIGHT, parentTooltip, TOPRIGHT, 0, 0)
   end
 end
 
@@ -583,8 +590,8 @@ function IIfA:UpdateTooltip(tooltip)
 
     tooltip:ClearLines()
     tooltip:SetHidden(false)
-    tooltip:SetHeight(0)
 
+    tooltip:SetHeight(0)
     tooltip:SetWidth(parentTooltip:GetWidth())
 
     if itemStyleTexArray.styleName ~= IIfA.EMPTY_STRING then

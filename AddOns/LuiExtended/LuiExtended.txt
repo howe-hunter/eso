@@ -1,13 +1,122 @@
 ## Title: |cE12000L|cFFFFB0ui E|rxtended|
-## Author: ArtOfShred, psypanda, SpellBuilder, Saenic
-## Version: 6.4.4
-## APIVersion: 101038
-## AddOnVersion: 644
+## Author: ArtOfShred, DakJaniels, psypanda, Saenic & SpellBuilder
+## Version: 6.6.9
+## APIVersion: 101040
+## AddOnVersion: 669
 ## Description: Provides UnitFrames, InfoPanel, Combat Text & Info, Buffs & Debuff Tracking, Chat Announcements and Slash Commands.
-## DependsOn: LibAddonMenu-2.0>=31 LibMediaProvider-1.0
-## OptionalDependsOn: LibChatMessage pChat
+## DependsOn: LibAddonMenu-2.0>=35 LibMediaProvider-1.0>=27
+## OptionalDependsOn: LibChatMessage>=105 pChat>=10000309 CombatMetrics>=10515
+## OptionalDependsOn: LibDebugLogger>=263 DolgubonsLazyWritCreator LibLazyCrafting>=3086 LootLog
 ## IsLibrary: false
 ## SavedVariables: LUIESV
+
+#Load addon constant values
+data/Globals.lua
+
+#Load addon language strings
+i18n/en.lua
+i18n/$(language).lua
+
+#Load addon settings strings
+i18n/settings/Settings_en.lua
+i18n/settings/Settings_$(language).lua
+
+#Load addon skills strings
+i18n/skills/Skills_en.lua
+i18n/skills/Skills_$(language).lua
+
+#Addon base functions and code
+src/LuiExtended.lua
+src/LuiExtended_Log.lua
+src/Functions.lua
+src/Hooks-SkillsAdvisor.lua
+src/Hooks.lua
+src/Initialize.lua
+src/UI.lua
+src/Changelog.lua
+bindings/Bindings.xml
+
+frontend/Changelog.xml
+frontend/CombatText.xml
+frontend/CrowdControlTracker.xml
+
+src/Unlock.lua
+
+data/_data_namespace.lua
+data/AbilityTables.lua
+data/Tooltips.lua
+data/UnitNamesTable.lua
+data/ZoneNamesTable.lua
+data/Effects.lua
+data/EffectsBarHighlight.lua
+data/EffectsFake.lua
+data/EffectsMisc.lua
+data/CastBarTable.lua
+data/CollectibleTables.lua
+data/CombatTextConstants.lua
+data/AlertTable.lua
+data/CrowdControl.lua
+data/DebugTable.lua
+data/Quests.lua
+data/PetNames.lua
+data/AbilityBlacklistPresets.lua
+data/CombatTextBlacklistPresets.lua
+
+modules/ChatAnnouncements/ChatAnnouncements.lua
+modules/ChatAnnouncements/ChatAnnouncementsExperience.lua
+
+modules/CombatText/CombatText.lua
+modules/CombatText/Animation.lua
+modules/CombatText/Pool.lua
+modules/CombatText/PoolManager.lua
+modules/CombatText/EventListeners/Base.lua
+modules/CombatText/EventListeners/Combat.lua
+modules/CombatText/EventListeners/Death.lua
+modules/CombatText/EventListeners/PointsAlliance.lua
+modules/CombatText/EventListeners/PointsExperience.lua
+modules/CombatText/EventListeners/PointsChampion.lua
+modules/CombatText/EventListeners/ResourcesPotion.lua
+modules/CombatText/EventListeners/ResourcesPower.lua
+modules/CombatText/EventListeners/ResourcesUltimate.lua
+modules/CombatText/EventViewers/Base.lua
+modules/CombatText/EventViewers/CombatCloud.lua
+modules/CombatText/EventViewers/CombatHybrid.lua
+modules/CombatText/EventViewers/CombatEllipse.lua
+modules/CombatText/EventViewers/CombatScroll.lua
+modules/CombatText/EventViewers/CrowdControl.lua
+modules/CombatText/EventViewers/Death.lua
+modules/CombatText/EventViewers/Points.lua
+modules/CombatText/EventViewers/Resources.lua
+
+modules/CombatInfo/CombatInfo.lua
+modules/CombatInfo/AbilityAlerts.lua
+modules/CombatInfo/CrowdControlTracker.lua
+
+modules/InfoPanel/InfoPanel.lua
+
+modules/SpellCastBuffs/SpellCastBuffs.lua
+modules/SpellCastBuffs/Collectibles.lua
+modules/SpellCastBuffs/Cyrodiil.lua
+modules/SpellCastBuffs/Stealth.lua
+modules/SpellCastBuffs/Debug.lua
+modules/SpellCastBuffs/Werewolf.lua
+
+modules/SlashCommands/SlashCommands.lua
+modules/SlashCommands/General.lua
+modules/SlashCommands/Group.lua
+modules/SlashCommands/Guild.lua
+modules/SlashCommands/Social.lua
+
+modules/UnitFrames/UnitFrames.lua
+
+settings/Settings.lua
+settings/ChatAnnouncements.lua
+settings/CombatInfo.lua
+settings/CombatText.lua
+settings/InfoPanel.lua
+settings/SlashCommands.lua
+settings/SpellCastBuffs.lua
+settings/UnitFrames.lua
 
 # This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates.
 # The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries.
@@ -39,99 +148,3 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
-
-LuiExtended.lua
-Functions.lua
-Hooks-SkillsAdvisor.lua
-Hooks.lua
-Initialize.lua
-UI.lua
-Changelog.lua
-Bindings.xml
-
-frontend/Changelog.xml
-frontend/CombatText.xml
-frontend/CrowdControlTracker.xml
-# frontend/StatPanel.xml
-
-i18n/en.lua
-i18n/$(language).lua
-i18n/settings/Settings_en.lua
-i18n/settings/Settings_$(language).lua
-i18n/skills/Skills_en.lua
-i18n/skills/Skills_$(language).lua
-
-Unlock.lua
-
-data/Globals.lua
-data/AbilityTables.lua
-data/Tooltips.lua
-data/UnitNamesTable.lua
-data/ZoneNamesTable.lua
-data/Effects.lua
-data/CastBarTable.lua
-data/CollectibleTables.lua
-data/CombatTextConstants.lua
-data/AlertTable.lua
-data/CrowdControl.lua
-data/DebugTable.lua
-data/Quests.lua
-data/PetNames.lua
-data/AbilityBlacklistPresets.lua
-data/CombatTextBlacklistPresets.lua
-
-modules/ChatAnnouncements/ChatAnnouncements.lua
-
-modules/CombatText/CombatText.lua
-modules/CombatText/Animation.lua
-modules/CombatText/Pool.lua
-modules/CombatText/PoolManager.lua
-modules/CombatText/EventListeners/Base.lua
-modules/CombatText/EventListeners/Combat.lua
-modules/CombatText/EventListeners/Death.lua
-modules/CombatText/EventListeners/PointsAlliance.lua
-modules/CombatText/EventListeners/PointsExperience.lua
-modules/CombatText/EventListeners/PointsChampion.lua
-modules/CombatText/EventListeners/ResourcesPotion.lua
-modules/CombatText/EventListeners/ResourcesPower.lua
-modules/CombatText/EventListeners/ResourcesUltimate.lua
-modules/CombatText/EventViewers/Base.lua
-modules/CombatText/EventViewers/CombatCloud.lua
-modules/CombatText/EventViewers/CombatHybrid.lua
-modules/CombatText/EventViewers/CombatEllipse.lua
-modules/CombatText/EventViewers/CombatScroll.lua
-modules/CombatText/EventViewers/CrowdControl.lua
-modules/CombatText/EventViewers/Death.lua
-modules/CombatText/EventViewers/Points.lua
-modules/CombatText/EventViewers/Resources.lua
-
-modules/CombatInfo/CombatInfo.lua
-modules/CombatInfo/AbilityAlerts.lua
-modules/CombatInfo/CrowdControlTracker.lua
-# modules/CombatInfo/StatPanel.lua
-
-modules/InfoPanel/InfoPanel.lua
-
-modules/SpellCastBuffs/SpellCastBuffs.lua
-modules/SpellCastBuffs/Collectibles.lua
-modules/SpellCastBuffs/Cyrodiil.lua
-modules/SpellCastBuffs/Stealth.lua
-modules/SpellCastBuffs/Debug.lua
-modules/SpellCastBuffs/Werewolf.lua
-
-modules/SlashCommands/SlashCommands.lua
-modules/SlashCommands/General.lua
-modules/SlashCommands/Group.lua
-modules/SlashCommands/Guild.lua
-modules/SlashCommands/Social.lua
-
-modules/UnitFrames/UnitFrames.lua
-
-settings/Settings.lua
-settings/ChatAnnouncements.lua
-settings/CombatInfo.lua
-settings/CombatText.lua
-settings/InfoPanel.lua
-settings/SlashCommands.lua
-settings/SpellCastBuffs.lua
-settings/UnitFrames.lua

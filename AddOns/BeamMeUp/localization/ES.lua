@@ -29,6 +29,7 @@ mkstr(SI.TELE_UI_UNRELATED_ITEMS, "Mapas en otras Zonas")
 mkstr(SI.TELE_UI_UNRELATED_QUESTS, "Misiones en otras Zonas")
 mkstr(SI.TELE_UI_SAME_INSTANCE, "Misma Instancia")
 mkstr(SI.TELE_UI_DIFFERENT_INSTANCE, "Instancia Diferente")
+mkstr(SI.TELE_UI_GROUP_EVENT, "Evento de grupo")
 ---------
 --------- Menu
 mkstr(SI.TELE_UI_FAVORITE_PLAYER, "jugador Favorito")
@@ -45,6 +46,7 @@ mkstr(SI.TELE_UI_VIEW_MAP_ITEM, "Ver articulo del Mapa")
 mkstr(SI.TELE_UI_TOGGLE_ARENAS, "Solo Arenas")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_ARENAS, "Grupo Arenas")
 mkstr(SI.TELE_UI_TOGGLE_TRIALS, "Pruebas")
+mkstr(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS, "Endless Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS, "Grupo Mazmorras")
 mkstr(SI.TELE_UI_TOGGLE_SORT_ACRONYM, "Ordenar por acronimo")
 mkstr(SI.TELE_UI_DAYS_LEFT, "%d dias restantes")
@@ -173,6 +175,8 @@ mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT, "Ping en mapa")
 mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT_TOOLTIP, "Muestre un ping de mapa (punto de reunión) en el destino en el mapa cuando haga clic en miembros del grupo o zonas específicas (mazmorras, casas, etc.). La biblioteca LibMapPing debe estar instalada. Recuerde también: si usted es el líder del grupo, sus pings (puntos de reunión) son visibles para todos los miembros del grupo.")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS, "Muesta zonas sin jugadores o casas")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS_TOOLTIP, "Desplegar zonas en la lista principal incluso sin jugadores ni casas a las cuales transportarse.  Usted aun tiene la opcion de transportarse con oro si ha descubierto al menos una Ermita en la zona.")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP, "Show displayed zone & subzones always on top")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP_TOOLTIP, "Show currently displayed zone and subzones (opened world map) always on top of the list.")
 
 
 -----------------------------------------------------------------------------
@@ -188,6 +192,7 @@ mkstr(SI.TELE_KEYBINDING_CURRENT_ZONE, "Transportar a zona actual")
 mkstr(SI.TELE_KEYBINDING_PRIMARY_RESIDENCE_OUTSIDE, "Transporta afuera de residencia primaria")
 mkstr(SI.TELE_KEYBINDING_TOGGLE_MAIN_DUNGEON_FINDER, "Arenas / Pruebass / Mazmorras")
 mkstr(SI.TELE_KEYBINDING_TRACKED_QUEST, "Transportar a mision enfocada")
+mkstr(SI.TELE_KEYBINDING_ANY_ZONE, "Port to any zone")
 
 
 -----------------------------------------------------------------------------

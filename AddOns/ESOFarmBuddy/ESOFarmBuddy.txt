@@ -1,10 +1,10 @@
 ## DisableSavedVariablesAutoSaving: 1
-## Title: ESO |cFCEB00Farm Buddy|r |c00C000v1.0.24|r
+## Title: ESO |cFCEB00Farm Buddy|r |c00C000v1.0.26|r
 ## Description: Provides a GUI element and controls to keep track of farmed items.
 ## Author: |cEFEBBEKeldor|r
-## Version: 1.0.24
-## IntVersion: 1024
-## APIVersion: 101038
+## Version: 1.0.26
+## IntVersion: 1026
+## APIVersion: 101040
 ## SavedVariables: ESOFarmBuddySV
 ## IsLibrary: false
 ## DependsOn: LibCustomMenu>=682 LibAddonMenu-2.0>=30

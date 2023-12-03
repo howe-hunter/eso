@@ -29,6 +29,7 @@ mkstr(SI.TELE_UI_UNRELATED_ITEMS, "Другие карты сокровищ.")
 mkstr(SI.TELE_UI_UNRELATED_QUESTS, "Квесты в других зонах")
 mkstr(SI.TELE_UI_SAME_INSTANCE, "Тот же инстанс")
 mkstr(SI.TELE_UI_DIFFERENT_INSTANCE, "Разные инстансы")
+mkstr(SI.TELE_UI_GROUP_EVENT, "Групповое событие")
 ---------
 --------- Menu
 mkstr(SI.TELE_UI_FAVORITE_PLAYER, "Избранный игрок")
@@ -45,6 +46,7 @@ mkstr(SI.TELE_UI_VIEW_MAP_ITEM, "Показать свиток")
 mkstr(SI.TELE_UI_TOGGLE_ARENAS, "Одиночные арены")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_ARENAS, "Групповые арены")
 mkstr(SI.TELE_UI_TOGGLE_TRIALS, "Испытания")
+mkstr(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS, "Endless Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS, "Групповые подземелья")
 mkstr(SI.TELE_UI_TOGGLE_SORT_ACRONYM, "Отсортировать по аббревиатуре")
 mkstr(SI.TELE_UI_DAYS_LEFT, "осталось %d дней")
@@ -173,6 +175,8 @@ mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT, "Отметка на карте")
 mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT_TOOLTIP, "Отметка на карте (точка сбора), при нажатии на члена группы или определенную зону (подземелья, дома и т. д.). Должна быть установлена библиотека LibMapPing. Также помните: если вы лидер группы, ваши отметки (точки сбора) видны всем участникам группы.")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS, "Показать регионы без игроков и домов")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS_TOOLTIP, "Отображать регионы в основном списке, даже если нет игроков или домов, в которые вы можете отправиться. У вас все еще есть возможность путешествовать за золото, если вы открыли хотя бы одно дорожное святилище в регионе.")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP, "Show displayed zone & subzones always on top")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP_TOOLTIP, "Show currently displayed zone and subzones (opened world map) always on top of the list.")
 
 
 -----------------------------------------------------------------------------
@@ -188,6 +192,7 @@ mkstr(SI.TELE_KEYBINDING_CURRENT_ZONE, "Перемещение в текущее
 mkstr(SI.TELE_KEYBINDING_PRIMARY_RESIDENCE_OUTSIDE, "Перемещение ко входу основного дома")
 mkstr(SI.TELE_KEYBINDING_TOGGLE_MAIN_DUNGEON_FINDER, "Арены / Испытания / Подземелья")
 mkstr(SI.TELE_KEYBINDING_TRACKED_QUEST, "Перeмещение на выбранный квест")
+mkstr(SI.TELE_KEYBINDING_ANY_ZONE, "Port to any zone")
 
 
 -----------------------------------------------------------------------------

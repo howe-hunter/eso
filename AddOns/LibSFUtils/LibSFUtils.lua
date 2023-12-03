@@ -28,6 +28,7 @@ sfutil.colors = {
 	ltskyblue   = SF_Color:New("87cefa"),    -- {hex ="87cefa", rgb = {135/255, 206/255, 250/255}, },
 	lemon		= SF_Color:New("FFFACD"),    -- {hex ="FFFACD", rgb = {1, 250/255, 205/255}, },
 	mocassin	= SF_Color:New("FFE4B5"),    -- {hex ="FFE4B5", rgb = {1, 228/255, 181/255}, },
+	frangipani  = SF_Color:New("fad7a0"),
     aquamarine  = SF_Color:New("7fffd4"),    -- {hex ="7fffd4", rgb = {127/255, 1, 212/255}, },
     lightsalmon = SF_Color:New("FFA07A"),    -- {hex ="FFA07A", rgb = {1, 160/255, 122/255}, },
 
@@ -55,6 +56,7 @@ sfutil.hex = {
 	ltskyblue = sfutil.colors.ltskyblue.hex,
 	lemon = sfutil.colors.lemon.hex,
 	mocassin = sfutil.colors.mocassin.hex,
+	frangipani = sfutil.colors.frangipani.hex,
 
     junk = sfutil.colors.junk.hex,
     normal = sfutil.colors.normal.hex,
@@ -77,6 +79,7 @@ sfutil.rgb = {
 	ltskyblue = sfutil.colors.ltskyblue.rgb,
 	lemon = sfutil.colors.lemon.rgb,
 	mocassin = sfutil.colors.mocassin.rgb,
+	frangipani = sfutil.colors.frangipani.rgb,
 
     junk = sfutil.colors.junk.rgb,
     normal = sfutil.colors.normal.rgb,
@@ -927,4 +930,164 @@ function sfutil.colorsplit(markertable, str)
     return t2
 end
 
+-- -----------------------------------------------------------------------
+-- temporary hacks
+function sfutil.add2linesctl()
+--[[	-- only needed when LibAddonMenu is having clipping problems
+	return 	{
+				type = "description",
+				title = " ",
+				text = " ",
+				disabled = true,
+			}
+--]]
+end
+
+function sfutil.addlinectl()
+--[[	-- only needed when LibAddonMenu is having clipping problems
+	return 	{
+				type = "description",
+				text = " ",
+				disabled = true,
+			}
+--]]
+end
+
+-- -----------------------------------------------------------------------
+-- easily manage values and choice tables for dropdowns
+-- creates a simple lookup table for potential choices
+-- for dropdowns, each entry with an index key (ndx), a
+-- choice (strId), and the optional choiceValue (val)
+--
+-- Then you can create choices and choiceValues lists
+-- by passing in table indexes.
+--
+-- Elsewhere in your code, you can compare what was returned
+-- from the dropdown to an indexed value of your lookup table,
+-- thus avoiding the problem of tracking down the hardcoded
+-- references to a value sprinkled throughout your code. Only
+-- the table has to change, and everything else just works.
+
+sfutil.DDValueTable = ZO_Object:Subclass()
+function sfutil.DDValueTable:New()
+    local o = ZO_Object.New(self)
+	return o
+end
+
+-- Append a value row to the end of the DDValueTable.
+-- While it is prefered for the strId parameter to be a ZOS stringId,
+-- it can be a string instead (not recommended).
+-- The val parameter should either be nil (it is after all optional)
+-- or it should be a string (not a stringId)
+function sfutil.DDValueTable:append(val, strId)
+	if val == nil then
+		if type(strId) == "string" then
+			table.insert(self, { value = GetString(strId), strg = strId })
+		else
+			table.insert(self, { value = strId, strg = strId })
+		end
+		
+	else
+		table.insert(self, { value = val, strg = strId })
+	end
+	return #self
+end
+
+-- Add a value row to the DDValueTable.
+-- While it is prefered for the strId parameter to be a ZOS stringId,
+-- it can be a string instead (not recommended).
+-- The val parameter should either be nil (it is after all optional)
+-- or it should be a string (not a stringId)
+function sfutil.DDValueTable:add(ndx, val, strId)
+	if val == nil then
+		if type(strId) == "string" then
+			self[ndx] = { value = strId, strg = strId }
+			
+		else
+			self[ndx] = { value = GetString(strId), strg = strId}
+		end
+		
+	else
+		self[ndx] = { value = val, strg = strId }
+	end
+	return ndx
+end
+
+-- Get the choiceValue string for the specified index
+function sfutil.DDValueTable:val(ndx)
+	return self[ndx].value
+end
+
+-- Get the choice string for the specified index
+function sfutil.DDValueTable:str(ndx)
+	if type(self[ndx].strg) == "string" then
+		return self[ndx].strg
+	else
+		return GetString(self[ndx].strg)
+	end
+end
+
+-- returns choices table for use with dropdowns
+function sfutil.DDValueTable:choices(...)
+	local ac = select( '#', ... )
+	if ac == 0 then
+		error( string.format("error: %s(): require arguments." , fn))
+	end
+	local choicetbl = {}
+	for ax = 1, ac do
+		local ndx = select( ax, ... )
+		if not ndx then
+			error( string.format("error: %s():  argument is nil." , fn))
+		end
+		--d("choicetbl: "..ndx.." "..self:str(ndx))
+		table.insert(choicetbl, self:str(ndx))
+	end
+	return choicetbl
+end
+
+-- returns (dropdown-optional) choicesValues table for use with dropdowns
+function sfutil.DDValueTable:choiceValues(...)
+	local ac = select( '#', ... )
+	if ac == 0 then
+		error( string.format("error: %s(): require arguments." , fn))
+	end
+	local valtbl = {}
+	for ax = 1, ac do
+		local ndx = select( ax, ... )
+		if not ndx then
+			error( string.format("error: %s():  argument is nil." , fn))
+		end
+		--d("valtbl: "..ndx.." "..self:val(ndx))
+		table.insert(valtbl,self:val(ndx))
+	end
+	return valtbl
+end
+
+-- returns choices and choicesValues tables for use with dropdowns
+function sfutil.DDValueTable:choicesNvalues(...)
+	local ac = select( '#', ... )
+	if ac == 0 then
+		error( string.format("error: %s(): require arguments." , fn))
+	end
+	local valtbl = {}
+	local choicetbl = {}
+	for ax = 1, ac do
+		local ndx = select( ax, ... )
+		if not ndx then
+			error( string.format("error: %s():  argument is nil." , fn))
+		end
+		--d("choicetbl: "..ndx.." "..self:str(ndx))
+		table.insert(choicetbl,self:str(ndx))
+		local valstr = self:val(ndx)
+		if valstr then
+			table.insert(valtbl,self:val(ndx))
+			--d("valtbl: "..ndx.." "..self:val(ndx))
+			
+		else
+			table.insert(valtbl,self:str(ndx))
+			--d("valtbl: "..ndx.." "..self:str(ndx))
+		end
+	end
+	return choicetbl, valtbl
+end
 

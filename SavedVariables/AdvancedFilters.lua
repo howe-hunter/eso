@@ -8,30 +8,30 @@ AdvancedFilters_Settings =
             {
                 ["Settings"] = 
                 {
-                    ["hideCharBoundAtBankDeposit"] = false,
-                    ["rememberFilterDropdownsLastSelection"] = true,
-                    ["debugSpam"] = false,
-                    ["hideSubFilterLabel"] = false,
-                    ["debugSpamExcludeDropdownBoxFilters"] = true,
                     ["grayOutSubFiltersWithNoItems"] = true,
-                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
-                    ["showIconsInFilterDropdowns"] = true,
+                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
+                    ["hideSubFilterLabel"] = false,
+                    ["debugSpam"] = false,
                     ["subfilterBarDropdownLastSelectedEntries"] = 
                     {
                     },
-                    ["itemCountLabelColor"] = 
-                    {
-                        ["g"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                        ["r"] = 1,
-                    },
                     ["showDropdownSelectedReminderAnimation"] = true,
+                    ["rememberFilterDropdownsLastSelection"] = true,
                     ["showDropdownLastSelectedEntries"] = true,
                     ["version"] = 1.5110000000,
-                    ["hideItemCount"] = false,
+                    ["itemCountLabelColor"] = 
+                    {
+                        ["b"] = 1,
+                        ["r"] = 1,
+                        ["a"] = 1,
+                        ["g"] = 1,
+                    },
+                    ["hideCharBoundAtBankDeposit"] = false,
+                    ["showIconsInFilterDropdowns"] = true,
                     ["doDebugOutput"] = false,
-                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
+                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
+                    ["debugSpamExcludeDropdownBoxFilters"] = true,
+                    ["hideItemCount"] = false,
                 },
             },
         },

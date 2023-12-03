@@ -3,7 +3,7 @@
 ------------------------------------------------------------------
 
 
-local MAJOR, MINOR = "LibAddonMenu-2.0", 34
+local MAJOR, MINOR = "LibAddonMenu-2.0", 35
 
 local lam
 if(not LibStub) then

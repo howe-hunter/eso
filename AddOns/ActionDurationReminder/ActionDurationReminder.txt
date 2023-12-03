@@ -1,9 +1,9 @@
 ## Title: Action Duration Reminder
 ## Author: Cloudor
-## Version: 3.93
+## Version: 3.108
 ## Description: Remind you time to refresh your actions.
-## APIVersion: 101037 101038
-## AddOnVersion: 030930
+## APIVersion: 101039 101040
+## AddOnVersion: 031080
 ## DependsOn: LibAddonMenu-2.0>=34
 ## OptionalDependsOn: ScootworksCombat 
 ## SavedVariables: ADRSV

@@ -175,9 +175,11 @@ function pChat.InitializeSettings()
 		useIgnoreRemovedChatHandler = true,
 		useGroupMemberLeftChatHandler = true,
 		useGroupTypeChangedChatHandler = true,
+		useKeepAttackUpdateChatHandler = true,
 		chatEditBoxOnBackspaceHook = true,
 		backupYourSavedVariablesReminder = true,
 		backupYourSavedVariablesReminderDone = {},
+		showAccountAndCharAtContextMenu = false,
 
 		-- Coorbin20200708
 		-- Chat Mentions
@@ -304,7 +306,7 @@ function pChat.InitializeSettings()
 			table.insert(arrayTab, 1)
 		end
 
-		--Get the tab names and indices
+		--Check if the chat tabs were updated -> Rebuild the settings tables
 		pChat.getTabNames()
 		--No default tab chosen in SavedVariables yet? Use the first tab	--Update the available sounds from the game
 		if not db.defaultTab then
@@ -633,6 +635,16 @@ function pChat.InitializeSettings()
 					width = "full",
 					default = defaults.enablecopy,
 				},
+				{-- Context menu headline: @Account/characterName
+					type = "checkbox",
+					name = GetString(PCHAT_SHOWACCANDCHARATCONTEXTMENU),
+					tooltip = GetString(PCHAT_SHOWACCANDCHARATCONTEXTMENUTT),
+					getFunc = function() return db.showAccountAndCharAtContextMenu end,
+					setFunc = function(newValue) db.showAccountAndCharAtContextMenu = newValue end,
+					width = "full",
+					default = defaults.showAccountAndCharAtContextMenu,
+					disabled = function() return not db.enablecopy end,
+				},
 
 				------------------------------------------------------------------------------------------------------------------------
 				------------------------------------------------------------------------------------------------------------------------
@@ -713,6 +725,29 @@ function pChat.InitializeSettings()
 							width = "full",
 							default = defaults.windowDarkness,
 						},
+						{-- Chat Window Min Transparency: ESO vanilla settings! See social -> Chat min transparency
+							-->esoui\ingame\optionspanels\optionspanel_social_shared.lua
+							type = "slider",
+							name = GetString(SI_SOCIAL_OPTIONS_MIN_ALPHA) .. " (".. GetString(SI_CHECK_BUTTON_DISABLED) ..")",
+							tooltip = GetString(SI_SOCIAL_OPTIONS_MIN_ALPHA_TOOLTIP),
+							min = 0,
+							max = 100,
+							step = 1,
+							getFunc = function()
+								return zo_round(KEYBOARD_CHAT_SYSTEM:GetMinAlpha() * 100)
+							end,
+							setFunc = function(newValue)
+								--= newValue
+								KEYBOARD_CHAT_SYSTEM:SetMinAlpha(newValue / 100)
+								if ChatSys.isMinimized == true then
+									ChatSys:Maximize()
+								end
+							end,
+							width = "full",
+							default = function()
+								KEYBOARD_CHAT_SYSTEM:ResetMinAlphaToDefault()
+							end,
+						},
 						{-- Minimize at launch
 							type = "checkbox",
 							name = GetString(PCHAT_CHATMINIMIZEDATLAUNCH),
@@ -753,7 +788,8 @@ function pChat.InitializeSettings()
 								ReloadUI()
 							end,
 							default = defaults.fontChange,
-							warning = "ReloadUI"
+							warning = "ReloadUI",
+							scrollable = true,
 						},
 					},
 				},
@@ -832,6 +868,16 @@ function pChat.InitializeSettings()
 							width = "full",
 							requiresReload = true,
 							default = defaults.useGroupTypeChangedChatHandler,
+						},
+						{-- LAM Option enable keep attack update chat message handler
+							type = "checkbox",
+							name = GetString(PCHAT_CHATHANDLER_KEEP_ATTACK_UPDATE),
+							tooltip = string.format(GetString(PCHAT_CHATHANDLER_TEMPLATETT), GetString(PCHAT_CHATHANDLER_KEEP_ATTACK_UPDATE)),
+							getFunc = function() return db.useKeepAttackUpdateChatHandler end,
+							setFunc = function(newValue) db.useKeepAttackUpdateChatHandler = newValue end,
+							width = "full",
+							requiresReload = true,
+							default = defaults.useKeepAttackUpdateChatHandler,
 						},
 
 					}, --controls Chat message handlers
@@ -1483,6 +1529,7 @@ function pChat.InitializeSettings()
 						--logger:Debug(choice)
 					end,
 					default = defaults.defaultTab,
+					scrollable = true,
 				},
 			},
 		}
@@ -1556,8 +1603,8 @@ function pChat.InitializeSettings()
 							-- When user click on LAM reinit button
 							db.defaultchannel = defaults.defaultchannel
 						end
-
 					end,
+					scrollable = true,
 				},
 				{--Target History
 					type = "checkbox",
@@ -1710,6 +1757,7 @@ function pChat.InitializeSettings()
 					setFunc = function(p_charId)
 						pChat.SyncChatConfig(true, p_charId)
 					end,
+					scrollable = true,
 				},
 			},
 		}
@@ -2498,6 +2546,12 @@ function pChat.InitializeSettings()
 	local function AfterSettings()
 		migrateToCharacterIdSavedVars()
 		checkNameFormat()
+
+		--Security fixes - Wrong SV: Correct them
+		if db.defaultchannel == nil or db.defaultchannel == "" then
+			db.defaultchannel = CONSTANTS.PCHAT_CHANNEL_NONE
+		end
+
 		getLastBackupSVReminderText()
 	end
 

@@ -47,7 +47,7 @@ local Enchants={
 	}
 local LastWipe,LastPowerValue=0,0
 local ResultDamage={[ACTION_RESULT_DAMAGE]=true,[ACTION_RESULT_CRITICAL_DAMAGE]=true,[ACTION_RESULT_BLOCKED_DAMAGE]=true,[ACTION_RESULT_DOT_TICK]=true,[ACTION_RESULT_DOT_TICK_CRITICAL]=true,[ACTION_RESULT_DAMAGE_SHIELDED]=true}
-local TrialLobby={u30_rg=true,sunspirehall001_base=true,cloudresttrial_base=true,hofabriccaves_base=true,maw_of=true,mawlorkajsevenriddles_base=true,arenaslobbyexterior_base=true,trl_so=true,helracitadelentry_base=true,aetherianarchivebottom_base=true,gladiatorsassembly_base=true,blackroseprison01_base=true,kynesaegismap001_0=true,vateshransrites01_0=true}
+local TrialLobby={u30_rg=true,sunspirehall001_base=true,cloudresttrial_base=true,hofabriccaves_base=true,maw_of=true,mawlorkajsevenriddles_base=true,arenaslobbyexterior_base=true,trl_so=true,helracitadelentry_base=true,aetherianarchivebottom_base=true,gladiatorsassembly_base=true,blackroseprison01_base=true,kynesaegismap001_0=true,vateshransrites01_0=true,dsr_beach=true,sanitysedgesection0_map=true}
 local TrialZones,TrialNames={
 636,	--Hel Ra Citadel
 638,	--Aetheran Archive
@@ -63,6 +63,8 @@ local TrialZones,TrialNames={
 1196,	--Kyne's Aegis
 1227,	--Vateshran Hollows
 1263,	--Rockgrove
+1344,   --DSR
+1427,   --Sanitys Edge
 },{}
 for _,id in pairs(TrialZones) do TrialNames[GetZoneNameById(id)]=id end
 
@@ -173,6 +175,8 @@ local function OnVisualAdded(eventCode, unitTag, unitAttributeVisual, statType, 
 			if unitAttributeVisual==ATTRIBUTE_VISUAL_POWER_SHIELDING then
 				BUI.Player:UpdateShield(unitTag, (sequenceId==0 and value or 0), maxValue)
 				if sequenceId==0 and value>20000 then BUI.Buffs.BarrierActive=GetGameTimeSeconds()+30 end
+			elseif unitAttributeVisual==ATTRIBUTE_VISUAL_TRAUMA then
+				BUI.Player:UpdateTrauma(unitTag, (sequenceId==0 and value or 0), maxValue)				
 			elseif statType==3 and unitAttributeVisual==ATTRIBUTE_VISUAL_DECREASED_STAT and value>1000 then	--unitAttributeVisual==ATTRIBUTE_VISUAL_INCREASED_STAT
 				if BUI.Vars.PlayerFrame then BUI.Frames:AttributeVisual(unitTag,unitAttributeVisual,sequenceId==0) end
 			elseif unitAttributeVisual==ATTRIBUTE_VISUAL_INCREASED_REGEN_POWER or unitAttributeVisual==ATTRIBUTE_VISUAL_DECREASED_REGEN_POWER then
@@ -183,6 +187,8 @@ local function OnVisualAdded(eventCode, unitTag, unitAttributeVisual, statType, 
 	elseif unitTag=="reticleover" and powerType==POWERTYPE_HEALTH then
 		if unitAttributeVisual==ATTRIBUTE_VISUAL_POWER_SHIELDING then
 			if BUI_TargetFrame then BUI.Player:UpdateShield(unitTag, (sequenceId==0 and value or 0), maxValue) end
+		elseif unitAttributeVisual==ATTRIBUTE_VISUAL_TRAUMA then
+			if BUI_TargetFrame then BUI.Player:UpdateTrauma(unitTag, (sequenceId==0 and value or 0), maxValue) end
 		elseif unitAttributeVisual==ATTRIBUTE_VISUAL_INCREASED_REGEN_POWER or unitAttributeVisual==ATTRIBUTE_VISUAL_DECREASED_REGEN_POWER then
 			if BUI_TargetFrame then BUI.Frames.Regen(unitTag,unitAttributeVisual,powerType,(sequenceId==0 and 2000 or 0)) end
 			if BUI.Vars.CurvedFrame~=0 then BUI.Curved.Regen(unitTag,unitAttributeVisual,powerType,(sequenceId==0 and 2000 or 0)) end
@@ -195,6 +201,8 @@ local function OnVisualAdded(eventCode, unitTag, unitAttributeVisual, statType, 
 		if powerType==POWERTYPE_HEALTH then
 			if unitAttributeVisual==ATTRIBUTE_VISUAL_POWER_SHIELDING then
 				BUI.Player:UpdateShield(unitTag, (sequenceId==0 and value or 0), maxValue)
+			elseif unitAttributeVisual==ATTRIBUTE_VISUAL_TRAUMA then
+				BUI.Player:UpdateTrauma(unitTag, (sequenceId==0 and value or 0), maxValue)
 			elseif unitAttributeVisual==ATTRIBUTE_VISUAL_INCREASED_REGEN_POWER or unitAttributeVisual==ATTRIBUTE_VISUAL_DECREASED_REGEN_POWER then
 				BUI.Frames:GroupRegen(unitTag,unitAttributeVisual,powerType,(sequenceId==0 and 2000 or 0))
 				if unitAttributeVisual==ATTRIBUTE_VISUAL_DECREASED_REGEN_POWER then
@@ -229,6 +237,9 @@ local function OnVisualUpdate(eventCode, unitTag, unitAttributeVisual, statType,
 	--Damage Shields
 	if powerType==POWERTYPE_HEALTH and unitAttributeVisual==ATTRIBUTE_VISUAL_POWER_SHIELDING then
 		BUI.Player:UpdateShield(unitTag, newValue, newMaxValue)
+	end
+	if powerType==POWERTYPE_HEALTH and unitAttributeVisual==ATTRIBUTE_VISUAL_TRAUMA then
+		BUI.Player:UpdateTrauma(unitTag, newValue, newMaxValue)
 	end
 end
 
@@ -371,7 +382,10 @@ local function OnMount(eventCode,mounted)
 	BUI.Mounted=mounted
 	BUI.Reticle.SpeedBoost()
 	if BUI.init.Frames then
-		BUI.Frames:SetupAltBar()
+		if not mounted then BUI.CallLater("SetupAltBar",1500,BUI.Frames.SetupAltBar)
+		else
+			BUI.Frames:SetupAltBar()
+		end
 	end
 --	d("eventCode "..tostring(eventCode).." mounted "..tostring(mounted))
 end
@@ -651,7 +665,7 @@ local function OnActivated()
 	if not PvPzone then	--and not (RaidNotifier and RaidNotifier.Vars.general.last_pet) then
 		if TrialLobby[BUI.MapId] then
 			local id=GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_VANITY_PET)
-			if id~=0 then
+			if id~=0 and BUI.Vars.AutoDismissPet then
 				ZO_Alert(UI_ALERT_CATEGORY_ALERT,nil,"Dismissing: "..string.gsub(tostring(GetCollectibleName(id)),"%^%w+",""))
 				UseCollectible(id)
 				CallBackVanityPet=id

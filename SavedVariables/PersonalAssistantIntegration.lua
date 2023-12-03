@@ -6,47 +6,27 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["name"] = "Profile 1",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
                     },
+                    ["name"] = "Profile 1",
                     ["FCOItemSaver"] = 
                     {
-                        ["Improvement"] = 
+                        ["Sell"] = 
                         {
-                            ["itemMoveMode"] = 0,
+                            ["autoSellMarked"] = false,
                         },
                         ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
                         ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
-                        },
-                        ["Intricate"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Locked"] = 
-                        {
-                            ["preventAutoSell"] = false,
-                            ["preventMoving"] = false,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
                         },
                         ["GearSets"] = 
                         {
@@ -59,9 +39,29 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["Locked"] = 
+                        {
+                            ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
+                        },
+                        ["Intricate"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Improvement"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
                 },
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 ["profileCounter"] = 1,
             },
         },

@@ -9,11 +9,11 @@ local Abilities = LUIE.Data.Abilities
 local Tooltips = LUIE.Data.Tooltips
 local AssistantIcons = LUIE.Data.Effects.AssistantIcons
 
+local pairs = pairs
 local zo_strformat = zo_strformat
 
 -- Called by SpellCastBuffs.MountStatus to display mount icon
 function SpellCastBuffs.DisplayMountIcon()
-
     --[[
         -- Target support is not implemented
 
@@ -26,50 +26,57 @@ function SpellCastBuffs.DisplayMountIcon()
         if unitTag == "reticleover" and SpellCastBuffs.SV.IgnoreMountTarget then
             return
         end
-    ]]--
+    ]]
+    --
 
     -- Check mounted state
     local name = GetRawUnitName("player")
     local mountedState = GetTargetMountedStateInfo(name)
 
     if mountedState == MOUNTED_STATE_MOUNT_RIDER or mountedState == MOUNTED_STATE_MOUNT_PASSENGER then
-        local name
         local description
         local icon
         if mountedState == MOUNTED_STATE_MOUNT_RIDER then
             if SpellCastBuffs.SV.MountDetail then
                 -- Get detailed collectible information for the player
-                local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_MOUNT)
+                local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_MOUNT, GAMEPLAY_ACTOR_CATEGORY_PLAYER)
                 local nickname = GetCollectibleNickname(collectible)
                 name, description, icon = GetCollectibleInfo(collectible)
 
                 -- Add the nickname into the name if present
-                if (nickname ~= "" and nickname ~= nil) then
+                if nickname ~= "" and nickname ~= nil then
                     name = zo_strformat('<<1>> "<<2>>"', name, nickname)
                 end
             else
                 name = Abilities.Innate_Mounted
                 description = Tooltips.Innate_Mounted
-                icon = 'LuiExtended/media/icons/abilities/ability_innate_mounted.dds'
+                icon = "LuiExtended/media/icons/abilities/ability_innate_mounted.dds"
             end
         elseif mountedState == MOUNTED_STATE_MOUNT_PASSENGER then
             name = Abilities.Innate_Mounted_Passenger
             description = Tooltips.Innate_Mounted_Passenger
-            icon = 'LuiExtended/media/icons/abilities/ability_innate_mounted.dds'
+            icon = "LuiExtended/media/icons/abilities/ability_innate_mounted.dds"
         end
 
         local abilityId = 999017
         local abilityName = Abilities.Innate_Mounted
         local context = SpellCastBuffs.DetermineContextSimple("player1", abilityId, abilityName)
         SpellCastBuffs.EffectsList[context][abilityId] = {
-            target=SpellCastBuffs.DetermineTarget(context), type=1,
-            id = abilityId, name = name, icon = icon, backdrop = true, tooltip = description,
-            dur = 0, starts = 1, ends = nil, -- ends=nil : last buff in sorting
+            target = SpellCastBuffs.DetermineTarget(context),
+            type = 1,
+            id = abilityId,
+            name = name,
+            icon = icon,
+            backdrop = true,
+            tooltip = description,
+            dur = 0,
+            starts = 1,
+            ends = nil, -- ends=nil : last buff in sorting
             forced = "long",
-            restart = true, iconNum = 0
+            restart = true,
+            iconNum = 0,
         }
     end
-
 end
 
 -- EVENT_MOUNTED_STATE_CHANGED handler to create Mount Buff icon for player
@@ -115,8 +122,8 @@ function SpellCastBuffs.CollectibleBuff()
     end
 
     -- Pets
-    if GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_VANITY_PET) > 0 and not SpellCastBuffs.SV.IgnorePet then
-        local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_VANITY_PET)
+    if GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_VANITY_PET, GAMEPLAY_ACTOR_CATEGORY_PLAYER) > 0 and not SpellCastBuffs.SV.IgnorePet then
+        local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_VANITY_PET, GAMEPLAY_ACTOR_CATEGORY_PLAYER)
         local name
         local description
         local icon
@@ -126,42 +133,57 @@ function SpellCastBuffs.CollectibleBuff()
             name, description, icon = GetCollectibleInfo(collectible)
 
             -- Add the nickname into the name if present
-            if (nickname ~= "" and nickname ~= nil) then
+            if nickname ~= "" and nickname ~= nil then
                 name = zo_strformat('<<1>> "<<2>>"', name, nickname)
             end
         else
             name = Abilities.Innate_Vanity_Pet
             description = Tooltips.Innate_Vanity_Pet
-            icon = 'LuiExtended/media/icons/abilities/ability_innate_pet.dds'
+            icon = "LuiExtended/media/icons/abilities/ability_innate_pet.dds"
         end
 
         local abilityId = 999018
         local abilityName = Abilities.Innate_Vanity_Pet
         local context = SpellCastBuffs.DetermineContextSimple("player1", abilityId, abilityName)
         SpellCastBuffs.EffectsList[context][abilityId] = {
-            target=SpellCastBuffs.DetermineTarget(context), type=1,
-            id = abilityId, name=name, icon=icon, backdrop=true, tooltip = description,
-            dur=0, starts=1, ends=nil, -- ends=nil : last buff in sorting
+            target = SpellCastBuffs.DetermineTarget(context),
+            type = 1,
+            id = abilityId,
+            name = name,
+            icon = icon,
+            backdrop = true,
+            tooltip = description,
+            dur = 0,
+            starts = 1,
+            ends = nil, -- ends=nil : last buff in sorting
             forced = "long",
-            restart=true, iconNum=0
+            restart = true,
+            iconNum = 0,
         }
     end
 
     -- Assistants
-    if GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_ASSISTANT) > 0 and not SpellCastBuffs.SV.IgnoreAssistant then
-        local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_ASSISTANT)
+    if GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_ASSISTANT, GAMEPLAY_ACTOR_CATEGORY_PLAYER) > 0 and not SpellCastBuffs.SV.IgnoreAssistant then
+        local collectible = GetActiveCollectibleByType(COLLECTIBLE_CATEGORY_TYPE_ASSISTANT, GAMEPLAY_ACTOR_CATEGORY_PLAYER)
         local name, description = GetCollectibleInfo(collectible)
-        local iconAssistant = AssistantIcons[name] or ''
+        local iconAssistant = AssistantIcons[name] or ""
 
         local abilityId = 999019
         local abilityName = Abilities.Innate_Assistant
         local context = SpellCastBuffs.DetermineContextSimple("player1", abilityId, abilityName)
         SpellCastBuffs.EffectsList[context][abilityId] = {
-            target=SpellCastBuffs.DetermineTarget(context), type=1,
-            id = abilityId, name=name, icon=iconAssistant, tooltip = description,
-            dur=0, starts=1, ends=nil, -- ends=nil : last buff in sorting
+            target = SpellCastBuffs.DetermineTarget(context),
+            type = 1,
+            id = abilityId,
+            name = name,
+            icon = iconAssistant,
+            tooltip = description,
+            dur = 0,
+            starts = 1,
+            ends = nil, -- ends=nil : last buff in sorting
             forced = "long",
-            restart=true, iconNum=0
+            restart = true,
+            iconNum = 0,
         }
     end
 end

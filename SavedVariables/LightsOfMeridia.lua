@@ -6,13 +6,13 @@ LightsOfMeridiaVars =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["Data"] = 
                 {
                     ["Settings"] = 
                     {
                     },
                 },
+                ["version"] = 1,
                 ["Options"] = 
                 {
                 },

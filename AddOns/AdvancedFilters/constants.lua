@@ -4,7 +4,7 @@ local AF = AdvancedFilters
 --Addon base variables
 AF.name = "AdvancedFilters"
 AF.author = "ingeniousclown, Randactyl, Baertram"
-AF.version = "1.6.3.1"
+AF.version = "1.6.4.0"
 AF.savedVarsVersion = 1.511
 AF.website = "https://www.esoui.com/downloads/fileinfo.php?id=2215"
 AF.feedback = "https://www.esoui.com/portal.php?id=136&a=faq"
@@ -13,6 +13,17 @@ AF.currentInventoryType = INVENTORY_BACKPACK
 AF.currentlySelectedDropDownEntry = nil
 
 AF.clientLang = GetCVar("language.2")
+AF.supportedLanguages = {
+    de = 1,
+    en = 2,
+    es = 3,
+    fr = 4,
+    ru = 5,
+    jp = 6,
+    zh = 7,
+}
+
+
 
 AF.otherAddonsDisallowed = {
     ["MultiCraft"] = true
@@ -34,12 +45,15 @@ AF.defaultSettings = {
     hideSubFilterLabel                      = false,
     grayOutSubFiltersWithNoItems            = true,
     showIconsInFilterDropdowns              = true,
+    showSubMenuHeaderlinesInFilterDropdowns = false,
     rememberFilterDropdownsLastSelection    = true,
     showDropdownSelectedReminderAnimation   = true,
     showDropdownLastSelectedEntries         = true,
     subfilterBarDropdownLastSelectedEntries = {},
     hideCharBoundAtBankDeposit              = false,
     showFilterDropdownMenuOnRightMouseAtSubFilterButton = false,
+    dropdownVisibleRows = 15,
+    dropdownVisibleSubmenuRows = 15,
 }
 
 --Libraries
@@ -1394,7 +1408,7 @@ COLLECTIBLE_CATEGORY_TYPE_OUTFIT_STYLE = 24
 ]]
 
 --The categoryTypes of the collectibles in the subfilter bars. Used in function createAdditionalSubFilterGroups in file
---main.lua to specify what the GetFilterCallbackForCollectibles function in data.lua should filter as categories at this
+--main.lua to specify what the GetFilterCallbackForCollectibles function in files/filterCallbacks.lua should filter as categories at this
 --subfilterbar
 AF.collectibleDataKeyToCategoryTypes = {
     --Outfits

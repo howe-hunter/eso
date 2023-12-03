@@ -6,46 +6,45 @@ PortToFriendsHouseVars =
         {
             ["$AccountWide"] = 
             {
+                ["selectedLibraryFilter"] = 1,
+                ["position"] = 
+                {
+                    ["x"] = 560,
+                    ["y"] = 290.6746215820,
+                },
                 ["selectedMyHousesSort"] = 2,
                 ["favorites"] = 
                 {
                     [1] = 
                     {
                         ["name"] = "@EvilSpock",
-                        ["id"] = 10,
                         ["houseId"] = 40,
+                        ["id"] = 10,
                     },
                     [2] = 
                     {
                         ["name"] = "@greegbeeg",
-                        ["id"] = 1,
                         ["houseId"] = 1,
+                        ["id"] = 1,
                     },
                     [3] = 
                     {
                         ["name"] = "@Motiv_Impact",
-                        ["id"] = 4,
                         ["houseId"] = 1,
+                        ["id"] = 4,
                     },
                     [4] = 
                     {
                         ["name"] = "@Motiv_Impact",
-                        ["id"] = 2,
                         ["houseId"] = 77,
+                        ["id"] = 2,
                     },
                     [5] = 
                     {
                         ["name"] = "@Motiv_Impact",
-                        ["id"] = 3,
                         ["houseId"] = 13,
+                        ["id"] = 3,
                     },
-                },
-                ["vc"] = 
-                {
-                    ["receivedCards"] = 
-                    {
-                    },
-                    ["allowSelf"] = false,
                 },
                 ["myHousesFavorites"] = 
                 {
@@ -59,39 +58,40 @@ PortToFriendsHouseVars =
                     {
                     },
                 },
-                ["defaultTab"] = 1,
-                ["selectedLibrarySort"] = 1,
-                ["position"] = 
+                ["vc"] = 
                 {
-                    ["y"] = 290.6746215820,
-                    ["x"] = 560,
+                    ["allowSelf"] = false,
+                    ["receivedCards"] = 
+                    {
+                    },
                 },
-                ["version"] = 1,
-                ["selectedLibraryFilter"] = 1,
                 ["vc_chatAllowed"] = 
                 {
+                    ["zone"] = false,
+                    ["group"] = true,
+                    ["frzone"] = false,
                     ["dezone"] = false,
+                    ["emote"] = false,
+                    ["g1"] = true,
+                    ["o5"] = true,
                     ["yell"] = false,
+                    ["tell"] = true,
+                    ["g4"] = true,
+                    ["o3"] = true,
+                    ["g3"] = true,
+                    ["o2"] = true,
+                    ["g2"] = true,
+                    ["o1"] = true,
                     ["enzone"] = false,
                     ["jpzone"] = false,
-                    ["g2"] = true,
-                    ["g5"] = true,
-                    ["group"] = true,
-                    ["g1"] = true,
-                    ["tell"] = true,
-                    ["say"] = false,
-                    ["o2"] = true,
                     ["o4"] = true,
-                    ["o1"] = true,
-                    ["g3"] = true,
-                    ["o3"] = true,
-                    ["emote"] = false,
-                    ["o5"] = true,
-                    ["zone"] = false,
-                    ["frzone"] = false,
-                    ["g4"] = true,
+                    ["say"] = false,
+                    ["g5"] = true,
                 },
+                ["selectedLibrarySort"] = 1,
                 ["port_mode"] = 3,
+                ["version"] = 1,
+                ["defaultTab"] = 1,
             },
         },
     },

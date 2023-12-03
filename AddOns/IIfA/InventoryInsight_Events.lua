@@ -13,22 +13,16 @@ end
 
 
 -- used by an event function
-function IIfA:InventorySlotUpdate(eventCode, bagId, slotId, bNewItem, itemSoundCategory, inventoryUpdateReason, qty)
-  local sNewItem
-  if nil == bagId or nil == slotId then return end
-  if bNewItem then
-    sNewItem = "True"
-  else
-    sNewItem = "False"
-  end
+function IIfA:InventorySlotUpdate(eventCode, bagId, slotIndex, isNewItem, itemSoundCategory, inventoryUpdateReason, stackCountChange, triggeredByCharacterName, triggeredByDisplayName, isLastUpdateForMessage, bonusDropSource)
+  if nil == bagId or nil == slotIndex then return end
 
-  local itemLink = GetItemLink(bagId, slotId, LINK_STYLE_BRACKETS)
+  local itemLink = GetItemLink(bagId, slotIndex, LINK_STYLE_BRACKETS)
   if not itemLink then itemLink = IIfA.EMPTY_STRING end
   local itemKey = IIfA:GetItemKey(itemLink, nil)    -- yes, the nil can be left off, but this way we know it's supposed to take a 2nd arg)
   if not itemKey then itemKey = IIfA.EMPTY_STRING end
-  IIfA:DebugOut("[InventorySlotUpdate] - raw bag/slot=<<1>> / <<2>>, Item='<<3>>', itemId=<<4>>, qty=<<5>>", bagId, slotId, itemLink, itemKey, qty)
-  if #itemLink == 0 and IIfA.BagSlotInfo[bagId] ~= nil and IIfA.BagSlotInfo[bagId][slotId] then
-    itemKey = IIfA.BagSlotInfo[bagId][slotId]
+  IIfA:DebugOut("[InventorySlotUpdate] - raw bag/slot=<<1>> / <<2>>, Item='<<3>>', itemId=<<4>>, stackCountChange=<<5>>", bagId, slotIndex, itemLink, itemKey, stackCountChange)
+  if #itemLink == 0 and IIfA.BagSlotInfo[bagId] ~= nil and IIfA.BagSlotInfo[bagId][slotIndex] then
+    itemKey = IIfA.BagSlotInfo[bagId][slotIndex]
     if #itemKey < 10 and IIfA.database[itemKey] then
       itemLink = IIfA.database[itemKey].itemLink
     elseif #itemKey >= 10 then
@@ -37,22 +31,21 @@ function IIfA:InventorySlotUpdate(eventCode, bagId, slotId, bNewItem, itemSoundC
     --IIfA:DebugOut("no itemlink, lookup found key=<<1>>, link=<<2>>", itemKey, itemLink)
   elseif #itemLink > 0 and IIfA.BagSlotInfo[bagId] == nil then
     IIfA.BagSlotInfo[bagId] = {}
-    IIfA.BagSlotInfo[bagId][slotId] = itemKey
-    --IIfA:DebugOut("New bag, new slot, bag=<<1>, slot=<<2>, key=<<3>>, link=<<4>>", bagId, slotId, itemKey, itemLink)
-  elseif #itemLink > 0 and IIfA.BagSlotInfo[bagId][slotId] == nil then
-    IIfA.BagSlotInfo[bagId][slotId] = itemKey
-    --IIfA:DebugOut("Existing bag, new slot=<<1>>, key=<<2>>, link=<<3>>", slotId, itemKey, itemLink)
+    IIfA.BagSlotInfo[bagId][slotIndex] = itemKey
+    --IIfA:DebugOut("New bag, new slot, bag=<<1>, slot=<<2>, key=<<3>>, link=<<4>>", bagId, slotIndex, itemKey, itemLink)
+  elseif #itemLink > 0 and IIfA.BagSlotInfo[bagId][slotIndex] == nil then
+    IIfA.BagSlotInfo[bagId][slotIndex] = itemKey
+    --IIfA:DebugOut("Existing bag, new slot=<<1>>, key=<<2>>, link=<<3>>", slotIndex, itemKey, itemLink)
   elseif #itemLink > 0 then
-    -- item is still in it's slot, force EvalBagItem to pick up the proper qty from the slot
-    IIfA:DebugOut("[InventorySlotUpdate] - nilling out qty")
-    qty = nil
+    -- item is still in it's slot, force EvalBagItem to pick up the proper stackCountChange from the slot
+    IIfA:DebugOut("[InventorySlotUpdate] - nilling out stackCountChange")
+    stackCountChange = nil
   end
 
-  IIfA:DebugOut("Inv Slot Upd <<1>> - bag/slot <<2>>/<<3>> x<<4>>, new: <<5>>",
-    itemLink, bagId, slotId, qty, sNewItem)
+  IIfA:DebugOut("Inv Slot Upd <<1>> - bag/slot <<2>>/<<3>> x<<4>>, new: <<5>>", itemLink, bagId, slotIndex, stackCountChange, tostring(isNewItem))
 
   -- (bagId, slotNum, fromXfer, itemCount, itemLink, itemName, locationID)
-  local dbItem, itemKey = self:EvalBagItem(bagId, slotId, not bNewItem, qty, itemLink)
+  local dbItem, itemKey = self:EvalBagItem(bagId, slotIndex, not isNewItem, stackCountChange, itemLink)
 
 
   -- once a bunch of items comes in, this will be created for each, but only the last one stays alive

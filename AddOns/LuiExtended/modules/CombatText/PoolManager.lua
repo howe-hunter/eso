@@ -3,11 +3,13 @@
     License: The MIT License (MIT)
 --]]
 
-LUIE.CombatTextPoolManager = ZO_Object:Subclass()
+local pairs = pairs
+
+LUIE.CombatTextPoolManager = ZO_InitializingObject:Subclass()
 local CombatTextPoolManager = LUIE.CombatTextPoolManager
 
 function CombatTextPoolManager:New()
-    local obj = ZO_Object:New(self)
+    local obj = setmetatable({}, self)
     self.pools = {}
     return obj
 end

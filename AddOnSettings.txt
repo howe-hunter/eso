@@ -1,5 +1,5 @@
-#Version 101038
-#AcknowledgedOutOfDateAddonsVersion 101038
+#Version 101040
+#AcknowledgedOutOfDateAddonsVersion 101040
 #AddOnsEnabled 1
 #NA Megaserver-scthree
 MiniMap 0
@@ -34,6 +34,9 @@ MiniMap 0
 NTakCamera 0
 #NA Megaserver-Durro'tan
 NTakCamera 0
+#NA Megaserver-Mynrog
+RacingPanel 0
+ESOFarmBuddy 0
 #NA Megaserver-Lliliara
 NTakCamera 0
 #NA Megaserver-rieyya

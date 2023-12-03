@@ -2,8 +2,8 @@
 ## Title: LibMultilingualName
 ## Author: @Shinntarou (NA,PC)
 ## IsLibrary: true
-## APIVersion: 101037
-## Version: 1.2.25
+## APIVersion: 101039
+## Version: 1.2.27
 ## Description: The Lib is a simple huge LUA table files created by dump data from EsoExtractData. Get*** methods just only to pick a value from the tables. Search*** methods have own data processing. Correctness of these results are not guaranteed.
 
 LibMultilingualName.lua

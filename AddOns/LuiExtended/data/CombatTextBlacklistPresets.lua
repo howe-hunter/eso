@@ -3,13 +3,10 @@
     License: The MIT License (MIT)
 --]]
 
+-- CombatTextBlacklistPresets namespace
 LUIE.Data.CombatTextBlacklistPresets = {}
-local BlacklistPresets = LUIE.Data.CombatTextBlacklistPresets
 
--- Crouch Drain
-BlacklistPresets.CrouchDrain = {
-    [20301] = true, -- Crouch Drain
-}
+local BlacklistPresets = LUIE.Data.CombatTextBlacklistPresets
 
 -- Sets
 BlacklistPresets.Sets = {
@@ -25,7 +22,7 @@ BlacklistPresets.Sorcerer = {
 
 -- Templar
 BlacklistPresets.Templar = {
-    [37009] = true, -- Channeled Focus (Channeled Focus)
+    [37009] = true,  -- Channeled Focus (Channeled Focus)
     [114842] = true, -- Restoring Focus (Restoring Focus)
 }
 
@@ -37,6 +34,5 @@ BlacklistPresets.Warden = {
 
 -- Necromancer
 BlacklistPresets.Necromancer = {
-    [118014] = true, -- Mystic Siphon (Mystic Siphon)
     [123233] = true, -- Mortal Coil (Mortal Coil)
 }

@@ -15,7 +15,7 @@ function internal:concat(...)
       theString = theString .. tostring(option) .. MM_STRING_SEPARATOR_SPACE
     end
   end
-  theString = string.gsub(theString, '^%s*(.-)%s*$', '%1')
+  theString = zo_strgsub(theString, '^%s*(.-)%s*$', '%1')
   return theString
 end
 
@@ -49,7 +49,7 @@ end
 
 -- uses mod to determine which save files to use
 function internal:MakeHashStringByItemLink(itemLink)
-  local name = string.lower(zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(itemLink)))
+  local name = zo_strlower(zo_strformat(SI_TOOLTIP_ITEM_NAME, GetItemLinkName(itemLink)))
   local hash = 0
   for c in zo_strgmatch(name, '.') do
     if c then hash = hash + string.byte(c) end
@@ -59,7 +59,7 @@ end
 
 -- uses mod to determine which save files to use
 function internal:MakeHashStringByFormattedItemName(itemName)
-  local name = string.lower(itemName)
+  local name = zo_strlower(itemName)
   local hash = 0
   for c in zo_strgmatch(itemName, '.') do
     if c then hash = hash + string.byte(c) end
@@ -110,7 +110,13 @@ end
 
 local function CreateIndexFromLink(itemLink)
   local itemType, specializedItemType = GetItemLinkItemType(itemLink)
-  return GetRequiredLevel(itemLink, itemType) .. ":" .. GetItemLinkRequiredChampionPoints(itemLink) / 10 .. ":" .. GetItemLinkDisplayQuality(itemLink) .. ":" .. GetItemsTrait(itemLink, itemType) .. ":" .. internal:GetItemLinkParseData(itemLink)
+  local requiredLevel = GetRequiredLevel(itemLink, itemType)
+  local requiredChampionPoints = GetItemLinkRequiredChampionPoints(itemLink) / 10
+  local quality = GetItemLinkDisplayQuality(itemLink)
+  local trait = GetItemsTrait(itemLink, itemType)
+  local parseData = internal:GetItemLinkParseData(itemLink)
+  local index = requiredLevel .. ":" .. requiredChampionPoints .. ":" .. quality .. ":" .. trait .. ":" .. parseData
+  return index
 end
 
 -- /script d(LibGuildStore_Internal.GetOrCreateIndexFromLink("|H0:item:44714:308:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:853248|h|h"))
@@ -204,7 +210,7 @@ function internal:AddSearchToItem(itemLink)
     local dataId = GetItemLinkFurnitureDataId(itemLink)
     local categoryId, subcategoryId = GetFurnitureDataCategoryInfo(dataId)
     if (categoryId ~= 0) then
-      adder = internal:concat(adder, string.lower(GetFurnitureCategoryInfo(categoryId)))
+      adder = internal:concat(adder, zo_strlower(GetFurnitureCategoryInfo(categoryId)))
     end
   end
 
@@ -212,8 +218,8 @@ function internal:AddSearchToItem(itemLink)
   --[[
   if itemType == ITEMTYPE_RECIPE then
     if (specializedItemType ~= 0) then
-      typeString = string.lower(zo_strformat("<<t:1>>", GetString("SI_SPECIALIZEDITEMTYPE", specializedItemType)))
-      typeString = string.gsub(typeString, 'furnishing', '')
+      typeString = zo_strlower(zo_strformat("<<t:1>>", GetString("SI_SPECIALIZEDITEMTYPE", specializedItemType)))
+      typeString = zo_strgsub(typeString, 'furnishing', '')
       adder = internal:concat(adder, typeString)
     end
   end
@@ -235,7 +241,7 @@ function internal:AddSearchToItem(itemLink)
     end
   end
   adder = table.concat(resultTable)
-  return string.lower(adder)
+  return zo_strlower(adder)
 end
 
 function internal:BuildAccountNameLookup()
@@ -332,27 +338,37 @@ end
 -- /script d(GS16DataSavedVariables["itemLink"]["|H0:item:68212:3:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"])
 function internal:AddSalesTableData(key, value)
   local saveData
-  if key == "accountNames" then saveData = GS17DataSavedVariables[key]
-  else saveData = GS16DataSavedVariables[key] end
+  local lookupTable
+  local countVariable
+
+  if key == "accountNames" then
+    saveData = GS17DataSavedVariables[key]
+    lookupTable = internal.accountNameByIdLookup
+    countVariable = internal.accountNamesCount
+  elseif key == "itemLink" then
+    saveData = GS16DataSavedVariables[key]
+    lookupTable = internal.itemLinkNameByIdLookup
+    countVariable = internal.itemLinksCount
+  elseif key == "guildNames" then
+    saveData = GS16DataSavedVariables[key]
+    lookupTable = internal.guildNameByIdLookup
+    countVariable = internal.guildNamesCount
+  end
+
   if not saveData[value] then
+    countVariable = countVariable + 1
+    saveData[value] = countVariable
+    lookupTable[countVariable] = value
+
     if key == "accountNames" then
-      internal.accountNamesCount = internal.accountNamesCount + 1
-      internal.accountNameByIdLookup[internal.accountNamesCount] = value
-      saveData[value] = internal.accountNamesCount
-      return internal.accountNamesCount
+      internal.accountNamesCount = countVariable
+    elseif key == "itemLink" then
+      internal.itemLinksCount = countVariable
+    elseif key == "guildNames" then
+      internal.guildNamesCount = countVariable
     end
-    if key == "itemLink" then
-      internal.itemLinksCount = internal.itemLinksCount + 1
-      internal.itemLinkNameByIdLookup[internal.itemLinksCount] = value
-      saveData[value] = internal.itemLinksCount
-      return internal.itemLinksCount
-    end
-    if key == "guildNames" then
-      internal.guildNamesCount = internal.guildNamesCount + 1
-      internal.guildNameByIdLookup[internal.guildNamesCount] = value
-      saveData[value] = internal.guildNamesCount
-      return internal.guildNamesCount
-    end
+
+    return countVariable
   else
     return saveData[value]
   end
@@ -385,6 +401,13 @@ function internal:SetupGuildHistoryListener(guildId)
   end
 end
 
+function internal:UpdateAlertQueue(guildName, theEvent)
+  --internal:dm("Debug", "UpdateAlertQueue: " .. guildName)
+  local doAlert = MasterMerchant.systemSavedVariables.showChatAlerts or MasterMerchant.systemSavedVariables.showAnnounceAlerts
+  if not internal.alertQueue[guildName] or not doAlert then return end
+  table.insert(internal.alertQueue[guildName], theEvent)
+end
+
 -- /script LibGuildStore_Internal.LibHistoireListener[guildId]:SetAfterEventId(StringToId64("0"))
 function internal:SetupListener(guildId)
   internal:dm("Debug", "SetupListener: " .. guildId)
@@ -408,50 +431,48 @@ function internal:SetupListener(guildId)
   end
   internal.LibHistoireListener[guildId]:SetEventCallback(function(eventType, eventId, eventTime, p1, p2, p3, p4, p5, p6)
     --internal:dm("Info", "SetEventCallback")
+    --[[
+    local theEvent = {
+      buyer = p2,
+      guild = guildName,
+      itemName = p4,
+      quant = p3,
+      saleTime = eventTime,
+      salePrice = p5,
+      seller = p1,
+      kioskSale = false,
+      id = Id64ToString(eventId)
+    }
+    local newSalesItem =
+      {buyer = theEvent.buyer,
+      guild = theEvent.guild,
+      itemLink = theEvent.itemName,
+      quant = tonumber(theEvent.quant),
+      timestamp = tonumber(theEvent.saleTime),
+      price = tonumber(theEvent.salePrice),
+      seller = theEvent.seller,
+      wasKiosk = theEvent.kioskSale,
+      id = theEvent.id
+    }
+    [1] =
+    {
+      ["price"] = 120,
+      ["itemLink"] = "|H0:item:45057:359:50:26848:359:50:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h",
+      ["id"] = 1353657539,
+      ["guild"] = "Unstable Unicorns",
+      ["buyer"] = "@Traeky",
+      ["quant"] = 1,
+      ["wasKiosk"] = true,
+      ["timestamp"] = 1597969403,
+      ["seller"] = "@cherrypick",
+    },
+    ]]--
     if eventType == GUILD_EVENT_ITEM_SOLD then
       if not lastReceivedEventID or CompareId64s(eventId, lastReceivedEventID) > 0 then
         LibGuildStore_SavedVariables["lastReceivedEventID"][internal.libHistoireNamespace][guildId] = Id64ToString(eventId)
         lastReceivedEventID = eventId
       end
       local guildName = GetGuildName(guildId)
-      local thePlayer = string.lower(GetDisplayName())
-      local added = false
-      --[[
-      local theEvent = {
-        buyer = p2,
-        guild = guildName,
-        itemName = p4,
-        quant = p3,
-        saleTime = eventTime,
-        salePrice = p5,
-        seller = p1,
-        kioskSale = false,
-        id = Id64ToString(eventId)
-      }
-      local newSalesItem =
-        {buyer = theEvent.buyer,
-        guild = theEvent.guild,
-        itemLink = theEvent.itemName,
-        quant = tonumber(theEvent.quant),
-        timestamp = tonumber(theEvent.saleTime),
-        price = tonumber(theEvent.salePrice),
-        seller = theEvent.seller,
-        wasKiosk = theEvent.kioskSale,
-        id = theEvent.id
-      }
-      [1] =
-      {
-        ["price"] = 120,
-        ["itemLink"] = "|H0:item:45057:359:50:26848:359:50:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h",
-        ["id"] = 1353657539,
-        ["guild"] = "Unstable Unicorns",
-        ["buyer"] = "@Traeky",
-        ["quant"] = 1,
-        ["wasKiosk"] = true,
-        ["timestamp"] = 1597969403,
-        ["seller"] = "@cherrypick",
-      },
-      ]]--
       local theEvent = {
         buyer = p2,
         guild = guildName,
@@ -463,21 +484,22 @@ function internal:SetupListener(guildId)
         wasKiosk = false,
         id = Id64ToString(eventId)
       }
-      theEvent.wasKiosk = (internal.guildMemberInfo[guildId][string.lower(theEvent.buyer)] == nil)
+      theEvent.wasKiosk = (internal.guildMemberInfo[guildId][zo_strlower(theEvent.buyer)] == nil)
 
+      local thePlayer = zo_strlower(GetDisplayName())
+      local isSelfSale = zo_strlower(theEvent.seller) == thePlayer
+      local added = false
       local daysOfHistoryToKeep = GetTimeStamp() - (ZO_ONE_DAY_IN_SECONDS * LibGuildStore_SavedVariables["historyDepth"])
       if (theEvent.timestamp > daysOfHistoryToKeep) then
         local duplicate = internal:CheckForDuplicateSale(theEvent.itemLink, theEvent.id)
         if not duplicate then
           added = internal:addSalesData(theEvent)
         end
-        -- (doAlert and (internal.systemSavedVariables.showChatAlerts or internal.systemSavedVariables.showAnnounceAlerts))
-        if added and string.lower(theEvent.seller) == thePlayer then
-          --internal:dm("Debug", "alertQueue updated")
-          table.insert(internal.alertQueue[theEvent.guild], theEvent)
+        if added and isSelfSale then
+          internal:UpdateAlertQueue(guildName, theEvent)
         end
         if added then
-          MasterMerchant:PostScanParallel(guildName, true)
+          MasterMerchant:PostScanParallel(guildName)
         end
       end
     end
@@ -485,26 +507,45 @@ function internal:SetupListener(guildId)
   internal.LibHistoireListener[guildId]:Start()
 end
 
-function internal:GetSearchText(buyer, seller, guild, itemDesc, adderText, addPlayer)
+function internal:GenerateSearchText(theEvent, itemDesc, adderText)
   local temp = { '', ' ', '', ' ', '', ' ', '', ' ', '', ' ', '', }
-  local playerName = GetDisplayName()
   local searchText = ""
-  local selfSale = playerName == seller
-  if LibGuildStore_SavedVariables["minimalIndexing"] then
-    if selfSale and addPlayer then
-      searchText = internal.PlayerSpecialText
+  local playerName = zo_strlower(GetDisplayName())
+  local isSelfSale = playerName == zo_strlower(theEvent.seller)
+  local minimalIndexing = LibGuildStore_SavedVariables["minimalIndexing"]
+
+  if minimalIndexing then
+    if isSelfSale then
+      searchText = internal.PlayerSpecialText or ""
     end
   else
-    if buyer then temp[1] = 'b' .. buyer end
-    if seller then temp[3] = 's' .. seller end
-    temp[5] = guild or ''
+    temp[1] = theEvent.buyer and ('b' .. theEvent.buyer) or ''
+    temp[3] = theEvent.seller and ('s' .. theEvent.seller) or ''
+    temp[5] = theEvent.guild or ''
     temp[7] = itemDesc or ''
     temp[9] = adderText or ''
+
     if selfSale and addPlayer then
-      temp[11] = internal.PlayerSpecialText
+      temp[11] = internal.PlayerSpecialText or ""
     end
-    searchText = string.lower(table.concat(temp, ''))
+
+    searchText = zo_strlower(table.concat(temp, ''))
   end
+
+  return searchText
+end
+
+function internal:GenerateBasicSearchText(theEvent, itemDesc, adderText)
+  local temp = { '', ' ', '', ' ', '', ' ', '', } -- fewer tokens for Basic version
+  local searchText = ""
+
+  temp[1] = theEvent.seller and ('s' .. theEvent.seller) or ''
+  temp[3] = theEvent.guild or ''
+  temp[5] = itemDesc or ''
+  temp[7] = adderText or ''
+
+  searchText = zo_strlower(table.concat(temp, ''))
+
   return searchText
 end
 
@@ -719,8 +760,10 @@ function internal:addTraderInfo(guildId, guildName)
     subzoneName = subzoneName,
     zoneId = zoneId,
   }
-  if GS17DataSavedVariables[internal.visitedNamespace] == nil then GS17DataSavedVariables[internal.visitedNamespace] = {} end
-  if GS17DataSavedVariables[internal.visitedNamespace][guildId] == nil then GS17DataSavedVariables[internal.visitedNamespace][guildId] = {} end
+
+  GS17DataSavedVariables[internal.visitedNamespace] = GS17DataSavedVariables[internal.visitedNamespace] or {}
+  GS17DataSavedVariables[internal.visitedNamespace][guildId] = GS17DataSavedVariables[internal.visitedNamespace][guildId] or {}
+
   GS17DataSavedVariables[internal.visitedNamespace][guildId] = theInfo
   internal.traderIdByNameLookup[guildName] = guildId
 end

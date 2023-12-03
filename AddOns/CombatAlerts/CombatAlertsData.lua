@@ -291,6 +291,7 @@ CombatAlertsData = {
 			[184816] = { -2, 0, false, { 1, 0, 0.6, 0.8 } }, -- Scrivener's Hall -- Chin Shatter
 			[183089] = { -2, 2, offset = -1900 }, -- Scrivener's Hall -- Brutal Bash
 
+		--	[139581] = { -2, 0 }, -- Sanity's Edge -- Pummel (Duplicate of Castle Thorn)
 			[184633] = { -2, 2 }, -- Sanity's Edge -- Hamstrung Strike
 			[184999] = { -2, 0, false, { 1, 0, 0.6, 0.8 } }, -- Sanity's Edge -- Charged Headbutt
 			[185071] = { -2, 0, false, { 1, 0, 0.6, 0.8 } }, -- Sanity's Edge -- Vengeful Strike
@@ -298,11 +299,14 @@ CombatAlertsData = {
 			[186898] = { -2, 2 }, -- Sanity's Edge -- Lightning Rod Slam
 			[186937] = { -2, 2 }, -- Sanity's Edge -- Maul
 			[186969] = { -2, 2 }, -- Sanity's Edge -- Double Strike
+			[187059] = { -2, 2 }, -- Sanity's Edge -- Sunburst
+			[187090] = { -2, 2 }, -- Sanity's Edge -- Spray
 			[187091] = { -3, 2 }, -- Sanity's Edge -- Corrupt
+			[187118] = { -2, 2 }, -- Sanity's Edge -- Defile
 			[187427] = { -2, 0, false, { 1, 0, 0.6, 0.8 } }, -- Sanity's Edge -- Bludgeon
 			[187540] = { -3, 2, false }, -- Sanity's Edge -- Eagle Eye Shot
 			[192651] = { -2, 2 }, -- Sanity's Edge -- Uppercut
-			[199179] = { -2, 2, offset = -1200 }, -- Sanity's Edge -- Chaw
+			[199179] = { -2, 0, false, { 1, 0, 0.6, 0.8 }, offset = -1200 }, -- Sanity's Edge -- Raze
 
 			-- Taking Aim
 			[70695] = { -3, 2, true }, -- Maelstrom Arena
@@ -1046,16 +1050,16 @@ CombatAlertsData = {
 	u38 = {
 		-- General
 		banners = {
-			[183660] = 0xFF6600FF, -- Fire Bomb Toss
 		},
 		standingInAoe = {
 			-- { alert_duration, exclude_tanks }
 		},
 
 		-- Boss 1
+		fireBomb = 183660,
 		charge = {
-			[191133] = true,
-			[200544] = true,
+			[191133] = 1,
+			[200544] = 2,
 		},
 		shrapnel = {
 			start = 184823,
@@ -1078,8 +1082,25 @@ CombatAlertsData = {
 		},
 
 		-- Boss 3
+		phobic = 187248,
 		phobia = 185117,
 		sunburst = 199344,
 		poison = 184710,
+		wrath = {
+			[189163] = 1, -- Side Room
+			[198759] = 0, -- Main Room
+		},
+		wrathTiming = 3200, -- 1100 cast (198759) + 1000 duration (198759) + 1100 duration (198763)
+		attuned = 187186,
+	},
+
+	-- Endless Archive ---------------------------------------------------------
+	u40 = {
+		mirror = {
+			shattered = 192039,
+			name = 192013,
+			timing = 2000,
+		},
+		thresh = 204225,
 	},
 }

@@ -29,6 +29,7 @@ mkstr(SI.TELE_UI_UNRELATED_ITEMS, "其他区域地图")
 mkstr(SI.TELE_UI_UNRELATED_QUESTS, "其他区域任务")
 mkstr(SI.TELE_UI_SAME_INSTANCE, "相同情况")
 mkstr(SI.TELE_UI_DIFFERENT_INSTANCE, "不同情况")
+mkstr(SI.TELE_UI_GROUP_EVENT, "组队事件")
 ---------
 --------- Menu
 mkstr(SI.TELE_UI_FAVORITE_PLAYER, "已关注玩家")
@@ -45,6 +46,7 @@ mkstr(SI.TELE_UI_VIEW_MAP_ITEM, "查看地图物品")
 mkstr(SI.TELE_UI_TOGGLE_ARENAS, "单人竞技场")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_ARENAS, "组队竞技场")
 mkstr(SI.TELE_UI_TOGGLE_TRIALS, "试炼")
+mkstr(SI.TELE_UI_TOGGLE_ENDLESS_DUNGEONS, "Endless Dungeons")
 mkstr(SI.TELE_UI_TOGGLE_GROUP_DUNGEONS, "组队地下城")
 mkstr(SI.TELE_UI_TOGGLE_SORT_ACRONYM, "以首字母排序")
 mkstr(SI.TELE_UI_DAYS_LEFT, "%d 天剩余")
@@ -173,6 +175,8 @@ mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT, "集合点")
 mkstr(SI.TELE_SETTINGS_USE_RALLY_POINT_TOOLTIP, "当您点击队伍成员或特殊区域（例如副本、房屋）时，在地图中的目的地上显示一个集合点 。需要LibMapPing库支持。注意: 如果您是队伍队长，你的集合点将对队伍成员可见。")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS, "显示无玩家或房屋的区域")
 mkstr(SI.TELE_SETTINGS_SHOW_ZONES_WITHOUT_PLAYERS_TOOLTIP, "即使地图没有玩家或者房屋，也会在主列表中显示。你可以使用金币来传送到已发现的神龛。")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP, "Show displayed zone & subzones always on top")
+mkstr(SI.TELE_SETTINGS_VIEWED_ZONE_ALWAYS_TOP_TOOLTIP, "Show currently displayed zone and subzones (opened world map) always on top of the list.")
 
 
 -----------------------------------------------------------------------------
@@ -188,6 +192,7 @@ mkstr(SI.TELE_KEYBINDING_CURRENT_ZONE, "传送到当前区域")
 mkstr(SI.TELE_KEYBINDING_PRIMARY_RESIDENCE_OUTSIDE, "传送主房屋外部")
 mkstr(SI.TELE_KEYBINDING_TOGGLE_MAIN_DUNGEON_FINDER, "竞技场/试炼/副本")
 mkstr(SI.TELE_KEYBINDING_TRACKED_QUEST, "传送到聚焦任务")
+mkstr(SI.TELE_KEYBINDING_ANY_ZONE, "Port to any zone")
 
 
 -----------------------------------------------------------------------------

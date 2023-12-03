@@ -18,7 +18,7 @@
 local LibLazyCrafting = _G["LibLazyCrafting"]
 
 local widgetType = 'smithing'
-local widgetVersion = 2.99
+local widgetVersion = 3.0
 if not LibLazyCrafting:RegisterWidget(widgetType, widgetVersion) then return  end
 
 local LLC = LibLazyCrafting
@@ -386,7 +386,8 @@ local function canCraftItem(craftRequestTable)
 	--CanSmithingStyleBeUsedOnPattern()
 	-- Check stylemats
 	local setPatternOffset = {}
-	if craftRequestTable["setIndex"] == INDEX_NO_SET then
+
+	if craftRequestTable["setIndex"] == INDEX_NO_SET or ZO_Smithing_IsConsolidatedStationCraftingMode() then
 		setPatternOffset = {0,0,[6]=0,[7]=0}
 	else
 		setPatternOffset = {14, 15,[6]=6,[7]=2}
@@ -395,8 +396,9 @@ local function canCraftItem(craftRequestTable)
 	-- This offset index was used in the call GetSmithingPatternInfo, but not in IsSmithingTraitKnownForResult
 	-- which caused the check to fail if you didn't have the same traits known for both rings and necklaces in sets.
 	local patternIndex = craftRequestTable["pattern"] + setPatternOffset[craftRequestTable["station"]]
-	local _,_,_,_,traitsRequired, traitsKnown = GetSmithingPatternInfo(patternIndex)
-	
+	local _,_,_,_,_, traitsKnown = GetSmithingPatternInfo(patternIndex)
+	local traitsRequired = GetSetIndexes()[craftRequestTable["setIndex"]][3]
+
 	local level, max =  getCraftLevel(craftRequestTable['station'])
 	-- check if level is high enough
 	local matIndex
@@ -471,6 +473,9 @@ local function canCraftItemHere(station, setIndex)
 	if not setIndex then setIndex = INDEX_NO_SET end
 
 	if GetCraftingInteractionType()==station then
+		if IsConsolidatedSmithingItemSetIdUnlocked(setIndex) then
+			return true
+		end
 
 		if GetCurrentSetInteractionIndex()==setIndex or setIndex==INDEX_NO_SET then
 			return true
@@ -822,19 +827,60 @@ local currentCraftAttempt =
 -- Ideas to increase Queue Accuracy:
 --		previousCraftAttempt/check for currentCraftAttempt = {}
 
+local setLookupTable = {}
+local function generateSetLookupTable()
+	for tableSetIndexes = 1, GetNumConsolidatedSmithingSets() do
+		setLookupTable[GetConsolidatedSmithingItemSetIdByIndex(tableSetIndexes)] = tableSetIndexes
+	end
+end
+
+
+local function setCorrectSetIndex_ConsolidatedStation(setIndex)
+	if not ZO_Smithing_IsConsolidatedStationCraftingMode() then
+		return
+	end
+	if GetActiveConsolidatedSmithingItemSetId() == setIndex or setIndex==INDEX_NO_SET then
+		return
+	end
+	--
+	if setLookupTable[setIndex] == nil then
+		generateSetLookupTable()
+	end
+	if IsInGamepadPreferredMode() then
+		SetActiveConsolidatedSmithingSetByIndex(setLookupTable[setIndex])
+		pcall(function() SMITHING_GAMEPAD:RefreshSetSelector() end)
+		pcall(function() SMITHING_GAMEPAD.header.tabBar:SetSelectedIndex(1) end )
+	else
+		SMITHING.setSearchBox:SetText("")
+		ZO_ClearTable(SMITHING.setFilters)
+		SMITHING:RefreshSetCategories()
+		SMITHING.categoryTree:SelectNode( SMITHING.setNodeLookupData[setIndex])
+		
+		
+	end
+end
+
 
 -------------------------------------------------------
 -- SMITHING INTERACTION FUNCTIONS
 
+local craftingSounds = 
+{
+	[CRAFTING_TYPE_BLACKSMITHING] = "Blacksmith_Create_Tooltip_Glow",
+	[CRAFTING_TYPE_CLOTHIER] = "Clothier_Create_Tooltip_Glow",
+	[CRAFTING_TYPE_WOODWORKING] = "Woodworker_Create_Tooltip_Glow",
+	[CRAFTING_TYPE_JEWELRYCRAFTING] = "JewelryCrafter_Create_Tooltip_Glow",
+	["improve"] = "Crafting_Create_Slot_Animated",
+
+}
+
 local hasNewItemBeenMade = false
 
 local function LLC_SmithingCraftInteraction( station, earliest, addon , position)
-
 	dbug("EVENT:CraftIntBegin")
 	--abc = abc + 1 if abc>50 then d("raft")return end
 
 	local earliest, addon , position = LibLazyCrafting.findEarliestRequest(station)
-
 	if earliest and not IsPerformingCraftProcess() then
 		if earliest.type =="smithing" then
 
@@ -847,6 +893,7 @@ local function LLC_SmithingCraftInteraction( station, earliest, addon , position
 				earliest.useUniversalStyleItem,
 				1,
 			}
+			setCorrectSetIndex_ConsolidatedStation(earliest.setIndex)
 			if earliest.style == LLC_FREE_STYLE_CHOICE then
 				parameters[4] = maxStyle(earliest)
 			end
@@ -867,6 +914,10 @@ local function LLC_SmithingCraftInteraction( station, earliest, addon , position
 			LibLazyCrafting:setWatchingForNewItems (true)
 
 			hasNewItemBeenMade = false
+
+			if IsInGamepadPreferredMode() then -- Gamepad seems to not play craft sounds
+				PlaySound(craftingSounds[station])
+			end
 			CraftSmithingItem(unpack(parameters))
 			-- d(unpack(parameters))
 
@@ -918,6 +969,9 @@ local function LLC_SmithingCraftInteraction( station, earliest, addon , position
 				return end
 			dbug("CALL:ZOImprovement")
 			LibLazyCrafting.isCurrentlyCrafting = {true, "improve", earliest["Requester"]}
+			if IsInGamepadPreferredMode() then
+				PlaySound(craftingSounds.improve)
+			end
 			ImproveSmithingItem(earliest.ItemBagID,earliest.ItemSlotID, numBooster)
 			currentCraftAttempt = copy(earliest)
 			currentCraftAttempt.position = position
@@ -1351,21 +1405,6 @@ local improvementChances =
 	[3] = {2,3,4,8},
 }
 
-local improvementChancesJewelry =
-{
-	[0] = {3,5,7,10},
-	[1] = {2,4,5,7},
-	[2] = {2,3,4,5},
-	[3] = {1,2,3,4},
-}
-
-local function getImprovementChancesTable(station)
-	if station == CRAFTING_TYPE_JEWELRYCRAFTING then
-		return improvementChancesJewelry
-	else
-		return improvementChances
-	end
-end
 
 local function compileImprovementRequirements(request, requirements)
 	local station = request.station
@@ -1377,7 +1416,7 @@ local function compileImprovementRequirements(request, requirements)
 	local improvementLevel = getImprovementLevel(station)
 
 	for i  = currentQuality, request.quality - 1 do
-		requirements[GetItemLinkItemId( GetSmithingImprovementItemLink(station, i, 0) )] = getImprovementChancesTable(station)[improvementLevel][i]
+		requirements[GetItemLinkItemId( GetSmithingImprovementItemLink(station, i, 0) )] = improvementChances[improvementLevel][i]
 	end
 	return requirements
 end
@@ -1423,7 +1462,7 @@ function compileRequirements(request, requirements)-- Ingot/style mat/trait mat/
 		local improvementLevel = getImprovementLevel(station)
 
 		for i  = 1, request.quality - 1 do
-			requirements[GetItemLinkItemId( GetSmithingImprovementItemLink(station, i, 0) )] = getImprovementChancesTable(station)[improvementLevel][i]
+			requirements[GetItemLinkItemId( GetSmithingImprovementItemLink(station, i, 0) )] = improvementChances[improvementLevel][i]
 		end
 
 		return requirements
@@ -1761,8 +1800,8 @@ local function computeLinkParticulars(requestTable, link)
 	local matIndex = requestTable["materialIndex"]
 	local materialQuantity =  requestTable["materialQuantity"] 
 	local cpQuality, level = levelStuff(level, isCP, quality)
-	cpQuality = 364
-	lvl = 50
+	-- cpQuality = 364
+	-- lvl = 50
 	link = string.format("|H1:item:%d:%d:%d:%d:%d:%d:0:0:0:0:0:0:0:0:0:%d:0:0:0:10000:0|h|h", itemId, cpQuality, lvl, enchantId, enchantCPQuality, enchantLvl,requestTable.style) 
 	return link
 end

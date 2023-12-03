@@ -13,18 +13,20 @@ local inCooldown = false
 
 function CombatTextResourcesPotionEventListener:New()
     local obj = LUIE.CombatTextEventListener:New()
-    obj:RegisterForUpdate("PotionCooldown", 100, function() self:PotionCooldown() end)
+    obj:RegisterForUpdate("PotionCooldown", 100, function ()
+        self:PotionCooldown()
+    end)
     return obj
 end
 
-function CombatTextResourcesPotionEventListener:PotionCooldown()
+function CombatTextResourcesPotionEventListener:PotionCooldown(slotNum)
     local Settings = LUIE.CombatText.SV
     if not Settings.toggles.showPotionReady then
         return
     end
 
     local slotIndex = GetCurrentQuickslot()
-    if (GetSlotItemSound(slotIndex, HOTBAR_CATEGORY_QUICKSLOT_WHEEL) == ITEM_SOUND_CATEGORY_POTION) then
+    if GetSlotItemSound(slotIndex, HOTBAR_CATEGORY_QUICKSLOT_WHEEL) == ITEM_SOUND_CATEGORY_POTION then
         local _, duration = GetSlotCooldownInfo(slotIndex, HOTBAR_CATEGORY_QUICKSLOT_WHEEL)
         local isInCooldown = duration > 0
 
@@ -34,7 +36,7 @@ function CombatTextResourcesPotionEventListener:PotionCooldown()
             end
         else
             if inCooldown == true then
-                local slotName = zo_strformat(SI_LINK_FORMAT_ITEM_NAME, GetSlotName(slotNum))
+                local slotName = zo_strformat(SI_LINK_FORMAT_ITEM_NAME, GetSlotName(slotNum, HOTBAR_CATEGORY_QUICKSLOT_WHEEL))
                 self:TriggerEvent(eventType.RESOURCE, resourceType.POTION, slotName)
                 inCooldown = false
             end

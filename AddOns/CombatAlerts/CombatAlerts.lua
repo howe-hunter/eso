@@ -4,7 +4,7 @@ CombatAlerts = {
 	name = "CombatAlerts",
 
 	title = "Combat Alerts",
-	version = "1.16.1",
+	version = "1.16.6",
 
 	slashCommand = "/cca",
 
@@ -266,7 +266,14 @@ CombatAlerts = {
 
 	u38 = {
 		bombs = { },
+		lastBomb = 0,
 		lastInferno = 0,
+		phobia = {
+			previous = 0,
+			nextHealth = 91,
+		},
+		shrapnelEnd = 0,
+		attuned = 0,
 	},
 }
 
@@ -1685,7 +1692,7 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 	elseif (result == ACTION_RESULT_EFFECT_GAINED_DURATION and abilityId == CombatAlertsData.u37.verge.shade) then
 		CombatAlerts.Alert(nil, zo_strformat(CombatAlertsData.u37.verge.name, "Boss"), 0xCC3399FF, nil, 1000)
 		LCA.PlaySounds("FRIEND_INVITE_RECEIVED", 1, 100, "DUEL_BOUNDARY_WARNING", 2)
-	elseif (result == ACTION_RESULT_EFFECT_GAINED and abilityId == CombatAlertsData.u37.summonNix and CombatAlerts.isTank) then
+	elseif (result == ACTION_RESULT_EFFECT_GAINED and abilityId == CombatAlertsData.u37.summonNix and LCA.DoesPlayerHaveTauntSlotted()) then
 		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xFF9900FF, nil, 2000)
 	elseif (abilityId == CombatAlertsData.u37.choking) then
 		CombatAlerts.u37.choking = GetGameTimeMilliseconds() + hitValue
@@ -1735,9 +1742,9 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 		CombatAlerts.AlertCast(abilityId, sourceName, hitValue, (GetGameTimeMilliseconds() > CombatAlerts.u37.bash) and { -2, 2 } or { 0, 0, false, { 1, 0, 0.6, 0.8 } })
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.parasite) then
 		CombatAlerts.AlertCast(CombatAlertsData.u37.parasiteSack, nil, 1700, { 400, 0, false, { 0.8, 0, 0, 0.6 } })
-	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.ironAtro and CombatAlerts.isTank) then
+	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.ironAtro and LCA.DoesPlayerHaveTauntSlotted()) then
 		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xFF9900FF, nil, 2000)
-	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.thirst and CombatAlerts.isTank) then
+	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.thirst and LCA.DoesPlayerHaveTauntSlotted()) then
 		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xCC0000FF, nil, 1500)
 		LCA.PlaySounds("FRIEND_INVITE_RECEIVED", 1, 100, "DUEL_BOUNDARY_WARNING", 2)
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u37.web and hitValue < 2000) then
@@ -1780,15 +1787,28 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 		end
 
 	-- Boss 1
-	elseif (result == ACTION_RESULT_BEGIN and CombatAlertsData.u38.charge[abilityId]) then
-		if (CombatAlerts.units[targetUnitId]) then
-			targetName = CombatAlerts.units[targetUnitId].name
+	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.fireBomb) then
+		CombatAlerts.u38.lastBomb = GetGameTimeMilliseconds()
+		if (CombatAlerts.panel.tag ~= "u38b1") then
+			CombatAlerts.TogglePanel(true, GetFormattedAbilityName(abilityId), true, true)
+			CombatAlerts.panel.tag = "u38b1"
 		end
-		CombatAlerts.Alert(nil, LocalizeString("<<t:1>> (<<2>>)", GetAbilityName(abilityId), targetName), 0xFF00FFFF, nil, 1500)
+		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xFF6600FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 1500)
+	elseif (result == ACTION_RESULT_BEGIN and CombatAlertsData.u38.charge[abilityId]) then
+		if (CombatAlertsData.u38.charge[abilityId] == 1 and GetUnitName("boss1") ~= "") then
+			if (CombatAlerts.units[targetUnitId]) then
+				targetName = CombatAlerts.units[targetUnitId].name
+			end
+			CombatAlerts.Alert(nil, LocalizeString("<<t:1>> (<<2>>)", GetAbilityName(abilityId), targetName), 0xFF00FFFF, nil, 1500)
+		else
+			CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xFF00FFFF, nil, 1500)
+		end
 		LCA.PlaySounds("DUEL_BOUNDARY_WARNING", 1, 150, "DUEL_BOUNDARY_WARNING", 2, 250, "FRIEND_INVITE_RECEIVED", 3)
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.shrapnel.start and hitValue < 2000) then
 		CombatAlerts.Alert(nil, GetFormattedAbilityName(CombatAlertsData.u38.shrapnel.name), 0xFFFFFFFF, nil, 1500)
 		LCA.PlaySounds("FRIEND_INVITE_RECEIVED", 1, 150, "DUEL_BOUNDARY_WARNING", 2, 150, "DUEL_BOUNDARY_WARNING", 3, 150, "DUEL_BOUNDARY_WARNING", 4)
+	elseif (result == ACTION_RESULT_EFFECT_GAINED_DURATION and abilityId == CombatAlertsData.u38.shrapnel.start) then
+		CombatAlerts.u38.shrapnelEnd = GetGameTimeMilliseconds() + hitValue
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.frostBomb1) then
 		if (CombatAlerts.units[targetUnitId]) then
 			targetName = CombatAlerts.units[targetUnitId].name
@@ -1828,17 +1848,58 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 		CombatAlerts.AlertCast(CombatAlertsData.u38.inferno.sunburst, sourceName, hitValue, { -3, 0, false, { 1, 0.4, 0, 0.5 } })
 
 	-- Boss 3
-	elseif (result == ACTION_RESULT_EFFECT_GAINED_DURATION and abilityId == CombatAlertsData.u38.poison and targetType == COMBAT_UNIT_TYPE_PLAYER) then
-		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0x00CC00FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 2000)
+	elseif (abilityId == CombatAlertsData.u38.attuned and targetType == COMBAT_UNIT_TYPE_PLAYER) then
+		if (result == ACTION_RESULT_EFFECT_GAINED) then
+			CombatAlerts.u38.attuned = 1
+		elseif (result == ACTION_RESULT_EFFECT_FADED) then
+			CombatAlerts.u38.attuned = 0
+		end
+	elseif (result == ACTION_RESULT_EFFECT_GAINED_DURATION and abilityId == CombatAlertsData.u38.poison) then
+		if (targetType == COMBAT_UNIT_TYPE_PLAYER) then
+			CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0x00CC00FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 2000)
+		--[[
+		elseif (CombatAlerts.u38.attuned ~= 1) then
+			if (CombatAlerts.units[targetUnitId]) then
+				targetName = CombatAlerts.units[targetUnitId].name
+			end
+			CombatAlerts.Alert(GetFormattedAbilityName(abilityId), targetName, 0x00CC00FF, nil, 2000)
+		--]]
+		end
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.sunburst and targetType == COMBAT_UNIT_TYPE_PLAYER) then
+		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xFF6600FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 1500)
 		CombatAlerts.AlertCast(abilityId, sourceName, hitValue + 800, { -3, 0, false, { 1, 0.4, 0, 0.5 } })
+	elseif (result == ACTION_RESULT_BEGIN and CombatAlertsData.u38.wrath[abilityId]) then
+		if (CombatAlertsData.u38.wrath[abilityId] == CombatAlerts.u38.attuned) then
+			CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xCC0000FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 2000)
+			CombatAlerts.AlertCast(abilityId, nil, CombatAlertsData.u38.wrathTiming, { -3, 0, false, { 0.8, 0, 0, 0.6 } })
+		end
+	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.phobic) then
+		if (CombatAlerts.panel.tag ~= "u38b3" and LCA.DoesPlayerHaveTauntSlotted()) then
+			CombatAlerts.u38.phobia = {
+				previous = 0,
+				nextHealth = 91,
+			},
+			CombatAlerts.TogglePanel(true, GetFormattedAbilityName(CombatAlertsData.u38.phobia), true, true)
+			CombatAlerts.panel.tag = "u38b3"
+		end
 	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u38.phobia) then
-		if (targetType == COMBAT_UNIT_TYPE_PLAYER or CombatAlerts.isTank) then
+		if (CombatAlerts.panel.tag == "u38b3") then
+			CombatAlerts.u38.phobia.previous = GetGameTimeMilliseconds()
+			CombatAlerts.u38.phobia.nextHealth = CombatAlerts.u38.phobia.nextHealth - 20
+		end
+		if (targetType == COMBAT_UNIT_TYPE_PLAYER or LCA.DoesPlayerHaveTauntSlotted()) then
 			if (CombatAlerts.units[targetUnitId]) then
 				targetName = CombatAlerts.units[targetUnitId].name
 			end
 			CombatAlerts.Alert(GetFormattedAbilityName(abilityId), targetName, 0xCC3399FF, SOUNDS.CHAMPION_POINTS_COMMITTED, 1500)
 		end
+
+
+	-- Endless Archive ---------------------------------------------------------
+	elseif (result == ACTION_RESULT_EFFECT_FADED and abilityId == CombatAlertsData.u40.mirror.shattered) then
+		CombatAlerts.AlertCast(CombatAlertsData.u40.mirror.name, nil, CombatAlertsData.u40.mirror.timing, { 600, 0, false })
+	elseif (result == ACTION_RESULT_BEGIN and abilityId == CombatAlertsData.u40.thresh) then
+		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0x9966FFFF, SOUNDS.CHAMPION_POINTS_COMMITTED, hitValue)
 	end
 end
 
@@ -2262,7 +2323,7 @@ function CombatAlerts.Poll( )
 			local unitTag = "boss" .. i
 			local current, _, effectiveMax = GetUnitPower(unitTag, COMBAT_MECHANIC_FLAGS_HEALTH)
 			if (effectiveMax > 0) then
-				table.insert(results, string.format("|c%06X%d%%|r", CombatAlertsData.dsr.twinsColors[i], zo_round(100 * current / effectiveMax)))
+				table.insert(results, string.format("|c%06X%d%%|r", CombatAlertsData.dsr.twinsColors[i], zo_floor(100 * current / effectiveMax)))
 			end
 		end
 		CombatAlerts.panel.rows[3].data:SetText(table.concat(results, " / "))
@@ -2308,7 +2369,7 @@ function CombatAlerts.Poll( )
 			local unitTag = "boss" .. i
 			local current, _, effectiveMax = GetUnitPower(unitTag, COMBAT_MECHANIC_FLAGS_HEALTH)
 			if (current > 0) then
-				table.insert(rows, string.format("#%d: %d%% – %s%s", i, zo_round(100 * current / effectiveMax), hearts[unitTag] or defaultStatus, statuses[unitTag] or ""))
+				table.insert(rows, string.format("#%d: %d%% – %s%s", i, zo_floor(100 * current / effectiveMax), hearts[unitTag] or defaultStatus, statuses[unitTag] or ""))
 			end
 		end
 
@@ -2380,8 +2441,77 @@ function CombatAlerts.Poll( )
 		CombatAlerts.panel.data:SetText(table.concat(lines, "\n"))
 	elseif (CombatAlerts.panel.tag == "u37cp") then
 		CombatAlerts.panel.data:SetText(CombatAlerts.FormatTime(CombatAlerts.u37.choking - GetGameTimeMilliseconds(), true))
+	elseif (CombatAlerts.panel.tag == "u38b1") then
+		local current, _, effectiveMax = GetUnitPower("boss1", POWERTYPE_HEALTH)
+		local execute = current / effectiveMax - 0.26
+		local remaining = CombatAlerts.u38.lastBomb + (execute >= 0 and 23000 or 11000) - GetGameTimeMilliseconds()
+		local remaining2 = CombatAlerts.u38.shrapnelEnd - GetGameTimeMilliseconds()
+		if (remaining2 > remaining) then
+			remaining = remaining2
+		end
+		local template = "%s"
+		local overrideAlpha = false
+		if (execute >= 0 and execute < 0.04) then
+			if (execute < 0.02 and remaining <= 13500) then -- 1.5s more than the cooldown difference
+				template = "%s |cFF00FF[%.1f%%]|r"
+				overrideAlpha = true
+			else
+				template = "%s [%.1f%%]"
+			end
+		end
+		CombatAlerts.panel.data:SetText(string.format(template, CombatAlerts.FormatTime(remaining, true, true), 100 * execute))
+		local threshold = 4500
+		if (remaining > threshold) then
+			CombatAlerts.panel.SetRowColor(1, 1, 1, 1, overrideAlpha and 1 or 0.6)
+		else
+			local ratio = remaining / threshold
+			if (ratio < 0) then ratio = 0 end
+			local r, g, b = LCA.HSLToRGB(ratio / 6, 1, 0.5)
+			CombatAlerts.panel.SetRowColor(1, r, g, b, 1)
+		end
 	elseif (CombatAlerts.panel.tag == "u38b2") then
 		CombatAlerts.panel.data:SetText(CombatAlerts.FormatTime(GetGameTimeMilliseconds() - CombatAlerts.u38.lastInferno, true))
+	elseif (CombatAlerts.panel.tag == "u38b3") then
+		local current, _, effectiveMax = GetUnitPower("boss1", POWERTYPE_HEALTH)
+		local percent = 100 * current / effectiveMax
+
+		while CombatAlerts.u38.phobia.nextHealth - 20 > percent do
+			CombatAlerts.u38.phobia.nextHealth = CombatAlerts.u38.phobia.nextHealth - 20
+			CombatAlerts.Debug("Phobia health discrepancy detected")
+		end
+
+		if (CombatAlerts.u38.phobia.nextHealth > 30) then
+			local remaining = percent - CombatAlerts.u38.phobia.nextHealth
+			if (remaining < 0) then remaining = 0 end
+			CombatAlerts.panel.data:SetText(string.format("%.1f%%", remaining))
+			local threshold = 3
+			if (remaining > threshold) then
+				CombatAlerts.panel.SetRowColor(1, 1, 1, 1, 0.6)
+			else
+				local ratio = remaining / threshold
+				if (ratio < 0) then ratio = 0 end
+				local r, g, b = LCA.HSLToRGB(ratio / 6, 1, 0.5)
+				CombatAlerts.panel.SetRowColor(1, r, g, b, 1)
+			end
+		elseif (CombatAlerts.u38.phobia.nextHealth < 11) then
+			local timing = 22600 -- 0.6s cast + 2s banishment channel + 20s cooldown
+			local threshold = 5500
+
+			local remaining = CombatAlerts.u38.phobia.previous + timing - GetGameTimeMilliseconds()
+			CombatAlerts.panel.data:SetText(CombatAlerts.FormatTime(remaining, true, true))
+
+			if (remaining > threshold) then
+				CombatAlerts.panel.SetRowColor(1, 1, 1, 1, 0.6)
+			else
+				local ratio = remaining / threshold
+				if (ratio < 0) then ratio = 0 end
+				local r, g, b = LCA.HSLToRGB(ratio / 6, 1, 0.5)
+				CombatAlerts.panel.SetRowColor(1, r, g, b, 1)
+			end
+		else
+			CombatAlerts.panel.data:SetText("")
+			CombatAlerts.panel.SetRowColor(1, 1, 1, 1, 0.6)
+		end
 	end
 end
 

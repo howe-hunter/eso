@@ -8,9 +8,9 @@
 ## Description: Library for tracking Item Set Collection progress across multiple accounts
 ## Author: @code65536
 ## IsLibrary: true
-## Version: 3.0.5
-## AddOnVersion: 17
-## APIVersion: 101038
+## Version: 3.0.6
+## AddOnVersion: 18
+## APIVersion: 101040
 ## SavedVariables: LibMultiAccountSetsSavedVariables LibMultiAccountSetsData
 ## OptionalDependsOn: LibAddonMenu-2.0
 
@@ -25,6 +25,9 @@ Public.lua
 Settings.lua
 
 ; Changelog:
+;
+; Version 3.0.6 (2023/10/30)
+; * API version bump for Update 40
 ;
 ; Version 3.0.5 (2023/06/29)
 ; * Fixed a potential Lua error that may arise from a group-related game bug

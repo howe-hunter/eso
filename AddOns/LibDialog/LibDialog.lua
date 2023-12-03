@@ -25,7 +25,7 @@
     For more information, please refer to <http://unlicense.org/>
 --]========================================================================]
 
-local MAJOR, MINOR = "LibDialog", 1.26
+local MAJOR, MINOR = "LibDialog", 1.27
 if _G[MAJOR] ~= nil and (_G[MAJOR].version and _G[MAJOR].version >= MINOR) then return end
 
 
@@ -84,7 +84,7 @@ local function RegisterCustomDialogAtZOsDialogs(dialogName)
 end
 
 --Create the new dialog now
-local function createCustomDialog(uniqueAddonName, uniqueDialogName, title, body, callbackYes, callbackNo, callbackSetup)
+local function createCustomDialog(uniqueAddonName, uniqueDialogName, title, body, callbackYes, callbackNo, callbackSetup, callbackNoChoice)
     local dialogName = uniqueAddonName .. "_" .. uniqueDialogName
     --Register the unique dialog name at the global ESO_Dialogs namespace now, and add 2 buttons (confirm, reject)
     local dialog = RegisterCustomDialogAtZOsDialogs(dialogName)
@@ -92,6 +92,7 @@ local function createCustomDialog(uniqueAddonName, uniqueDialogName, title, body
     dialog.mainText.text = body
     dialog.buttons[1].callback = callbackYes
     dialog.buttons[2].callback = callbackNo
+    dialog.noChoiceCallback = callbackNoChoice
     dialog.setup = callbackSetup
     dialog.uniqueIdentifier = dialogName
     return dialog
@@ -107,7 +108,7 @@ end
 ------------------------------------------------------------------------
 -- 	Library functions
 ------------------------------------------------------------------------
-function lib:RegisterDialog(uniqueAddonName, uniqueDialogName, title, body, callbackYes, callbackNo, callbackSetup, forceUpdate)
+function lib:RegisterDialog(uniqueAddonName, uniqueDialogName, title, body, callbackYes, callbackNo, callbackSetup, forceUpdate, callbackNoChoice)
     --Is any of the needed variables not given?
     local titleStr = StringOrFunctionOrGetString(title)
     local bodyStr = StringOrFunctionOrGetString(body)
@@ -135,7 +136,7 @@ function lib:RegisterDialog(uniqueAddonName, uniqueDialogName, title, body, call
     dialogs[uniqueDialogName] = {}
     local dialog = dialogs[uniqueDialogName]
     --Create the dialog now
-    dialog.dialog = createCustomDialog(uniqueAddonName, uniqueDialogName, titleStr, bodyStr, callbackYes, callbackNo, callbackSetup)
+    dialog.dialog = createCustomDialog(uniqueAddonName, uniqueDialogName, titleStr, bodyStr, callbackYes, callbackNo, callbackSetup, callbackNoChoice)
     --return the new created dialog now
     return dialog.dialog
 end
