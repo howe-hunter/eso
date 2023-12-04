@@ -6,14 +6,14 @@ LibSaveToDiskVars =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["Settings"] = 
                 {
-                    ["RMLdelay"] = 5,
                     ["NumNonsBeforeNote"] = 10,
                     ["CritMin"] = 0,
+                    ["RMLdelay"] = 5,
                     ["NoncritMin"] = 0,
                 },
+                ["version"] = 1,
             },
         },
     },

@@ -4,505 +4,505 @@ BetterUISavedVars =
     {
         ["@Motiv_Impact"] = 
         {
-            ["rock-in-bush"] = 
+            ["scelara"] = 
             {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
                 ["Modules"] = 
                 {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
                     ["Writs"] = 
                     {
                         ["m_enabled"] = true,
                     },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
                 },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["Mynrog"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
             },
             ["rieyya"] = 
             {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
                 ["Modules"] = 
                 {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
                     ["Writs"] = 
                     {
                         ["m_enabled"] = true,
                     },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
                 },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["Lliliara"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["scelara"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["morregann"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["katarrnn"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
             },
             ["evil janet"] = 
             {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
                 ["Modules"] = 
                 {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
                     ["Writs"] = 
                     {
                         ["m_enabled"] = true,
                     },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
                 },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
-            },
-            ["scthree"] = 
-            {
-                ["Modules"] = 
-                {
-                    ["Writs"] = 
-                    {
-                        ["m_enabled"] = true,
-                    },
-                    ["CIM"] = 
-                    {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
-                        ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
-                    },
-                    ["Banking"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["m_enabled"] = true,
-                    },
-                    ["Tooltips"] = 
-                    {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
-                        ["attIntegration"] = true,
-                        ["chatHistory"] = 200,
-                        ["showStyleTrait"] = true,
-                        ["guildStoreErrorSuppress"] = false,
-                    },
-                    ["Inventory"] = 
-                    {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
-                        ["m_enabled"] = true,
-                    },
-                },
-                ["firstInstall"] = false,
-                ["version"] = 2.6500000000,
             },
             ["Durro'tan"] = 
             {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
                 ["Modules"] = 
                 {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
                     ["Writs"] = 
                     {
                         ["m_enabled"] = true,
                     },
-                    ["CIM"] = 
+                },
+            },
+            ["rock-in-bush"] = 
+            {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
                     {
-                        ["rhScrollSpeed"] = 50,
-                        ["tooltipSize"] = "Default",
-                        ["skinSize"] = "Default",
-                        ["enhanceCompat"] = false,
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
                         ["m_enabled"] = true,
-                        ["triggerSpeed"] = 10,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
                     },
                     ["Banking"] = 
                     {
-                        ["showIconSetGear"] = true,
-                        ["showIconUnboundItem"] = true,
-                        ["showIconEnchantment"] = true,
                         ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
                     },
                     ["Tooltips"] = 
                     {
-                        ["ttcIntegration"] = true,
-                        ["m_enabled"] = true,
-                        ["removeDeleteDialog"] = false,
-                        ["mmIntegration"] = true,
                         ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
                         ["chatHistory"] = 200,
                         ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
                         ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
                     },
-                    ["Inventory"] = 
+                    ["Writs"] = 
                     {
-                        ["showIconSetGear"] = true,
-                        ["bindOnEquipProtection"] = true,
-                        ["showIconEnchantment"] = true,
-                        ["useTriggersForSkip"] = false,
-                        ["showIconUnboundItem"] = true,
-                        ["showMarketPrice"] = false,
-                        ["quickDestroy"] = false,
                         ["m_enabled"] = true,
                     },
                 },
+            },
+            ["morregann"] = 
+            {
                 ["firstInstall"] = false,
                 ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
+                    ["Writs"] = 
+                    {
+                        ["m_enabled"] = true,
+                    },
+                },
+            },
+            ["Mynrog"] = 
+            {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
+                    ["Writs"] = 
+                    {
+                        ["m_enabled"] = true,
+                    },
+                },
+            },
+            ["katarrnn"] = 
+            {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
+                    ["Writs"] = 
+                    {
+                        ["m_enabled"] = true,
+                    },
+                },
+            },
+            ["Lliliara"] = 
+            {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
+                    ["Writs"] = 
+                    {
+                        ["m_enabled"] = true,
+                    },
+                },
+            },
+            ["scthree"] = 
+            {
+                ["firstInstall"] = false,
+                ["version"] = 2.6500000000,
+                ["Modules"] = 
+                {
+                    ["Inventory"] = 
+                    {
+                        ["useTriggersForSkip"] = false,
+                        ["bindOnEquipProtection"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["quickDestroy"] = false,
+                        ["showMarketPrice"] = false,
+                    },
+                    ["Banking"] = 
+                    {
+                        ["m_enabled"] = true,
+                        ["showIconUnboundItem"] = true,
+                        ["showIconSetGear"] = true,
+                        ["showIconEnchantment"] = true,
+                    },
+                    ["CIM"] = 
+                    {
+                        ["enhanceCompat"] = false,
+                        ["skinSize"] = "Default",
+                        ["m_enabled"] = true,
+                        ["rhScrollSpeed"] = 50,
+                        ["tooltipSize"] = "Default",
+                        ["triggerSpeed"] = 10,
+                    },
+                    ["Tooltips"] = 
+                    {
+                        ["attIntegration"] = true,
+                        ["mmIntegration"] = true,
+                        ["chatHistory"] = 200,
+                        ["showStyleTrait"] = true,
+                        ["ttcIntegration"] = true,
+                        ["guildStoreErrorSuppress"] = false,
+                        ["m_enabled"] = true,
+                        ["removeDeleteDialog"] = false,
+                    },
+                    ["Writs"] = 
+                    {
+                        ["m_enabled"] = true,
+                    },
+                },
             },
         },
     },

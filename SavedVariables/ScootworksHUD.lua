@@ -9,20 +9,20 @@ ScootworksHUD_Account =
                 ["soundEnabled"] = false,
                 ["FoodIndicator"] = 
                 {
+                    ["enabled"] = true,
                     ["announceTimer"] = 1,
-                    ["enabled"] = true,
                 },
-                ["MountIndicator"] = 
-                {
-                    ["enabled"] = true,
-                },
-                ["ArmorRepair"] = 
+                ["WeaponRecharge"] = 
                 {
                     ["enabled"] = true,
                 },
                 ["accountWideSettings"] = true,
                 ["version"] = 1,
-                ["WeaponRecharge"] = 
+                ["ArmorRepair"] = 
+                {
+                    ["enabled"] = true,
+                },
+                ["MountIndicator"] = 
                 {
                     ["enabled"] = true,
                 },
@@ -36,51 +36,51 @@ ScootworksHUD_Character =
     {
         ["@Motiv_Impact"] = 
         {
+            ["8796093074778299"] = 
+            {
+                ["$LastCharacterName"] = "Mynrog",
+                ["LibSavedVars"] = 
+                {
+                    ["accountSavedVarsActive"] = true,
+                },
+                ["version"] = 1,
+            },
+            ["8796093067978059"] = 
+            {
+                ["$LastCharacterName"] = "katarrnn",
+                ["LibSavedVars"] = 
+                {
+                    ["accountSavedVarsActive"] = true,
+                },
+                ["version"] = 1,
+            },
             ["8796093067191337"] = 
             {
                 ["accountWideSettings"] = true,
-                ["ArmorRepair"] = 
-                {
-                    ["enabled"] = true,
-                },
+                ["version"] = 1,
                 ["$LastCharacterName"] = "scthree",
-                ["WeaponRecharge"] = 
+                ["LibSavedVars"] = 
                 {
-                    ["enabled"] = true,
+                    ["accountSavedVarsActive"] = true,
                 },
-                ["soundEnabled"] = true,
                 ["MountIndicator"] = 
                 {
                     ["enabled"] = true,
                 },
-                ["LibSavedVars"] = 
-                {
-                    ["accountSavedVarsActive"] = true,
-                },
-                ["version"] = 1,
                 ["FoodIndicator"] = 
                 {
+                    ["enabled"] = true,
                     ["announceTimer"] = 2,
+                },
+                ["WeaponRecharge"] = 
+                {
                     ["enabled"] = true,
                 },
-            },
-            ["8796093074778299"] = 
-            {
-                ["LibSavedVars"] = 
+                ["ArmorRepair"] = 
                 {
-                    ["accountSavedVarsActive"] = true,
+                    ["enabled"] = true,
                 },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Mynrog",
-            },
-            ["8796093067978059"] = 
-            {
-                ["LibSavedVars"] = 
-                {
-                    ["accountSavedVarsActive"] = true,
-                },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "katarrnn",
+                ["soundEnabled"] = true,
             },
         },
     },

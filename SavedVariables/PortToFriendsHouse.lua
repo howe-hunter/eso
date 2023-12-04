@@ -6,13 +6,29 @@ PortToFriendsHouseVars =
         {
             ["$AccountWide"] = 
             {
-                ["selectedLibraryFilter"] = 1,
-                ["position"] = 
+                ["vc_chatAllowed"] = 
                 {
-                    ["x"] = 560,
-                    ["y"] = 290.6746215820,
+                    ["o1"] = true,
+                    ["g4"] = true,
+                    ["frzone"] = false,
+                    ["g2"] = true,
+                    ["o4"] = true,
+                    ["zone"] = false,
+                    ["tell"] = true,
+                    ["enzone"] = false,
+                    ["g3"] = true,
+                    ["group"] = true,
+                    ["o2"] = true,
+                    ["dezone"] = false,
+                    ["yell"] = false,
+                    ["o3"] = true,
+                    ["jpzone"] = false,
+                    ["g5"] = true,
+                    ["o5"] = true,
+                    ["say"] = false,
+                    ["g1"] = true,
+                    ["emote"] = false,
                 },
-                ["selectedMyHousesSort"] = 2,
                 ["favorites"] = 
                 {
                     [1] = 
@@ -46,6 +62,15 @@ PortToFriendsHouseVars =
                         ["id"] = 3,
                     },
                 },
+                ["vc"] = 
+                {
+                    ["receivedCards"] = 
+                    {
+                    },
+                    ["allowSelf"] = false,
+                },
+                ["version"] = 1,
+                ["port_mode"] = 3,
                 ["myHousesFavorites"] = 
                 {
                     [2] = 
@@ -58,40 +83,15 @@ PortToFriendsHouseVars =
                     {
                     },
                 },
-                ["vc"] = 
+                ["position"] = 
                 {
-                    ["allowSelf"] = false,
-                    ["receivedCards"] = 
-                    {
-                    },
+                    ["y"] = 290.6746215820,
+                    ["x"] = 560,
                 },
-                ["vc_chatAllowed"] = 
-                {
-                    ["zone"] = false,
-                    ["group"] = true,
-                    ["frzone"] = false,
-                    ["dezone"] = false,
-                    ["emote"] = false,
-                    ["g1"] = true,
-                    ["o5"] = true,
-                    ["yell"] = false,
-                    ["tell"] = true,
-                    ["g4"] = true,
-                    ["o3"] = true,
-                    ["g3"] = true,
-                    ["o2"] = true,
-                    ["g2"] = true,
-                    ["o1"] = true,
-                    ["enzone"] = false,
-                    ["jpzone"] = false,
-                    ["o4"] = true,
-                    ["say"] = false,
-                    ["g5"] = true,
-                },
+                ["selectedLibraryFilter"] = 1,
                 ["selectedLibrarySort"] = 1,
-                ["port_mode"] = 3,
-                ["version"] = 1,
                 ["defaultTab"] = 1,
+                ["selectedMyHousesSort"] = 2,
             },
         },
     },

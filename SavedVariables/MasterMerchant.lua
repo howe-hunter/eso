@@ -4,239 +4,167 @@ ShopkeeperSavedVars =
     {
         ["@Motiv_Impact"] = 
         {
-            ["rock-in-bush"] = 
+            ["scelara"] = 
             {
                 ["@Motiv_Impact"] = 
                 {
+                    ["blacklist"] = "",
                     ["pricingData"] = 
                     {
                     },
+                    ["version"] = 1,
                     ["dataLocations"] = 
                     {
                     },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
                 },
-            },
-            ["Mynrog"] = 
-            {
             },
             ["rieyya"] = 
             {
                 ["@Motiv_Impact"] = 
                 {
+                    ["blacklist"] = "",
                     ["pricingData"] = 
                     {
                     },
+                    ["version"] = 1,
                     ["dataLocations"] = 
                     {
                     },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
-                },
-            },
-            ["Lliliara"] = 
-            {
-                ["@Motiv_Impact"] = 
-                {
-                    ["pricingData"] = 
-                    {
-                    },
-                    ["dataLocations"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
-                },
-            },
-            ["scelara"] = 
-            {
-                ["@Motiv_Impact"] = 
-                {
-                    ["pricingData"] = 
-                    {
-                    },
-                    ["dataLocations"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
-                },
-            },
-            ["Durro'tan"] = 
-            {
-                ["@Motiv_Impact"] = 
-                {
-                    ["pricingData"] = 
-                    {
-                    },
-                    ["dataLocations"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
-                },
-            },
-            ["katarrnn"] = 
-            {
-                ["@Motiv_Impact"] = 
-                {
-                    ["pricingData"] = 
-                    {
-                    },
-                    ["dataLocations"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
-                },
-            },
-            ["morregann"] = 
-            {
-                ["@Motiv_Impact"] = 
-                {
-                    ["pricingData"] = 
-                    {
-                    },
-                    ["dataLocations"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
                 },
             },
             ["evil janet"] = 
             {
                 ["@Motiv_Impact"] = 
                 {
+                    ["blacklist"] = "",
                     ["pricingData"] = 
                     {
                     },
+                    ["version"] = 1,
                     ["dataLocations"] = 
                     {
                     },
-                    ["version"] = 1,
+                },
+            },
+            ["Durro'tan"] = 
+            {
+                ["@Motiv_Impact"] = 
+                {
                     ["blacklist"] = "",
+                    ["pricingData"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["dataLocations"] = 
+                    {
+                    },
+                },
+            },
+            ["rock-in-bush"] = 
+            {
+                ["@Motiv_Impact"] = 
+                {
+                    ["blacklist"] = "",
+                    ["pricingData"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["dataLocations"] = 
+                    {
+                    },
+                },
+            },
+            ["morregann"] = 
+            {
+                ["@Motiv_Impact"] = 
+                {
+                    ["blacklist"] = "",
+                    ["pricingData"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["dataLocations"] = 
+                    {
+                    },
+                },
+            },
+            ["Mynrog"] = 
+            {
+            },
+            ["$AccountWide"] = 
+            {
+            },
+            ["katarrnn"] = 
+            {
+                ["@Motiv_Impact"] = 
+                {
+                    ["blacklist"] = "",
+                    ["pricingData"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["dataLocations"] = 
+                    {
+                    },
+                },
+            },
+            ["Lliliara"] = 
+            {
+                ["@Motiv_Impact"] = 
+                {
+                    ["blacklist"] = "",
+                    ["pricingData"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["dataLocations"] = 
+                    {
+                    },
                 },
             },
             ["scthree"] = 
             {
                 ["@Motiv_Impact"] = 
                 {
+                    ["blacklist"] = "",
                     ["pricingData"] = 
                     {
                     },
+                    ["version"] = 1,
                     ["dataLocations"] = 
                     {
                     },
-                    ["version"] = 1,
-                    ["blacklist"] = "",
                 },
-            },
-            ["$AccountWide"] = 
-            {
             },
         },
         ["MasterMerchant"] = 
         {
             ["$AccountWide"] = 
             {
-                ["modifiedSuggestedPriceVoucher"] = false,
-                ["useTwentyFourHourTime"] = false,
-                ["focus3"] = 30,
-                ["modifiedSuggestedPriceDealCalc"] = false,
-                ["showBonanzaPricing"] = true,
-                ["includeTTCDataPriceToChat"] = true,
-                ["viewSize"] = "items_vs",
-                ["feedbackWinLeft"] = 720,
-                ["customTimeframe"] = 90,
-                ["trimOutliersAgressive"] = false,
-                ["purchaseWinTop"] = 94.9682693481,
-                ["customDealFifty"] = 50,
-                ["windowTimeRange"] = 1,
-                ["diplaySalesInfo"] = true,
-                ["omitBonanzaPricingGraphLessThanSix"] = false,
-                ["showAmountTaxes"] = false,
-                ["showMultiple"] = true,
-                ["showCalc"] = true,
-                ["ctrlShiftDays"] = 5,
-                ["statsWinLeft"] = 406.2703552246,
-                ["showChatAlerts"] = false,
-                ["diplayPurchasesInfo"] = true,
-                ["alertSoundName"] = "Book_Acquired",
-                ["agsPercentSortOrderToUse"] = 1,
-                ["customDealBuyIt"] = 90,
-                ["displayListingMessage"] = false,
-                ["trimOutliers"] = false,
-                ["showGraph"] = true,
-                ["openWithStore"] = true,
-                ["showMaterialCost"] = true,
-                ["omitBonanzaPricingChatLessThanSix"] = false,
-                ["guildWinLeft"] = 7.4285707474,
-                ["feedbackWinTop"] = 420,
-                ["listingWinLeft"] = 7.4285707474,
-                ["rankIndexRoster"] = 1,
-                ["modifiedSuggestedPriceInventory"] = false,
-                ["defaultDays"] = 2,
-                ["customFilterDateRange"] = 90,
-                ["dateFormatMonthDay"] = 1,
-                ["customDealTwentyFive"] = 25,
-                ["disableBackupWarning"] = false,
-                ["outlierPercentile"] = 5,
-                ["useLibDebugLogger"] = false,
                 ["purchaseWinLeft"] = 7.4285707474,
-                ["viewBuyerSeller"] = "buyer",
-                ["isWindowMovable"] = false,
-                ["rankIndex"] = 1,
-                ["offlineSales"] = true,
-                ["showSearchBonanza"] = true,
-                ["guildWinTop"] = 94.9682693481,
-                ["useCondensedPriceToChat"] = false,
-                ["blacklist"] = "",
-                ["trimDecimals"] = false,
-                ["showUnitPrice"] = false,
-                ["diplayTaxesInfo"] = true,
-                ["focus2"] = 3,
-                ["voucherValueTypeToUse"] = 3,
-                ["includeItemCountPriceToChat"] = false,
-                ["showAnnounceAlerts"] = false,
-                ["statsWinTop"] = 813.1904296875,
-                ["diplayCountInfo"] = true,
-                ["salesWinLeft"] = 7.4285707474,
-                ["replacementTypeToUse"] = 3,
-                ["showCraftCost"] = true,
-                ["reportsWinTop"] = 94.9682693481,
-                ["replaceInventoryValues"] = false,
-                ["customDealSeventyFive"] = 75,
-                ["focus1"] = 10,
-                ["trimOutliersWithPercentile"] = false,
-                ["viewGuildBuyerSeller"] = "seller",
-                ["showPricing"] = true,
-                ["dataLocations"] = 
-                {
-                },
-                ["showFullPrice"] = false,
-                ["masterMerchantVariablesImported"] = true,
-                ["minProfitFilter"] = true,
-                ["shiftDays"] = 3,
-                ["salesWinTop"] = 94.9682693481,
-                ["displaySalesDetails"] = false,
-                ["listingWinTop"] = 94.9682693481,
-                ["displayItemAnalysisButtons"] = false,
-                ["version"] = 1,
-                ["useFormatedTime"] = false,
-                ["customDealCalc"] = false,
-                ["priceCalcAll"] = true,
-                ["displayProfit"] = false,
-                ["customTimeframeType"] = "Days",
-                ["customDealZero"] = 0,
-                ["diplayGuildInfo"] = false,
+                ["modifiedSuggestedPriceDealCalc"] = false,
                 ["disableAttWarn"] = false,
+                ["customDealZero"] = 0,
+                ["rankIndex"] = 1,
+                ["trimOutliers"] = false,
+                ["displayListingMessage"] = false,
+                ["statsWinTop"] = 813.1904296875,
+                ["customDealSeventyFive"] = 75,
+                ["includeTTCDataPriceToChat"] = true,
+                ["openWithStore"] = true,
+                ["diplayTaxesInfo"] = true,
+                ["trimDecimals"] = false,
+                ["ctrlDays"] = 4,
+                ["modifiedSuggestedPriceVoucher"] = false,
+                ["useFormatedTime"] = false,
+                ["focus3"] = 30,
+                ["diplaySalesInfo"] = true,
+                ["customDealFifty"] = 50,
                 ["dealCalcToUse"] = 3,
-                ["includeVoucherAverage"] = false,
-                ["showAltTtcTipline"] = true,
-                ["reportsWinLeft"] = 7.4285707474,
-                ["showCyroAlerts"] = true,
+                ["replacementTypeToUse"] = 3,
+                ["viewGuildBuyerSeller"] = "seller",
+                ["displayProfit"] = false,
+                ["salesWinLeft"] = 7.4285707474,
                 ["pricingData"] = 
                 {
                     [64515] = 
@@ -929,9 +857,9 @@ ShopkeeperSavedVars =
                     {
                         ["1:0:3:43:0"] = 4545,
                     },
-                    [175868] = 
+                    [45820] = 
                     {
-                        ["1:0:3:34:0"] = 400,
+                        ["20:0:1:0:0"] = 57.2000000000,
                     },
                     [45821] = 
                     {
@@ -1510,13 +1438,13 @@ ShopkeeperSavedVars =
                     {
                         ["1:0:1:8:0"] = 37.4062500000,
                     },
-                    [126862] = 
-                    {
-                        ["1:0:2:0:0"] = 74,
-                    },
                     [45966] = 
                     {
                         ["1:0:2:0:0"] = 109,
+                    },
+                    [126862] = 
+                    {
+                        ["1:0:2:0:0"] = 74,
                     },
                     [119695] = 
                     {
@@ -1720,8 +1648,8 @@ ShopkeeperSavedVars =
                     },
                     [97217] = 
                     {
-                        ["50:16:3:22:0"] = 3572,
                         ["50:16:2:22:0"] = 1474,
+                        ["50:16:3:22:0"] = 3572,
                     },
                     [28610] = 
                     {
@@ -1807,9 +1735,9 @@ ShopkeeperSavedVars =
                     {
                         ["1:0:2:0:0"] = 367.3333333333,
                     },
-                    [45820] = 
+                    [175868] = 
                     {
-                        ["20:0:1:0:0"] = 57.2000000000,
+                        ["1:0:3:34:0"] = 400,
                     },
                     [176600] = 
                     {
@@ -1829,8 +1757,8 @@ ShopkeeperSavedVars =
                     },
                     [26588] = 
                     {
-                        ["50:16:1:0:0"] = 200,
                         ["50:16:4:0:0"] = 1195,
+                        ["50:16:1:0:0"] = 200,
                         ["50:16:3:0:0"] = 699,
                     },
                     [176162] = 
@@ -1974,9 +1902,81 @@ ShopkeeperSavedVars =
                         ["1:0:3:0:0"] = 2435,
                     },
                 },
+                ["trimOutliersAgressive"] = false,
+                ["feedbackWinTop"] = 420,
+                ["focus2"] = 3,
+                ["listingWinTop"] = 94.9682693481,
+                ["showAnnounceAlerts"] = false,
+                ["defaultDays"] = 2,
+                ["useTwentyFourHourTime"] = false,
+                ["includeVoucherAverage"] = false,
+                ["displaySalesDetails"] = false,
+                ["omitBonanzaPricingGraphLessThanSix"] = false,
+                ["masterMerchantVariablesImported"] = true,
+                ["customDealBuyIt"] = 90,
+                ["showMultiple"] = true,
+                ["showSearchBonanza"] = true,
+                ["showCyroAlerts"] = true,
+                ["statsWinLeft"] = 406.2703552246,
+                ["alertSoundName"] = "Book_Acquired",
+                ["blacklist"] = "",
+                ["rankIndexRoster"] = 1,
+                ["showGraph"] = true,
+                ["agsPercentSortOrderToUse"] = 1,
+                ["customFilterDateRange"] = 90,
+                ["customDealTwentyFive"] = 25,
+                ["priceCalcAll"] = true,
+                ["ctrlShiftDays"] = 5,
+                ["showAmountTaxes"] = false,
+                ["useCondensedPriceToChat"] = false,
+                ["purchaseWinTop"] = 94.9682693481,
+                ["diplayGuildInfo"] = false,
+                ["showCraftCost"] = true,
+                ["focus1"] = 10,
+                ["showFullPrice"] = false,
                 ["openWithMail"] = true,
+                ["offlineSales"] = true,
+                ["showUnitPrice"] = false,
+                ["guildWinTop"] = 94.9682693481,
+                ["includeItemCountPriceToChat"] = false,
                 ["windowFont"] = "ProseAntique",
-                ["ctrlDays"] = 4,
+                ["minProfitFilter"] = true,
+                ["outlierPercentile"] = 5,
+                ["replaceInventoryValues"] = false,
+                ["showMaterialCost"] = true,
+                ["disableBackupWarning"] = false,
+                ["isWindowMovable"] = false,
+                ["showPricing"] = true,
+                ["showAltTtcTipline"] = true,
+                ["useLibDebugLogger"] = false,
+                ["windowTimeRange"] = 1,
+                ["dateFormatMonthDay"] = 1,
+                ["trimOutliersWithPercentile"] = false,
+                ["modifiedSuggestedPriceInventory"] = false,
+                ["shiftDays"] = 3,
+                ["dataLocations"] = 
+                {
+                },
+                ["customDealCalc"] = false,
+                ["guildWinLeft"] = 7.4285707474,
+                ["listingWinLeft"] = 7.4285707474,
+                ["customTimeframeType"] = "Days",
+                ["viewBuyerSeller"] = "buyer",
+                ["diplayCountInfo"] = true,
+                ["reportsWinLeft"] = 7.4285707474,
+                ["version"] = 1,
+                ["showChatAlerts"] = false,
+                ["showCalc"] = true,
+                ["diplayPurchasesInfo"] = true,
+                ["reportsWinTop"] = 94.9682693481,
+                ["feedbackWinLeft"] = 720,
+                ["voucherValueTypeToUse"] = 3,
+                ["salesWinTop"] = 94.9682693481,
+                ["omitBonanzaPricingChatLessThanSix"] = false,
+                ["viewSize"] = "items_vs",
+                ["displayItemAnalysisButtons"] = false,
+                ["customTimeframe"] = 90,
+                ["showBonanzaPricing"] = true,
             },
         },
     },

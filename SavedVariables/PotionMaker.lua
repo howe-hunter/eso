@@ -4,123 +4,123 @@ PotionMaker_Data =
     {
         ["@Motiv_Impact"] = 
         {
-            ["8796093074778299"] = 
+            ["8796093067238283"] = 
             {
-                ["training"] = false,
-                ["useMissing"] = false,
                 ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Mynrog",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093067978059"] = 
-            {
                 ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
                 ["version"] = 1,
-                ["$LastCharacterName"] = "katarrnn",
+                ["$LastCharacterName"] = "rock-in-bush",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
                 ["lastUsedTab"] = 1,
             },
             ["8796093067284513"] = 
             {
-                ["training"] = false,
-                ["useMissing"] = false,
                 ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
+                ["training"] = false,
                 ["version"] = 1,
                 ["$LastCharacterName"] = "rieyya",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
                 ["lastUsedTab"] = 1,
             },
-            ["8796093067238283"] = 
+            ["8796093067978059"] = 
             {
-                ["training"] = false,
-                ["useMissing"] = false,
                 ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "rock-in-bush",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093067238331"] = 
-            {
                 ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
                 ["version"] = 1,
-                ["$LastCharacterName"] = "morregann",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093067214547"] = 
-            {
-                ["training"] = false,
+                ["$LastCharacterName"] = "katarrnn",
                 ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
                 ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "scelara",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093041540553"] = 
-            {
-                ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Lliliara",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093041658833"] = 
-            {
-                ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Durro'tan",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093067191337"] = 
-            {
-                ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "scthree",
-                ["lastUsedTab"] = 1,
-            },
-            ["8796093067238241"] = 
-            {
-                ["training"] = false,
-                ["useMissing"] = false,
-                ["fakeThirdSlot"] = false,
-                ["useUnknown"] = true,
-                ["version"] = 1,
-                ["$LastCharacterName"] = "evil janet",
                 ["lastUsedTab"] = 1,
             },
             ["$AccountWide"] = 
             {
                 ["suppressNewTraitDialog"] = false,
-                ["filterFavoriteByReagents"] = false,
-                ["filterFavoriteBySolvents"] = true,
+                ["XPMode"] = true,
+                ["reagentStackOrder"] = false,
+                ["version"] = 1,
                 ["favorites"] = 
                 {
                 },
-                ["filterFavoriteByTraits"] = true,
-                ["showMainMenuItem"] = true,
+                ["showAsDefault"] = true,
                 ["useItemSaver"] = true,
                 ["showInFavorites"] = "REAGENTS",
                 ["autoSwitchTab"] = true,
-                ["reagentStackOrder"] = false,
-                ["XPMode"] = true,
+                ["filterFavoriteBySolvents"] = true,
+                ["filterFavoriteByTraits"] = true,
+                ["showMainMenuItem"] = true,
+                ["filterFavoriteByReagents"] = false,
+            },
+            ["8796093067238241"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
                 ["version"] = 1,
-                ["showAsDefault"] = true,
+                ["$LastCharacterName"] = "evil janet",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093041658833"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "Durro'tan",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093067191337"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "scthree",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093067238331"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "morregann",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093074778299"] = 
+            {
+                ["useMissing"] = false,
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "Mynrog",
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093041540553"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "Lliliara",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
+            },
+            ["8796093067214547"] = 
+            {
+                ["fakeThirdSlot"] = false,
+                ["training"] = false,
+                ["version"] = 1,
+                ["$LastCharacterName"] = "scelara",
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+                ["lastUsedTab"] = 1,
             },
         },
     },

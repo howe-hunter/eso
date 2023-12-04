@@ -6,8 +6,8 @@ HarvensStackSplitSlider_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["lastValue"] = 9,
+                ["version"] = 1,
             },
         },
     },

@@ -36,6 +36,7 @@ NTakCamera 0
 NTakCamera 0
 #NA Megaserver-Mynrog
 RacingPanel 0
+LightAttackHelper 0
 ESOFarmBuddy 0
 #NA Megaserver-Lliliara
 NTakCamera 0

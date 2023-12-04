@@ -6,47 +6,47 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
-                ["addSetCollectionsCurrentZoneButton"] = true,
-                ["setSearchTooltipsAtFilters"] = true,
+                ["setSearchSaveNameHistory"] = true,
+                ["useCustomTooltipPattern"] = "",
                 ["setSearchSaveBonusHistory"] = true,
+                ["addSetCollectionsCurrentZoneButton"] = true,
+                ["setPreviewTooltips"] = 
+                {
+                    ["quality"] = 370,
+                    ["enchantSearchCategoryType"] = 0,
+                    ["traitType"] = 18,
+                    ["sendToChatToo"] = true,
+                    ["equipType"] = 3,
+                },
+                ["setSearchShowSetNamesInEnglishToo"] = false,
                 ["tooltipModifications"] = 
                 {
-                    ["addDropLocation"] = true,
-                    ["addBossName"] = true,
-                    ["addSetType"] = true,
-                    ["addReconstructionCost"] = true,
-                    ["addDLC"] = true,
                     ["addNeededTraits"] = true,
                     ["addDropMechanic"] = true,
+                    ["addDLC"] = true,
+                    ["addBossName"] = true,
+                    ["addDropLocation"] = true,
+                    ["addReconstructionCost"] = true,
+                    ["addSetType"] = true,
                     ["tooltipTextures"] = true,
                 },
-                ["useCustomTooltipPattern"] = "",
                 ["modifyTooltips"] = false,
                 ["setSearchHistoryMaxEntries"] = 10,
-                ["setSearchShowSetNamesInEnglishToo"] = false,
+                ["setSearchTooltipsAtFilters"] = true,
                 ["setSearchFavorites"] = 
                 {
                 },
                 ["setSearchHistory"] = 
                 {
-                    ["name"] = 
-                    {
-                    },
                     ["bonus"] = 
                     {
                     },
+                    ["name"] = 
+                    {
+                    },
                 },
-                ["setPreviewTooltips"] = 
-                {
-                    ["enchantSearchCategoryType"] = 0,
-                    ["traitType"] = 18,
-                    ["sendToChatToo"] = true,
-                    ["quality"] = 370,
-                    ["equipType"] = 3,
-                },
-                ["setSearchSaveNameHistory"] = true,
-                ["version"] = 0.3800000000,
                 ["setSearchTooltipsAtFilterEntries"] = true,
+                ["version"] = 0.3800000000,
             },
         },
     },
@@ -56,7 +56,22 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
+                ["collectible_DLCNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
+                ["collectibleNames"] = 
+                {
+                },
                 ["maps"] = 
+                {
+                },
+                ["setNames"] = 
+                {
+                },
+                ["dungeonFinderData"] = 
                 {
                 },
                 ["setItemIds_Compressed"] = 
@@ -65,29 +80,14 @@ LibSets_SV_Data =
                 ["setItemIdsNoSetId"] = 
                 {
                 },
+                ["version"] = 0.3700000000,
                 ["NewSetIDs"] = 
-                {
-                },
-                ["wayshrineNames"] = 
-                {
-                },
-                ["zoneData"] = 
                 {
                 },
                 ["setItemIds"] = 
                 {
                 },
-                ["collectible_DLCNames"] = 
-                {
-                },
-                ["collectibleNames"] = 
-                {
-                },
-                ["setNames"] = 
-                {
-                },
-                ["version"] = 0.3700000000,
-                ["dungeonFinderData"] = 
+                ["zoneData"] = 
                 {
                 },
             },
@@ -102,7 +102,22 @@ LibSets_SV_DEBUG_Data =
         {
             ["$AccountWide"] = 
             {
+                ["collectible_DLCNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
+                ["collectibleNames"] = 
+                {
+                },
                 ["maps"] = 
+                {
+                },
+                ["setNames"] = 
+                {
+                },
+                ["dungeonFinderData"] = 
                 {
                 },
                 ["setItemIds_Compressed"] = 
@@ -111,29 +126,14 @@ LibSets_SV_DEBUG_Data =
                 ["setItemIdsNoSetId"] = 
                 {
                 },
+                ["version"] = 1,
                 ["NewSetIDs"] = 
-                {
-                },
-                ["wayshrineNames"] = 
-                {
-                },
-                ["zoneData"] = 
                 {
                 },
                 ["setItemIds"] = 
                 {
                 },
-                ["collectible_DLCNames"] = 
-                {
-                },
-                ["collectibleNames"] = 
-                {
-                },
-                ["setNames"] = 
-                {
-                },
-                ["version"] = 1,
-                ["dungeonFinderData"] = 
+                ["zoneData"] = 
                 {
                 },
             },

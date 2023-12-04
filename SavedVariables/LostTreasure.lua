@@ -6,51 +6,53 @@ LostTreasure_Account =
         {
             ["$AccountWide"] = 
             {
+                ["notifications"] = 
+                {
+                },
                 ["mining"] = 
                 {
+                    ["APITimeStamp"] = 1701377783,
                     ["data"] = 
                     {
                     },
                     ["APIVersion"] = 101040,
-                    ["APITimeStamp"] = 1701377783,
                 },
                 ["pinTypes"] = 
                 {
                     ["treasure"] = 
                     {
-                        ["texture"] = "LibTreasure/Icons/x_red.dds",
                         ["showOnMap"] = true,
-                        ["size"] = 32,
                         ["deletionDelay"] = 10,
-                        ["markOption"] = "inventory",
-                        ["pinLevel"] = 45,
+                        ["size"] = 32,
                         ["showOnCompass"] = true,
+                        ["texture"] = "LibTreasure/Icons/x_red.dds",
+                        ["pinLevel"] = 45,
+                        ["markOption"] = "inventory",
                     },
                     ["survey"] = 
                     {
-                        ["texture"] = "LibTreasure/Icons/hammerstrike.dds",
                         ["showOnMap"] = true,
-                        ["size"] = 32,
                         ["deletionDelay"] = 10,
-                        ["markOption"] = "inventory",
-                        ["pinLevel"] = 45,
+                        ["size"] = 32,
                         ["showOnCompass"] = true,
+                        ["texture"] = "LibTreasure/Icons/hammerstrike.dds",
+                        ["pinLevel"] = 45,
+                        ["markOption"] = "inventory",
                     },
                     ["clue"] = 
                     {
-                        ["texture"] = "LibTreasure/Icons/hammerstrike.dds",
                         ["showOnMap"] = true,
-                        ["size"] = 32,
                         ["deletionDelay"] = 10,
-                        ["markOption"] = "inventory",
-                        ["pinLevel"] = 47,
+                        ["size"] = 32,
                         ["showOnCompass"] = true,
+                        ["texture"] = "LibTreasure/Icons/hammerstrike.dds",
+                        ["pinLevel"] = 47,
+                        ["markOption"] = "inventory",
                     },
                 },
                 ["miniMap"] = 
                 {
                     ["size"] = 400,
-                    ["enabled"] = true,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -63,15 +65,13 @@ LostTreasure_Account =
                         },
                     },
                     ["deletionDelay"] = 4,
+                    ["enabled"] = true,
                 },
                 ["misc"] = 
                 {
                     ["hasNewIconPath"] = true,
                 },
                 ["version"] = 20,
-                ["notifications"] = 
-                {
-                },
             },
         },
     },
@@ -84,30 +84,30 @@ LostTreasure_Character =
         {
             ["8796093067238241"] = 
             {
-                ["LibSavedVars"] = 
-                {
-                    ["accountSavedVarsActive"] = true,
-                },
-                ["version"] = 20,
                 ["$LastCharacterName"] = "evil janet",
-            },
-            ["8796093074778299"] = 
-            {
                 ["LibSavedVars"] = 
                 {
                     ["accountSavedVarsActive"] = true,
                 },
                 ["version"] = 20,
-                ["$LastCharacterName"] = "Mynrog",
             },
             ["8796093067191337"] = 
             {
+                ["$LastCharacterName"] = "scthree",
                 ["LibSavedVars"] = 
                 {
                     ["accountSavedVarsActive"] = true,
                 },
                 ["version"] = 20,
-                ["$LastCharacterName"] = "scthree",
+            },
+            ["8796093074778299"] = 
+            {
+                ["$LastCharacterName"] = "Mynrog",
+                ["LibSavedVars"] = 
+                {
+                    ["accountSavedVarsActive"] = true,
+                },
+                ["version"] = 20,
             },
         },
     },

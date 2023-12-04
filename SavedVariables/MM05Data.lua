@@ -13,10 +13,10 @@ MM05DataSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["SalesData"] = 
                 {
                 },
+                ["version"] = 1,
             },
         },
     },

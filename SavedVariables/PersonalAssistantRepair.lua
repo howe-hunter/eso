@@ -6,37 +6,37 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 [1] = 
                 {
-                    ["RepairInventory"] = 
-                    {
-                        ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["repairWithGold"] = true,
-                    },
+                    ["autoRepairInventoryEnabled"] = true,
+                    ["autoRepairEnabled"] = true,
                     ["RechargeWeapons"] = 
                     {
-                        ["defaultSoulGem"] = 1,
-                        ["lowSoulGemThreshold"] = 30,
-                        ["lowSoulGemWarning"] = true,
                         ["useSoulGems"] = true,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemWarning"] = true,
+                        ["lowSoulGemThreshold"] = 30,
                     },
-                    ["autoRepairInventoryEnabled"] = true,
                     ["silentMode"] = false,
-                    ["autoRepairEnabled"] = true,
+                    ["name"] = "Profile 1",
                     ["RepairEquipped"] = 
                     {
+                        ["lowRepairKitThreshold"] = 10,
                         ["defaultRepairKit"] = 1,
                         ["repairWithGoldDurabilityThreshold"] = 10,
-                        ["repairWithRepairKitThreshold"] = 15,
-                        ["lowRepairKitThreshold"] = 10,
                         ["repairWithRepairKit"] = true,
-                        ["lowRepairKitWarning"] = true,
                         ["repairWithGold"] = true,
+                        ["repairWithRepairKitThreshold"] = 15,
+                        ["lowRepairKitWarning"] = true,
                     },
-                    ["name"] = "Profile 1",
+                    ["RepairInventory"] = 
+                    {
+                        ["repairWithGold"] = true,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                    },
                 },
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
                 ["profileCounter"] = 1,
             },
         },

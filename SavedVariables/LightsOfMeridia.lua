@@ -6,6 +6,9 @@ LightsOfMeridiaVars =
         {
             ["$AccountWide"] = 
             {
+                ["Options"] = 
+                {
+                },
                 ["Data"] = 
                 {
                     ["Settings"] = 
@@ -13,9 +16,6 @@ LightsOfMeridiaVars =
                     },
                 },
                 ["version"] = 1,
-                ["Options"] = 
-                {
-                },
             },
         },
     },

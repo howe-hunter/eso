@@ -4,22 +4,13 @@ NAS_SavedVariables =
     {
         ["@Motiv_Impact"] = 
         {
-            ["rock-in-bush"] = 
+            ["scelara"] = 
             {
                 ["settings"] = 
                 {
                     ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                     ["delay"] = 250,
-                },
-            },
-            ["Mynrog"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
-                    ["delay"] = 250,
                 },
             },
             ["rieyya"] = 
@@ -27,44 +18,8 @@ NAS_SavedVariables =
                 ["settings"] = 
                 {
                     ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                     ["delay"] = 250,
-                },
-            },
-            ["Lliliara"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
-                    ["delay"] = 250,
-                },
-            },
-            ["scelara"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
-                    ["delay"] = 250,
-                },
-            },
-            ["morregann"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
-                    ["delay"] = 250,
-                },
-            },
-            ["katarrnn"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
-                    ["delay"] = 250,
                 },
             },
             ["evil janet"] = 
@@ -72,17 +27,8 @@ NAS_SavedVariables =
                 ["settings"] = 
                 {
                     ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                     ["delay"] = 250,
-                },
-            },
-            ["scthree"] = 
-            {
-                ["settings"] = 
-                {
-                    ["criminalPressDuration"] = 750,
                     ["version"] = 1,
-                    ["delay"] = 250,
                 },
             },
             ["Durro'tan"] = 
@@ -90,8 +36,62 @@ NAS_SavedVariables =
                 ["settings"] = 
                 {
                     ["criminalPressDuration"] = 750,
-                    ["version"] = 1,
                     ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["rock-in-bush"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["morregann"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["Mynrog"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["katarrnn"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["Lliliara"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
+                },
+            },
+            ["scthree"] = 
+            {
+                ["settings"] = 
+                {
+                    ["criminalPressDuration"] = 750,
+                    ["delay"] = 250,
+                    ["version"] = 1,
                 },
             },
         },

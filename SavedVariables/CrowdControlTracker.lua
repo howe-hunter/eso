@@ -8,14 +8,12 @@ CrowdControlTrackerSettings =
             {
                 ["AccountWide"] = 
                 {
-                    ["version"] = 999,
                     ["accountWide"] = true,
+                    ["version"] = 999,
                 },
                 ["Settings"] = 
                 {
-                    ["showImmune"] = true,
-                    ["useAbilityName"] = true,
-                    ["showGCD"] = false,
+                    ["controlScale"] = 1,
                     ["colors"] = 
                     {
                         [2000] = 
@@ -89,20 +87,22 @@ CrowdControlTrackerSettings =
                             [3] = 1,
                         },
                     },
-                    ["offsetX"] = 3,
                     ["playAnimation"] = true,
+                    ["immuneDisplayTime"] = 750,
+                    ["showAoe"] = true,
+                    ["showImmuneOnlyInCyro"] = true,
+                    ["showStaggered"] = true,
+                    ["enabledOnlyInCyro"] = false,
+                    ["useAbilityName"] = true,
+                    ["showOptions"] = "all",
+                    ["unlocked"] = false,
+                    ["showGCD"] = false,
+                    ["offsetX"] = 3,
+                    ["offsetY"] = -157,
+                    ["enabled"] = true,
                     ["playSound"] = true,
                     ["version"] = 1.0500000000,
-                    ["controlScale"] = 1,
-                    ["showStaggered"] = true,
-                    ["showImmuneOnlyInCyro"] = true,
-                    ["showAoe"] = true,
-                    ["showOptions"] = "all",
-                    ["offsetY"] = -157,
-                    ["enabledOnlyInCyro"] = false,
-                    ["enabled"] = true,
-                    ["immuneDisplayTime"] = 750,
-                    ["unlocked"] = false,
+                    ["showImmune"] = true,
                 },
             },
         },

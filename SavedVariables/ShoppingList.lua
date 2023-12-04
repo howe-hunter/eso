@@ -6,17 +6,17 @@ ShoppingListVar =
         {
             ["$AccountWide"] = 
             {
-                ["Purchases"] = 
+                ["Tables"] = 
                 {
                 },
                 ["Settings"] = 
                 {
                     ["KeepDays"] = 60,
                 },
-                ["version"] = 1,
-                ["Tables"] = 
+                ["Purchases"] = 
                 {
                 },
+                ["version"] = 1,
             },
         },
     },
